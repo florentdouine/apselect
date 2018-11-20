@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+{% include head.html %}
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 block-background" id="menu">
+                {% include menu.html %}
+            </div>
+
+            <section class="col-md-9 block-background">
+
+                <div class="row">
+                    <h1 class="col-md-12"> {{ page.title | default: page.menu-title }} </h1>
+                </div>
+
+                {{ content }}
+
+                <footer class="row">
+                    {% include footer.html %}
+                </footer>
+
+            </section>
+        </div>
+    </div>
+
+    {% include javascript.html %}
+</body>
+</html>

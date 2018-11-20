@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+{% assign pricings = page.pricings %}
+{% for pricing in pricings %}
+
+<div class="row horizontal-box" id="pricing-detail">
+    <div class="horizontal-content {% if pricing.inline %}inline{% endif %}">
+        <span class="price">{{ pricing.price }} €</span>
+        <h6>{{ pricing.title }}</h6>
+
+        {% if pricing.green-subtitle %}
+            <p class="green-annotation">{{ pricing.green-subtitle }}</p>
+        {% endif %}
+
+        {% if pricing.caption %}
+            <p class="sub-content">
+                {{ pricing.caption }}
+                {% if pricing.link %}
+                <br/><a href="{{ site.baseurl }}{{ pricing.link }}">En savoir plus</a>
+                {% endif %}
+            </p>
+        {% endif %}
+
+    </div>
+</div>
+
+{% endfor %}
+
+<div id="pricing-info" class="row">
+    <p class="sub-content">
+        *du 1er Juillet au 31 Août & vacances scolaires de Noël<br/>
+        **nécessite une connexion Wi-Fi
+    </p><br/><br/>
+    <p><strong>FORFAITS POSSIBLES POUR LONGUES DURÉES</strong></p><br/>
+    <p>Ces tarifs dépendent du nombre d’animaux, de votre situation géographique et de votre temps d’absence. Ils sont
+        <span class="underline">dégressifs</span>, donc n’hésitez pas à <a href="{{ site.baseurl }}{% link contact.md %}">me contacter</a> directement
+        pour obtenir un devis précis.</p>
+</div>
+

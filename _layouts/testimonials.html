@@ -1,0 +1,74 @@
+---
+layout: default
+---
+<div class="row" id="testimonials-header">
+    <div class="offset-md-1 col-md-10">
+        <i class="fa fa-pencil" aria-hidden="true"></i>
+        <p>Si vous avez fait appel à moi, que vous êtes satisfait de mes services et que votre animal est heureux, n’hésitez pas à <a href="#testimonials-row-form">me laisser un petit mot !</a></p>
+    </div>
+</div>
+
+{% assign testimonials = site.data.testimonials %}
+
+<div class="row" id="testimonials-count">
+    <h6>{{ testimonials | size }} témoignages</h6>
+</div>
+
+{% for testimonial in testimonials %}
+
+{% assign mod = forloop.index | modulo: 2 %}
+<div class="row testimonial-box">
+    {% if mod == 1 %}
+    <div class="col-xs-3">
+        <div class="testimonial-details testimonial-details-left">
+            <h6>{{ testimonial.clientname }}</h6>
+            <span>{{ testimonial.date }}</span>
+        </div>
+    </div>
+    <div class="horizontal-box col-xs-9">
+        <span class="triangle triangle-left"></span>
+        <div class="horizontal-content">
+            <blockquote>{{ testimonial.comment }}</blockquote>
+            <a href="javascript:toggleTestimonial({{ forloop.index }})" class="more-button">+</a>
+        </div>
+    </div>
+    {% else %}
+    <div class="horizontal-box col-xs-9">
+        <div class="horizontal-content">
+            <blockquote>{{ testimonial.comment }}</blockquote>
+            <a href="javascript:toggleTestimonial({{ forloop.index }})" class="more-button">+</a>
+        </div>
+        <span class="triangle triangle-right"></span>
+    </div>
+    <div class="col-xs-3">
+        <div class="testimonial-details">
+            <h6>{{ testimonial.clientname }}</h6>
+            <span>{{ testimonial.date }}</span>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endfor %}
+<hr/>
+<div class="row" id="testimonials-row-form">
+    <form action="https://formspree.io/{{ site.email }}" class="col-md-6" method="POST">
+        <p>
+            Laissez un petit message décrivant notre rencontre, mon lien avec votre animal, votre sentiment concernant mes prestations,... <br/>
+        </p><br/>
+        <div class="form-group">
+            <label class="sr-only" for="nom">Nom</label>
+            <input type="text" class="form-control" id="nom" name="nom" placeholder="Votre nom *">
+        </div>
+        <div class="form-group">
+            <label class="sr-only" for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="_replyto" placeholder="Votre e-mail *">
+        </div>
+        <div class="form-group">
+            <label class="sr-only" for="message">Message</label>
+            <textarea name="message" id="message" class="form-control" placeholder="Votre avis sur mon travail"></textarea>
+        </div>
+        <input type="hidden" name="_next" value="{{ site.url }}{{site.baseurl}}{% link thanks-testimonials.md %}" />
+        <input type="submit" value="Envoyer" class="btn btn-default">
+    </form>
+
+</div>

@@ -1,0 +1,36 @@
+.vertical-box{
+  padding: 0px 10px;
+  text-align: center;
+}
+
+@include media-breakpoint-up(lg) {
+  .vertical-box:first-child{
+    padding-left: 40px;
+  }
+
+  .vertical-box:last-child{
+    padding-right: 40px;
+  }
+}
+
+.vertical-content{
+  background-color: white;
+  border: solid 1px $border-gray;
+  height: 100%;
+}
+
+.vertical-box{
+  padding: 0px 10px;
+  text-align: center;
+}
+
+.horizontal-box{
+  padding: 10px 20px;
+}
+
+.horizontal-content{
+  padding: 20px 20px;
+  background-color: white;
+  border: solid 1px $border-gray;
+}
+

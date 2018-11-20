@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div id="pricing-container" class="row">
+    {% assign pricings = site.pricing | sort:'pricing-order' %}
+    {% for pricing in pricings %}
+    <div class="col-md-4">
+        <img src="{{ site.baseurl }}/img/{{ pricing.image }}" alt="{{ pricing.image }}" class="">
+        <br>
+        <a class="button" href="{{ pricing.url | prepend: site.baseurl }}">{{ pricing.menu-title }}</a>
+
+    </div>
+
+    {% endfor %}
+
+</div>
+
+<div id="pricing-info" class="row">
+    <p style="text-align: center;"><br/><br/>Ces tarifs dépendent du nombre d’animaux, de votre situation géographique et de votre temps d’absence. Ils sont
+        <span class="underline">dégressifs</span>, donc n’hésitez pas à <a href="{{ site.baseurl }}{% link contact.md %}">me contacter</a> directement
+        pour obtenir un devis précis.<br/><br/></p>
+</div>

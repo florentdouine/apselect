@@ -1,0 +1,135 @@
+// Menu styling
+
+#logo {
+  width: 100%;
+  text-align: center;
+  border-bottom: solid $light-gray-border 1px;
+}
+
+#menu {
+  padding: 0;
+}
+
+#logo img{
+  max-width: 100%;
+  margin: 20px 0px;
+}
+
+nav {
+  overflow: hidden;
+  -webkit-transition: height 0.3s;
+  transition: height 0.3s;
+  margin: 20px auto 0px auto;
+  width: 80%;
+}
+
+@include media-breakpoint-down(sm) {
+  nav.closed {
+    height: 35px !important;
+  }
+  nav {
+    height: 315px; //9*35
+    margin-top: 0px;
+  }
+  nav.closed li::before{
+    width: 0px;
+  }
+}
+
+nav li:first-child::before, nav li:nth-child(2)::before{
+  border: none;
+}
+
+nav ul {
+  //margin: 10px 0px;
+  padding: 0;
+}
+
+nav li {
+  list-style-type: none;
+  text-align: center;
+  //border-bottom: 1px dashed #DDD;
+  color: $dark-gray;
+}
+
+
+
+nav li::before{
+  border-bottom: 1px dashed #bbb;
+  content: "";
+  height: 0px;
+  left: 50%;
+  margin-left: -31.5px;
+  position: absolute;
+  width: 63px;
+  margin-bottom: 0px;
+}
+
+
+
+nav li a, nav li a:hover, nav li a:active, nav li a:focus {
+  color: inherit;
+  font-size: 13px;
+  font-weight: $extrabold-weight;
+  line-height: 35px;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+}
+
+nav a.active {
+  color: white;
+  background-color: $main-green;
+}
+
+nav li:hover, nav li:focus {
+  color: white;
+  background-color: $main-green-alpha;
+}
+
+nav li.active + li::before {
+  border: none;
+}
+
+#socialicons{
+  padding: 0;
+  display: inline-block;
+}
+
+#social {
+  text-align: center;
+  border: solid $light-gray-border 1px;
+  border-right-width: 0;
+  border-left-width: 0;
+}
+
+#social ul {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#social ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 8px 4px 0 4px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  cursor: pointer;
+  background-color: #aaa;
+  color: white;
+}
+
+#social ul li:hover {
+  background-color: $dark-gray;
+}
+
+#social ul li i {
+  font-size: 20px;
+  color: white;
+  line-height: 30px;
+}

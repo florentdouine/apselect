@@ -1,0 +1,194 @@
+// GLOBAL STYLES
+
+html, body {
+  height: 100%;
+  font-family: $base-font-family;
+  color: $light-gray;
+}
+
+html {
+  background: url("#{$baseurl}/img/garde_animaux_lyon_chat_chien.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-weight: $light-weight;
+  font-style: normal;
+  padding-top: 50px;
+  background-color: transparent;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $base-font-family;
+  color: $dark-gray;
+  font-weight: $extrabold-weight;
+  letter-spacing: normal;
+}
+
+h1{
+  font-size: 36px;
+  padding: 24px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+h2{
+  font-size: 28px;
+  padding: 5px 0px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+@include media-breakpoint-up(md) {
+  h1 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+h1::after{
+  border-bottom: 1px dashed #bbb;
+  content: "";
+  height: 1px;
+  left: 50%;
+  margin-left: -31.5px;
+  position: absolute;
+  width: 63px;
+  margin-bottom: 0px;
+  bottom: 0;
+}
+
+a, a:hover, a:active{
+  color: $main-green;
+}
+
+a.button{
+  display: inline-block;
+  background-color: $main-green;
+  padding: 3px 15px;
+  color: white;
+  font-size: 14px;
+  font-weight: $extrabold-weight;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+a.button:hover{
+  background-color: black;
+}
+
+strong{
+  font-weight: $extrabold-weight;
+}
+
+span {
+  line-height: normal;
+}
+p{
+  font-size: 16px;
+  line-height: normal;
+  margin-bottom: 0;
+}
+li{
+  line-height: normal;
+}
+
+p.sub-content {
+  font-size: 13px;
+}
+
+.block-background {
+  background-color: rgba(250,250,250,0.95);
+  //border: solid 1px $light-gray;
+  //box-shadow: 0px 0px 2px rgba(30, 70, 70, 0.23);
+}
+
+@include media-breakpoint-up(md) {
+  .container section {
+    margin-left: 20px;
+  }
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+footer{
+  padding-top: 40px;
+}
+
+section{
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.btn-default{
+  background-color: $main-green;
+  color: white;
+  border-color: #ccc;
+}
+
+.btn:hover{
+  color: $light-gray;
+  background-color: #fff;
+}
+
+.thumbnail {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  display: inline-block;
+}
+.thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.thumbnail a{
+  display: inline-block;
+}
+
+
+.thumbnail img.portrait {
+  width: 100%;
+  height: auto;
+}
+
+cite::after, cite::before{
+  content: "\""
+}
+cite{
+  display: block;
+  font-style: italic;
+  font-weight: $light-weight;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #999;
+  border-radius: 10px;
+}
