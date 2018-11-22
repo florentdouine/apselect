@@ -2,7 +2,7 @@
 
 html, body {
   height: 100%;
-  font-family: $base-font-family;
+  font-family: $font-family;
   color: $light-gray;
 }
 
@@ -22,9 +22,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $base-font-family;
   color: $dark-gray;
-  font-weight: $extrabold-weight;
+  font-weight: $bold-weight;
   letter-spacing: normal;
 }
 
@@ -63,16 +62,16 @@ h1::after{
 }
 
 a, a:hover, a:active{
-  color: $main-green;
+  color: $main-color;
 }
 
 a.button{
   display: inline-block;
-  background-color: $main-green;
+  background-color: $main-color;
   padding: 3px 15px;
   color: white;
   font-size: 14px;
-  font-weight: $extrabold-weight;
+  font-weight: $bold-weight;
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -85,7 +84,7 @@ a.button:hover{
 }
 
 strong{
-  font-weight: $extrabold-weight;
+  font-weight: $bold-weight;
 }
 
 span {
@@ -130,7 +129,7 @@ section{
 }
 
 .btn-default{
-  background-color: $main-green;
+  background-color: $main-color;
   color: white;
   border-color: #ccc;
 }
@@ -177,18 +176,4 @@ cite{
   font-weight: $light-weight;
   font-size: 14px;
   margin-bottom: 10px;
-}
-
-.badge {
-  display: inline-block;
-  min-width: 10px;
-  padding: 3px 7px;
-  font-size: 12px;
-  line-height: 1;
-  color: #fff;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: baseline;
-  background-color: #999;
-  border-radius: 10px;
 }

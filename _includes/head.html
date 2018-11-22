@@ -4,15 +4,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <!-- TODO <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
+
     <!-- CSS stylesheet -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}"/>
     <!-- SEO : Title, description & canonical url -->
     <title>{% if page.title %}{{ page.title | strip_html | escape }} | {% endif %}{{ site.title | escape }}</title>
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
     <link rel="shortcut icon" href="{{ "/img/favicon.ico" | prepend: site.baseurl }}" />
-    <link href="https://fonts.googleapis.com/css?family=Delius+Unicase:400" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+
     <script src="https://use.fontawesome.com/967448ca0d.js"></script>
     {% for c in page.css %}
         <link rel="stylesheet" href="{{ c | prepend: '/css' | prepend: site.baseurl }}"/>

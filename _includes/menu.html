@@ -1,27 +1,15 @@
-
-    <div id="logo">
-        <a href="{{ site.baseurl }}/" title="{{ site.title }}">
-            <img src="{{ '/img/logo-neko.png' | prepend: site.baseurl }}" alt="Logo Neko garde animaux">
-        </a>
-    </div> <!-- #logo-->
-    {% assign main_pages = site.pages | where:"menu", "main" | sort:"order" %}
-    <nav class="closed">
-        <ul class="">
-            <li class="hidden-md-up">
-                <a href="javascript:openMenu()"><i class="fa fa-bars"></i> Menu</a>
-            </li>
-            {% for the_page in main_pages %}
-            <li {% if the_page.order == page.order %}class="active"{% endif %}>
-                <a href="{{ the_page.url | prepend: site.baseurl }}" title="{{ the_page.title }}" {% if the_page.order == page.order %}class="active"{% endif %}>
-                    {{ the_page.menu-title }}
-                </a>
-            </li>
-            {% endfor %}
-        </ul>
-    </nav>
-    <div id="social">
-        <ul id="socialicons">
-            <li> <a href="http://www.facebook.com/neko.gardeanimaux" target="_blank" class="fb"> <i class="fa fa-facebook"></i> </a> </li>
-            <li> <a href="https://www.instagram.com/nekogardedanimaux/" target="_blank" class="twitter"> <i class="fa fa-instagram"></i> </a> </li>
-        </ul>
-    </div>
+ {% assign main_pages = site.pages | where:"menu", "main" | sort:"order" %}
+<nav class="closed">
+    <ul class="">
+        <li class="hidden-md-up">
+            <a href="javascript:openMenu()"><i class="fa fa-bars"></i> Menu</a>
+        </li>
+        {% for the_page in main_pages %}
+        <li {% if the_page.order == page.order %}class="active"{% endif %}>
+            <a href="{{ the_page.url | prepend: site.baseurl }}" title="{{ the_page.title }}" {% if the_page.order == page.order %}class="active"{% endif %}>
+                {{ the_page.menu-title }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>

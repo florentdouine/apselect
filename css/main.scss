@@ -3,31 +3,13 @@
 ---
 @charset "utf-8";
 
-// Variables
-$dark-gray: #26282a;
-$light-gray-border: #CCC;
-$light-gray: #707274;
-$extra-light-gray: #bbb;
-$border-gray: #ddd;
-$main-green: #a5ca46;//#a4ca44;
-$main-green-alpha: rgba(165, 202, 70, 0.75);
-
-$base-font-family: "Open Sans", Helvetica, Arial, sans-serif;
-$title-font-family: 'Delius Unicase', cursive;
-
-$light-weight: 300;
-$normal-weight: 400;
-//$bold-weight: 700;
-$extrabold-weight: 800;
-
 $baseurl: "{{ site.baseurl }}";
 
 // Imports
 //@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:700i');
 @import "../_sass/reset";
+@import "../_sass/variable";
 @import "bootstrap/bootstrap";
 @import "../_sass/global";
 @import "../_sass/menu";
-//@import "../_sass/pages/whoami";
-@import "../_sass/theme";
 @import "../_sass/footer";
