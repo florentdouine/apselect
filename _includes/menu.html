@@ -1,7 +1,8 @@
  {% assign main_pages = site.pages | where:"menu", "main" | sort:"order" %}
-<nav class="closed">
+ <img src="https://placeimg.com/200/50/tech/grayscale"/>
+ <nav class="closed">
     <ul class="">
-        <li class="hidden-md-up">
+        <li class="d-md-none">
             <a href="javascript:openMenu()"><i class="fa fa-bars"></i> Menu</a>
         </li>
         {% for the_page in main_pages %}
