@@ -12,7 +12,7 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
     <link rel="shortcut icon" href="{{ "/img/favicon.ico" | prepend: site.baseurl }}" />
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
 
     <script src="https://use.fontawesome.com/967448ca0d.js"></script>
     {% for c in page.css %}
@@ -22,6 +22,7 @@
     <script src="{{ js | prepend: '/js' | prepend: site.baseurl }}"></script>
     {% endfor %}
     <script src="{{ '/js/main.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ '/js/jquery-3.2.1.min.js' | prepend: site.baseurl }}"></script>
 
 
 </head>

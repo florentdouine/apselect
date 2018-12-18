@@ -20,29 +20,30 @@ body {
   background-color: transparent;
 }
 
-div.container:first-child {
-  padding-top: 100px;
-}
-
 h1, h2, h3, h4, h5, h6 {
   color: $dark-gray;
-  font-weight: $bold-weight;
   letter-spacing: normal;
+  text-align: center;
 }
 
 h1{
-  font-size: 36px;
-  padding: 24px 0px;
-  text-align: center;
+  font-size: $font-size-big-title;
+  color: white;
   text-transform: uppercase;
-  margin-bottom: 40px;
 }
 
 h2{
-  font-size: 28px;
-  padding: 5px 0px;
-  margin-bottom: 20px;
+  font-size: $font-size-subtitle;
+  color: white;
   text-transform: uppercase;
+}
+
+h3{
+  font-size: $font-size-large-title;
+}
+
+h4{
+  font-size: $font-size-large-title;
 }
 
 @include media-breakpoint-up(md) {
@@ -64,6 +65,10 @@ h1::after{
   bottom: 0;
 }
 
+.underlined:after {
+
+}
+
 a, a:hover, a:active{
   color: $main-color;
 }
@@ -74,7 +79,6 @@ a.button{
   padding: 3px 15px;
   color: white;
   font-size: 14px;
-  font-weight: $bold-weight;
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -94,9 +98,10 @@ span {
   line-height: normal;
 }
 p{
-  font-size: 16px;
+  font-size: $font-size-body;
   line-height: normal;
   margin-bottom: 0;
+  text-align: center;
 }
 li{
   line-height: normal;
@@ -118,8 +123,11 @@ p.sub-content {
   }
 }
 
-.underline {
-  text-decoration: underline;
+.underline::after {
+  content: "";
+  width: 100%;
+  display: inline-block;
+  border-top: 1px solid $dark-gray;
 }
 
 footer{
@@ -171,6 +179,7 @@ section{
 cite::after, cite::before{
   content: "\""
 }
+
 cite{
   display: block;
   font-style: italic;
@@ -179,14 +188,9 @@ cite{
   margin-bottom: 10px;
 }
 
-section {
-  clip-path: polygon(
-                  0 0, /* left top */
-                  100% 0, /* right top */
-                  100% calc(100% - 100px),
-                  50% 100%,
-                  0% calc(100% - 100px)
-  );
-
-  padding-bottom: 100px
+.black_filter {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 70%);
 }

@@ -13,3 +13,5 @@ $baseurl: "{{ site.baseurl }}";
 @import "../_sass/global";
 @import "../_sass/menu";
 @import "../_sass/footer";
+@import "../_sass/sections";
+@import "../_sass/pages/home";

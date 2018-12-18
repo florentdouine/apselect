@@ -1,0 +1,44 @@
+#home_services {
+
+}
+
+//.home_service {
+//  background-size: cover;
+//  height: 500px;
+//  padding: 0;
+//  background-repeat: no-repeat;
+//}
+
+.home_service {
+  background-position: top;
+  background-clip: content-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  padding: 3%;
+}
+
+.home_service h4 {
+  font-family: $font-family;
+  color: white;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: left;
+  //padding: 64% 10% 0% 10%;
+  position: absolute;
+  bottom: 10%;
+  margin: 6%;
+}
+
+#home_services .home_service:nth-child(1) {
+  background-image: url("/img/template-8-5.jpg");
+}
+
+#home_services .home_service:nth-child(2) {
+  background-image: url("/img/template-8-6.jpg");
+}
+
+#home_services .home_service:nth-child(3) {
+  background-image: url("/img/template-8-7.jpg");
+}
