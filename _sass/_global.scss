@@ -69,8 +69,17 @@ h1::after{
 
 }
 
-a, a:hover, a:active{
+a {
   color: $main-color;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover, a:active {
+  color: $dark-gray;
+  text-decoration: none;
 }
 
 a.button{
@@ -100,7 +109,6 @@ span {
 p{
   font-size: $font-size-body;
   line-height: normal;
-  margin-bottom: 0;
   text-align: center;
 }
 li{
@@ -123,11 +131,14 @@ p.sub-content {
   }
 }
 
-.underline::after {
+.underlined::after {
   content: "";
-  width: 100%;
-  display: inline-block;
-  border-top: 1px solid $dark-gray;
+  width: 50%;
+  border-top: 1px solid $extra-light-gray;
+  margin: auto;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  display: block;
 }
 
 footer{
