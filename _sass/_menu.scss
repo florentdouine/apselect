@@ -1,26 +1,22 @@
 // Menu styling
 
-#logo {
-  width: 100%;
-  text-align: center;
-  border-bottom: solid $light-gray 1px;
-}
-
-#logo img{
-  max-width: 100%;
-  margin: 20px 0px;
-}
-
 header {
   position: fixed;
   z-index: 100;
-  height: 100px;
   width: 100%;
   padding: 25px 15px;
 }
 
 nav {
+  overflow: hidden;
+  -webkit-transition: height 0.3s;
+  transition: height 0.3s;
   float: right;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
 }
 
 nav li {
@@ -55,4 +51,33 @@ nav li:hover, nav li:focus {
 
 nav li.active + li::before {
   border: none;
+}
+
+@include media-breakpoint-down(sm) {
+  header img {
+    margin: auto;
+  }
+  header {
+    padding: 0;
+    text-align: center;
+    background-color: rgb(235, 235, 235) !important;
+  }
+
+  nav.closed {
+    height: 51px !important;
+  }
+
+  nav.closed li::before{
+    width: 0px;
+  }
+
+  nav {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  nav li {
+    display: block;
+    margin-right: 0px;
+  }
 }
