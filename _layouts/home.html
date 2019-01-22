@@ -1,60 +1,52 @@
-<!DOCTYPE html>
-<html lang="fr">
-{% include head.html %}
-<body>
-<!--[if lt IE 8]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
-<header>
-    {% include menu.html %}
-</header>
+---
+layout: default-slider
+---
 
-<div id="home">
-    <section class="arrowed-section" id="main-cover">
-        <h1>APSelect</h1>
-        <h2>Spécialiste Youngtimers</h2>
-    </section>
+<section class="arrowed-section" id="main-cover">
+    <h1>APSelect</h1>
+    <h2>Spécialiste Youngtimers</h2>
+</section>
 
-    <section class="arrowed-section">
-        <div class="row" id="home_services">
-            <div class="col-md-4 home_service">
-                <div class="black_filter">
-                    <h4>Vente de voitures youngtimers</h4>
-                </div>
-            </div>
-            <div class="col-md-4 home_service">
-                <div class="black_filter">
-                    <h4>Chasseur de voitures youngtimers</h4>
-                </div>
-            </div>
-            <div class="col-md-4 home_service">
-                <div class="black_filter">
-                    <h4>Réparations / Prestations</h4>
-                </div>
-            </div>
+<section class="arrowed-section fulled-section">
+    <div class="row" id="home_services">
+        <div class="col-md-4 home_service">
+            <a class="black_filter" href="services.html">
+                <h4>Vente de voitures youngtimers</h4>
+            </a>
         </div>
-    </section>
-
-    <section class="arrowed-section light-background-section">
-        <div class="row">
-            <div class="col-md-6">
-                <h3 class="underlined">Histoire</h3>
-                <p>
-                    APSelect c'est de la tuerie, ça brasse de la thune à plus quoi savoir quoi en foutre !
-                    APSelect c'est de la tuerie, ça brasse de la thune à plus quoi savoir quoi en foutre !
-                    APSelect c'est de la tuerie, ça brasse de la thune à plus quoi savoir quoi en foutre !
-                    APSelect c'est de la tuerie, ça brasse de la thune à plus quoi savoir quoi en foutre !
-                    <br/><br/>
-                    <a href="#" class="">Plus d'infos</a>
-                </p>
-            </div>
-            <div class="col-md-6 full-backgrounded"></div>
+        <div class="col-md-4 home_service">
+            <a class="black_filter" href="services.html">
+                <h4>Chasseur de voitures youngtimers</h4>
+            </a>
         </div>
-    </section>
-    <section class="arrowed-section" id="map" style="padding-top: 0px; height: 900px; width: 100%">
+        <div class="col-md-4 home_service">
+            <a class="black_filter" href="services.html">
+                <h4>Réparations / Prestations</h4>
+            </a>
+        </div>
+    </div>
+</section>
 
-    </section>
-</div>
+<section class="arrowed-section light-background-section">
+    <div class="row">
+        <div class="col-md-6">
+            <h3 class="underlined">Histoire</h3>
+            <p>
+                APSelect c'est de la tuerie, ça brasse de la thune à plus quoi savoir quoi en foutre !
+                APSelect c'est de la tuerie, ça brasse de la thune à plus quoi savoir quoi en foutre !
+                APSelect c'est de la tuerie, ça brasse de la thune à plus quoi savoir quoi en foutre !
+                APSelect c'est de la tuerie, ça brasse de la thune à plus quoi savoir quoi en foutre !
+                <br/><br/>
+                <a href="#" class="">Plus d'infos</a>
+            </p>
+        </div>
+        <div class="col-md-6 full-backgrounded"></div>
+    </div>
+</section>
+<section class="arrowed-section" id="map" style="padding-top: 0px; height: 900px; width: 100%">
+
+</section>
+
 <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoiZmxvZHUiLCJhIjoiY2pxMmNpNGs3MTNnNjQzcHBueTNpYTVlaiJ9.lYesJH0YNlpAXEhUVvZTkg';
     var map = new mapboxgl.Map({
@@ -69,87 +61,3 @@
     var scale = new mapboxgl.ScaleControl()
     map.addControl(scale);
 </script>
-
-<!--
-<div class="container">
-    <div class="row">
-
-        <section class="col-md-9" id="home">
-            <div class="row block-background">
-                <div id="slider" class="nivoSlider">
-                    <div id="slideContainer">
-                        <figure>
-                            <div>
-                                <h3>Pré-visite :</h3>
-                                <p>Rencontrons-nous afin de faire connaissance.</p>
-                                <i>1</i>
-                            </div>
-                            <img src="{{ site.baseurl }}/img/home/rencontre.jpg" alt="" title="Étape 1 : la rencontre, apprenons à nous connaître">
-                        </figure>
-                        <figure>
-                            <div>
-                                <h3>Visites à domicile :</h3>
-                                <p>Nourriture, soins, balades et câlins.</p>
-                                <i>2</i>
-                            </div>
-                            <img src="{{ site.baseurl }}/img/home/visites.jpg" alt="" title="Étape 2 : les visites, nourriture, soins, sorties et papouilles">
-                        </figure>
-                        <figure>
-                            <div>
-                                <h3>Satisfaction :</h3>
-                                <p>"Mon maître est rassuré, et je suis HEUREUX !"</p>
-                                <i>3</i>
-                            </div>
-                            <img src="{{ site.baseurl }}/img/home/satisfaction.jpg" alt="" title="Étape 3 : satisfaction ! Mon maître est tranquille et je suis heureux !">
-                        </figure>
-                    </div>
-                </div>
-            </div>
-            <div class="row block-background horizontal-box">
-                <div class="horizontal-content" id="neko-word">
-                    <i class="fa fa-heart" aria-hidden="true"></i>
-                    <h2>NEKO EN QUELQUES MOTS</h2>
-                    <p class="separation-before">Petsitter professionnelle, <strong>je visite vos animaux à votre domicile</strong> durant votre absence. Vacances, week-ends, longues journées de travail, je propose également des <strong>promenades</strong> pour votre chien.<br/><br/>
-                        Je suis titulaire du <a href="#"><strong>Certificat de Capacité Animaux Domestiques</strong></a>, attestant de mes connaissances relatives aux besoins biologiques, physiologiques, comportementaux et à l’entretien des animaux de compagnie. Je possède également une assurance <strong>Responsabilité Civile professionnelle.</strong><br/><br/>
-                        SIRET N°794 425 280 00029</p>
-                </div>
-            </div>
-            <div class="row block-background flex-home">
-                <div class="col-md-6 horizontal-box">
-                    <div class="horizontal-content">
-                        <i class="fa fa-clock-o" aria-hidden="true"></i>
-                        <h2>Disponibilité 7J/7</h2>
-                        <p class="separation-before">
-                            Je me déplace à votre domicile <strong>tous les jours de l’année</strong>, y compris les dimanches et les jours fériés, sur <u>Lyon</u> et <u>Villeurbanne</u>.<br/><br/>
-                            N’hésitez pas à me contacter pour plus d’informations concernant les visites de votre <strong>chat</strong> ou <strong>NAC</strong> ou les promenades de votre <strong>chien</strong>.<br/><br/>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6 horizontal-box">
-                    <div class="horizontal-content">
-                        <i class="fa fa-camera" aria-hidden="true"></i>
-                        <h2>EN IMAGES</h2>
-                        <div class="separation-before">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row block-background">
-                <div class="col-md-12 horizontal-box">
-                    <div class="horizontal-content">
-                        <i class="fa fa-comment" aria-hidden="true"></i>
-                        <h2>Témoignages</h2>
-                        <blockquote class="separation-before"><cite></cite><span id="client"></span></blockquote>
-                    </div>
-                </div>
-            </div>
-            <footer class="row block-background">
-                {% include footer.html %}
-            </footer>
-        </section>
-    </div>
-</div>
--->
-
-</body>
-</html>

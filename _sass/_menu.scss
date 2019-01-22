@@ -5,6 +5,12 @@ header {
   z-index: 100;
   width: 100%;
   padding: 25px 15px;
+  top: 0px;
+  background-color: rgb(235, 235, 235);
+}
+
+#header-slider {
+  background-color: transparent;
 }
 
 nav {
@@ -57,10 +63,10 @@ nav li.active + li::before {
   header img {
     margin: auto;
   }
+
   header {
     padding: 0;
     text-align: center;
-    background-color: rgb(235, 235, 235) !important;
   }
 
   nav.closed {

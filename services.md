@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: services
 menu: main
 order: 2
 menu-title: Services

@@ -1,13 +1,17 @@
 window.addEventListener('scroll', function() {
-    var menuHeight = $("header").height()
-    var alpha = 1 - (menuHeight-pageYOffset)/menuHeight;
-    $("header").css("background-color", "rgba(235, 235, 235, "+alpha+")");
+    setHeaderOpacity();
 });
 
 function openMenu() {
     var el = document.getElementsByTagName("nav")[0];
     var className = "closed";
     toggleClass(el, className)
+}
+
+function setHeaderOpacity() {
+    var menuHeight = $("#header-slider").height()
+    var alpha = 1 - (menuHeight-pageYOffset)/menuHeight;
+    $("#header-slider").css("background-color", "rgba(235, 235, 235, "+alpha+")");
 }
 
 

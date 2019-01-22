@@ -18,11 +18,11 @@
     {% for c in page.css %}
         <link rel="stylesheet" href="{{ c | prepend: '/css' | prepend: site.baseurl }}"/>
     {% endfor %}
+    <script src="{{ '/js/jquery-3.2.1.min.js' | prepend: site.baseurl }}"></script>
     {% for js in page.javascripts %}
     <script src="{{ js | prepend: '/js' | prepend: site.baseurl }}"></script>
     {% endfor %}
     <script src="{{ '/js/main.js' | prepend: site.baseurl }}"></script>
-    <script src="{{ '/js/jquery-3.2.1.min.js' | prepend: site.baseurl }}"></script>
 
 
     <script src='https://api.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.js'></script>
