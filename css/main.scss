@@ -15,3 +15,5 @@ $baseurl: "{{ site.baseurl }}";
 @import "../_sass/footer";
 @import "../_sass/sections";
 @import "../_sass/pages/home";
+@import "../_sass/pages/prestations";
+@import "tooltipster.bundle.min.css";

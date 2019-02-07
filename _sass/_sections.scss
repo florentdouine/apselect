@@ -39,6 +39,11 @@
   margin-top: 0px;
 }
 
+#container .arrowed-section:first-child {
+  margin-top: 101px;
+  padding-top: 0px;
+}
+
 @for $i from 1 through 10 {
   .arrowed-section:nth-child(#{$i}) {
     z-index: #{10 - $i};
@@ -62,16 +67,12 @@
   }
 
   #main-cover {
-    height: 800px;
+    height: 900px;
   }
 }
 
-.arrowed-section:first-child {
-  margin-top: 101px;
-  padding-top: 0px;
-}
-
-.arrowed-section:last-child {
+section.regular-bottom-section {
   clip-path: none;
   padding-bottom: 0px;
 }
+

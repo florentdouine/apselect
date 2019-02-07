@@ -1,0 +1,25 @@
+#prestations img {
+  width: 100%;
+  height: auto;
+}
+
+#prestations {
+  position: relative; //Used to keep tags absolute position correct
+}
+
+a.tags {
+  display: block;
+  background-color: $main-color;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 18%;
+  left: 26%;
+  opacity: 1;
+  opacity: 1;
+  border-radius: 40px;
+  color: white;
+  text-align: center;
+  line-height: 34px;
+  font-size: 36px;
+}
