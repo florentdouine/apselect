@@ -39,13 +39,13 @@
   margin-top: 0px;
 }
 
-#container .arrowed-section:first-child {
+#container section:first-child {
   margin-top: 101px;
   padding-top: 0px;
 }
 
 @for $i from 1 through 10 {
-  .arrowed-section:nth-child(#{$i}) {
+  html section:nth-child(#{$i}) {
     z-index: #{10 - $i};
     background-color: nth($background-section-colors, $i)
   }

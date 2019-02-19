@@ -1,7 +1,6 @@
 // GLOBAL STYLES
 
 html, body {
-  height: 100%;
   font-family: $font-family;
   color: $light-gray;
 }
@@ -172,4 +171,8 @@ cite {
 a.black_filter:hover {
   background: rgba(0, 0, 0, 0.2);
   transition: all 0.5s ease;
+}
+
+footer {
+  background-color: white;
 }

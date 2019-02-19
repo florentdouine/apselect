@@ -1,0 +1,33 @@
+.third-split-element {
+  background-position: top;
+  background-clip: content-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  height: 600px;
+}
+
+.third-split-element .black_filter {
+  display: flex;
+  align-items: center;
+}
+
+.third-split-element h4 {
+  font-family: $font-family;
+  color: white;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+}
+
+@include media-breakpoint-up(lg) {
+  .arrowed-section #third-split-row .third-split-element:nth-child(2) h4 {
+    margin-top: 40%;
+  }
+}
+
+.arrowed-section .third-split-element {
+  height: 900px;
+}
