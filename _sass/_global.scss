@@ -66,10 +66,6 @@ h1::after{
 
 a {
   color: $main-color;
-  -moz-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
 }
 
 a:hover, a:active {
@@ -83,10 +79,6 @@ a.button{
   padding: 3px 15px;
   color: white;
   font-size: 14px;
-  -moz-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
   text-decoration: none;
 }
 
