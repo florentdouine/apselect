@@ -1,0 +1,17 @@
+#main-cover {
+  background: url("/img/original/photo page 1 (10).jpg"); //8: fond noir
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#main-cover h1 {
+  order: 1;
+}
+
+#main-cover h1, #main-cover h2 {
+  text-shadow: 1px 1px 10px black;
+}
