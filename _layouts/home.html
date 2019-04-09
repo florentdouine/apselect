@@ -3,25 +3,28 @@ layout: default-slider
 ---
 
 <section class="arrowed-section" id="main-cover">
-    <h1>AP SELECT</h1>
+    <h1 class="text-shadowed">AP SELECT</h1>
+</section>
+
+<section class="arrowed-section smaller-padding-section regular-bottom-section light-background-section">
     <h2>Youngtimers et vintage cars</h2>
 </section>
 
 <section class="arrowed-section fulled-section">
     <div class="row" id="third-split-row">
-        <div class="col-md-4 third-split-element" style="background-image: url('/img/original/photo page 2 bloc 1 (1).jpg');">
+        <div class="col-md-4 third-split-element" style="background-image: url('/img/original/photo page 2 bloc 1 (2).jpg');">
             <a class="black_filter" href="services.html">
-                <h4>Vente de voitures youngtimers</h4>
+                <h4 class="text-shadowed">Vente de voitures youngtimers</h4>
             </a>
         </div>
-        <div class="col-md-4 third-split-element" style="background-image: url('/img/original/photo page 2 bloc 2 (1).jpg');">
+        <div class="col-md-4 third-split-element" style="background-image: url('/img/original/photo page 2 bloc 1 (7).jpg');">
             <a class="black_filter" href="services.html">
-                <h4>Chasseur de voitures youngtimers</h4>
+                <h4 class="text-shadowed">Chasseur de voitures youngtimers</h4>
             </a>
         </div>
-        <div class="col-md-4 third-split-element" style="background-image: url('/img/original/photo page 2 bloc 3 (3).jpg');">
+        <div class="col-md-4 third-split-element" style="background-image: url('/img/original/photo page 2 bloc 3 (4).jpg');">
             <a class="black_filter" href="services.html">
-                <h4>Detailing et personnalisation</h4>
+                <h4 class="text-shadowed">Detailing et personnalisation</h4>
             </a>
         </div>
     </div>
@@ -40,14 +43,38 @@ layout: default-slider
     </div>
 </section>
 
-<section class="arrowed-section regular-bottom-section light-background-section">
+<section class="fulled-right-section arrowed-section regular-bottom-section light-background-section">
     <div class="row">
-        <div class="offset-2 col-md-8">
+        <div class="col-md-6">
             <h3 class="underlined">Contact</h3>
             <p>
+                2 Rue Domrémy<br/>
+                69003 Lyon<br/>
+                <br/>
+                <a href="tel:‭+33665171007">06 65 17 10 07</a>‬<br/>
+                <a href="mailto:contact@apselect.fr">contact@apselect.fr</a>‬<br/>
+                <br/><br/><br/>
+
 
             </p>
+        </div>
+        <div class="col-md-6" style="background: url('/img/original/photo page 1 (8).jpg');background-repeat: no-repeat;background-size: contain;background-position: 0px 100px;background-color: black;">
+
         </div>
     </div>
 </section>
 
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZmxvZHUiLCJhIjoiY2pxMmNpNGs3MTNnNjQzcHBueTNpYTVlaiJ9.lYesJH0YNlpAXEhUVvZTkg';
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [4.872800, 45.752399], // starting position [lng, lat]
+        zoom: 12 // starting zoom
+    });
+    map.scrollZoom.disable();
+    map.touchZoomRotate.disable();
+    map.touchZoomRotate.disableRotation();
+    var scale = new mapboxgl.ScaleControl()
+    map.addControl(scale);
+</script>

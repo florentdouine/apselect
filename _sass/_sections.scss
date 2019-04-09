@@ -13,12 +13,20 @@
   }
 }
 
-.fulled-section {
+.fulled-section, .fulled-right-section, .fulled-left-section {
   padding: 0 !important;
 }
 
-.light-background-section p {
+.fulled-right-section .row > div:first-child, .fulled-left-section .row > div:last-child {
+  padding-top: 300px;
+}
+
+.light-background-section p, .light-background-section h1, .light-background-section h2 {
   color: $dark-gray;
+}
+
+.smaller-padding-section {
+  padding-bottom: 100px !important;
 }
 
 #container-slider .arrowed-section:first-child {

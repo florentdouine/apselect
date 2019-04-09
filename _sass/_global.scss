@@ -2,7 +2,7 @@
 
 html, body {
   font-family: $font-family;
-  color: $light-gray;
+  color: white;
 }
 
 body {
@@ -112,6 +112,16 @@ p.sub-content {
   }
 }
 
+.underlined::before {
+  content: "";
+  width: 1px;
+  border-right: 1px solid #bbb;
+  margin: auto;
+  margin-top: 40px;
+  height: 40px;
+  display: block;
+}
+
 .underlined::after {
   content: "";
   width: 50%;
@@ -149,14 +159,19 @@ cite {
   display: block;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease;
 }
 
 a.black_filter:hover {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.8);
   transition: all 0.5s ease;
 }
 
 footer {
   background-color: white;
+}
+
+.text-shadowed {
+  text-shadow: 1px 1px 10px black;
 }
