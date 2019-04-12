@@ -8,6 +8,30 @@
   flex-direction: column-reverse;
 }
 
+@include media-breakpoint-up(lg) {
+  html .arrowed-section {
+    clip-path: polygon(// ne fonctionne pas sur Safari
+                    0 0, /* left top */
+                    100% 0, /* right top */
+                    100% calc(100% - 300px),
+                    50% 100%,
+                    0% calc(100% - 300px)
+    );
+
+    padding: $arrow-height 0px;
+    margin-top: -$arrow-height;
+    position: relative;
+  }
+
+  #main-cover {
+    height: 500px !important;
+  }
+}
+
 #main-cover h1 {
   order: 1;
+}
+
+#main-title-section {
+  text-align: center;
 }
