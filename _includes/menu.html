@@ -1,15 +1,27 @@
- {% assign main_pages = site.pages | where:"menu", "main" | sort:"order" %}
+<div id="social">
+    <ul id="socialicons">
+        <li><a class="fb" href="http://www.facebook.com/AutomobilePassionSelection" target="_blank"> <i class="fa fa-facebook"></i> </a> </li>
+        <li> <a class="twitter" href="https://www.instagram.com/ap.select/" target="_blank"> <i class="fa fa-instagram"></i> </a> </li>
+    </ul>
+</div>
+{% assign main_pages = site.pages | where:"menu", "main" | sort:"order" %}
  <nav class="closed">
     <ul class="">
         <li class="d-md-none">
             <a href="javascript:openMenu()"><i class="fa fa-bars"></i> Menu</a>
         </li>
-        {% for the_page in main_pages %}
+        <!--
+        { % for the_page in main_pages % }
         <li {% if the_page.order == page.order %}class="active"{% endif %}>
             <a href="{{ the_page.url | prepend: site.baseurl }}" title="{{ the_page.title }}" {% if the_page.order == page.order %}class="active"{% endif %}>
                 {{ the_page.menu-title }}
             </a>
         </li>
-        {% endfor %}
+        { % endfor % }
+        -->
+
+        <li class="active"> <a href="/" title="Chasseur de voitures Youngtimers" class="active"> Accueil </a> </li>
+        <li> <a href="#services" title="Garde d'animaux professionnelle sur Lyon"> Services </a> </li>
+        <li> <a href="#contact" title="Garde d'animaux professionnelle sur Lyon"> Contact </a> </li> </ul>
     </ul>
 </nav>

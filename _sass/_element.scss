@@ -5,6 +5,7 @@
   background-size: cover;
   padding: 0;
   height: 600px;
+  border-right: solid $dark-gray 1px;
 }
 
 .third-split-element .black_filter {
@@ -26,9 +27,9 @@
   .arrowed-section #third-split-row .third-split-element:nth-child(2) h4 {
     margin-top: 40%;
   }
+
+  .arrowed-section .third-split-element {
+    height: 900px;
+  }
 }
 
-.arrowed-section .third-split-element {
-  height: 900px;
-  border-right: solid $dark-gray 1px;
-}
