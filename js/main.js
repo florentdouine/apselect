@@ -31,5 +31,26 @@ function toggleClass(el, className){
     }
 }
 
-<!--Google Analytics-->
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-55922352-1','auto');ga('send','pageview');
+$(document).ready(function(){
+    $(".third-split-element a").hover(function () {
+        var descElement = $(this).find(".third-split-content p")
+        var fullHeight = descElement.height()
+
+        descElement.css("display", "block")
+        descElement.css("height", "0px")
+        descElement.css("opacity", "0")
+        descElement.animate({ height: fullHeight }, {duration: 300, queue:false})
+        setTimeout(
+            function()
+            {
+                descElement.animate({ opacity: 1.0 }, {duration: 500, queue:false})
+            }, 200);
+    }, function () {
+        var descElement = $(this).find(".third-split-content p")
+        descElement.animate(
+            {height: "0px", opacity: 0}, 300, function () {
+                descElement.css("display", "none")
+                descElement.css("height", "auto")
+            })
+    })
+})

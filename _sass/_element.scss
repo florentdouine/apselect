@@ -13,7 +13,7 @@
   align-items: center;
 }
 
-.third-split-element h4 {
+.third-split-content h4 {
   font-family: $font-family;
   color: white;
   font-size: 38px;
@@ -21,6 +21,19 @@
   text-transform: uppercase;
   text-align: center;
   width: 100%;
+}
+
+.third-split-content {
+  flex-direction: column;
+}
+
+.third-split-content p {
+  color: white;
+  font-size: 16px;
+  overflow: hidden;
+  display: none;
+  margin: 0 20px;
+  padding-top: 0;
 }
 
 @include media-breakpoint-up(lg) {
