@@ -21,10 +21,6 @@
   color: $dark-gray;
 }
 
-#container-slider .arrowed-section:first-child {
-  margin-top: 0px;
-}
-
 #container section:first-child {
   margin-top: 101px;
   padding-top: 0px;
@@ -34,35 +30,6 @@
   html section:nth-child(#{$i}) {
     z-index: #{10 - $i};
     background-color: nth($background-section-colors, $i)
-  }
-}
-
-@include media-breakpoint-up(lg) {
-
-  .fulled-right-section .row > div:first-child, .fulled-left-section .row > div:last-child {
-    padding-top: 300px;
-  }
-
-  .extra-smaller-padding-section {
-    padding-bottom: 100px !important;
-  }
-
-  .smaller-padding-section {
-    padding-bottom: 200px !important;
-  }
-
-  html .arrowed-section {
-    clip-path: polygon(// ne fonctionne pas sur Safari
-                    0 0, /* left top */
-                    100% 0, /* right top */
-                    100% calc(100% - 300px),
-                    50% 100%,
-                    0% calc(100% - 300px)
-    );
-
-    padding: $arrow-height 0px;
-    margin-top: -$arrow-height;
-    position: relative;
   }
 }
 

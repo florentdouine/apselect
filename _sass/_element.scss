@@ -36,13 +36,3 @@
   padding-top: 0;
 }
 
-@include media-breakpoint-up(lg) {
-  .arrowed-section #third-split-row .third-split-element:nth-child(2) h4 {
-    margin-top: 40%;
-  }
-
-  .arrowed-section .third-split-element {
-    height: 900px;
-  }
-}
-

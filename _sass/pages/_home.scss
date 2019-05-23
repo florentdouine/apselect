@@ -10,7 +10,7 @@
 
 @include media-breakpoint-up(lg) {
   #main-cover {
-    height: 500px !important;
+    height: 600px !important;
   }
 }
 
@@ -20,4 +20,17 @@
 
 #main-title-section {
   text-align: center;
+}
+
+@include media-breakpoint-up(lg) {
+  #main-title-section {
+    padding: 50px 0px;
+  }
+}
+
+#contactIllustration {
+  background: url('/img/original/photo page 1 (8).jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: black;
 }

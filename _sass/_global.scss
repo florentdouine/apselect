@@ -112,14 +112,23 @@ p.sub-content {
   }
 }
 
-.underlined::before {
+.pre-vertical-line::before, .post-vertical-line::after {
   content: "";
   width: 1px;
   border-right: 1px solid #bbb;
   margin: auto;
-  margin-top: 40px;
   height: 40px;
   display: block;
+}
+
+
+.pre-vertical-line::before{
+  margin-top: 40px;
+
+}
+
+.post-vertical-line::after {
+  margin-bottom: 40px;
 }
 
 .underlined::after {
