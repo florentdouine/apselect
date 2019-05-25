@@ -3,6 +3,7 @@ layout: services
 menu: main
 order: 2
 menu-title: Services
+sitemap: false
 title: Garde d'animaux professionnelle sur Lyon
 description: "Pet-sitter professionnelle, je me déplace à votre domicile sur Lyon et Villeurbanne pour prendre soin de votre chien, chat, lapin ou autre NAC."
 
