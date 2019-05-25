@@ -25,7 +25,7 @@ default_locale: "fr"
 markdown: kramdown
 theme: minima
 permalink: pretty
-gems:
+plugins:
   - jekyll-feed
   - jekyll-minifier
   - jekyll-sitemap
