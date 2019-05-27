@@ -4,7 +4,7 @@
   background-position: center;
 }
 
-@include media-breakpoint-up(lg) {
+@include media-breakpoint-up(md) {
   .full-backgrounded {
     position: absolute;
     height: 100%;

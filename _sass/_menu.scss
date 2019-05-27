@@ -86,12 +86,12 @@ nav li.active + li::before {
   border-radius: 4px;
   -webkit-border-radius: 4px;
   cursor: pointer;
-  background-color: $dark-gray;
+  background-color: $main-color;
   color: white;
 }
 
 #social ul li:hover {
-  background-color: $main-color;
+  background-color: $dark-gray;
 }
 
 #social ul li i {
