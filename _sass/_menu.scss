@@ -4,7 +4,6 @@ header {
   position: fixed;
   z-index: 100;
   width: 100%;
-  padding: 15px 15px;
   top: 0px;
   background-color: rgb(235, 235, 235);
 }
@@ -13,12 +12,12 @@ header {
   background-color: transparent;
 }
 
-nav {
+nav.col-auto {
   overflow: hidden;
   -webkit-transition: height 0.3s;
   transition: height 0.3s;
   float: right;
-  margin-top: 17px;
+  padding: 30px;
 }
 
 nav ul {
@@ -32,6 +31,10 @@ nav li {
   color: $dark-gray;
   display: inline-block;
   margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0px;
 }
 
 nav li a, nav li a:hover, nav li a:active, nav li a:focus {
@@ -60,47 +63,9 @@ nav li.active + li::before {
   border: none;
 }
 
-#socialicons {
-  padding: 0;
-  display: inline-block;
+#logo img {
+  padding: 15px 15px 15px 30px;
 }
-
-#social {
-  text-align: center;
-  float: left;
-}
-
-#social ul {
-  text-align: center;
-  margin-top: 1rem;
-}
-
-#social ul li {
-  list-style-type: none;
-  display: inline-block;
-  margin: 8px 4px 0 4px;
-  width: 30px;
-  height: 30px;
-  overflow: hidden;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  cursor: pointer;
-  background-color: $main-color;
-  color: white;
-}
-
-#social ul li:hover {
-  background-color: $dark-gray;
-}
-
-#social ul li i {
-  font-size: 20px;
-  color: white;
-  line-height: 30px;
-  display: block;
-}
-
 
 @include media-breakpoint-down(sm) {
   header img {
@@ -108,7 +73,7 @@ nav li.active + li::before {
   }
 
   header {
-    padding: 0;
+    padding: 5px;
     text-align: center;
   }
 
@@ -124,9 +89,9 @@ nav li.active + li::before {
     width: 0px;
   }
 
-  nav {
+  nav.col-auto {
     margin-top: 0px;
-    width: 100%;
+    padding: 0px;
   }
 
   nav li {
@@ -134,8 +99,46 @@ nav li.active + li::before {
     margin-right: 0px;
   }
 
-  #social {
-    display: block;
-    width: 100%;
+  #logo img {
+    padding: 0px;
+    height: 51px;
   }
+}
+
+
+#socialicons {
+  padding: 0;
+  display: block;
+}
+
+
+#socialicons {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#socialicons li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 8px 4px 0 4px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  cursor: pointer;
+  background-color: $main-color;
+  color: white;
+}
+
+#socialicons li:hover {
+  background-color: $dark-gray;
+}
+
+#socialicons li i {
+  font-size: 20px;
+  color: white;
+  line-height: 30px;
+  display: block;
 }

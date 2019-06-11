@@ -3,8 +3,8 @@ layout: home
 menu: main
 order: 1
 menu-title: Accueil
-title: Chasseur de voitures Youngtimers
-description: "Chasseur de voitures Youngtimers"
+title: Achat / Vente et Courtage
+description: "Sport et Vintage Cars"
 
 #SEO
 meta-title: title for this page

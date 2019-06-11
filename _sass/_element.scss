@@ -4,8 +4,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0;
-  height: 500px;
-  border-right: solid $dark-gray 1px;
+  height: 600px;
+  border: solid black 3px;
+}
+
+div .third-split-element + .third-split-element {
+  border-left: none !important;
 }
 
 .third-split-element .black_filter {
@@ -18,7 +22,6 @@
   color: white;
   font-size: 38px;
   font-weight: 700;
-  text-transform: uppercase;
   text-align: center;
   width: 100%;
   padding: 0px 10px;
@@ -26,6 +29,7 @@
 
 .third-split-content {
   flex-direction: column;
+  width: 100%;
 }
 
 .third-split-content p {

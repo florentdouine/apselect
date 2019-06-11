@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "APSelect : Chasseur de voiture spécialisée youngtimers."
+title: "APSelect : Sport et Vintage Cars"
 email: contact@apselect.fr
 description: > # this means to ignore newlines until "baseurl:"
-  Neko garde d'animaux (Lyon, Villeurbanne) vous propose de rendre visite à votre animal lors de vos vacances ou vos déplacements. Professionnelle et passionnée, je me déplace à votre domicile pour m'occuper de votre chien, chat ou NAC.
+  APSelect
 baseurl:  # the subpath of your site, e.g. /blog
 url: "http://apselect.fr" # the base hostname & protocol for your site, e.g. http://example.com
 

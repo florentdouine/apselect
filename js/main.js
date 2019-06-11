@@ -32,6 +32,7 @@ function toggleClass(el, className){
 }
 
 $(document).ready(function(){
+
     $(".third-split-element a").hover(function () {
         var descElement = $(this).find(".third-split-content p")
         var fullHeight = descElement.height()
