@@ -1,21 +1,84 @@
 #main-cover {
-  background: url("/img/wetransfer/roa100118fea-singer-23-1538534907.jpg");
-  background-size: cover;
-  background-position: center;
   height: calc(100vh);
-  width: 100%;
-  display: flex;
-  flex-direction: column-reverse;
 }
 
-#main-cover h1 {
-  order: 1;
+.main-covers {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  animation: imageAnimation 40s linear infinite 0s;
+}
+
+#logo {
+  animation: invertAnimation 40s linear infinite 0s;
+  animation-delay: 4s;
+}
+
+nav li {
+  animation: colorAnimation 40s linear infinite 0s;
+  animation-delay: 4s;
+}
+
+section .main-covers:nth-child(1) {
+   background-image: url("/img/photo-couverture-911-porsche-rouge.jpg");
+   opacity: 1;
+ }
+
+section .main-covers:nth-child(2) {
+  background-image: url("/img/Ressources/main-page/Mercedes-280-SL.JPG");
+  animation-delay: 4s;
+}
+
+section .main-covers:nth-child(3) {
+  background-image: url("/img/Ressources/main-page/bmw_m3_e36_1.png");
+  animation-delay: 8s;
+}
+
+section .main-covers:nth-child(4) {
+  background-image: url("/img/Ressources/main-page/bmw_m3_e36_2.png");
+  animation-delay: 12s;
+}
+
+section .main-covers:nth-child(5) {
+  background-image: url("/img/Ressources/main-page/bmw_m3_e46_1.png");
+  animation-delay: 16s;
+}
+
+section .main-covers:nth-child(6) {
+  background-image: url("/img/Ressources/main-page/E30-BMW-M3-Sport-Evolution-7.jpg");
+  animation-delay: 20s;
+}
+
+section .main-covers:nth-child(7) {
+  background-image: url("/img/Ressources/main-page/Mercedes-280-SL-1.JPG");
+  animation-delay: 24s;
+}
+
+section .main-covers:nth-child(8) {
+  background-image: url("/img/Ressources/main-page/Mercedes-280-SL-2.JPG");
+  animation-delay: 28s;
+}
+
+section .main-covers:nth-child(9) {
+  background-image: url("/img/Ressources/main-page/Mercedes-pagode-SL-1.JPG");
+  animation-delay: 32s;
+}
+
+section .main-covers:nth-child(10) {
+  background-image: url("/img/Ressources/main-page/Mercedes-500-SL.JPG");
+  animation-delay: 36s;
 }
 
 #main-title-section {
   text-align: center;
-  padding: 10px 0px;
   background-color: rgba(240, 240, 240, 0.7);
+  padding: 30px 0px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
 }
 
 #main-title-section h2 {
@@ -28,16 +91,39 @@
   font-weight: 300;
 }
 
-@include media-breakpoint-up(lg) {
-  #main-title-section {
-    padding: 30px 0px;
-  }
-}
-
 #contactIllustration {
-  background: url('/img/original/photo page 1 (8).jpg');
+  background: url('/img/levier-vitesse-noir.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: black;
   min-height: 300px;
+}
+
+
+.slideshow {
+  list-style-type: none;
+}
+
+@keyframes imageAnimation {
+  0% { opacity: 0; animation-timing-function: ease-in; }
+  2% { opacity: 1; animation-timing-function: ease-out; }
+  10% { opacity: 1 }
+  12% { opacity: 0 }
+  100% { opacity: 0 }
+}
+
+@keyframes invertAnimation {
+  0% { filter: invert(0%); color: $dark-gray; animation-timing-function: ease-in; }
+  2% { filter: invert(100%); color: $white; animation-timing-function: ease-out; }
+  10% { filter: invert(100%); color: $white; }
+  12% { filter: invert(0%); color: $dark-gray; }
+  100% { filter: invert(0%); color: $dark-gray; }
+}
+
+@keyframes colorAnimation {
+  0% { color: $dark-gray; animation-timing-function: ease-in; }
+  2% { color: $white; animation-timing-function: ease-out; }
+  10% { color: $white; }
+  12% { color: $dark-gray; }
+  100% { color: $dark-gray; }
 }
