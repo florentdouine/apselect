@@ -8,7 +8,7 @@
  <nav class="closed col-auto">
     <ul class="">
         <li class="d-md-none">
-            <a href="javascript:openMenu()"><i class="fa fa-bars"></i> Menu</a>
+            <a href="javascript:toggleMenu()"><i class="fa fa-bars"></i> Menu</a>
         </li>
         <!--
         { % for the_page in main_pages % }
@@ -20,9 +20,9 @@
         { % endfor % }
         -->
 
-        <li class="active"> <a href="/" title="Chasseur de voitures Youngtimers" class="active"> Accueil </a> </li>
-        <li> <a href="#services" title="Chasseur de voitures Youngtimers"> Services </a> </li>
-        <li> <a href="#contact" title="Chasseur de voitures Youngtimers"> Contact </a> </li> </ul>
+        <li> <a href="/" title="Chasseur de voitures Youngtimers" class="active"> Accueil </a> </li>
+        <li> <a href="javascript:goToPageAnchor('#services')" title="Chasseur de voitures Youngtimers"> Services </a> </li>
+        <li> <a href="javascript:goToPageAnchor('#contact')" title="Chasseur de voitures Youngtimers"> Contact </a> </li> </ul>
     </ul>
 </nav>
 </div>

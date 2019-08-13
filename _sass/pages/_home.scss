@@ -9,73 +9,28 @@
   height: 100%;
   position: absolute;
   opacity: 0;
-  animation: imageAnimation 40s linear infinite 0s;
-}
-
-#logo {
-  animation: invertAnimation 40s linear infinite 0s;
-  animation-delay: 4s;
-}
-
-nav li {
-  animation: colorAnimation 40s linear infinite 0s;
-  animation-delay: 4s;
+  animation: imageAnimation 12s linear infinite 0s;
 }
 
 section .main-covers:nth-child(1) {
-   background-image: url("/img/photo-couverture-911-porsche-rouge.jpg");
+   background-image: url("/img/main-covers/porsche-911-singer-orange.png");
    opacity: 1;
  }
 
 section .main-covers:nth-child(2) {
-  background-image: url("/img/Ressources/main-page/Mercedes-280-SL.JPG");
+  background-image: url("/img/main-covers/bmw_m3_e46.jpg");
   animation-delay: 4s;
 }
 
 section .main-covers:nth-child(3) {
-  background-image: url("/img/Ressources/main-page/bmw_m3_e36_1.png");
+  background-image: url("/img/main-covers/mercedes-280-sl.jpg");
   animation-delay: 8s;
-}
-
-section .main-covers:nth-child(4) {
-  background-image: url("/img/Ressources/main-page/bmw_m3_e36_2.png");
-  animation-delay: 12s;
-}
-
-section .main-covers:nth-child(5) {
-  background-image: url("/img/Ressources/main-page/bmw_m3_e46_1.png");
-  animation-delay: 16s;
-}
-
-section .main-covers:nth-child(6) {
-  background-image: url("/img/Ressources/main-page/E30-BMW-M3-Sport-Evolution-7.jpg");
-  animation-delay: 20s;
-}
-
-section .main-covers:nth-child(7) {
-  background-image: url("/img/Ressources/main-page/Mercedes-280-SL-1.JPG");
-  animation-delay: 24s;
-}
-
-section .main-covers:nth-child(8) {
-  background-image: url("/img/Ressources/main-page/Mercedes-280-SL-2.JPG");
-  animation-delay: 28s;
-}
-
-section .main-covers:nth-child(9) {
-  background-image: url("/img/Ressources/main-page/Mercedes-pagode-SL-1.JPG");
-  animation-delay: 32s;
-}
-
-section .main-covers:nth-child(10) {
-  background-image: url("/img/Ressources/main-page/Mercedes-500-SL.JPG");
-  animation-delay: 36s;
 }
 
 #main-title-section {
   text-align: center;
   background-color: rgba(240, 240, 240, 0.7);
-  padding: 30px 0px;
+  padding: 15px 0px;
   position: absolute;
   bottom: 0px;
   width: 100%;
@@ -104,26 +59,47 @@ section .main-covers:nth-child(10) {
   list-style-type: none;
 }
 
+#history-author {
+  color: $light-gray;
+  font-size: $font-size-smaller;
+}
+
 @keyframes imageAnimation {
   0% { opacity: 0; animation-timing-function: ease-in; }
-  2% { opacity: 1; animation-timing-function: ease-out; }
-  10% { opacity: 1 }
-  12% { opacity: 0 }
+  4% { opacity: 1; animation-timing-function: ease-out; }
+  37% { opacity: 1 }
+  41% { opacity: 0 }
   100% { opacity: 0 }
 }
 
 @keyframes invertAnimation {
   0% { filter: invert(0%); color: $dark-gray; animation-timing-function: ease-in; }
-  2% { filter: invert(100%); color: $white; animation-timing-function: ease-out; }
-  10% { filter: invert(100%); color: $white; }
-  12% { filter: invert(0%); color: $dark-gray; }
+  4% { filter: invert(100%); color: $white; animation-timing-function: ease-out; }
+  37% { filter: invert(100%); color: $white; }
+  41% { filter: invert(0%); color: $dark-gray; }
   100% { filter: invert(0%); color: $dark-gray; }
 }
 
 @keyframes colorAnimation {
   0% { color: $dark-gray; animation-timing-function: ease-in; }
-  2% { color: $white; animation-timing-function: ease-out; }
-  10% { color: $white; }
-  12% { color: $dark-gray; }
+  4% { color: $white; animation-timing-function: ease-out; }
+  37% { color: $white; }
+  41% { color: $dark-gray; }
   100% { color: $dark-gray; }
+}
+
+@include media-breakpoint-up(md) {
+  #main-title-section {
+    padding: 30px 0px;
+  }
+
+  #logo {
+    animation: invertAnimation 12s linear infinite 0s;
+    animation-delay: 8s;
+  }
+
+  nav li {
+    animation: colorAnimation 12s linear infinite 0s;
+    animation-delay: 8s;
+  }
 }
