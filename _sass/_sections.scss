@@ -17,7 +17,7 @@
   padding: 0 !important;
 }
 
-.light-background-section p, .light-background-section h1, .light-background-section h2 {
+.light-background-section p, .light-background-section h1, .light-background-section h2, .light-background-section span, .light-background-section blockquote {
   color: $dark-gray;
 }
 
@@ -26,9 +26,9 @@
   padding-top: 0px;
 }
 
-@for $i from 1 through 10 {
+@for $i from 1 through length($background-section-colors) {
   html section:nth-child(#{$i}) {
-    z-index: #{10 - $i};
+    z-index: #{length($background-section-colors) - $i};
     background-color: nth($background-section-colors, $i)
   }
 }

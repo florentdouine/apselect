@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+{% assign cars = site.data.cars %}
+
+<section class=" light-background-section">
+    <div class="row no-gutters">
+        <div class="offset-md-2 col-md-8">
+            <h3 class="post-vertical-line pre-vertical-line">{{ cars | size }} véhicules en vente</h3>
+        </div>
+    </div>
+</section>
+
+{% for car in cars %}
+
+{% assign mod = forloop.index | modulo: 2 %}
+<section class=" light-background-section">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="">
+                <h6>{{ car.model }}</h6>
+                <span>{{ car.date_published }}</span>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <blockquote>{{ car.description | newline_to_br }}</blockquote>
+        </div>
+        <div class="col-md-3">
+            {% for photo in car.photos %}
+                <img src="{{ site.baseurl }}/img/cars/{{ photo }}"/>
+            {% endfor %}
+        </div>
+        {% if mod == 1 %}
+        {% else %}
+        {% endif %}
+    </div>
+</section>
+{% endfor %}

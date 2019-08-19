@@ -1,7 +1,7 @@
 ---
 layout: services
 menu: main
-order: 2
+order: 3
 menu-title: Services
 sitemap: false
 title: Garde d'animaux professionnelle sur Lyon
