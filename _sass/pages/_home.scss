@@ -1,21 +1,39 @@
 #main-cover {
-  background: url("/img/wetransfer/roa100118fea-singer-23-1538534907.jpg");
-  background-size: cover;
-  background-position: center;
   height: calc(100vh);
-  width: 100%;
-  display: flex;
-  flex-direction: column-reverse;
 }
 
-#main-cover h1 {
-  order: 1;
+.main-covers {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  animation: imageAnimation 12s linear infinite 0s;
+}
+
+section .main-covers:nth-child(1) {
+   background-image: url("/img/main-covers/porsche-911-singer-orange.png");
+   opacity: 1;
+ }
+
+section .main-covers:nth-child(2) {
+  background-image: url("/img/main-covers/bmw_m3_e46.jpg");
+  animation-delay: 4s;
+}
+
+section .main-covers:nth-child(3) {
+  background-image: url("/img/main-covers/mercedes-280-sl.jpg");
+  animation-delay: 8s;
 }
 
 #main-title-section {
   text-align: center;
-  padding: 10px 0px;
   background-color: rgba(240, 240, 240, 0.7);
+  padding: 15px 0px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
 }
 
 #main-title-section h2 {
@@ -28,16 +46,60 @@
   font-weight: 300;
 }
 
-@include media-breakpoint-up(lg) {
-  #main-title-section {
-    padding: 30px 0px;
-  }
-}
-
 #contactIllustration {
-  background: url('/img/original/photo page 1 (8).jpg');
+  background: url('/img/levier-vitesse-noir.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: black;
   min-height: 300px;
+}
+
+
+.slideshow {
+  list-style-type: none;
+}
+
+#history-author {
+  color: $light-gray;
+  font-size: $font-size-smaller;
+}
+
+@keyframes imageAnimation {
+  0% { opacity: 0; animation-timing-function: ease-in; }
+  4% { opacity: 1; animation-timing-function: ease-out; }
+  37% { opacity: 1 }
+  41% { opacity: 0 }
+  100% { opacity: 0 }
+}
+
+@keyframes invertAnimation {
+  0% { filter: invert(0%); color: $dark-gray; animation-timing-function: ease-in; }
+  4% { filter: invert(100%); color: $white; animation-timing-function: ease-out; }
+  37% { filter: invert(100%); color: $white; }
+  41% { filter: invert(0%); color: $dark-gray; }
+  100% { filter: invert(0%); color: $dark-gray; }
+}
+
+@keyframes colorAnimation {
+  0% { color: $dark-gray; animation-timing-function: ease-in; }
+  4% { color: $white; animation-timing-function: ease-out; }
+  37% { color: $white; }
+  41% { color: $dark-gray; }
+  100% { color: $dark-gray; }
+}
+
+@include media-breakpoint-up(md) {
+  #main-title-section {
+    padding: 30px 0px;
+  }
+
+  #logo {
+    animation: invertAnimation 12s linear infinite 0s;
+    animation-delay: 8s;
+  }
+
+  nav li {
+    animation: colorAnimation 12s linear infinite 0s;
+    animation-delay: 8s;
+  }
 }

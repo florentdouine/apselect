@@ -2,10 +2,18 @@ window.addEventListener('scroll', function() {
     setHeaderOpacity();
 });
 
-function openMenu() {
-    var el = document.getElementsByTagName("nav")[0];
-    var className = "closed";
-    toggleClass(el, className)
+function toggleMenu() {
+    $("nav").toggleClass("closed")
+}
+
+function closeMenu() {
+    $("nav").addClass("closed");
+}
+
+function goToPageAnchor(anchor) {
+    closeMenu();
+    $("html, body").animate({ scrollTop: $(anchor).offset().top }, 600);
+   // $(document).scrollTop( $(anchor).offset().top );
 }
 
 function setHeaderOpacity() {
