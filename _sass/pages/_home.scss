@@ -93,12 +93,12 @@ section .main-covers:nth-child(3) {
     padding: 30px 0px;
   }
 
-  #logo {
+  #header-slider #logo {
     animation: invertAnimation 12s linear infinite 0s;
     animation-delay: 8s;
   }
 
-  nav li {
+  #header-slider nav li {
     animation: colorAnimation 12s linear infinite 0s;
     animation-delay: 8s;
   }

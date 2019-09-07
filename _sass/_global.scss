@@ -34,7 +34,7 @@ h3 {
 }
 
 h4 {
-  font-size: $font-size-large-title;
+  font-size: $font-size-middle-title;
 }
 
 @include media-breakpoint-down(md) {
@@ -108,6 +108,10 @@ li {
 
 p.sub-content {
   font-size: 13px;
+}
+
+img {
+  max-width: 100%;
 }
 
 .block-background {
@@ -193,4 +197,22 @@ footer {
 
 .text-shadowed {
   text-shadow: 1px 1px 10px black;
+}
+
+.btn {
+  background-color: $main-color !important;
+  color: white;
+}
+
+.btn:hover {
+  color: white;
+  background-color: $light-gray !important;
+}
+
+.btn-big {
+  font-size: $font-size-big-button;
+}
+
+i {
+  font-style: italic !important;
 }
