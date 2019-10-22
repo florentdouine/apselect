@@ -2,8 +2,31 @@
   text-align: left;
 }
 
-#courtage-presentation {
+#courtage-main-car {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  background-position: center;
+  min-height: 500px;
+}
 
+#courtage-main-car-overlay {
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  position: absolute;
+  bottom: 0px;
+  width: calc(100% - 140px);
+}
+
+#courtage-main-car-overlay h5 {
+  color: white;
+  text-align: left;
+}
+
+#courtage-main-car-overlay p {
+  color: $extra-light-gray;
+  text-align: left;
 }
 
 #courtage-contact {
@@ -11,4 +34,45 @@
   padding: 90px;
   background: url("/img/clefs-peugeot-noires.jpg");
   background-size: cover;
+  background-position: center;
+}
+
+#courtage-contact .btn {
+  box-shadow: 0px 4px 6px black;
+}
+
+#courtage-car-list {
+  position: absolute;
+  right: 0px;
+  width: 140px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.courtage-car-cell {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  background-position: center;
+  height: 80px;
+  width: 100px;
+  -webkit-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out;
+  border: solid black 1px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.courtage-car-selected {
+  border: solid 3px #CCC !important;
+}
+
+.courtage-car-cell a {
+  display: block;
+  width: 100%;
+  height: 100%;
 }

@@ -37,6 +37,10 @@ h4 {
   font-size: $font-size-middle-title;
 }
 
+h5 {
+  font-size: $font-size-body;
+}
+
 @include media-breakpoint-down(md) {
   h3 {
     font-size: $font-size-large-title-sm;
@@ -143,6 +147,11 @@ img {
 
 .post-vertical-line::after {
   margin-bottom: 40px;
+}
+
+.verticalCenterTitle {
+  display: flex;
+  flex-direction: column;
 }
 
 .underlined::after {

@@ -3,7 +3,7 @@ layout: default
 ---
 
 <section class="light-background-section" id="courtage-presentation">
-    <div class="row">
+    <div class="row no-gutters">
         <div class="offset-md-2 col-md-8 pre-vertical-line post-vertical-line">
             <h3 class="underlined">Courtage de voiture</h3>
             <p>
@@ -15,12 +15,18 @@ layout: default
 
 <section class="fulled-right-section regular-bottom-section light-background-section">
     <div class="row no-gutters">
-        <div class="offset-md-1 col-md-5 pre-vertical-line post-vertical-line">
+        <div class="offset-md-1 col-md-5 pre-vertical-line post-vertical-line verticalCenterTitle">
             <h4>Nos véhicules vendus :</h4>
         </div>
-        <div class="col-md-6" id="contactIllustration">
 
-        </div>
+        <div class="col-md-6" id="courtage-main-car" style="background-image: url('');">
+            <div id="courtage-main-car-overlay">
+                <h5></h5>
+                <p></p>
+            </div>
+            <div id="courtage-car-list">
+
+            </div>
     </div>
 </section>
 
@@ -54,3 +60,40 @@ layout: default
         </div>
     </div>
 </section>
+
+<script>
+
+    var cars = [
+    {% for car in site.data.cars %}
+    {{ car | jsonify}},
+    {% endfor %}
+    ];
+
+    function displayItem(index) {
+        var car = cars[index]
+        var mainPhoto = car.photos[0]
+        $("#courtage-main-car").css("background-image", "url('/img/cars/"+mainPhoto+"')")
+        $($("#courtage-main-car-overlay h5")[0]).html(car.model)
+        $($("#courtage-main-car-overlay p")[0]).html(car.description_small)
+
+
+        $(".courtage-car-selected").removeClass("courtage-car-selected")
+        $($(".courtage-car-cell")[index]).addClass("courtage-car-selected")
+    }
+
+    function refreshCarList() {
+        $("#courtage-car-list").html("")
+        for (var i = 0; i < cars.length; i++) {
+            var car = cars[i]
+            var mainPhoto = car.photos[0]
+            var element = "<div class='courtage-car-cell' style='background-image: url(\"/img/cars/"+mainPhoto+"\")'><a href='javascript:displayItem("+i+")'></a></div>"
+            $("#courtage-car-list").append(element)
+        }
+    }
+
+    $(document).ready(function(e){
+        refreshCarList()
+        displayItem(0)
+    })
+
+</script>
