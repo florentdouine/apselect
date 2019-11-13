@@ -13,9 +13,9 @@
 }
 
 section .main-covers:nth-child(1) {
-   background-image: url("/img/main-covers/porsche-911-singer-orange.png");
-   opacity: 1;
- }
+  background-image: url("/img/main-covers/porsche-911-singer-orange.jpg");
+  opacity: 1;
+}
 
 section .main-covers:nth-child(2) {
   background-image: url("/img/main-covers/bmw_m3_e46.jpg");
@@ -25,6 +25,20 @@ section .main-covers:nth-child(2) {
 section .main-covers:nth-child(3) {
   background-image: url("/img/main-covers/mercedes-280-sl.jpg");
   animation-delay: 8s;
+}
+
+@include media-breakpoint-down(sm) {
+  section .main-covers:nth-child(1) {
+    background-image: url("/img/main-covers/porsche_911_targa_9.jpg");
+  }
+
+  section .main-covers:nth-child(2) {
+    background-image: url("/img/main-covers/bmw_m3_e46.jpg");
+  }
+
+  section .main-covers:nth-child(3) {
+    background-image: url("/img/main-covers/mercedes-280-sl.jpg");
+  }
 }
 
 #main-title-section {
