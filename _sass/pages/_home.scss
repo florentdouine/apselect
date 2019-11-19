@@ -29,21 +29,21 @@ section .main-covers:nth-child(3) {
 
 @include media-breakpoint-down(sm) {
   section .main-covers:nth-child(1) {
-    background-image: url("/img/main-covers/porsche_911_targa_9.jpg");
+    background-image: url("/img/main-covers/mobile/Porsche_911_Turbo_S.jpg");
   }
 
   section .main-covers:nth-child(2) {
-    background-image: url("/img/main-covers/bmw_m3_e46.jpg");
+    background-image: url("/img/main-covers/mobile/BMW_M3_E30_MULTI.jpg");
   }
 
   section .main-covers:nth-child(3) {
-    background-image: url("/img/main-covers/mercedes-280-sl.jpg");
+    background-image: url("/img/main-covers/mobile/Interieur_Maserati_Gran_turismo.jpg");
   }
 }
 
 #main-title-section {
   text-align: center;
-  background-color: rgba(240, 240, 240, 0.7);
+  background-color: rgba(240, 240, 240, 0.8);
   padding: 15px 0px;
   position: absolute;
   bottom: 0px;

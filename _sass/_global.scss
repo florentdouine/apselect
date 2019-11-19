@@ -106,6 +106,13 @@ p {
   text-align: center;
 }
 
+@include media-breakpoint-down(md) {
+  p {
+    font-size: $font-size-body-sm;
+  }
+}
+
+
 li {
   line-height: normal;
 }
