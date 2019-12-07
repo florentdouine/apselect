@@ -17,8 +17,13 @@
   padding: 0 !important;
 }
 
-.light-background-section p, .light-background-section h1, .light-background-section h2, .light-background-section span, .light-background-section blockquote {
+.light-background-section p, .light-background-section h1, .light-background-section h2, .light-background-section h3, .light-background-section h4,
+.light-background-section span, .light-background-section blockquote, .light-background-section a:hover, .light-background-section a:active {
   color: $dark-gray;
+}
+
+.light-background-section a {
+  color: $main-color;
 }
 
 #container section:first-child {

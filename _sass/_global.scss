@@ -31,14 +31,17 @@ h2{
 
 h3 {
   font-size: $font-size-large-title;
+  color: white;
 }
 
 h4 {
   font-size: $font-size-middle-title;
+  color: white;
 }
 
 h5 {
   font-size: $font-size-body;
+  color: white;
 }
 
 @include media-breakpoint-down(md) {
@@ -71,12 +74,12 @@ h1::after{
 }
 
 a {
-  color: $main-color;
+  color: $extra-light-gray;
+  text-decoration: none !important;
 }
 
-a:hover, a:active {
-  color: $dark-gray;
-  text-decoration: none;
+a:hover {
+  color: white;
 }
 
 a.button{
@@ -221,8 +224,16 @@ footer {
 }
 
 .btn:hover {
-  color: white;
   background-color: $light-gray !important;
+}
+
+.btn-inverse {
+  background-color: $light-gray !important;
+}
+
+.btn-inverse:hover {
+  background-color: $main-color !important;
+  color: white;
 }
 
 .btn-big {
