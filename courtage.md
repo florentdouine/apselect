@@ -1,11 +1,11 @@
 ---
-layout: services
-menu: mainDisabled
+layout: courtage
+menu: main
 order: 2
-menu-title: Services
+menu-title: Courtage
 sitemap: false
-title: Service
-description: "Service"
+title: Courtage de voitures
+description: ""
 
 #SEO
 meta-title: title for this page

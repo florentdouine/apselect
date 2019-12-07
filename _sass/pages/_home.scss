@@ -13,9 +13,9 @@
 }
 
 section .main-covers:nth-child(1) {
-   background-image: url("/img/main-covers/porsche-911-singer-orange.png");
-   opacity: 1;
- }
+  background-image: url("/img/main-covers/porsche-911-singer-orange.jpg");
+  opacity: 1;
+}
 
 section .main-covers:nth-child(2) {
   background-image: url("/img/main-covers/bmw_m3_e46.jpg");
@@ -27,9 +27,23 @@ section .main-covers:nth-child(3) {
   animation-delay: 8s;
 }
 
+@include media-breakpoint-down(sm) {
+  section .main-covers:nth-child(1) {
+    background-image: url("/img/main-covers/mobile/Porsche_911_Turbo_S.jpg");
+  }
+
+  section .main-covers:nth-child(2) {
+    background-image: url("/img/main-covers/mobile/BMW_M3_E30_MULTI.jpg");
+  }
+
+  section .main-covers:nth-child(3) {
+    background-image: url("/img/main-covers/mobile/classic-black-car-mercedes.jpg");
+  }
+}
+
 #main-title-section {
   text-align: center;
-  background-color: rgba(240, 240, 240, 0.7);
+  background-color: rgba(240, 240, 240, 0.8);
   padding: 15px 0px;
   position: absolute;
   bottom: 0px;
@@ -93,12 +107,12 @@ section .main-covers:nth-child(3) {
     padding: 30px 0px;
   }
 
-  #logo {
+  #header-slider #logo {
     animation: invertAnimation 12s linear infinite 0s;
     animation-delay: 8s;
   }
 
-  nav li {
+  #header-slider nav li {
     animation: colorAnimation 12s linear infinite 0s;
     animation-delay: 8s;
   }

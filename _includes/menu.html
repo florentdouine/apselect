@@ -1,6 +1,8 @@
 <div class="row" id="menu">
 <div id="logo" class="col">
-    <img class="img-fluid" src="{{ '/img/logo-small.png' | prepend: site.baseurl }}"/><br/>
+    <a href="{{ site.baseurl }}/">
+        <img class="img-fluid" src="{{ '/img/logo-small.png' | prepend: site.baseurl }}"/><br/>
+    </a>
 </div>
 
 
@@ -11,18 +13,19 @@
             <a href="javascript:toggleMenu()"><i class="fa fa-bars"></i> Menu</a>
         </li>
         <!--
-        { % for the_page in main_pages % }
+        {% for the_page in main_pages %}
         <li {% if the_page.order == page.order %}class="active"{% endif %}>
             <a href="{{ the_page.url | prepend: site.baseurl }}" title="{{ the_page.title }}" {% if the_page.order == page.order %}class="active"{% endif %}>
                 {{ the_page.menu-title }}
             </a>
         </li>
-        { % endfor % }
+        {% endfor %}
         -->
 
         <li> <a href="/" title="Chasseur de voitures Youngtimers" class="active"> Accueil </a> </li>
         <li> <a href="javascript:goToPageAnchor('#services')" title="Chasseur de voitures Youngtimers"> Services </a> </li>
         <li> <a href="javascript:goToPageAnchor('#contact')" title="Chasseur de voitures Youngtimers"> Contact </a> </li> </ul>
+
     </ul>
 </nav>
 </div>
