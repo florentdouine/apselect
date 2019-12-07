@@ -12,6 +12,7 @@
         <li class="d-md-none">
             <a href="javascript:toggleMenu()"><i class="fa fa-bars"></i> Menu</a>
         </li>
+        <!--
         {% for the_page in main_pages %}
         <li {% if the_page.order == page.order %}class="active"{% endif %}>
             <a href="{{ the_page.url | prepend: site.baseurl }}" title="{{ the_page.title }}" {% if the_page.order == page.order %}class="active"{% endif %}>
@@ -19,13 +20,11 @@
             </a>
         </li>
         {% endfor %}
+        -->
 
-        <!--
         <li> <a href="/" title="Chasseur de voitures Youngtimers" class="active"> Accueil </a> </li>
-        <li> <a href="{{ site.baseurl }}{% link courtage.md %}" title="Chasseur de voitures Youngtimers"> Courtage </a> </li>
         <li> <a href="javascript:goToPageAnchor('#services')" title="Chasseur de voitures Youngtimers"> Services </a> </li>
         <li> <a href="javascript:goToPageAnchor('#contact')" title="Chasseur de voitures Youngtimers"> Contact </a> </li> </ul>
-        -->
 
     </ul>
 </nav>
