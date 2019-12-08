@@ -27,8 +27,15 @@
 }
 
 #container section:first-child {
-  margin-top: 101px;
+  margin-top: 61px;
   padding-top: 0px;
+}
+
+@include media-breakpoint-up(md) {
+  #container section:first-child {
+    margin-top: 101px;
+  }
+
 }
 
 @for $i from 1 through length($background-section-colors) {

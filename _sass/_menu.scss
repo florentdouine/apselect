@@ -5,7 +5,7 @@ header {
   z-index: 100;
   width: 100%;
   top: 0px;
-  background-color: rgb(235, 235, 235);
+  background-color: #CBCBCB;
 }
 
 #header-slider {
@@ -81,7 +81,7 @@ nav li.active + li::before {
   }
 
   #header-slider {
-    background-color: rgb(235, 235, 235) !important;
+    background-color: rgb(205, 205, 205) !important;
   }
 
   nav.col-auto.closed {

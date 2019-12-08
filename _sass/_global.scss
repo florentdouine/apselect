@@ -237,5 +237,11 @@ footer {
 }
 
 .btn-big {
-  font-size: $font-size-big-button;
+  font-size: $font-size-medium-button;
+}
+
+@include media-breakpoint-up(md) {
+  .btn-big {
+    font-size: $font-size-big-button;
+  }
 }

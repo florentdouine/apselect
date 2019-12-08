@@ -1,0 +1,10 @@
+#contact-page-container {
+  padding-bottom: 40px;
+}
+
+@include media-breakpoint-down(md) {
+  #contact-page-container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
