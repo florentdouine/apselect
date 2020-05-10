@@ -4,11 +4,12 @@
 	<title>APSelect | amCharts</title>
 	<meta name="description" content="chart created using amCharts live editor" />
 	<meta charset="utf-8">
-
+	
 	<!-- amCharts javascript sources -->
 	<script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
 	<script type="text/javascript" src="https://www.amcharts.com/lib/3/serial.js"></script>
 	<script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/black.js"></script>
+
 
 	<!-- amCharts javascript code -->
 	<script type="text/javascript">
@@ -27,30 +28,31 @@
 					"trendLines": [],
 					"graphs": [
 						{
-							"balloonText": "[[category]] :  [[value]] membres",
+							"balloonText": "[[category]] : [[value]]€",
 							"columnWidth": 0.63,
 							"cornerRadiusTop": 2,
 							"fillAlphas": 0.44,
 							"fillColors": "#C87E08",
+							"gapPeriod": 0,
 							"id": "AmGraph-3",
 							"lineAlpha": 1,
 							"lineColor": "#C87E08",
 							"lineThickness": 2,
 							"title": "graph 3",
 							"type": "column",
-							"valueAxis": "NBAXIS",
-							"valueField": "Nombre de clients"
+							"valueAxis": "TRESOAXIS",
+							"valueField": "Trésorerie"
 						},
 						{
-							"balloonText": "[[category]] - [[value]]€",
+							"balloonText": "[[category]] - [[value]] membres",
 							"columnWidth": 0,
 							"id": "AmGraph-4",
 							"lineAlpha": 1,
 							"lineColor": "#D3CA12",
 							"lineThickness": 3,
 							"title": "graph 4",
-							"valueAxis": "TRESOAXIS",
-							"valueField": "Trésorerie"
+							"valueAxis": "NBAXIS",
+							"valueField": "Nombre de clients"
 						}
 					],
 					"guides": [],
