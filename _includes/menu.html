@@ -1,0 +1,34 @@
+{% assign main_pages = site.pages | where:"menu", "main" | sort:"order" %}
+<nav class="closed">
+    <ul>
+        <li class="d-md-none">
+            <a href="javascript:toggleMenu()"><i class="fa fa-bars"></i> Menu</a>
+        </li>
+        
+        {% for the_page in main_pages %}
+        <li {% if the_page.order == page.order %}class="active"{% endif %}>
+            <a href="{{ the_page.url | prepend: site.baseurl }}" title="{{ the_page.title }}" {% if the_page.order == page.order %}class="active"{% endif %}>
+                {{ the_page.menu-title }}
+            </a>
+        </li>
+        {% endfor %}
+
+        <li class="active">
+            <a href="{{ "todo" | prepend: site.baseurl }}" title="{{ the_page.title }}">Accueil</a>
+            <a href="{{ "todo" | prepend: site.baseurl }}" title="{{ the_page.title }}">Courtage</a>
+            <a href="{{ "todo" | prepend: site.baseurl }}" title="{{ the_page.title }}">Services</a>
+            <a href="{{ "todo" | prepend: site.baseurl }}" title="{{ the_page.title }}">Contact</a>
+        </li>
+    </ul>
+</nav>
+
+<div id="logo">
+    <a href="{{ site.baseurl }}/">
+        <img class="img-fluid" src="{{ '/images/logo-apselect.svg' | prepend: site.baseurl }}"/><br/>
+    </a>
+</div>
+
+<ul id="socialicons">
+    <li><a class="fb" href="http://www.facebook.com/AutomobilePassionSelection" target="_blank"> <i class="fa fa-facebook"></i> </a> </li>
+    <li> <a class="twitter" href="https://www.instagram.com/ap.select/" target="_blank"> <i class="fa fa-instagram"></i> </a> </li>
+</ul>

@@ -1,0 +1,64 @@
+// GLOBAL STYLES
+html, body, a {
+  font-family: $font-family;
+  color: $color-content-reverse;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+}
+
+h1, h2, h3, h4 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: $font-family-secondary;
+  letter-spacing: 5px;
+}
+
+h3, h4 {
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: $font-size-title-1;
+}
+
+h2 {
+  font-size: $font-size-title-2;
+}
+
+h3 {
+  font-size: $font-size-title-3;
+}
+
+// @include media-breakpoint-down(md) {
+//   h3 {
+//     font-size: $font-size-large-title-sm;
+//   }
+
+//   h4 {
+//     font-size: $font-size-large-title-sm;
+//   }
+// }
+
+// @include media-breakpoint-up(md) {
+//   h1 {
+//     padding-left: 40px;
+//     padding-right: 40px;
+//   }
+// }
+
+strong {
+  font-weight: $font-weight-bold;
+}
+
+img {
+  max-width: 100%;
+}
