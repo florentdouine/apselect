@@ -1,36 +1,74 @@
 // Menu styling
 
 header {
-  display: flex;
-  justify-content: space-between;
   position: fixed;
   z-index: 100;
   width: 100%;
   top: 0px;
-  font-size: $font-size-subhead;
-  text-transform: uppercase;
+  padding: 26px 45px 0px 45px;
+  display: flex;
+  align-items: center;
+  @include text-style-subhead;
 }
 
-// nav.col-auto {
-//   overflow: hidden;
-//   -webkit-transition: height 0.3s;
-//   transition: height 0.3s;
-//   float: right;
-//   padding: 30px;
-// }
-
-header ul {
-  padding: 0;
-  margin: 0;
+nav, #right-menu {
+  display: flex;
+  flex: 1;
+  min-width: -webkit-min-content; /* Workaround to Chrome bug */
 }
 
-header li {
-  list-style-type: none;
+#right-menu {
+  justify-content: flex-end;
+}
+
+#logo {
   text-align: center;
 }
 
-header ul {
+nav ul {
   display: flex;
+}
+
+nav li {
+  margin-right: 40px;
+  list-style-type: none;
+}
+
+nav li::after {
+  content: "";
+  height: 0px;
+  opacity: 0;
+  display: block;
+  position: relative;
+  top: -40%;
+  left: 5px;
+  z-index: -99;
+  background-color: $color-accent-main;
+}
+
+nav li.active::after, nav li:hover::after {
+  opacity: 1;
+  height: 12px;
+  transition: all 0.3s ease-out;
+}
+
+#right-menu {
+  display: flex;
+}
+
+#right-menu ul {
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+}
+
+#right-menu ul li {
+  list-style-type: none;
+  margin-right: 24px;
+}
+
+#right-menu a {
+  align-self: center;
 }
 
 // nav li:last-child {

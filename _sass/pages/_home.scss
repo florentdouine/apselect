@@ -1,0 +1,60 @@
+#main-cover-container {
+    height: calc(100vh);
+}
+
+#main-cover {
+    background-image: url('/images/main-screen-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+}
+
+#main-title {
+    width: 700px;
+    margin: auto;
+}
+
+#main-title h1:first-child {
+    text-align: left;
+}
+#main-title h1:nth-child(2) {
+    text-align: right;
+    margin-top: 10px;
+}
+#main-title h4 {
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+.main-arrow-link {
+    text-transform: uppercase;
+    font-size: $font-size-subhead;
+    font-weight: $font-weight-bold;
+    letter-spacing: 2px;
+    transform: rotate(90deg);
+    position: absolute;
+    left: calc(50% - 86px);
+    bottom: 120px;
+}
+
+.main-arrow-link::after {
+    content: "";
+    width: 75px;
+    height: 11px;
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    background-image: url("/images/arrow-white-long.png");
+    animation: bounce 1s linear infinite 0s
+  }
+
+  @keyframes bounce {
+    0% { left: 10px; }
+    50% { left: 30px; }
+    100% { left: 10px; }
+  }

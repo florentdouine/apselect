@@ -1,4 +1,5 @@
 {% assign main_pages = site.pages | where:"menu", "main" | sort:"order" %}
+
 <nav class="closed">
     <ul>
         <li class="d-md-none">
@@ -13,22 +14,25 @@
         </li>
         {% endfor %}
 
-        <li class="active">
-            <a href="{{ "todo" | prepend: site.baseurl }}" title="{{ the_page.title }}">Accueil</a>
-            <a href="{{ "todo" | prepend: site.baseurl }}" title="{{ the_page.title }}">Courtage</a>
-            <a href="{{ "todo" | prepend: site.baseurl }}" title="{{ the_page.title }}">Services</a>
-            <a href="{{ "todo" | prepend: site.baseurl }}" title="{{ the_page.title }}">Contact</a>
-        </li>
+        <li class="active"><a href="{{ "todo" | prepend: site.baseurl }}" title="{{ the_page.title }}">Accueil</a></li>
+        <li><a href="{{ "todo" | prepend: site.baseurl }}" title="{{ the_page.title }}">Le Club</a></li>
+        <li><a href="{{ "todo" | prepend: site.baseurl }}" title="{{ the_page.title }}">Courtage</a></li>
+        <li><a href="{{ "todo" | prepend: site.baseurl }}" title="{{ the_page.title }}">Services</a></li>
+        
     </ul>
 </nav>
 
-<div id="logo">
+<div id="logo" > 
     <a href="{{ site.baseurl }}/">
-        <img class="img-fluid" src="{{ '/images/logo-apselect.svg' | prepend: site.baseurl }}"/><br/>
+        <img class="img-fluid" src="{{ '/images/logo-apselect.png' | prepend: site.baseurl }}" width="185"/><br/>    
     </a>
 </div>
 
-<ul id="socialicons">
-    <li><a class="fb" href="http://www.facebook.com/AutomobilePassionSelection" target="_blank"> <i class="fa fa-facebook"></i> </a> </li>
-    <li> <a class="twitter" href="https://www.instagram.com/ap.select/" target="_blank"> <i class="fa fa-instagram"></i> </a> </li>
-</ul>
+<div id="right-menu">
+    <ul id="socialicons">
+        <li><a class="facebook" href="http://www.facebook.com/AutomobilePassionSelection" target="_blank"> <i class="fa fa-facebook"></i> </a> </li>
+        <li> <a class="instagram" href="https://www.instagram.com/ap.select/" target="_blank"> <i class="fa fa-instagram"></i> </a> </li>
+        <li> <a class="linkedin" href="https://www.linkedin.com/company/ap-select-courtage/" target="_blank"> <i class="fa fa-linkedin"></i> </a> </li>
+    </ul>
+    <a class="button button-reversed button-arrowed">Contact</a>
+</div>

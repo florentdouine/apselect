@@ -20,5 +20,47 @@ $font-weight-bold: 700;
 $font-size-title-1: 90px;
 $font-size-title-2: 48px;
 $font-size-title-3: 36px;
-$font-size-body: 24px;
+$font-size-body: 20px;
 $font-size-subhead: 15px;
+
+@mixin text-style-title-1 {
+    font-size: $font-size-title-1;
+    font-weight: $font-weight-bold;
+    font-family: $font-family-secondary;
+    letter-spacing: 18px;
+    text-transform: uppercase;
+}
+
+@mixin text-style-title-2 {
+    font-size: $font-size-title-2;
+    font-weight: $font-weight-bold;
+    font-family: $font-family-secondary;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+@mixin text-style-title-3 {
+    font-size: $font-size-title-3;
+    font-weight: $font-weight-bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+@mixin text-style-title-4 {
+    font-size: $font-size-body;
+    font-weight: $font-weight-bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+@mixin text-style-subhead {
+    font-size: $font-size-subhead;
+    font-weight: $font-weight-bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+@mixin text-style-body {
+    font-size: $font-size-body;
+    font-weight: $font-weight-normal;
+}

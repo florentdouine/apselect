@@ -1,41 +1,37 @@
 // GLOBAL STYLES
-html, body, a {
+html, body {
   font-family: $font-family;
   color: $color-content-reverse;
+  @include text-style-body;
 }
 
 a {
+  color: inherit;
   text-decoration: none;
+}
+
+p {
+  line-height: 38px;
 }
 
 body {
   background-color: black;
 }
 
-h1, h2, h3, h4 {
-  text-transform: uppercase;
-  text-align: center;
-}
-
-h1, h2 {
-  font-family: $font-family-secondary;
-  letter-spacing: 5px;
-}
-
-h3, h4 {
-  letter-spacing: 2px;
-}
-
 h1 {
-  font-size: $font-size-title-1;
+  @include text-style-title-1;
 }
 
 h2 {
-  font-size: $font-size-title-2;
+  @include text-style-title-2;
 }
 
 h3 {
-  font-size: $font-size-title-3;
+  @include text-style-title-3;
+}
+
+h4 {
+  @include text-style-title-4;
 }
 
 // @include media-breakpoint-down(md) {
@@ -61,4 +57,37 @@ strong {
 
 img {
   max-width: 100%;
+}
+
+.button {
+  padding: 20px 64px 20px 100px;
+  line-height: 15px;
+  border: solid 2px $color-content-reverse;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.button.button-arrowed:hover::after {
+  left: 25px;
+}
+
+.button.button-arrowed:hover {
+  background-color: $color-accent-main;
+  border-color: transparent;
+}
+
+.button.button-arrowed::after {
+  content: "";
+  width: 35px;
+  height: 12px;
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  background-image: url("/images/arrow-white.png");
+  transition: all 0.3s ease 0s;
+}
+
+.bordered-letters {
+  -webkit-text-stroke: 1px #ffffff;
+  color: transparent;
 }
