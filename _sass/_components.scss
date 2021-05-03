@@ -1,0 +1,84 @@
+
+.button {
+    padding: 20px 64px 20px 100px;
+    line-height: 15px;
+    border: solid 2px $color-content-reverse;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .button.button-arrowed:hover::after {
+    left: 25px;
+  }
+  
+  .button.button-arrowed:hover {
+    background-color: $color-accent-main;
+    border-color: transparent;
+  }
+  
+  .button.button-arrowed::after {
+    content: "";
+    width: 35px;
+    height: 12px;
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    background-image: url("/images/arrow-white.png");
+    transition: all 0.3s ease 0s;
+  }
+  
+  .bordered-letters {
+    -webkit-text-stroke: 1px #ffffff;
+    color: transparent;
+  }
+
+  .cmp-vertical-bands {
+      display: flex;
+      height: 100%;
+      z-index: 1;
+  }
+
+  .cmp-vertical-band {
+    display: inline-block;
+    height: 100%;
+    background-color: $color-accent-main;
+    width: 105px;
+    margin-right: 66px;
+}
+
+.cmp-horizontal-line {
+    width: 44px;
+    height: 4px;
+    display: block;
+    background-color: $color-accent-main;
+    margin-top: 36px;
+}
+
+.cmp-horizontal-line-secondary {
+    width: 22px;
+    height: 2px;
+    display: block;
+    background-color: $color-accent-secondary;
+    margin: 13px auto;
+}
+
+.cmp-number-watermark {
+    position: absolute;
+    font-size: 192px;
+    font-weight: bold;
+    opacity: 0.3;
+    top: -50%;
+    right: 80%;
+    z-index: 10;
+    @extend .bordered-letters;
+}
+
+.cmp-backgrounded-image {
+    background-size: 100% 1000px;
+    background-repeat: no-repeat;
+}
+
+.cmp-backgrounded-image-shadow {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+}

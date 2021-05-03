@@ -57,37 +57,5 @@ strong {
 
 img {
   max-width: 100%;
-}
-
-.button {
-  padding: 20px 64px 20px 100px;
-  line-height: 15px;
-  border: solid 2px $color-content-reverse;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-}
-
-.button.button-arrowed:hover::after {
-  left: 25px;
-}
-
-.button.button-arrowed:hover {
-  background-color: $color-accent-main;
-  border-color: transparent;
-}
-
-.button.button-arrowed::after {
-  content: "";
-  width: 35px;
-  height: 12px;
-  display: inline-block;
-  position: relative;
-  left: 10px;
-  background-image: url("/images/arrow-white.png");
-  transition: all 0.3s ease 0s;
-}
-
-.bordered-letters {
-  -webkit-text-stroke: 1px #ffffff;
-  color: transparent;
+  object-fit: contain;
 }

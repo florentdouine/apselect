@@ -58,3 +58,34 @@
     50% { left: 30px; }
     100% { left: 10px; }
   }
+
+  #main-concept {
+      height: 520px;
+      max-height: calc(100vh);
+  }
+
+#main-presentation-illustration {
+    height: 800px;
+    width: calc(100vw - 120px);
+    background-position: top;
+    background-size: cover;
+    margin: 0 60px;
+}
+
+#main-presentation-description {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+#main-presentation-description h2:first-child {
+    margin: 120px 0px 20px 0px;
+}
+#main-presentation-description h2:nth-child(2) {
+    margin-bottom: 90px;
+}
+
+#main-presentation-description p {
+    max-width: 450px;
+    margin: auto;
+}
