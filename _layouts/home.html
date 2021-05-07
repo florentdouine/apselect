@@ -5,8 +5,8 @@ layout: skeleton
 <section id="main-cover-container">
     <div id="main-cover">
         <div id="main-title">
-            <h1 class="bordered-letters">Courtage</h1>
-            <h1>Automobile</h1>
+            <h1 class="bordered-letters anim-left-apparition">Courtage</h1>
+            <h1 class="anim-right-apparition">Automobile</h1>
             <h4>Sport & Vintage cars</h4>
         </div>
         <a onclick="todo();" class="main-arrow-link">En route</a>
@@ -16,8 +16,10 @@ layout: skeleton
 <section id="main-concept" class="row flex-md-row-reverse">
     <div class="col-md-2"></div>
     <div class="col-md-5 align-self-center">
-        <span class="cmp-number-watermark">69.3</span>
-        <h3>Le concept</h3>
+        <div>
+            <span class="cmp-number-watermark anim-parallax">69.3</span>
+            <h3>Le concept</h3>
+        </div>
         <span class="cmp-horizontal-line"></span>
         <p>Courtage sur mesure et Conciergerie de véhicules Sport et Vintage</p>
     </div>
@@ -26,23 +28,79 @@ layout: skeleton
     </div>
 </section>
 
-<section class="" id="main-presentation">
-    <div class="cmp-backgrounded-image" style="background-image: url('/images/img-section-2.jpg');">
-        <div class="cmp-backgrounded-image-shadow">
-            <div id="main-presentation-illustration"  style="background-image: url('/images/img-section-2.jpg');"></div>
-            <div id="main-presentation-description" class="anim-bottom-apparition">
-                <h2 class="bordered-letters anim-bottom-apparition">Prenez le volant,</h2>
-                <h2 class="anim-bottom-apparition">AP SELect s'occupe du reste</h2>
-                <p class="anim-bottom-apparition">
-                    <span class="cmp-horizontal-line-secondary"></span>
-                    Des solutions de <strong>courtages et conciergerie</strong> automobile sur mesure
-                    <span class="cmp-horizontal-line-secondary"></span>
-                    <strong>Un expert dédié</strong> vous accompagne dans la recherche et la sélection de votre véhicule
-                    <span class="cmp-horizontal-line-secondary"></span>
-                    Conjuguez <strong>passion et investissement</strong>
-                </p>
-            </div>
+<section id="main-presentation">
+    <div class="cmp-backgrounded-image" style="background-image: url('/images/img-bg-section-2.jpg');">
+        <div id="main-presentation-illustration"  style="background-image: url('/images/img-section-2.jpg');"></div>
+        <div id="main-presentation-description" class="anim-bottom-apparition">
+            <h2 class="bordered-letters anim-bottom-apparition">Prenez le volant,</h2>
+            <h2 class="anim-bottom-apparition">AP SELect s'occupe du reste</h2>
+            <p class="anim-bottom-apparition">
+                <span class="cmp-horizontal-line-secondary"></span>
+                Des solutions de <strong>courtages et conciergerie</strong> automobile sur mesure
+                <span class="cmp-horizontal-line-secondary"></span>
+                <strong>Un expert dédié</strong> vous accompagne dans la recherche et la sélection de votre véhicule
+                <span class="cmp-horizontal-line-secondary"></span>
+                Conjuguez <strong>passion et investissement</strong>
+            </p>
         </div>
+    </div>
+</section>
+
+<section class="anim-background-inversion section-light" id="main-brokerage">
+    <div class="row">
+        <div class="offset-md-3 col-md-6">
+            <div>
+                <span class="cmp-number-watermark-secondary">01</span>
+                <h3 class="shadow-secondary">Votre courtage</h3>
+            </div>
+            <p id="main-brokerage-description">
+                Quelle que soit la raison de votre projet d’achat, AP Select choisit soigneusement des véhicules chez des partenaires de confiance et vous accompagne tout au long de ce processus : Négociation, administration, livraison, etc.
+            </p>
+        </div>
+    </div>
+    <div id="main-brokerage-types-container" class="row">
+        <div class="main-brokerage-type offset-md-1-5 col-md-3">
+            <img src="images/home/courtage_passion.jpg"
+            srcset="images/home/courtage_passion@2x.jpg 2x,
+                images/home/courtage_passion@3x.jpg 3x" />
+            <span class="cmp-horizontal-line-secondary"></span>
+            <h4>Passion</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="main-brokerage-type col-md-3">
+            <img src="images/home/courtage_entreprise.jpg"
+            srcset="images/home/courtage_entreprise@2x.jpg 2x,
+                images/home/courtage_entreprise@3x.jpg 3x" />
+            <span class="cmp-horizontal-line-secondary"></span>
+            <h4>Entreprise</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a class="link-arrowed">En savoir plus</a>
+        </div>
+        <div class="main-brokerage-type col-md-3">
+            <img src="images/home/courtage_patrimoine.jpg"
+            srcset="images/home/courtage_patrimoine@2x.jpg 2x,
+                images/home/courtage_patrimoine@3x.jpg 3x" />
+            <span class="cmp-horizontal-line-secondary"></span>
+            <h4>Patrimoine</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </div>
+</section>
+
+<section class="row flex-md-row-reverse" id="main-resale">
+    <div class="col-md-6" id="main-resale-illustration">
+        <img src="/images/home/car-revente.png"/>
+    </div>
+    <div class="col-md-6" id="main-resale-details">
+        <div id="main-resale-tile">
+            <span class="cmp-number-watermark">02</span>
+            <h3 class="shadow-secondary">Revendre son véhicule</h3>
+        </div>
+        <p id="main-resale-description">
+            Les avantages de passer par AP Select - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        </p>
+
+        <a class="button button-arrowed button-accented">En savoir plus</a>
     </div>
 </section>
 

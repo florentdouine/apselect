@@ -1,19 +1,12 @@
-
 .button {
     padding: 20px 64px 20px 100px;
     line-height: 15px;
-    border: solid 2px $color-content-reverse;
     cursor: pointer;
     transition: all 0.3s ease 0s;
   }
   
   .button.button-arrowed:hover::after {
     left: 25px;
-  }
-  
-  .button.button-arrowed:hover {
-    background-color: $color-accent-main;
-    border-color: transparent;
   }
   
   .button.button-arrowed::after {
@@ -26,9 +19,42 @@
     background-image: url("/images/arrow-white.png");
     transition: all 0.3s ease 0s;
   }
+
+  .button.button-accented {
+    background-color: $color-accent-main
+  }
+
+  .button.button-secondary {
+    border: solid 2px $color-content-reverse;
+  }
+
+  .button.button-secondary:hover {
+    background-color: $color-accent-main;
+    border-color: transparent;
+  }
+
+  a.link-arrowed {
+    @include text-style-subhead;
+    //@extend .shadow-secondary;
+  }
+
+  a.link-arrowed:hover::after {
+    left: 25px;
+  }
+  
+  a.link-arrowed::after {
+    content: "";
+    width: 35px;
+    height: 8px;
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    background-image: url("/images/arrow-wheat.png");
+    transition: all 0.3s ease 0s;
+  }
   
   .bordered-letters {
-    -webkit-text-stroke: 1px #ffffff;
+    -webkit-text-stroke: 1px $color-content-reverse;
     color: transparent;
   }
 
@@ -62,23 +88,23 @@
     margin: 13px auto;
 }
 
-.cmp-number-watermark {
+.cmp-number-watermark,
+.cmp-number-watermark-secondary {
     position: absolute;
     font-size: 192px;
     font-weight: bold;
     opacity: 0.3;
     top: -50%;
-    right: 80%;
+    right: 60%;
     z-index: 10;
     @extend .bordered-letters;
 }
 
-.cmp-backgrounded-image {
-    background-size: 100% 1000px;
-    background-repeat: no-repeat;
+.cmp-number-watermark-secondary {
+  -webkit-text-stroke: 1px $color-content-light;
 }
 
-.cmp-backgrounded-image-shadow {
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 100%;
+.cmp-backgrounded-image {
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
 }

@@ -1,6 +1,7 @@
 // Variables
 $color-accent-main: #1426AE;
 $color-accent-secondary: #c7b9a2;
+$color-accent-secondary-alpha: #c7b9a231;
 
 $color-content-main: #636262;
 $color-content-medium: #464646;
@@ -20,7 +21,8 @@ $font-weight-bold: 700;
 $font-size-title-1: 90px;
 $font-size-title-2: 48px;
 $font-size-title-3: 36px;
-$font-size-body: 20px;
+$font-size-body-highlighted: 20px;
+$font-size-body: 16px;
 $font-size-subhead: 15px;
 
 @mixin text-style-title-1 {

@@ -34,19 +34,39 @@ nav li {
   list-style-type: none;
 }
 
-nav li::after {
+.shadow-accented,
+.shadow-secondary {
+  z-index: 10;
+  position: relative;
+}
+
+.shadow-accented::after,
+.shadow-secondary::after {
   content: "";
   height: 0px;
   opacity: 0;
   display: block;
   position: relative;
-  top: -40%;
-  left: 5px;
-  z-index: -99;
+  top: -30%;
+  left: 1%;
+  z-index: 1;
+}
+
+.shadow-accented::after {
   background-color: $color-accent-main;
 }
 
-nav li.active::after, nav li:hover::after {
+.shadow-secondary::after {
+  background-color: $color-accent-secondary-alpha;
+}
+
+.shadow-accented:not(a)::after,
+a.shadow-accented.active::after, 
+a.shadow-accented:hover::after,
+
+.shadow-secondary:not(a)::after,
+a.shadow-secondary.active::after, 
+a.shadow-secondary:hover::after {
   opacity: 1;
   height: 12px;
   transition: all 0.3s ease-out;
