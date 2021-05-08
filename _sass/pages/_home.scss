@@ -116,7 +116,7 @@
 }
 
 #main-brokerage h3 {
-    padding-bottom: 62px;
+    margin-bottom: 62px;
     display: inline-block;
 }
 
@@ -126,9 +126,14 @@
     margin-bottom: 200px;
 }
 
+#main-resale {
+    padding-bottom: 200px;
+}
+
 #main-resale-details {
     background-color: black;
-    padding: 400px 10% 0px 10%;
+    display: flex;
+    align-items: center;
 }
 
 #main-resale-description {
@@ -137,14 +142,17 @@
 
 #main-resale-illustration {
     background-image: url('/images/home/img-bg-revente.jpg');
-    background-color: black;
-    background-size: cover;
-    background-position: left;
-    width: 100%;
-    height: 1080px;
-    display: flex;
 }
 
-#main-resale-tile {
-    position: relative;
+#main-resale-illustration img {
+    position: absolute;
+    bottom: -140px;
+    left: -20%;
+    z-index: 10;
+    max-width: none;
+}
+
+#main-detailing-illustration {
+    display: flex;
+    flex-direction: row-reverse;
 }

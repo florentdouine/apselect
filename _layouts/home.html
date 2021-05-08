@@ -74,7 +74,7 @@ layout: skeleton
             <span class="cmp-horizontal-line-secondary"></span>
             <h4>Entreprise</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a class="link-arrowed">En savoir plus</a>
+            <a class="link-arrowed shadow-secondary active">En savoir plus</a>
         </div>
         <div class="main-brokerage-type col-md-3">
             <img src="images/home/courtage_patrimoine.jpg"
@@ -88,20 +88,35 @@ layout: skeleton
 </section>
 
 <section class="row flex-md-row-reverse" id="main-resale">
-    <div class="col-md-6" id="main-resale-illustration">
+    <div class="col-md-6 section-col-backgrounded" id="main-resale-illustration">
         <img src="/images/home/car-revente.png"/>
     </div>
-    <div class="col-md-6" id="main-resale-details">
-        <div id="main-resale-tile">
-            <span class="cmp-number-watermark">02</span>
-            <h3 class="shadow-secondary">Revendre son véhicule</h3>
-        </div>
-        <p id="main-resale-description">
-            Les avantages de passer par AP Select - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        </p>
+    {% include section/section-col-detailed.html
+        watermark="02"
+        title="revendre son véhicule"
+        text="Les avantages de passer par AP Select - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        link="en savoir plus"
+        url="todo"
+        theme="dark"
+        %}
 
-        <a class="button button-arrowed button-accented">En savoir plus</a>
-    </div>
 </section>
+
+<section class="row" id="main-detailing">
+
+    <div class="col-md-6" id="main-detailing-illustration">
+        <img src="images/home/detailing.jpg" srcset="images/home/detailing@2x.jpg 2x, images/home/detailing@3x.jpg 3x">
+    </div>
+    {% include section/section-col-detailed.html
+        watermark="03"
+        title="La conciergerie et le detailing"
+        text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        link="en savoir plus"
+        url="todo"
+        theme="light"
+        %}
+</section>
+
+
 
 

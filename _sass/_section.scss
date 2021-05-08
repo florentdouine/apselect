@@ -1,7 +1,43 @@
-.section-light {
+.section-light, .section-col-light {
     color: $color-content-dark;
 }
 
-.section-light p {
+.section-light p, .section-col-light p {
     color: $color-content-medium;
+}
+
+.section-col-backgrounded {
+    background-color: black;
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.section-col-detailed {
+    display: flex;
+    position: relative;
+}
+
+.section-col-dark {
+    background-color: black;
+}
+
+.section-col-light {
+    background-color: white;
+}
+
+.section-col-detailed p {
+    margin: 80px 0px 60px 0px;
+}
+
+.section-col-detailed h3 {
+    display: inline;
+}
+
+.section-col-detailed-container {
+    align-self: center;
+    padding: 0px 15% 0px 15%;
+    position: relative;
 }

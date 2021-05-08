@@ -3,6 +3,7 @@
     line-height: 15px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    text-transform: uppercase;
   }
   
   .button.button-arrowed:hover::after {
@@ -94,8 +95,7 @@
     font-size: 192px;
     font-weight: bold;
     opacity: 0.3;
-    top: -50%;
-    right: 60%;
+    top: -170px;
     z-index: 10;
     @extend .bordered-letters;
 }
@@ -107,4 +107,24 @@
 .cmp-backgrounded-image {
     background-position: 50% 0%;
     background-repeat: no-repeat;
+}
+
+.shadow-accented,
+.shadow-secondary {
+  background-position: 0px 100%;
+  background-repeat: repeat-x;
+  background-size: 100% 50%;
+  transition: all 0.3 ease-in-out;
+}
+
+.shadow-accented:not(a),
+a.shadow-accented.active, 
+a.shadow-accented:hover {
+  background-image: linear-gradient($color-accent-main, $color-accent-main);
+}
+
+.shadow-secondary:not(a),
+a.shadow-secondary.active,
+a.shadow-secondary:hover {
+  background-image: linear-gradient($color-accent-secondary-alpha, $color-accent-secondary-alpha);
 }

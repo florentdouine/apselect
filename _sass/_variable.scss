@@ -44,6 +44,7 @@ $font-size-subhead: 15px;
 @mixin text-style-title-3 {
     font-size: $font-size-title-3;
     font-weight: $font-weight-bold;
+    line-height: 48px;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
