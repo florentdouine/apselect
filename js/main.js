@@ -10,13 +10,33 @@ window.addEventListener('resize', function(event) {
 windowScreenChanged();
 
 function windowScreenChanged() {
+    configureFooterApparition()
+    animateBackgroundInversion();
+    animateHomeCarTranslation()
+}
+
+function animateBackgroundInversion() {
     document.querySelectorAll(".anim-background-inversion").forEach(function(element) {
         if(startToAppear(element)) {
-            document.getElementsByTagName("body")[0].style.backgroundColor = "white"
+            document.getElementById("container").style.backgroundColor = "white"
         } else {
-            document.getElementsByTagName("body")[0].style.backgroundColor = "black"
+            document.getElementById("container").style.backgroundColor = "black"
         }
     });
+}
+
+function configureFooterApparition(){
+    var footerHeight = document.getElementsByTagName("footer")[0].offsetHeight;
+    document.getElementById("container").style.marginBottom = footerHeight + "px";
+}
+
+function animateHomeCarTranslation() {
+    var carImg = document.getElementById("anim-car-translation");
+    
+    var start =  window.innerHeight - carImg.getBoundingClientRect().top;
+    var translate = Math.max(150 - (start/2), 0);
+
+    carImg.style = "transform: translateX("+translate+"px);"
 }
 
 // var startToBeVisible = elTop < window.innerHeight
@@ -24,8 +44,7 @@ function windowScreenChanged() {
 // var stopToBeVisible = elTop + elHeight < 0
 function startToAppear(el) {
     var elTop = el.getBoundingClientRect().top
-    console.log("elTop", elTop, "window.innerHeight", window.innerHeight)
-    return elTop < window.innerHeight
+     return elTop < window.innerHeight
 }
 
 function startToDisappear(el, margin) {
@@ -33,6 +52,14 @@ function startToDisappear(el, margin) {
     var elHeight = el.offsetHeight
 
     return elTop + elHeight < window.innerHeight * margin / 100
+}
+
+function scrollWindowHeight() {
+    window.scrollTo({
+        top: window.innerHeight,
+        left: 0,
+        behavior: 'smooth'
+    });
 }
 
 function toggleMenu() {
@@ -49,22 +76,28 @@ function setHeaderOpacity() {
     $("#header-slider").css("background-color", "rgba(235, 235, 235, "+alpha+")");
 }
 
+ScrollReveal().reveal('.anim-fadein-apparition', { 
+    opacity: 0,
+    duration: "1000",
+    easing: "ease-out"
+});
+
 ScrollReveal().reveal('.anim-left-apparition', { 
-    distance: '30px' ,
+    distance: '40px' ,
     origin: "left",
     duration: "1000",
     easing: "ease-out"
 });
 
 ScrollReveal().reveal('.anim-right-apparition', { 
-    distance: '30px',
+    distance: '40px',
     delay: 100,
     origin: "right",
     duration: "1000",
     easing: "ease-out"
 });
 
-ScrollReveal().reveal('.anim-bottom-apparition', { 
+ScrollReveal().reveal('.anim-fadein-bottom-apparition', { 
     distance: '15px',
     opacity: 0,
     origin: "bottom",
@@ -72,6 +105,18 @@ ScrollReveal().reveal('.anim-bottom-apparition', {
     easing: "linear"
 });
 
+ScrollReveal().reveal('.anim-bottom-apparition', { 
+    distance: '40px',
+    opacity: 0.4,
+    origin: "bottom",
+    duration: "600",
+    easing: "linear"
+});
+
 var rellax = new Rellax('.anim-parallax', {
+    speed: 1,
+});
+
+var rellax = new Rellax('.anim-parallax-2', {
     speed: 1,
 });

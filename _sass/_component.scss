@@ -23,7 +23,7 @@
   }
 
   .button.button-accented {
-    background-color: $color-accent-main
+    background-color: $color-accent-main;
   }
 
   .button.button-secondary {
@@ -37,7 +37,6 @@
 
   a.link-arrowed {
     @include text-style-subhead;
-    //@extend .shadow-secondary;
   }
 
   a.link-arrowed:hover::after {
@@ -96,7 +95,7 @@
     font-size: 192px;
     font-weight: bold;
     opacity: 0.3;
-    top: -170px;
+    top: -100px;
     z-index: 10;
     @extend .bordered-letters;
 }
@@ -111,7 +110,8 @@
 }
 
 .shadow-accented,
-.shadow-secondary {
+.shadow-secondary,
+.shadow-reverse {
   background-position: 0px 100%;
   background-repeat: repeat-x;
   background-size: 100% 50%;
@@ -128,4 +128,10 @@ a.shadow-accented:hover {
 a.shadow-secondary.active,
 a.shadow-secondary:hover {
   background-image: linear-gradient($color-accent-secondary-alpha, $color-accent-secondary-alpha);
+}
+
+.shadow-reverse:not(a),
+a.shadow-reverse.active,
+a.shadow-reverse:hover {
+  background-image: linear-gradient($color-content-reverse-aplha, $color-content-reverse-aplha);
 }

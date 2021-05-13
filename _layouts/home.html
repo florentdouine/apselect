@@ -9,7 +9,7 @@ layout: skeleton
             <h1 class="anim-right-apparition">Automobile</h1>
             <h4>Sport & Vintage cars</h4>
         </div>
-        <a onclick="todo();" class="main-arrow-link">En route</a>
+        <a onclick="scrollWindowHeight()" class="main-arrow-link">En route</a>
     </div>
 </section>
 
@@ -29,12 +29,12 @@ layout: skeleton
 </section>
 
 <section id="main-presentation">
-    <div class="cmp-backgrounded-image" style="background-image: url('/images/img-bg-section-2.jpg');">
-        <div id="main-presentation-illustration"  style="background-image: url('/images/img-section-2.jpg');"></div>
-        <div id="main-presentation-description" class="anim-bottom-apparition">
-            <h2 class="bordered-letters anim-bottom-apparition">Prenez le volant,</h2>
-            <h2 class="anim-bottom-apparition">AP SELect s'occupe du reste</h2>
-            <p class="anim-bottom-apparition">
+    <div class="cmp-backgrounded-image" style="background-image: url('/images/home/bg-courtage-porsche-911.webp');">
+        <div id="main-presentation-illustration"  style="background-image: url('/images/home/porsche-911-luxe-lyon.webp');"></div>
+        <div id="main-presentation-description">
+            <h2 class="bordered-letters anim-fadein-bottom-apparition">Prenez le volant,</h2>
+            <h2 class="anim-fadein-bottom-apparition">AP SELect s'occupe du reste</h2>
+            <p class="anim-fadein-bottom-apparition">
                 <span class="cmp-horizontal-line-secondary"></span>
                 Des solutions de <strong>courtages et conciergerie</strong> automobile sur mesure
                 <span class="cmp-horizontal-line-secondary"></span>
@@ -53,33 +53,27 @@ layout: skeleton
                 <span class="cmp-number-watermark-secondary">01</span>
                 <h3 class="shadow-secondary">Votre courtage</h3>
             </div>
-            <p id="main-brokerage-description">
+            <p id="main-brokerage-description" class="anim-fadein-apparition">
                 Quelle que soit la raison de votre projet d’achat, AP Select choisit soigneusement des véhicules chez des partenaires de confiance et vous accompagne tout au long de ce processus : Négociation, administration, livraison, etc.
             </p>
         </div>
     </div>
     <div id="main-brokerage-types-container" class="row">
         <div class="main-brokerage-type offset-md-1-5 col-md-3">
-            <img src="images/home/courtage_passion.jpg"
-            srcset="images/home/courtage_passion@2x.jpg 2x,
-                images/home/courtage_passion@3x.jpg 3x" />
+            <img src="images/home/projet-automobile-passion.webp" class="anim-bottom-apparition"/>
             <span class="cmp-horizontal-line-secondary"></span>
             <h4>Passion</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <div class="main-brokerage-type col-md-3">
-            <img src="images/home/courtage_entreprise.jpg"
-            srcset="images/home/courtage_entreprise@2x.jpg 2x,
-                images/home/courtage_entreprise@3x.jpg 3x" />
+            <img src="images/home/achat-flotte-voiture-entreprise.webp" class="anim-bottom-apparition"/>
             <span class="cmp-horizontal-line-secondary"></span>
             <h4>Entreprise</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <a class="link-arrowed shadow-secondary active">En savoir plus</a>
         </div>
         <div class="main-brokerage-type col-md-3">
-            <img src="images/home/courtage_patrimoine.jpg"
-            srcset="images/home/courtage_patrimoine@2x.jpg 2x,
-                images/home/courtage_patrimoine@3x.jpg 3x" />
+            <img src="images/home/courtage-patrimoine.webp" class="anim-bottom-apparition"/>
             <span class="cmp-horizontal-line-secondary"></span>
             <h4>Patrimoine</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -89,7 +83,7 @@ layout: skeleton
 
 <section class="row flex-md-row-reverse" id="main-resale">
     <div class="col-md-6 section-col-backgrounded" id="main-resale-illustration">
-        <img src="/images/home/car-revente.png"/>
+        <img id="anim-car-translation" src="/images/home/revente-carte-staging.webp"/>
     </div>
     {% include section/section-col-detailed.html
         watermark="02"
@@ -105,7 +99,7 @@ layout: skeleton
 <section class="row" id="main-detailing">
 
     <div class="col-md-6" id="main-detailing-illustration">
-        <img src="images/home/detailing.jpg" srcset="images/home/detailing@2x.jpg 2x, images/home/detailing@3x.jpg 3x">
+        <img src="images/home/conciergerie-detailing-vintage-car.webp" class="anim-left-apparition">
     </div>
     {% include section/section-col-detailed.html
         watermark="03"

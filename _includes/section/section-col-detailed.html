@@ -1,11 +1,11 @@
 <div class="col-md-6 section-col-detailed {% if include.theme == "dark" %}section-col-dark{% else %}section-col-light{% endif %}">
     <div class="section-col-detailed-container">
         <span class="{% if include.theme == "dark" %}cmp-number-watermark{% else %}cmp-number-watermark-secondary{% endif %}">{{ include.watermark }}</span>
-        <h3 class="shadow-secondary">{{ include.title }}</h3>
-        <p>
+        <h3 class="shadow-secondary anim-fadein-apparition">{{ include.title }}</h3>
+        <p class=" anim-fadein-apparition">
             {{ include.text }}
         </p>
 
-        <a href="{{ include.url }}" class="{% if include.theme == "dark" %}button button-arrowed button-accented{% else %}link-arrowed shadow-secondary active{% endif %}">{{ include.link }}</a>
+        <a href="{{ include.url }}" class="anim-fadein-apparition {% if include.theme == "dark" %}button button-arrowed button-accented{% else %}link-arrowed shadow-secondary active{% endif %}">{{ include.link }}</a>
     </div>
 </div>

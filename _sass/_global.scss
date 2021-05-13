@@ -68,3 +68,10 @@ img {
     margin-left: 12.5%;
   }
 }
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: -9;
+}
