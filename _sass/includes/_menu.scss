@@ -2,12 +2,13 @@
 
 header {
   position: absolute;
-  z-index: 100;
+  z-index: 1;
   width: 100%;
   top: 0px;
   padding: 26px 45px 0px 45px;
   display: flex;
   align-items: center;
+  overflow: hidden;
   @include text-style-subhead;
 }
 
@@ -17,12 +18,9 @@ nav, #right-menu {
   min-width: -webkit-min-content; /* Workaround to Chrome bug */
 }
 
-#right-menu {
-  justify-content: flex-end;
-}
-
 #logo {
   text-align: center;
+  z-index: 1;
 }
 
 nav ul {
@@ -34,97 +32,95 @@ nav li {
   list-style-type: none;
 }
 
+nav a {
+  white-space: nowrap;
+}
+
 #right-menu {
+  justify-content: flex-end;
   display: flex;
+  text-align: right;
+  z-index: 1;
 }
 
 #right-menu ul {
-  display: flex;
-  margin-right: 20px;
+  display: none; //At first, then use the d-md-flex to display it when necessary
   align-items: center;
 }
 
 #right-menu ul li {
-  list-style-type: none;
-  margin-right: 24px;
+  margin-right: 20px;
 }
 
-#right-menu a {
+#right-menu #btn-menu-contact {
   align-self: center;
+  flex-grow: 2;
+  margin-left: 20px;
+  min-width: 170px;
 }
 
-// nav li:last-child {
-//   margin-right: 0px;
-// }
+#link-mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
 
-// nav li a, nav li a:hover, nav li a:active, nav li a:focus {
-//   color: inherit;
-//   font-size: $font-size-menu;
-//   font-weight: $light-weight;
-//   font-family: $font-family-secondary;
-//   text-transform: uppercase;
-//   text-decoration: none;
-//   width: 100%;
-//   display: inline-block;
-//   padding: 15px 20px;
-// }
+#link-mobile-menu .fa {
+  font-size: 30px;
+  margin-left: 15px;
+}
 
-// nav a.active {
-//   color: white;
-//   background-color: $main-color;
-// }
+#popover-menu {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: black;
+  top: 0;
+  left: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 100px 0px;
+  transition: left 0.3s linear;
+  @include text-style-subhead;
+}
 
-// nav li:hover a, nav li:focus a {
-//   color: white;
-// }
+#popover-menu.active {
+  left: 0%;
+}
 
-// nav li:hover, nav li:focus {
-//   background-color: $main-color;
-// }
+#popover-menu #popover-links {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 
-// nav li.active + li::before {
-//   border: none;
-// }
+#popover-menu #popover-socialicons {
+  display: flex;
+  justify-content: space-evenly;
 
-// #logo img {
-//   padding: 15px 15px 15px 30px;
-// }
+}
 
-// @include media-breakpoint-down(sm) {
-//   header img {
-//     margin: auto;
-//   }
+/* Responsive */
+@include media-breakpoint-down(md) {
+  nav li {
+    margin-right: 20px;
+  }
+}
 
-//   header {
-//     padding: $header-padding;
-//     text-align: center;
-//   }
+@include media-breakpoint-down(sm) {
+  nav {
+    display: none;
+  }
 
-//   #header-slider {
-//     background-color: rgb(235, 235, 235) !important;
-//   }
+  #btn-menu-contact {
+    display: none;
+  }
 
-//   nav.col-auto.closed {
-//     height: $header-content !important;
-//   }
+  header {
+    padding: 26px 25px 0px 25px;
+  }
 
-//   nav.closed li::before {
-//     width: 0px;
-//   }
-
-//   nav.col-auto {
-//     margin-top: 0px;
-//     padding: 0px;
-//     height: $header-content * 4;
-//   }
-
-//   nav li {
-//     display: block;
-//     margin-right: 0px;
-//   }
-
-//   #logo img {
-//     padding: 0px;
-//     height: $header-content;
-//   }
-// }
+}

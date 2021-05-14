@@ -1,10 +1,16 @@
 .button {
-    padding: 20px 64px 20px 100px;
+    padding: 20px 0px;
     line-height: 15px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     text-transform: uppercase;
     white-space: nowrap;
+    text-align: center;
+    max-width: 306px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    @include text-style-button;
   }
   
   .button.button-arrowed:hover::after {
@@ -36,7 +42,7 @@
   }
 
   a.link-arrowed {
-    @include text-style-subhead;
+    @include text-style-link;
   }
 
   a.link-arrowed:hover::after {
@@ -63,6 +69,10 @@
       display: flex;
       height: 100%;
       z-index: 1;
+      min-height: 236px;
+      @include media-breakpoint-down(sm) {
+        justify-content: center;
+    }
   }
 
   .cmp-vertical-band {
@@ -71,6 +81,11 @@
     background-color: $color-accent-main;
     width: 105px;
     margin-right: 66px;
+
+    @include media-breakpoint-down(sm) {
+      width: 50px;
+      margin-right: 25px;
+  }
 }
 
 .cmp-horizontal-line {
@@ -78,7 +93,7 @@
     height: 4px;
     display: block;
     background-color: $color-accent-main;
-    margin-top: 36px;
+    margin: 36px 0px;
 }
 
 .cmp-horizontal-line-secondary {
@@ -92,21 +107,26 @@
 .cmp-number-watermark,
 .cmp-number-watermark-secondary {
     position: absolute;
-    font-size: 192px;
     font-weight: bold;
     opacity: 0.3;
     top: -100px;
-    z-index: 10;
+    z-index: 5;
     @extend .bordered-letters;
+    @include text-style-extra-large;
 }
 
 .cmp-number-watermark-secondary {
-  -webkit-text-stroke: 1px $color-content-light;
+  -webkit-text-stroke: 1px $color-accent-secondary;
+  opacity: 0.5;
 }
 
 .cmp-backgrounded-image {
     background-position: 50% 0%;
     background-repeat: no-repeat;
+    background-size: auto;
+    @include media-breakpoint-down(sm) {
+      background-size: 100%;
+  }
 }
 
 .shadow-accented,

@@ -1,11 +1,7 @@
 {% assign main_pages = site.pages | where:"menu", "main" | sort:"order" %}
 
-<nav class="closed">
+<nav>
     <ul>
-        <li class="d-md-none">
-            <a href="javascript:toggleMenu()"><i class="fa fa-bars"></i> Menu</a>
-        </li>
-        
         {% for the_page in main_pages %}
         <li {% if the_page.order == page.order %}class="active"{% endif %}>
             <a href="{{ the_page.url | prepend: site.baseurl }}" title="{{ the_page.title }}" {% if the_page.order == page.order %}class="active"{% endif %}>
@@ -14,11 +10,10 @@
         </li>
         {% endfor %}
 
-        <li><a class="shadow-accented active" href="{{ "todo" | prepend: site.baseurl }}" title="{{ the_page.title }}">Accueil</a></li>
+        <li><a class="shadow-accented active" href="/" title="{{ the_page.title }}">Accueil</a></li>
         <li><a class="shadow-accented" href="{{ "todo" | prepend: site.baseurl }}" title="{{ the_page.title }}">Le Club</a></li>
         <li><a class="shadow-accented" href="{{ "todo" | prepend: site.baseurl }}" title="{{ the_page.title }}">Courtage</a></li>
         <li><a class="shadow-accented" href="{{ "todo" | prepend: site.baseurl }}" title="{{ the_page.title }}">Services</a></li>
-        
     </ul>
 </nav>
 
@@ -29,10 +24,28 @@
 </div>
 
 <div id="right-menu">
-    <ul id="socialicons">
+    <ul id="socialicons" class="d-lg-flex">
         <li><a class="facebook" href="http://www.facebook.com/AutomobilePassionSelection" target="_blank"> <i class="fa fa-facebook"></i> </a> </li>
         <li> <a class="instagram" href="https://www.instagram.com/ap.select/" target="_blank"> <i class="fa fa-instagram"></i> </a> </li>
         <li> <a class="linkedin" href="https://www.linkedin.com/company/ap-select-courtage/" target="_blank"> <i class="fa fa-linkedin"></i> </a> </li>
     </ul>
-    <a class="button button-secondary button-arrowed">Contact</a>
+    <a id="btn-menu-contact" class="button button-secondary button-arrowed">Contact</a>
+    <a id="link-mobile-menu" class="d-md-none" onclick="toggleMenu()">Menu<i class="fa fa-bars"></i></a>
+</div>
+
+<div id="popover-menu">
+    <ul id="popover-links">
+        <li><a class="shadow-accented active" href="/" title="{{ the_page.title }}">Accueil</a></li>
+        <li><a class="shadow-accented" href="{{ "todo" | prepend: site.baseurl }}" title="{{ the_page.title }}">Le Club</a></li>
+        <li><a class="shadow-accented" href="{{ "todo" | prepend: site.baseurl }}" title="{{ the_page.title }}">Courtage</a></li>
+        <li><a class="shadow-accented" href="{{ "todo" | prepend: site.baseurl }}" title="{{ the_page.title }}">Services</a></li>
+        <li><a class="shadow-accented" href="{{ "todo" | prepend: site.baseurl }}" title="{{ the_page.title }}">Contact</a></li>
+    </ul>
+
+    <ul id="popover-socialicons" class="d-lg-flex">
+        <li><a class="facebook" href="http://www.facebook.com/AutomobilePassionSelection" target="_blank"> <i class="fa fa-facebook"></i> </a> </li>
+        <li> <a class="instagram" href="https://www.instagram.com/ap.select/" target="_blank"> <i class="fa fa-instagram"></i> </a> </li>
+        <li> <a class="linkedin" href="https://www.linkedin.com/company/ap-select-courtage/" target="_blank"> <i class="fa fa-linkedin"></i> </a> </li>
+    </ul>
+    <!-- TODO Avoid scrolling when displayed -->
 </div>

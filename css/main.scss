@@ -6,6 +6,7 @@
 $baseurl: "{{ site.baseurl }}";
 
 // Imports
+@import "../_sass/bootstrap/bootstrap-grid.scss";
 @import "../_sass/reset";
 @import "../_sass/variable";
 @import "../_sass/global";
@@ -14,5 +15,4 @@ $baseurl: "{{ site.baseurl }}";
 @import "../_sass/section";
 @import "../_sass/includes/footer";
 @import "../_sass/includes/menu";
-@import "../_sass/bootstrap/bootstrap-grid.scss";
 @import "../_sass/pages/home";

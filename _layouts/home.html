@@ -2,7 +2,12 @@
 layout: skeleton
 ---
 
-<section id="main-cover-container">
+<section id="main-cover-container" class="row">
+    <div id="main-video-container">
+        <video autoplay muted loop playsinline id="main-video">
+            <source src="images/video.mp4" type="video/mp4">
+          </video>
+    </div>
     <div id="main-cover">
         <div id="main-title">
             <h1 class="bordered-letters anim-left-apparition">Courtage</h1>
@@ -13,9 +18,9 @@ layout: skeleton
     </div>
 </section>
 
-<section id="main-concept" class="row flex-md-row-reverse">
+<section id="main-concept" class="row no-gutters flex-md-row-reverse">
     <div class="col-md-2"></div>
-    <div class="col-md-5 align-self-center">
+    <div class="col-md-5 align-self-center" id="main-concept-description" >
         <div>
             <span class="cmp-number-watermark anim-parallax">69.3</span>
             <h3>Le concept</h3>
@@ -28,8 +33,8 @@ layout: skeleton
     </div>
 </section>
 
-<section id="main-presentation">
-    <div class="cmp-backgrounded-image" style="background-image: url('/images/home/bg-courtage-porsche-911.webp');">
+<section id="main-presentation" class="row">
+    <div class="col-12 cmp-backgrounded-image" style="background-image: url('/images/home/bg-courtage-porsche-911.webp');">
         <div id="main-presentation-illustration"  style="background-image: url('/images/home/porsche-911-luxe-lyon.webp');"></div>
         <div id="main-presentation-description">
             <h2 class="bordered-letters anim-fadein-bottom-apparition">Prenez le volant,</h2>
@@ -47,7 +52,7 @@ layout: skeleton
 </section>
 
 <section class="anim-background-inversion section-light" id="main-brokerage">
-    <div class="row">
+    <div class="row no-gutters">
         <div class="offset-md-3 col-md-6">
             <div>
                 <span class="cmp-number-watermark-secondary">01</span>
@@ -58,7 +63,7 @@ layout: skeleton
             </p>
         </div>
     </div>
-    <div id="main-brokerage-types-container" class="row">
+    <div id="main-brokerage-types-container" class="row no-gutters">
         <div class="main-brokerage-type offset-md-1-5 col-md-3">
             <img src="images/home/projet-automobile-passion.webp" class="anim-bottom-apparition"/>
             <span class="cmp-horizontal-line-secondary"></span>
@@ -70,13 +75,18 @@ layout: skeleton
             <span class="cmp-horizontal-line-secondary"></span>
             <h4>Entreprise</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a class="link-arrowed shadow-secondary active">En savoir plus</a>
         </div>
         <div class="main-brokerage-type col-md-3">
             <img src="images/home/courtage-patrimoine.webp" class="anim-bottom-apparition"/>
             <span class="cmp-horizontal-line-secondary"></span>
             <h4>Patrimoine</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </div>
+
+    <div id="main-brokerage-types-container" class="row no-gutters">
+        <div class="col-12">
+            <a class="link-arrowed shadow-secondary active">En savoir plus</a>
         </div>
     </div>
 </section>
@@ -96,7 +106,7 @@ layout: skeleton
 
 </section>
 
-<section class="row" id="main-detailing">
+<section class="row no-gutters" id="main-detailing">
 
     <div class="col-md-6" id="main-detailing-illustration">
         <img src="images/home/conciergerie-detailing-vintage-car.webp" class="anim-left-apparition">

@@ -19,15 +19,29 @@ $font-weight-light: 300;
 $font-weight-normal: 400;
 $font-weight-bold: 700;
 
+$font-size-extra-large: 192px;
 $font-size-title-1: 90px;
 $font-size-title-2: 48px;
 $font-size-title-3: 36px;
 $font-size-body-highlighted: 20px;
 $font-size-body: 16px;
 $font-size-subhead: 15px;
+$font-size-footer: 25px;
+
+$font-size-mobile-extra-large: 150px;
+$font-size-mobile-title-1: 34px;
+$font-size-mobile-title-2: 40px;
+$font-size-mobile-title-3: 25px;
+$font-size-mobile-subhead: 25px;
+
+/* Specific */
+
 
 @mixin text-style-title-1 {
     font-size: $font-size-title-1;
+    @include media-breakpoint-down(sm) {
+        font-size: $font-size-mobile-title-1;
+    }
     font-weight: $font-weight-bold;
     font-family: $font-family-secondary;
     letter-spacing: 18px;
@@ -36,14 +50,21 @@ $font-size-subhead: 15px;
 
 @mixin text-style-title-2 {
     font-size: $font-size-title-2;
+    @include media-breakpoint-down(sm) {
+        font-size: $font-size-mobile-title-2;
+    }
     font-weight: $font-weight-bold;
     font-family: $font-family-secondary;
+    line-height: 60px;
     letter-spacing: 5px;
     text-transform: uppercase;
 }
 
 @mixin text-style-title-3 {
     font-size: $font-size-title-3;
+    @include media-breakpoint-down(sm) {
+        font-size: $font-size-mobile-title-3;
+    }
     font-weight: $font-weight-bold;
     line-height: 48px;
     letter-spacing: 2px;
@@ -59,6 +80,23 @@ $font-size-subhead: 15px;
 
 @mixin text-style-subhead {
     font-size: $font-size-subhead;
+    @include media-breakpoint-down(sm) {
+        font-size: $font-size-mobile-subhead;
+    }
+    font-weight: $font-weight-bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+@mixin text-style-button {
+    font-size: $font-size-subhead;
+    font-weight: $font-weight-bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+@mixin text-style-link {
+    font-size: $font-size-body;
     font-weight: $font-weight-bold;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -67,4 +105,11 @@ $font-size-subhead: 15px;
 @mixin text-style-body {
     font-size: $font-size-body;
     font-weight: $font-weight-normal;
+}
+
+@mixin text-style-extra-large {
+    font-size: $font-size-extra-large;
+    @include media-breakpoint-down(sm) {
+        font-size: $font-size-mobile-extra-large;
+    }
 }

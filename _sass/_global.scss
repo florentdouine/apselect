@@ -24,6 +24,7 @@ h2 {
 
 h3 {
   @include text-style-title-3;
+  z-index: 10;
 }
 
 h4 {
@@ -38,22 +39,10 @@ a {
   cursor: pointer;
 }
 
-// @include media-breakpoint-down(md) {
-//   h3 {
-//     font-size: $font-size-large-title-sm;
-//   }
+ul li {
+  list-style-type: none;
+}
 
-//   h4 {
-//     font-size: $font-size-large-title-sm;
-//   }
-// }
-
-// @include media-breakpoint-up(md) {
-//   h1 {
-//     padding-left: 40px;
-//     padding-right: 40px;
-//   }
-// }
 
 strong {
   font-weight: $font-weight-bold;
@@ -73,5 +62,5 @@ footer {
   position: fixed;
   width: 100%;
   bottom: 0;
-  z-index: -9;
+  z-index: -1;
 }

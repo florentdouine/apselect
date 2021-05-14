@@ -39,6 +39,31 @@ function animateHomeCarTranslation() {
     carImg.style = "transform: translateX("+translate+"px);"
 }
 
+function toggleMenu() {
+    var el = document.getElementById("popover-menu");
+    if(el.classList.contains("active")) {
+        el.classList.remove("active");
+        enableSroll();
+    } else {
+        el.classList.add("active");
+        disableScroll();
+    }
+}
+
+function noScroll() {
+    window.scrollTo(0, 0);
+}
+
+function disableScroll() {
+    // add listener to disable scroll
+    window.addEventListener('scroll', noScroll);
+}
+
+function enableSroll() {
+    // Remove listener to re-enable scroll
+    window.removeEventListener('scroll', noScroll);
+}
+
 // var startToBeVisible = elTop < window.innerHeight
 // var startToEnd = elTop + elHeight - window.innerHeight < 0
 // var stopToBeVisible = elTop + elHeight < 0
@@ -62,14 +87,6 @@ function scrollWindowHeight() {
     });
 }
 
-function toggleMenu() {
-    $("nav").toggleClass("closed")
-}
-
-function closeMenu() {
-    $("nav").addClass("closed");
-}
-
 function setHeaderOpacity() {
     var menuHeight = $("#header-slider").height()
     var alpha = 1 - (menuHeight-pageYOffset)/menuHeight;
@@ -83,14 +100,14 @@ ScrollReveal().reveal('.anim-fadein-apparition', {
 });
 
 ScrollReveal().reveal('.anim-left-apparition', { 
-    distance: '40px' ,
+    distance: '60px' ,
     origin: "left",
     duration: "1000",
     easing: "ease-out"
 });
 
 ScrollReveal().reveal('.anim-right-apparition', { 
-    distance: '40px',
+    distance: '60px',
     delay: 100,
     origin: "right",
     duration: "1000",
@@ -98,7 +115,7 @@ ScrollReveal().reveal('.anim-right-apparition', {
 });
 
 ScrollReveal().reveal('.anim-fadein-bottom-apparition', { 
-    distance: '15px',
+    distance: '60px',
     opacity: 0,
     origin: "bottom",
     duration: "1000",
@@ -106,17 +123,9 @@ ScrollReveal().reveal('.anim-fadein-bottom-apparition', {
 });
 
 ScrollReveal().reveal('.anim-bottom-apparition', { 
-    distance: '40px',
+    distance: '60px',
     opacity: 0.4,
     origin: "bottom",
     duration: "600",
     easing: "linear"
-});
-
-var rellax = new Rellax('.anim-parallax', {
-    speed: 1,
-});
-
-var rellax = new Rellax('.anim-parallax-2', {
-    speed: 1,
 });
