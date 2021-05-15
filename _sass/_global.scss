@@ -24,6 +24,7 @@ h2 {
 
 h3 {
   @include text-style-title-3;
+  display: inline;
   z-index: 10;
 }
 
@@ -43,6 +44,9 @@ ul li {
   list-style-type: none;
 }
 
+.caption {
+  @include text-style-caption;
+}
 
 strong {
   font-weight: $font-weight-bold;

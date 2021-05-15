@@ -23,9 +23,11 @@ $font-size-extra-large: 192px;
 $font-size-title-1: 90px;
 $font-size-title-2: 48px;
 $font-size-title-3: 36px;
+$font-size-title-4: 22px;
 $font-size-body-highlighted: 20px;
 $font-size-body: 16px;
 $font-size-subhead: 15px;
+$font-size-caption: 13px;
 $font-size-footer: 25px;
 
 $font-size-mobile-extra-large: 150px;
@@ -41,6 +43,7 @@ $font-size-mobile-subhead: 25px;
     font-size: $font-size-title-1;
     @include media-breakpoint-down(sm) {
         font-size: $font-size-mobile-title-1;
+        letter-spacing: 7px;
     }
     font-weight: $font-weight-bold;
     font-family: $font-family-secondary;
@@ -72,17 +75,28 @@ $font-size-mobile-subhead: 25px;
 }
 
 @mixin text-style-title-4 {
-    font-size: $font-size-body;
+    font-size: $font-size-title-4;
     font-weight: $font-weight-bold;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
+@mixin text-style-caption {
+    font-size: $font-size-caption;
+    font-weight: $font-weight-normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
 @mixin text-style-subhead {
     font-size: $font-size-subhead;
-    @include media-breakpoint-down(sm) {
-        font-size: $font-size-mobile-subhead;
-    }
+    font-weight: $font-weight-bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+@mixin text-style-mobile-subhead {
+    font-size: $font-size-mobile-subhead;
     font-weight: $font-weight-bold;
     letter-spacing: 2px;
     text-transform: uppercase;

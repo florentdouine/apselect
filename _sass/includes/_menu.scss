@@ -83,7 +83,7 @@ nav a {
   text-align: center;
   padding: 100px 0px;
   transition: left 0.3s linear;
-  @include text-style-subhead;
+  @include text-style-mobile-subhead;
 }
 
 #popover-menu.active {
@@ -110,7 +110,7 @@ nav a {
   }
 }
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(md) {
   nav {
     display: none;
   }

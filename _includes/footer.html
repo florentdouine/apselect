@@ -1,18 +1,20 @@
-
+{% if page.footer-large == true %}
 <section id="section-footer-large">
     <div id="section-footer-container">
         <h3 class="shadow-reverse">Prenez le volant, AP Select s’occupe du reste</h3>
         <div id="footer-contact-container">
-            <div id="footer-contact-lines">
-                <span id="footer-phone-line"></span>
-                <span id="footer-mail-line"></span>
-            </div>
-            <div id="footer-contact-coordinates">
-                <a id="footer-phone-link" href="tel:+33771806578">07 71 80 65 78</a>
-                <a id="footer-mail-link" href="mailto:contact@apselect.fr">contact@apselect.fr</a>
-                <p>
-                    Contactez-nous par téléphone ou email pour toute demande.
-                </p>
+            <div id="footer-contact-coordinates-container">
+                <div id="footer-contact-lines">
+                    <span id="footer-phone-line"></span>
+                    <span id="footer-mail-line"></span>
+                </div>
+                <div id="footer-contact-coordinates">
+                    <a id="footer-phone-link" href="tel:+33771806578">07 71 80 65 78</a>
+                    <a id="footer-mail-link" href="mailto:contact@apselect.fr">contact@apselect.fr</a>
+                    <p>
+                        Contactez-nous par téléphone ou email pour toute demande.
+                    </p>
+                </div>
             </div>
             <div id="footer-contact-button">
                 <a href="todo" class="button button-arrowed button-accented">Contact</a>
@@ -20,6 +22,7 @@
         </div>
     </div>
 </section>
+{% endif %}
 <section id="section-footer-small">
     <span id="footer-copyright">
         <span>© 2021 <strong>AP SELECT</strong></span>

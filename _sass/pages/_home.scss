@@ -28,6 +28,9 @@
 #main-title {
     width: 700px;
     margin: auto;
+    @include media-breakpoint-down(sm) {
+        max-width: 300px;
+    }
 }
 
 #main-title h1:first-child {
@@ -89,18 +92,6 @@
         margin: 120px 0px;
     }
   }
-
-#main-presentation-illustration {
-    height: 800px;
-    width: calc(100vw - 120px);
-    background-position: top;
-    background-size: cover;
-    margin: auto;
-    @include media-breakpoint-down(sm) {
-        height: 172px;
-        width: calc(100vw - 26px);
-    }
-}
 
 #main-presentation-description {
     max-width: 1000px;

@@ -2,12 +2,15 @@ footer {
     background-color: black;
 }
 
+#section-footer-container {
+    margin: auto;
+    padding: 0 5%;
+}
+
 #section-footer-large {
     height: 582px;
-    max-width: 1100px;
     display: flex;
     align-items: center;
-    margin: auto;
     @include media-breakpoint-down(sm) {
         height: 300px;
     }
@@ -29,9 +32,13 @@ footer {
     }
 }
 
+#footer-contact-coordinates-container {
+    display: flex;
+}
+
 #footer-contact-coordinates {
     flex-grow: 2;
-    margin-left: 30px;
+    margin: 0px 30px;
 }
 
 #footer-contact-coordinates p {
@@ -87,7 +94,10 @@ footer {
 }
 
 #footer-contact-button a {
-    margin: 50px auto;
+    width: 306px;
+    @include media-breakpoint-down(sm) {
+        margin: 50px auto;
+    }
 }
 
 #section-footer-small {

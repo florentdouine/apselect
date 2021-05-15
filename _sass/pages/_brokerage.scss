@@ -1,0 +1,75 @@
+#brokerage-intro-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 106px;
+}
+
+#brokerage-intro-container p {
+    padding: 125px 0px 180px 0px;
+    max-width: 500px;
+}
+
+#brokerage-steps-container {
+    display: flex;
+    align-items: baseline;
+    overflow: scroll;
+    flex-wrap: nowrap;
+    padding: 0px 5%;
+}
+
+.brokerage-step-container {
+    min-width: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+.brokerage-step-container .bordered-letters {
+    margin: 0px auto 60px;
+    font-size: 70px;
+    -webkit-text-stroke: 2px $color-accent-main;
+    font-weight: bold;
+    letter-spacing: 8px;
+
+}
+
+.brokerage-step-content {
+    padding: 0px 50px;
+}
+
+.brokerage-step-content h4 {
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.brokerage-step-container:not(:last-child) .brokerage-step-content {
+    border-right: solid 2px $color-accent-main;
+}
+
+#brokerage-contact-container a {
+    color: $color-content-reverse;
+    margin: 200px auto;
+    @include media-breakpoint-down(sm) {
+        margin: 100px auto;
+    }
+}
+
+#brokerage-punch-line {
+    background-image: url('/images/brokerage/sigle-bmw-pluie.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#brokerage-punch-line h2 {
+    margin: 0px 5%;
+}
+
+#brokerage-investment {
+    padding: 150px 0px;
+}

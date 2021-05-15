@@ -1,0 +1,17 @@
+---
+layout: skeleton
+---
+
+<section id="section-banner" class="row">
+    <div id="section-banner-title">
+        {% if page.banner-title %}<h2 class="{% if page.banner-title == "AP SELECT" %}bordered-letters{% endif %}">{{ page.banner-title }}</h2>{% endif %}
+        {% if page.banner-subtitle %}<h2 class="{% if page.banner-subtitle == "AP SELECT" %}bordered-letters{% endif %}">{{ page.banner-subtitle }}</h2>{% endif %}
+        {% if page.banner-subline %}<span class="caption">{{ page.banner-subline }}</span>{% endif %}
+        {% if page.banner-image %}
+    </div>
+    
+    <div class="cmp-full-width-image" style="background-image: url('images/{{ page.banner-image }}');"></div>
+    {% endif %}
+</section>
+
+{{ content }}
