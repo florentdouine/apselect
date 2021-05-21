@@ -55,23 +55,6 @@ function recalculateBrokerageScrollBar() {
 
     scrollBarThumb.style.width = calculatedThumbWidth+"px";
     scrollBarThumb.style.left = calculatedThumbOffsetPercent+"%";
-
-    scrollBarThumb.onmousedown = null
-    scrollBarThumb.onmousedown = function($event) {
-        var previousLeftPercent = parseInt(scrollBarThumb.style.left)
-        document.onmousemove = function(onMoveEvent) {
-            var move = onMoveEvent.clientX- $event.clientX
-            var calculatedMovePercent = move * 100 / contentWidth
-            var calculatedNewThumbOffset = previousLeftPercent + calculatedMovePercent;
-            scrollBarThumb.style.left = calculatedNewThumbOffset+"%";
-
-        }
-
-        document.onmouseup = function() {
-            document.onmousemove = null
-            document.onmouseup = null;
-        };
-    }
 }
 
 function animateHomeCarTranslation() {
