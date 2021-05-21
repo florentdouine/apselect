@@ -1,7 +1,4 @@
 #brokerage-intro-container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     margin: auto;
     text-align: center;
     margin-bottom: 106px;
@@ -10,6 +7,10 @@
 #brokerage-intro-container p {
     padding: 125px 0px 180px 0px;
     max-width: 500px;
+    margin: auto;
+    @include media-breakpoint-down(sm) {
+        padding: 65px 0px 90px 0px;
+    }
 }
 
 #brokerage-steps-container {
@@ -17,7 +18,10 @@
     align-items: baseline;
     overflow: scroll;
     flex-wrap: nowrap;
-    padding: 0px 5%;
+    margin: 0px 5% 120px 5%;
+    @include media-breakpoint-down(sm) {
+        margin: 0px 5% 60px 5%;
+    }
 }
 
 .brokerage-step-container {
@@ -50,9 +54,9 @@
 
 #brokerage-contact-container a {
     color: $color-content-reverse;
-    margin: 200px auto;
+    margin: 90px auto 200px auto;
     @include media-breakpoint-down(sm) {
-        margin: 100px auto;
+        margin: 45px auto 100px auto;
     }
 }
 
@@ -72,4 +76,39 @@
 
 #brokerage-investment {
     padding: 150px 0px;
+}
+
+#brokerage-steps-container::after {
+    content: "";
+    display: block;
+    width: 100%
+}
+
+#brokerage-steps-container::-webkit-scrollbar {
+    display: none;
+}
+
+#brokerage-scrollbar {
+    width: 100%;
+    background-image: linear-gradient($color-accent-main, $color-accent-main);
+    background-position: 50%;
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    height: 16px;
+    margin: 0 5%;
+}
+
+#brokerage-scrollbar-thumb {
+    width: 20%;
+    background-color: $color-accent-main;
+    height: 10px;
+    position: relative;
+    transition: all 0.1s ease;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+#brokerage-scrollbar-thumb:hover {
+    margin-top: 0px;
+    height: 16px;
 }

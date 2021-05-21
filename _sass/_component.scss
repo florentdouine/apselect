@@ -131,14 +131,18 @@
 
 .cmp-full-width-image {
   height: 800px;
-  width: calc(100vw - 120px);
-  background-position: top;
+  width: 90%;
+  background-position: center;
   background-size: cover;
   margin: auto;
   @include media-breakpoint-down(sm) {
       height: 172px;
       width: calc(100vw - 26px);
   }
+}
+
+.cmp-full-col-img {
+  max-width: 100%;
 }
 
 .shadow-accented,

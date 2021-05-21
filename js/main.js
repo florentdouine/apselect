@@ -1,11 +1,17 @@
 window.addEventListener('scroll', function() {
     windowScreenChanged() 
-    //setHeaderOpacity();
 });
 
 window.addEventListener('resize', function(event) {
     windowScreenChanged() 
 }, true);
+
+var brokerageContainer = document.getElementById("brokerage-steps-container");
+if(brokerageContainer != null) {
+    brokerageContainer.addEventListener('scroll', function() {
+        windowScreenChanged() 
+    });
+}
 
 windowScreenChanged();
 
@@ -13,6 +19,7 @@ function windowScreenChanged() {
     configureFooterApparition()
     animateBackgroundInversion();
     animateHomeCarTranslation()
+    recalculateBrokerageScrollBar()
 }
 
 function animateBackgroundInversion() {
@@ -30,8 +37,46 @@ function configureFooterApparition(){
     document.getElementById("container").style.marginBottom = footerHeight + "px";
 }
 
+function recalculateBrokerageScrollBar() {
+    var scrollBarThumb = document.getElementById("brokerage-scrollbar-thumb");
+    if(scrollBarThumb == null) { return }
+
+    var scrollContainer = document.getElementById("brokerage-steps-container")
+
+    var scrollBarWidth = document.getElementById("brokerage-scrollbar").offsetWidth;
+    var offset = parseInt(document.getElementsByClassName("brokerage-step-container")[0].offsetLeft) - parseInt(document.getElementsByClassName("brokerage-step-container")[0].getBoundingClientRect().left);
+    var contentWidth = 5 * 360
+
+    var calculatedThumbWidth = scrollBarWidth * scrollBarWidth / contentWidth
+    var calculatedThumbOffsetPercent = offset * 100 / contentWidth;
+    
+    //console.log("scrollBarWidth", scrollBarWidth, "offset", offset, "contentWidth", contentWidth);
+    //console.log("calculatedThumbWidth", calculatedThumbWidth);
+
+    scrollBarThumb.style.width = calculatedThumbWidth+"px";
+    scrollBarThumb.style.left = calculatedThumbOffsetPercent+"%";
+
+    scrollBarThumb.onmousedown = null
+    scrollBarThumb.onmousedown = function($event) {
+        var previousLeftPercent = parseInt(scrollBarThumb.style.left)
+        document.onmousemove = function(onMoveEvent) {
+            var move = onMoveEvent.clientX- $event.clientX
+            var calculatedMovePercent = move * 100 / contentWidth
+            var calculatedNewThumbOffset = previousLeftPercent + calculatedMovePercent;
+            scrollBarThumb.style.left = calculatedNewThumbOffset+"%";
+
+        }
+
+        document.onmouseup = function() {
+            document.onmousemove = null
+            document.onmouseup = null;
+        };
+    }
+}
+
 function animateHomeCarTranslation() {
     var carImg = document.getElementById("anim-car-translation");
+    if(carImg == null) { return }
     
     var start =  window.innerHeight - carImg.getBoundingClientRect().top;
     var translate = Math.max(150 - (start/2), 0);

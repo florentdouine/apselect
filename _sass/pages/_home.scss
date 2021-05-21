@@ -93,6 +93,10 @@
     }
   }
 
+#main-presentation .cmp-full-width-image {
+    background-position: top;
+}
+
 #main-presentation-description {
     max-width: 1000px;
     margin: auto;
@@ -186,8 +190,4 @@
 #main-detailing-illustration {
     display: flex;
     flex-direction: row-reverse;
-}
-
-#main-detailing-illustration img {
-    max-width: 100%;
 }
