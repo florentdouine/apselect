@@ -23,11 +23,13 @@ banner-image: services/services-sport-cars.webp
     <div class="col-md-6" id="services-concierge-illustration">
         <img src="images/services/conciergerie-vintage-cars.webp" class="cmp-padding-col-img anim-left-apparition">
     </div>
+
+    {% capture contact %}{% link contact.html %}{% endcapture %}
     {% include section/section-col-detailed.html
         title="conciergerie"
         text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         link="contactez-nous"
-        url="todo"
+        url=contact
         theme="light"
         %}
 </section>
@@ -37,7 +39,7 @@ banner-image: services/services-sport-cars.webp
         title="detailing"
         text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         link="contactez-nous"
-        url="todo"
+        url=contact
         theme="dark"
         %}
     <div class="col-md-6" id="services-detailing-illustration">

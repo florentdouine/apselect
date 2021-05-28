@@ -78,21 +78,6 @@
     100% { left: 10px; }
   }
 
-  #main-concept {
-      min-height: 520px;
-  }
-
-  #main-concept p {
-    font-size: $font-size-body-highlighted;
-    line-height: 38px;
-  }
-
-  #main-concept-description {
-    @include media-breakpoint-down(sm) {
-        margin: 120px 0px;
-    }
-  }
-
 #main-presentation .cmp-full-width-image {
     background-position: top;
 }

@@ -83,3 +83,19 @@
         margin-bottom: -50px;
     }
 }
+
+#section-vertical-band {
+    min-height: 520px;
+}
+
+#section-vertical-band p {
+  font-size: $font-size-body-highlighted;
+  font-weight: $font-weight-bold;
+  line-height: 38px;
+}
+
+#section-vertical-band-description {
+  @include media-breakpoint-down(sm) {
+      margin: 120px 0px;
+  }
+}

@@ -22,20 +22,11 @@ footer-large: true
     </div>
 </section>
 
-<section id="main-concept" class="row no-gutters flex-md-row-reverse">
-    <div class="col-md-2"></div>
-    <div class="col-md-5 align-self-center" id="main-concept-description" >
-        <div>
-            <span class="cmp-number-watermark anim-parallax">69.3</span>
-            <h3>Le concept</h3>
-        </div>
-        <span class="cmp-horizontal-line"></span>
-        <p>Courtage et Conciergerie sur mesure de véhicules Sports et Vintage</p>
-    </div>
-    <div class="col-md-3">
-        {% include components/vertical-bands.html %}
-    </div>
-</section>
+{% include section/section-vertical-band.html
+    title="Le concept"
+    description="Courtage et Conciergerie sur mesure de véhicules Sports et Vintage"
+    watermark="69.3"
+    %}
 
 <section id="main-presentation" class="row">
     <div class="col-12 cmp-backgrounded-image" style="background-image: url('/images/home/bg-courtage-porsche-911.webp');">
@@ -91,7 +82,7 @@ footer-large: true
 
     <div id="main-brokerage-types-container" class="row no-gutters">
         <div class="col-12">
-            <a class="link-arrowed shadow-secondary active">En savoir plus</a>
+            <a href="{% link brokerage.html %}" class="link-arrowed shadow-secondary active">En savoir plus</a>
         </div>
     </div>
 </section>
@@ -100,12 +91,15 @@ footer-large: true
     <div class="col-md-6 section-col-backgrounded" id="main-resale-illustration">
         <img id="anim-car-translation" src="/images/home/revente-carte-staging.webp"/>
     </div>
+
+    {% capture services %}{% link services.html %}{% endcapture %}
+    {% capture servicesConciergerie %}{% link services.html %}#services-concierge{% endcapture %}
     {% include section/section-col-detailed.html
         watermark="02"
         title="revendre son véhicule"
         text="AP SELECT vous aide à la mise en vente de votre véhicule.<br/>Obtenez une estimation experte de sa valeur et bénéficiez d'un plan d'action simplifié et sécurisé en nous confiant la gestion complète de votre transaction."
         link="en savoir plus"
-        url="todo"
+        url=services
         theme="dark"
         %}
 
@@ -121,7 +115,7 @@ footer-large: true
         title="La conciergerie et le detailing"
         text="Offrez à votre véhicule des services de haute qualité en mécanique et cosmétique, ainsi que des soins de prestiges dédiés au confort de votre quotidien."
         link="en savoir plus"
-        url="todo"
+        url=servicesConciergerie
         theme="light"
         %}
 </section>

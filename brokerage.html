@@ -61,7 +61,7 @@ banner-image: brokerage/courtage-ferrari-sport.webp
     </div>
 </section>
 <section id="brokerage-contact-container" class="section-col-light row">
-    <a href="todo" class="button button-arrowed button-accented">Contactez-nous</a>
+    <a href="{% link contact.html %}" class="button button-arrowed button-accented">Contactez-nous</a>
 </section>
 <section class="row">
     <img src="images/brokerage/courtage-porsche-passion.webp" width="100%"/>
@@ -76,11 +76,13 @@ banner-image: brokerage/courtage-ferrari-sport.webp
     <div class="col-md-6" id="brokerage-investment-illustration">
         <img src="images/brokerage/achat-porsche-import.webp" class="cmp-padding-col-img anim-left-apparition">
     </div>
+
+    {% capture contact %}{% link contact.html %}{% endcapture %}
     {% include section/section-col-detailed.html
         title="un achat rentable avec ap select"
         text="La satisfaction client est au centre de nos préoccupations c'est pourquoi AP SELECT négocie votre véhicule au meilleur prix d'achat pour vous assurer un bénéfice à la revente."
         link="contact"
-        url="todo"
+        url=contact
         theme="light"
         %}
 </section>

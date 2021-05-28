@@ -1,4 +1,6 @@
 {% assign main_pages = site.pages | where:"menu", "main" | sort:"order" %}
+{% assign mobile_pages = site.pages | where:"menu", "mobile" | sort:"order" %}
+{% assign all_pages = main_pages | concat: mobile_pages %}
 
 <nav>
     <ul>
@@ -24,20 +26,20 @@
         <li> <a class="instagram" href="https://www.instagram.com/ap.select/" target="_blank"> <i class="fa fa-instagram"></i> </a> </li>
         <li> <a class="linkedin" href="https://www.linkedin.com/company/ap-select-courtage/" target="_blank"> <i class="fa fa-linkedin"></i> </a> </li>
     </ul>
-    <a id="btn-menu-contact" class="button button-secondary button-arrowed">Contact</a>
+    <a href="{% link contact.html %}" id="btn-menu-contact" class="button button-secondary button-arrowed">Contact</a>
     <a id="link-mobile-menu" class="d-lg-none" onclick="toggleMenu()">
         Menu
-        <label for="check" id="cmp-burger-menu">
+        <span for="check" id="cmp-burger-menu">
             <span></span>
             <span></span>
             <span></span>
-          </label>
+        </span>
     </a>
 </div>
 
 <div id="popover-menu">
     <ul id="popover-links">
-        {% for the_page in main_pages %}
+        {% for the_page in all_pages %}
         <li>
             <a href="{{ the_page.url | prepend: site.baseurl }}" title="{{ the_page.title }}" class="shadow-accented {% if the_page.order == page.order %} active{% endif %}">
                 {{ the_page.menu-title }}
