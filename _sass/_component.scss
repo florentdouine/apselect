@@ -1,225 +1,227 @@
 .button {
-    padding: 20px 0px;
-    line-height: 15px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    text-transform: uppercase;
-    white-space: nowrap;
-    text-align: center;
-    max-width: 306px;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    @include text-style-button;
-  }
-  
-  .button.button-arrowed:hover::after {
-    left: 25px;
-  }
-  
-  .button.button-arrowed::after {
-    content: "";
-    width: 35px;
-    height: 12px;
-    display: inline-block;
-    position: relative;
-    left: 10px;
-    background-image: url("/images/arrow-white.png");
-    transition: all 0.3s ease 0s;
-  }
+padding: 20px 0px;
+line-height: 15px;
+cursor: pointer;
+transition: all 0.3s ease 0s;
+text-transform: uppercase;
+white-space: nowrap;
+text-align: center;
+max-width: 306px;
+display: flex;
+justify-content: center;
+width: 100%;
+@include text-style-button;
+}
 
-  .button.button-accented {
-    background-color: $color-accent-main;
-  }
+.button.button-arrowed:hover::after {
+left: 25px;
+}
 
-  .button.button-secondary {
-    border: solid 2px $color-content-reverse;
-  }
+.button.button-arrowed::after {
+content: "";
+width: 35px;
+height: 12px;
+display: inline-block;
+position: relative;
+left: 10px;
+background-image: url("/images/arrow-white.png");
+transition: all 0.3s ease 0s;
+}
 
-  .button.button-secondary:hover {
-    background-color: $color-accent-main;
-    border-color: transparent;
-  }
+.button.button-accented {
+background-color: $color-accent-main;
+}
 
-  a.link-arrowed {
-    white-space: nowrap;
-    @include text-style-link;
-  }
+.button.button-secondary {
+border: solid 2px $color-content-reverse;
+}
 
-  a.link-arrowed:hover::after {
-    left: 25px;
-  }
-  
-  a.link-arrowed::after {
-    content: "";
-    width: 35px;
-    height: 8px;
-    display: inline-block;
-    position: relative;
-    left: 10px;
-    background-image: url("/images/arrow-wheat.png");
-    transition: all 0.3s ease 0s;
-  }
-  
-  .bordered-letters {
-    -webkit-text-stroke: 1px $color-content-reverse;
-    color: transparent;
-  }
+.button.button-secondary:hover {
+background-color: $color-accent-main;
+border-color: transparent;
+}
 
-  .cmp-vertical-bands {
-      display: flex;
-      height: 100%;
-      z-index: 1;
-      min-height: 236px;
-      @include media-breakpoint-down(sm) {
-        justify-content: center;
-    }
-  }
+a.link-arrowed {
+white-space: nowrap;
+@include text-style-link;
+}
 
-  .cmp-vertical-band {
-    display: inline-block;
-    height: 100%;
-    background-color: $color-accent-main;
-    width: 105px;
-    margin-right: 66px;
+a.link-arrowed:hover::after {
+left: 25px;
+}
 
-    @include media-breakpoint-down(sm) {
-      width: 50px;
-      margin-right: 25px;
-  }
+a.link-arrowed::after {
+content: "";
+width: 35px;
+height: 8px;
+display: inline-block;
+position: relative;
+left: 10px;
+background-image: url("/images/arrow-wheat.png");
+transition: all 0.3s ease 0s;
+}
+
+.bordered-letters {
+-webkit-text-stroke: 1px $color-content-reverse;
+color: transparent;
+}
+
+.cmp-vertical-bands {
+display: flex;
+height: 100%;
+z-index: 1;
+min-height: 236px;
+
+width: 280px;
+justify-content: space-between;
+@include media-breakpoint-down(sm) {
+width: 140px;
+}
+}
+
+.cmp-vertical-band {
+display: inline-block;
+height: 100%;
+background-color: $color-accent-main;
+width: 38%;
+
 }
 
 .cmp-horizontal-line {
-    width: 44px;
-    height: 4px;
-    display: block;
-    background-color: $color-accent-main;
-    margin: 36px 0px;
+width: 44px;
+height: 4px;
+display: block;
+background-color: $color-accent-main;
+margin: 36px 0px;
 }
 
 .cmp-horizontal-line-secondary {
-    width: 22px;
-    height: 2px;
-    display: block;
-    background-color: $color-accent-secondary;
-    margin: 13px auto;
+width: 22px;
+height: 2px;
+display: block;
+background-color: $color-accent-secondary;
+margin: 13px auto;
 }
 
 .cmp-number-watermark,
 .cmp-number-watermark-secondary {
-    position: absolute;
-    font-weight: bold;
-    opacity: 0.3;
-    top: -100px;
-    z-index: 5;
-    @extend .bordered-letters;
-    @include text-style-extra-large;
+position: absolute;
+font-weight: bold;
+opacity: 0.3;
+margin-top: -190px;
+margin-left: -231px;
+z-index: 5;
+@extend .bordered-letters;
+@include text-style-extra-large;
 }
 
 .cmp-number-watermark-secondary {
-  -webkit-text-stroke: 1px $color-accent-secondary;
-  opacity: 0.5;
+-webkit-text-stroke: 1px $color-accent-secondary;
+opacity: 0.5;
 }
 
 .cmp-backgrounded-image {
-    background-position: 50% 0%;
-    background-repeat: no-repeat;
-    background-size: auto;
-    @include media-breakpoint-down(sm) {
-      background-size: 100%;
-  }
+background-position: 50% 0%;
+background-repeat: no-repeat;
+background-size: auto;
+@include media-breakpoint-down(sm) {
+background-size: 100%;
+}
 }
 
 .cmp-full-width-image {
-  height: 800px;
-  width: 90%;
-  background-position: center;
-  background-size: cover;
-  margin: auto;
-  @include media-breakpoint-down(sm) {
-      height: 172px;
-      width: calc(100vw - 26px);
-  }
+height: 800px;
+width: 90%;
+background-position: center;
+background-size: cover;
+margin: auto;
+@include media-breakpoint-down(sm) {
+height: 172px;
+width: calc(100vw - 26px);
+}
 }
 
 .cmp-full-col-img {
-  max-width: 100%;
+max-width: 100%;
 }
 
 .cmp-padding-col-img {
-  max-width: 100%;
-  padding: 150px 0px;
+max-width: 100%;
+padding: 150px 0px;
+@include media-breakpoint-down(sm) {
+    padding: 50px 0px;
+    }
 }
 
 .shadow-accented,
 .shadow-secondary,
 .shadow-reverse {
-  background-position: 0px 100%;
-  background-repeat: repeat-x;
-  background-size: 100% 50%;
-  transition: all 0.3 ease-in-out;
+background-position: 0px 100%;
+background-repeat: repeat-x;
+background-size: 100% 50%;
+transition: all 0.3 ease-in-out;
 }
 
 .shadow-accented:not(a),
 a.shadow-accented.active, 
 a.shadow-accented:hover {
-  background-image: linear-gradient($color-accent-main, $color-accent-main);
+background-image: linear-gradient($color-accent-main, $color-accent-main);
 }
 
 .shadow-secondary:not(a),
 a.shadow-secondary.active,
 a.shadow-secondary:hover {
-  background-image: linear-gradient($color-accent-secondary-alpha, $color-accent-secondary-alpha);
+background-image: linear-gradient($color-accent-secondary-alpha, $color-accent-secondary-alpha);
 }
 
 .shadow-reverse:not(a),
 a.shadow-reverse.active,
 a.shadow-reverse:hover {
-  background-image: linear-gradient($color-content-reverse-aplha, $color-content-reverse-aplha);
+background-image: linear-gradient($color-content-reverse-aplha, $color-content-reverse-aplha);
 }
 
 #cmp-burger-menu {
-  display:flex;
-  flex-direction:column;
-  width:35px;
-  margin-left: 4px;
-  cursor:pointer;
+display:flex;
+flex-direction:column;
+width:35px;
+margin-left: 4px;
+cursor:pointer;
 }
 
 #cmp-burger-menu span{
-  background: #fff;
-  border-radius:3px;
-  height:3px;
-  margin: 3px 0;
-  transition: .3s ease-out;
+background: #fff;
+border-radius:3px;
+height:3px;
+margin: 3px 0;
+transition: .3s ease-out;
 }
 
 #cmp-burger-menu span:nth-of-type(1){
-  width:50%;  
+width:50%;  
 }
 
 #cmp-burger-menu span:nth-of-type(2){
-  width:100%;
+width:100%;
 }
 
 #cmp-burger-menu span:nth-of-type(3){
-  width:75%;
+width:75%;
 }
 
 #cmp-burger-menu.active span:nth-of-type(1) {
-  transform-origin:bottom;
-  transform: rotatez(45deg) translate(3px, 0px)
+transform-origin:bottom;
+transform: rotatez(45deg) translate(3px, 0px)
 }
 
 
 #cmp-burger-menu.active span:nth-of-type(2) {
-  transform-origin:top;
-  transform:rotatez(-45deg)
+transform-origin:top;
+transform:rotatez(-45deg)
 }
 
 #cmp-burger-menu.active span:nth-of-type(3) {
-  transform-origin:bottom;
-  width:50%;
-  transform: translate(14px, -4px) rotatez(45deg)
+transform-origin:bottom;
+width:50%;
+transform: translate(14px, -4px) rotatez(45deg)
 
 }

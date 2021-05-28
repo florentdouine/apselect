@@ -76,6 +76,9 @@
 
 #brokerage-investment {
     padding: 150px 0px;
+    @include media-breakpoint-down(sm) {
+        padding: 50px 0px;
+    }
 }
 
 #brokerage-steps-container::after {

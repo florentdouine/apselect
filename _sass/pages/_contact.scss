@@ -35,3 +35,14 @@
 #contact-form a {
     align-self: flex-end;
 }
+
+#contact-coordinates .cmp-number-watermark {
+    margin-top: -150px;
+}
+
+#contact-coordinates #section-vertical-band-description {
+    margin-top: 50px;
+    @include media-breakpoint-down(sm) {
+        margin: 0;
+    }
+}
