@@ -19,6 +19,7 @@ function windowScreenChanged() {
     configureFooterApparition()
     animateBackgroundInversion();
     animateHomeCarTranslation()
+    animateBackgroundParallax()
     recalculateBrokerageScrollBar()
 }
 
@@ -29,6 +30,18 @@ function animateBackgroundInversion() {
         } else {
             document.getElementById("container").style.backgroundColor = "black"
         }
+    });
+}
+
+// var startToBeVisible = elTop < window.innerHeight
+// var startToEnd = elTop + elHeight - window.innerHeight < 0
+// var stopToBeVisible = elTop + elHeight < 0
+function animateBackgroundParallax() {
+    document.querySelectorAll(".anim-background-parralax").forEach(function(element) {
+        var middle = element.getBoundingClientRect().top * 2 + element.offsetHeight - window.innerHeight
+        var constant = 15
+        var offset = middle * -1 / constant
+        element.style.backgroundPositionY = "calc(50% - "+offset+"px)";
     });
 }
 
@@ -44,15 +57,13 @@ function recalculateBrokerageScrollBar() {
     var scrollContainer = document.getElementById("brokerage-steps-container")
 
     var scrollBarWidth = document.getElementById("brokerage-scrollbar").offsetWidth;
-    var offset = parseInt(document.getElementsByClassName("brokerage-step-container")[0].offsetLeft) - parseInt(document.getElementsByClassName("brokerage-step-container")[0].getBoundingClientRect().left);
-    var contentWidth = 5 * 360
+    var firstStepContainer = document.getElementsByClassName("brokerage-step-container")[0];
+    var offset = parseInt(firstStepContainer.offsetLeft) - parseInt(firstStepContainer.getBoundingClientRect().left);
+    var contentWidth = 5 * firstStepContainer.offsetWidth;
 
     var calculatedThumbWidth = scrollBarWidth * scrollBarWidth / contentWidth
     var calculatedThumbOffsetPercent = offset * 100 / contentWidth;
     
-    //console.log("scrollBarWidth", scrollBarWidth, "offset", offset, "contentWidth", contentWidth);
-    //console.log("calculatedThumbWidth", calculatedThumbWidth);
-
     scrollBarThumb.style.width = calculatedThumbWidth+"px";
     scrollBarThumb.style.left = calculatedThumbOffsetPercent+"%";
 }
@@ -69,11 +80,14 @@ function animateHomeCarTranslation() {
 
 function toggleMenu() {
     var el = document.getElementById("popover-menu");
+    var burger = document.getElementById("cmp-burger-menu");
     if(el.classList.contains("active")) {
         el.classList.remove("active");
+        burger.classList.remove("active");
         enableSroll();
     } else {
         el.classList.add("active");
+        burger.classList.add("active");
         disableScroll();
     }
 }
@@ -92,9 +106,6 @@ function enableSroll() {
     window.removeEventListener('scroll', noScroll);
 }
 
-// var startToBeVisible = elTop < window.innerHeight
-// var startToEnd = elTop + elHeight - window.innerHeight < 0
-// var stopToBeVisible = elTop + elHeight < 0
 function startToAppear(el) {
     var elTop = el.getBoundingClientRect().top
      return elTop < window.innerHeight
@@ -120,6 +131,29 @@ function setHeaderOpacity() {
     var alpha = 1 - (menuHeight-pageYOffset)/menuHeight;
     $("#header-slider").css("background-color", "rgba(235, 235, 235, "+alpha+")");
 }
+
+function submit() {
+    document.getElementsByTagName("form")[0].submit()
+}
+
+function getURLParameters() {
+    var prmstr = window.location.search.substr(1);
+    return prmstr
+}
+function clubThanks() {
+    if(document.getElementById("club-form") == null) { return }
+    let param = getURLParameters();
+
+    document.getElementById("club-form").style.display = (param != "" ? "none" : "flex");
+    document.getElementById("club-thanks").style.display = (param == "" ? "none" : "flex");
+    if(param != "") {
+        window.scrollTo({ 
+            top: 100000,
+            left: 0})
+    }
+}
+
+clubThanks()
 
 ScrollReveal().reveal('.anim-fadein-apparition', { 
     opacity: 0,
@@ -152,8 +186,8 @@ ScrollReveal().reveal('.anim-fadein-bottom-apparition', {
 
 ScrollReveal().reveal('.anim-bottom-apparition', { 
     distance: '60px',
-    opacity: 0.4,
+    opacity: 1.0,
     origin: "bottom",
-    duration: "600",
+    duration: "1000",
     easing: "linear"
 });

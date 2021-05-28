@@ -1,0 +1,25 @@
+#services-intro-container {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 106px;
+}
+
+#services-intro-container h2 {
+    padding: 125px 0px 33px 0px;
+    margin: auto;
+    @include media-breakpoint-down(sm) {
+        padding: 65px 0px 33px 0px;
+    }
+}
+
+#services-intro-container span {
+    margin: 40px auto;
+}
+
+#services-intro-container p {
+    max-width: 500px;
+}
+
+#services-detailing-illustration {
+    overflow: hidden;
+}
