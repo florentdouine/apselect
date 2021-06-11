@@ -67,6 +67,14 @@
     }
 }
 
+#section-banner-title h2:first-child{
+    margin-left: -30%;
+}
+
+#section-banner-title h2:last-child{
+    margin-right: -30%;
+}
+
 .section-behind-banner {
     margin-top: -580px;
     padding-top: 580px;
