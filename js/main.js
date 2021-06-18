@@ -18,7 +18,6 @@ windowScreenChanged();
 function windowScreenChanged() {
     configureFooterApparition()
     animateBackgroundInversion();
-    animateHomeCarTranslation()
     animateBackgroundParallax()
     recalculateBrokerageScrollBar()
 }
@@ -39,7 +38,7 @@ function animateBackgroundInversion() {
 function animateBackgroundParallax() {
     document.querySelectorAll(".anim-background-parralax").forEach(function(element) {
         var middle = element.getBoundingClientRect().top * 2 + element.offsetHeight - window.innerHeight
-        var constant = 15
+        var constant = 5
         var offset = middle * -1 / constant
         element.style.backgroundPositionY = "calc(50% - "+offset+"px)";
     });
@@ -68,15 +67,15 @@ function recalculateBrokerageScrollBar() {
     scrollBarThumb.style.left = calculatedThumbOffsetPercent+"%";
 }
 
-function animateHomeCarTranslation() {
-    var carImg = document.getElementById("anim-car-translation");
-    if(carImg == null) { return }
+// function animateHomeCarTranslation() {
+//     var carImg = document.getElementById("anim-car-translation");
+//     if(carImg == null) { return }
     
-    var start =  window.innerHeight - carImg.getBoundingClientRect().top;
-    var translate = Math.max(150 - (start/2), 0);
+//     var start =  window.innerHeight - carImg.getBoundingClientRect().top;
+//     var translate = Math.max(150 - (start/2), 0);
 
-    carImg.style = "transform: translateX("+translate+"px);"
-}
+//     carImg.style = "transform: translateX("+translate+"px);"
+// }
 
 function toggleMenu() {
     var el = document.getElementById("popover-menu");

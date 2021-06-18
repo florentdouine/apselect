@@ -1,5 +1,6 @@
 // GLOBAL STYLES
-html, body {
+html,
+body {
   font-family: $font-family;
   color: $color-content-reverse;
   @include text-style-body;
@@ -69,28 +70,27 @@ footer {
   z-index: -1;
 }
 
-input[type=text], 
-input[type=email], 
-input[type=phone] {
+input[type="text"],
+input[type="email"],
+input[type="phone"] {
   border-bottom: 3px solid $color-content-dark;
   border-radius: 0;
   -webkit-appearance: none;
 }
 
-input[type=text], 
-input[type=email], 
-input[type=phone], 
+input[type="text"],
+input[type="email"],
+input[type="phone"],
 label {
   padding-left: 25px;
 }
 
-input[type=text]::placeholder, 
-input[type=email]::placeholder, 
-input[type=phone]::placeholder,
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="phone"]::placeholder,
 label {
   color: $color-content-main;
 }
-
 
 textarea {
   border: 3px solid $color-content-dark;
@@ -101,5 +101,5 @@ textarea {
 
   @include media-breakpoint-down(sm) {
     min-height: 130px;
-}
+  }
 }

@@ -52,6 +52,7 @@
 .main-arrow-link {
     text-transform: uppercase;
     font-weight: $font-weight-bold;
+    font-size: 12px;
     letter-spacing: 2px;
     transform: rotate(90deg) translateX(calc(-100% + -23px));
     transform-origin: left;
@@ -69,14 +70,20 @@
     position: relative;
     left: 10px;
     background-image: url("/images/arrow-white-long.png");
-    animation: bounce 1s linear infinite 0s
-  }
+    animation: bounce 1s linear infinite 0s;
+}
 
-  @keyframes bounce {
-    0% { left: 10px; }
-    50% { left: 30px; }
-    100% { left: 10px; }
-  }
+@keyframes bounce {
+    0% {
+        left: 10px;
+    }
+    50% {
+        left: 30px;
+    }
+    100% {
+        left: 10px;
+    }
+}
 
 #main-presentation .cmp-full-width-image {
     background-position: top;
@@ -129,7 +136,7 @@
     display: inline-block;
 }
 
-#main-brokerage a { 
+#main-brokerage a {
     display: inline-block;
     margin-top: 60px;
     margin-bottom: 200px;
@@ -150,8 +157,8 @@
 }
 
 #main-resale-illustration {
-    background-image: url('/images/home/bg-light-street.webp');
-    
+    background-image: url("/images/home/bg-light-street.webp");
+
     @include media-breakpoint-down(sm) {
         height: 350px;
         margin-left: 80px;
@@ -160,6 +167,7 @@
 
 #main-resale-illustration img {
     position: absolute;
+    max-width: 770px;
     top: 52%;
     left: -23%;
     z-index: 10;

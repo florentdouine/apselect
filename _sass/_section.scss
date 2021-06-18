@@ -1,8 +1,10 @@
-.section-light, .section-col-light {
+.section-light,
+.section-col-light {
     color: $color-content-dark;
 }
 
-.section-light p, .section-col-light p {
+.section-light p,
+.section-col-light p {
     color: $color-content-medium;
 }
 
@@ -67,12 +69,16 @@
     }
 }
 
-#section-banner-title h2:first-child{
+#section-banner-title h2:first-child {
     margin-left: -30%;
 }
 
-#section-banner-title h2:last-child{
+#section-banner-title h2:last-child {
     margin-right: -30%;
+}
+
+#section-banner-title .caption {
+    margin-top: 18px
 }
 
 .section-behind-banner {
@@ -94,9 +100,8 @@
 }
 
 #section-vertical-band p {
-  font-size: $font-size-body-highlighted;
-  font-weight: $font-weight-bold;
-  line-height: 38px;
+    font-size: $font-size-body-highlighted;
+    line-height: 38px;
 }
 
 #section-vertical-band-description {

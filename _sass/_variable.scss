@@ -1,5 +1,6 @@
 // Variables
-$color-accent-main: #1426AE;
+$color-accent-main: #1426ae;
+$color-accent-medium: #303fac;
 $color-accent-secondary: #c7b9a2;
 $color-accent-secondary-alpha: #c7b9a233;
 
@@ -37,7 +38,6 @@ $font-size-mobile-title-3: 25px;
 $font-size-mobile-subhead: 25px;
 
 /* Specific */
-
 
 @mixin text-style-title-1 {
     font-size: $font-size-title-1;

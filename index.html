@@ -10,7 +10,7 @@ footer-large: true
     <div id="main-video-container">
         <video autoplay muted loop playsinline id="main-video">
             <source src="images/video.mp4" type="video/mp4">
-          </video>
+        </video>
     </div>
     <div id="main-cover">
         <div id="main-title">
@@ -23,14 +23,16 @@ footer-large: true
 </section>
 
 {% include section/section-vertical-band.html
-    title="Le concept"
-    description="Courtage et Conciergerie sur mesure de véhicules Sports et Vintage"
-    watermark="69"
-    %}
+title="Le concept"
+description="Courtage et Conciergerie sur mesure de véhicules Sports et Vintage"
+watermark="69"
+%}
 
 <section id="main-presentation" class="row">
-    <div class="col-12 cmp-backgrounded-image" style="background-image: url('/images/home/bg-courtage-porsche-911.webp');">
-        <div class="cmp-full-width-image"  style="background-image: url('/images/home/porsche-911-luxe-lyon.webp');"></div>
+    <div class="col-12 cmp-backgrounded-image"
+        style="background-image: url('/images/home/bg-courtage-porsche-911.webp');">
+        <div class="cmp-full-width-image" style="background-image: url('/images/home/porsche-911-luxe-lyon.webp');">
+        </div>
         <div id="main-presentation-description">
             <h2 class="bordered-letters anim-fadein-bottom-apparition">Prenez le volant,</h2>
             <h2 class="anim-fadein-bottom-apparition">AP SELect s'occupe du reste</h2>
@@ -48,32 +50,34 @@ footer-large: true
 
 <section class="anim-background-inversion section-light" id="main-brokerage">
     <div class="row no-gutters">
-        <div class="offset-md-3 col-md-6">
+        <div class="offset-md-4 col-md-4">
             <div>
                 <span class="cmp-number-watermark-secondary">01</span>
                 <h3 class="shadow-secondary">Votre courtage</h3>
             </div>
             <p id="main-brokerage-description" class="anim-fadein-apparition">
-                Construire une relation de confiance et satisfaire pleinement vos attentes, c'est la promesse d'AP SELECT.<br/>
-                Nous vous accompagnons dans l'ensemble de vos projets automobiles.            
+                Construire une relation de confiance et satisfaire pleinement vos attentes, c'est la promesse d'AP
+                SELECT. Nous vous accompagnons dans l'ensemble de vos projets automobiles.
             </p>
         </div>
     </div>
     <div id="main-brokerage-types-container" class="row no-gutters">
-        <div class="main-brokerage-type offset-md-1-5 col-md-3">
-            <img src="images/home/projet-automobile-passion.webp" class="anim-bottom-apparition"/>
+        <div class="main-brokerage-type offset-md-1-5 col-md-3 anim-bottom-apparition">
+            <img src="images/home/projet-automobile-passion.webp" />
             <span class="cmp-horizontal-line-secondary"></span>
             <h4>Passion</h4>
-            <p>Des réponses pour vivre votre passion au volant d'un véhicule de sport, d'une vintage car ou d'une GT.</p>
+            <p>Des réponses pour vivre votre passion au volant d'un véhicule de sport, d'une vintage car ou d'une GT.
+            </p>
         </div>
-        <div class="main-brokerage-type col-md-3">
-            <img src="images/home/achat-flotte-voiture-entreprise.webp" class="anim-bottom-apparition"/>
+        <div class="main-brokerage-type col-md-3 anim-bottom-apparition">
+            <img src="images/home/achat-flotte-voiture-entreprise.webp" />
             <span class="cmp-horizontal-line-secondary"></span>
             <h4>Entreprise</h4>
-            <p>Des services entreprises pour optimiser et amortir vos flottes collaborateurs et véhicules de direction.</p>
+            <p>Des services entreprises pour optimiser et amortir vos flottes collaborateurs et véhicules de direction.
+            </p>
         </div>
-        <div class="main-brokerage-type col-md-3">
-            <img src="images/home/courtage-patrimoine.webp" class="anim-bottom-apparition"/>
+        <div class="main-brokerage-type col-md-3 anim-bottom-apparition">
+            <img src="images/home/courtage-patrimoine.webp" />
             <span class="cmp-horizontal-line-secondary"></span>
             <h4>Patrimoine</h4>
             <p>Des solutions d'investissement pour enrichir votre patrimoine automobile.</p>
@@ -89,19 +93,20 @@ footer-large: true
 
 <section class="row flex-md-row-reverse" id="main-resale">
     <div class="col-md-6 section-col-backgrounded" id="main-resale-illustration">
-        <img id="anim-car-translation" src="/images/home/revente-carte-staging.webp"/>
+        <img src="/images/home/revente-carte-staging.webp" />
     </div>
 
     {% capture services %}{% link services.html %}{% endcapture %}
     {% capture servicesConciergerie %}{% link services.html %}#services-concierge{% endcapture %}
     {% include section/section-col-detailed.html
-        watermark="02"
-        title="revendre son véhicule"
-        text="AP SELECT vous aide à la mise en vente de votre véhicule.<br/>Obtenez une estimation experte de sa valeur et bénéficiez d'un plan d'action simplifié et sécurisé en nous confiant la gestion complète de votre transaction."
-        link="en savoir plus"
-        url=services
-        theme="dark"
-        %}
+    watermark="02"
+    title="revendre son véhicule"
+    text="AP SELECT vous aide à la mise en vente de votre véhicule.<br />Obtenez une estimation experte de sa valeur et
+    bénéficiez d'un plan d'action simplifié et sécurisé en nous confiant la gestion complète de votre transaction."
+    link="en savoir plus"
+    url=services
+    theme="dark"
+    %}
 
 </section>
 
@@ -111,15 +116,12 @@ footer-large: true
         <img src="images/home/conciergerie-detailing-vintage-car.webp" class="cmp-padding-col-img anim-left-apparition">
     </div>
     {% include section/section-col-detailed.html
-        watermark="03"
-        title="La conciergerie et le detailing"
-        text="Offrez à votre véhicule des services de haute qualité en mécanique et cosmétique, ainsi que des soins de prestiges dédiés au confort de votre quotidien."
-        link="en savoir plus"
-        url=servicesConciergerie
-        theme="light"
-        %}
+    watermark="03"
+    title="La conciergerie et le detailing"
+    text="Offrez à votre véhicule des services de haute qualité en mécanique et cosmétique, ainsi que des soins de
+    prestiges dédiés au confort de votre quotidien."
+    link="en savoir plus"
+    url=servicesConciergerie
+    theme="light"
+    %}
 </section>
-
-
-
-
