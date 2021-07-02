@@ -25,11 +25,10 @@ function windowScreenChanged() {
 
 function animateBackgroundInversion() {
     document.querySelectorAll(".anim-background-inversion").forEach(function(element) {
-        if(startToAppear(element)) {
-            document.getElementById("container").style.backgroundColor = "white"
-        } else {
-            document.getElementById("container").style.backgroundColor = "black"
-        }
+        var isInverted = appearAtThird(element);
+        document.getElementById("container").style.backgroundColor = isInverted ? "white" : "black";
+        document.getElementsByClassName("anim-background-inversion-prev")[0].style.opacity = isInverted ? 0.0 : 1.0;
+        element.style.opacity = isInverted ? 1.0 : 0.0;
     });
 }
 
@@ -120,6 +119,11 @@ function startToAppear(el) {
      return elTop < window.innerHeight
 }
 
+function appearAtThird(el) {
+    var elTop = el.getBoundingClientRect().top
+     return elTop < window.innerHeight * 2 / 3
+}
+
 function startToDisappear(el, margin) {
     var elTop = el.getBoundingClientRect().top
     var elHeight = el.offsetHeight
@@ -133,12 +137,6 @@ function scrollWindowHeight() {
         left: 0,
         behavior: 'smooth'
     });
-}
-
-function setHeaderOpacity() {
-    var menuHeight = $("#header-slider").height()
-    var alpha = 1 - (menuHeight-pageYOffset)/menuHeight;
-    $("#header-slider").css("background-color", "rgba(235, 235, 235, "+alpha+")");
 }
 
 function submit() {
