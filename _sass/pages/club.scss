@@ -44,12 +44,10 @@
     flex-wrap: nowrap;
     width: 90%;
     max-width: 600px;
+    flex-direction: column;
 }
 
-#club-inscription input {
-    margin-right: 63px;
-    flex: auto;
-    @include media-breakpoint-down(sm) {
-        margin-right: 10px;
-    }
+#club-inscription a {
+    margin-top: 20px;
+    align-self: flex-end;
 }

@@ -1,5 +1,9 @@
 #main-cover-container {
     height: calc(100vh);
+
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 100px;
+    }
 }
 
 #main-cover {

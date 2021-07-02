@@ -28,7 +28,7 @@ banner-image: club/club-passionnes-vintage-sport-cars.webp
     <div id="club-inscription-title-container">
         <h3 class="shadow-secondary">Prévenez-moi quand il y a du nouveau</h3>
     </div>
-    <form id="club-form" action="https://formsubmit.co/florent@douine.fr" todo method="POST" />
+    <form id="club-form" action="https://formsubmit.co/{{ site.email }}" todo method="POST" />
         <input type="email" name="email" id="input-club-email" placeholder="Votre email"/>
         <input type="hidden" name="_subject" value="Nouvelle inscription au club">
         <input type="hidden" name="_next" value="{{ site.url }}{% link club.html %}?submitted=true#club-form" />

@@ -1,6 +1,6 @@
 <div class="col-md-6 section-col-detailed {% if include.theme == "dark" %}section-col-dark{% else %}section-col-light{% endif %}">
     <div class="section-col-detailed-container">
-        {% if include.watermark %}<span class="{% if include.theme == "dark" %}cmp-number-watermark{% else %}cmp-number-watermark-secondary{% endif %}">{{ include.watermark }}</span>{% endif %}
+        {% if include.watermark %}<span class="anim-parallax {% if include.theme == "dark" %}cmp-number-watermark{% else %}cmp-number-watermark-secondary{% endif %}">{{ include.watermark }}</span>{% endif %}
         <h3 class="shadow-secondary anim-fadein-apparition">{{ include.title }}</h3>
         <p class=" anim-fadein-apparition">
             {{ include.text }}
