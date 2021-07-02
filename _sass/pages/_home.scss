@@ -1,5 +1,9 @@
 #main-cover-container {
     height: calc(100vh);
+
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 100px;
+    }
 }
 
 #main-cover {
@@ -107,8 +111,12 @@
     font-size: $font-size-body-highlighted;
     max-width: 450px;
     margin: auto;
-    padding-bottom: calc(100vh);
+    padding-bottom: 200px;
     line-height: 38px;
+
+    @include media-breakpoint-down(sm) {
+        padding-bottom: 150px;
+    }
 }
 
 #main-brokerage {

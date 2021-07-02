@@ -19,16 +19,16 @@ function windowScreenChanged() {
     configureFooterApparition()
     animateBackgroundInversion();
     animateBackgroundParallax()
+    animateElementParallax()
     recalculateBrokerageScrollBar()
 }
 
 function animateBackgroundInversion() {
     document.querySelectorAll(".anim-background-inversion").forEach(function(element) {
-        if(startToAppear(element)) {
-            document.getElementById("container").style.backgroundColor = "white"
-        } else {
-            document.getElementById("container").style.backgroundColor = "black"
-        }
+        var isInverted = appearAtThird(element);
+        document.getElementById("container").style.backgroundColor = isInverted ? "white" : "black";
+        document.getElementsByClassName("anim-background-inversion-prev")[0].style.opacity = isInverted ? 0.0 : 1.0;
+        element.style.opacity = isInverted ? 1.0 : 0.0;
     });
 }
 
@@ -36,11 +36,20 @@ function animateBackgroundInversion() {
 // var startToEnd = elTop + elHeight - window.innerHeight < 0
 // var stopToBeVisible = elTop + elHeight < 0
 function animateBackgroundParallax() {
-    document.querySelectorAll(".anim-background-parralax").forEach(function(element) {
+    document.querySelectorAll(".anim-background-parallax").forEach(function(element) {
         var middle = element.getBoundingClientRect().top * 2 + element.offsetHeight - window.innerHeight
         var constant = 5
         var offset = middle * -1 / constant
         element.style.backgroundPositionY = "calc(50% - "+offset+"px)";
+    });
+}
+
+function animateElementParallax() {
+    document.querySelectorAll(".anim-parallax").forEach(function(element) {
+        var middle = element.getBoundingClientRect().top * 2 + element.offsetHeight - window.innerHeight
+        var constant = 20
+        var offset = middle / constant
+        element.style = "transform: translate(0px, "+offset+"px);";
     });
 }
 
@@ -110,6 +119,11 @@ function startToAppear(el) {
      return elTop < window.innerHeight
 }
 
+function appearAtThird(el) {
+    var elTop = el.getBoundingClientRect().top
+     return elTop < window.innerHeight * 2 / 3
+}
+
 function startToDisappear(el, margin) {
     var elTop = el.getBoundingClientRect().top
     var elHeight = el.offsetHeight
@@ -125,12 +139,6 @@ function scrollWindowHeight() {
     });
 }
 
-function setHeaderOpacity() {
-    var menuHeight = $("#header-slider").height()
-    var alpha = 1 - (menuHeight-pageYOffset)/menuHeight;
-    $("#header-slider").css("background-color", "rgba(235, 235, 235, "+alpha+")");
-}
-
 function submit() {
     document.getElementsByTagName("form")[0].submit()
 }
@@ -139,12 +147,12 @@ function getURLParameters() {
     var prmstr = window.location.search.substr(1);
     return prmstr
 }
-function clubThanks() {
-    if(document.getElementById("club-form") == null) { return }
+function displayThanksMessage(formId, thanksId) {
+    if(document.getElementById(formId) == null) { return }
     let param = getURLParameters();
 
-    document.getElementById("club-form").style.display = (param != "" ? "none" : "flex");
-    document.getElementById("club-thanks").style.display = (param == "" ? "none" : "flex");
+    document.getElementById(formId).style.display = (param != "" ? "none" : "flex");
+    document.getElementById(thanksId).style.display = (param == "" ? "none" : "flex");
     if(param != "") {
         window.scrollTo({ 
             top: 100000,
@@ -152,7 +160,8 @@ function clubThanks() {
     }
 }
 
-clubThanks()
+displayThanksMessage("club-form", "club-thanks");
+displayThanksMessage("contact-form", "contact-thanks");
 
 ScrollReveal().reveal('.anim-fadein-apparition', { 
     opacity: 0,

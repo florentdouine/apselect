@@ -15,24 +15,27 @@ order: 5
     <a href='mailto:contact@apselect.fr'>contact@apselect.fr</a><br/>
     Disponible 7j/7"
     watermark="01"
+    watermarkHiddenOnMobile=true
     %}
 </div>
 
 
 <section id="contact-form-section" class="row section-col-light">
-    <h3 class="shadow-secondary">Contact</h3>
-    <form id="contact-form" action="https://formsubmit.co/florent@douine.fr" todo method="POST" />
+    <form id="contact-form" action="https://formsubmit.co/{{ site.email }}" todo method="POST" />
+        <h3 class="shadow-secondary">Contact</h3>
         <input type="text" name="name" id="input-contact-name" placeholder="Votre nom"/>
         <input type="email" name="email" id="input-contact-email" placeholder="Votre email"/>
         <label for="message">Message</label>
         <textarea name="message" id="input-contact-message"></textarea>
         <input type="hidden" name="_subject" value="Nouveau contact">
-        <input type="hidden" name="_next" value="{{ site.url }}{% link contact.html %}?submitted=true" />
+        <input type="hidden" name="_next" value="{{ site.url }}{% link contact.html %}?submitted=true#contact-form-section" />
         <input type="text" name="_honey" style="display:none">
         <input type="hidden" name="_captcha" value="false">
         <p>Je reconnais que mes données personnelles seront traitées conformément à la politique de confidentialité d'AP Select.</p>
         <a href="javascript:submit()" class="link-arrowed shadow-secondary active">Envoyer</a>
     </form>
-
+    <p id="contact-thanks" style="display: none;">
+        Votre message a bien été envoyé. Nous reviendrons vers vous rapidement !
+    </p>
 
 </section>

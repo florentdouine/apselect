@@ -109,14 +109,18 @@ a.link-arrowed::after {
     opacity: 0.3;
     margin-top: -190px;
     margin-left: -231px;
-    z-index: 5;
     @extend .bordered-letters;
     @include text-style-extra-large;
+
+    @include media-breakpoint-down(sm) {
+        margin-left: 0px;
+        margin-top: -110px;
+    }
 }
 
 .cmp-number-watermark-secondary {
     -webkit-text-stroke: 1px $color-accent-secondary;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .cmp-backgrounded-image {

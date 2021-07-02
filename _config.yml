@@ -19,15 +19,11 @@
 # in the templates via {{ site.myvariable }}.
 
 title: AP SELECT #TODO
-email: a.guinet@apselect.fr
+email: florent@douine.fr #contact@apselect.fr
 description: >- # this means to ignore newlines until "baseurl:" TODO
-  AP SELECT descritpnio
+  AP SELECT descrition
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://dev.apselect.fr" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-  - jekyll-minifier
-  - jekyll-sitemap
+url: "http://dev.apselect.fr" # http://127.0.0.1:4000
 
 # Build settings
 theme: minima

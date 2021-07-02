@@ -103,3 +103,9 @@ textarea {
     min-height: 130px;
   }
 }
+
+.d-none-mobile {
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+}
