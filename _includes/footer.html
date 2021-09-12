@@ -41,4 +41,4 @@
     </div>
 </section>
 
-<script src="{{ '/js/main.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/js/main.js?t=' | prepend: site.baseurl }}{{ site.time | date: '%y-%m-%d' }}"></script>

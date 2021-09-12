@@ -20,7 +20,7 @@ function windowScreenChanged() {
     animateBackgroundInversion();
     animateBackgroundParallax()
     animateElementParallax()
-    recalculateBrokerageScrollBar()
+    animatePageControl();
 }
 
 function animateBackgroundInversion() {
@@ -53,27 +53,25 @@ function animateElementParallax() {
     });
 }
 
+function animatePageControl() {
+    document.querySelectorAll(".anim-paginator").forEach(function(element) {
+        var width = element.offsetWidth;
+        var offsetLeft = element.firstElementChild.getBoundingClientRect().left * -1 + (width / 2);
+        var index = parseInt(offsetLeft / width);
+        for(i=0; i<element.childElementCount; i++) {
+            var el = document.getElementsByClassName("cmp-page-control")[0].getElementsByTagName("span")[i];
+            if(i == index) {
+                el.classList.add("active");
+            } else {
+                el.classList.remove("active");
+            }
+        }
+    });
+}
+
 function configureFooterApparition(){
     var footerHeight = document.getElementsByTagName("footer")[0].offsetHeight;
     document.getElementById("container").style.marginBottom = footerHeight + "px";
-}
-
-function recalculateBrokerageScrollBar() {
-    var scrollBarThumb = document.getElementById("brokerage-scrollbar-thumb");
-    if(scrollBarThumb == null) { return }
-
-    var scrollContainer = document.getElementById("brokerage-steps-container")
-
-    var scrollBarWidth = document.getElementById("brokerage-scrollbar").offsetWidth;
-    var firstStepContainer = document.getElementsByClassName("brokerage-step-container")[0];
-    var offset = parseInt(firstStepContainer.offsetLeft) - parseInt(firstStepContainer.getBoundingClientRect().left);
-    var contentWidth = 5 * firstStepContainer.offsetWidth;
-
-    var calculatedThumbWidth = scrollBarWidth * scrollBarWidth / contentWidth
-    var calculatedThumbOffsetPercent = offset * 100 / contentWidth;
-    
-    scrollBarThumb.style.width = calculatedThumbWidth+"px";
-    scrollBarThumb.style.left = calculatedThumbOffsetPercent+"%";
 }
 
 // function animateHomeCarTranslation() {
