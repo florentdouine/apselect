@@ -17,8 +17,8 @@ banner-image: brokerage/courtage-ferrari-sport.webp
     </div>
 </section>
 <section class="section-col-light row" style="position: relative;">
-    <div id="brokerage-white-degraded"></div>
-    <div id="brokerage-steps-container" class="anim-right-apparition">
+    <div id="brokerage-white-degraded" class="d-none-mobile"></div>
+    <div id="brokerage-steps-container" class="anim-right-apparition anim-paginator">
         <div class="brokerage-step-container">
             <span class="bordered-letters">01</span>
             <div class="brokerage-step-content">
@@ -55,11 +55,9 @@ banner-image: brokerage/courtage-ferrari-sport.webp
             </div>
         </div>
     </div>
-</section>
-<section id="brokerage-scrollbar-container" class="section-col-light row">
-    <div id="brokerage-scrollbar">
-        <div id="brokerage-scrollbar-thumb"></div>
-    </div>
+    {% include components/page-control.html
+        count=5
+        %}
 </section>
 <section id="brokerage-contact-container" class="section-col-light row">
     <a href="{% link contact.html %}" class="button button-arrowed button-accented">Contactez-nous</a>

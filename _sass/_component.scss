@@ -229,3 +229,24 @@ a.shadow-reverse:hover {
     width: 50%;
     transform: translate(14px, -4px) rotatez(45deg);
 }
+
+.cmp-page-control {
+    display: none;
+    @include media-breakpoint-down(sm) {
+        display: flex;
+        margin: auto;
+        gap: 8px;
+    }
+}
+
+.cmp-page-control span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: $color-content-extra-light;
+}
+
+.cmp-page-control span.active {
+    background-color: $color-content-dark;
+}

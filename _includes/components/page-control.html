@@ -1,0 +1,5 @@
+<div class="cmp-page-control">
+{% for i in (1..include.count) %}
+    <span class="{% if i==1 %}active{% endif %}"></span>
+{% endfor %}
+</div>
