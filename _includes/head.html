@@ -5,11 +5,11 @@
     <meta property="og:locale" content="fr_FR" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="google-site-verification" content="JrnmGXQZtaFLo-ctTPOai8DNXqQZqh9lFT4DpAjWoqE" />
     <!-- SEO : Title, description & canonical url -->
     <meta property="og:title" content="{% if page.title %}{{ page.title | strip_html | escape }} | {% endif %}{{ site.title | escape }}"/>
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <title>{% if page.title %}{{ page.title | strip_html | escape }} | {% endif %}{{ site.title | escape }}</title>
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
@@ -24,8 +24,9 @@
     
     <!-- JS -->
     <script src="https://use.fontawesome.com/967448ca0d.js"></script>
-    <!-- No need for the moment <script src="{{ '/js/jquery-3.6.0.min.js' | prepend: site.baseurl }}"></script> -->
     <script src="{{ '/js/scrollreveal.min.js' | prepend: site.baseurl }}"></script>
+    
+    <!-- No need for the moment <script src="{{ '/js/jquery-3.6.0.min.js' | prepend: site.baseurl }}"></script> -->
     <!-- <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script> -->
     
     <!-- Global site tag (gtag.js) - Google Analytics -->

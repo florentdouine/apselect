@@ -109,3 +109,7 @@ textarea {
     display: none;
   }
 }
+
+.inline-link:hover {
+  font-weight: $font-weight-bold;
+}
