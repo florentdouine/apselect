@@ -21,6 +21,7 @@ function windowScreenChanged() {
     animateBackgroundParallax()
     animateElementParallax()
     animatePageControl();
+    reloadStaticAnimations();
 }
 
 function animateBackgroundInversion() {
@@ -145,6 +146,7 @@ function getURLParameters() {
     var prmstr = window.location.search.substr(1);
     return prmstr
 }
+
 function displayThanksMessage(formId, thanksId) {
     if(document.getElementById(formId) == null) { return }
     let param = getURLParameters();
@@ -160,6 +162,30 @@ function displayThanksMessage(formId, thanksId) {
 
 displayThanksMessage("club-form", "club-thanks");
 displayThanksMessage("contact-form", "contact-thanks");
+reloadStaticAnimations();
+
+var inactiveTimeout;
+function reloadStaticAnimations() {
+    var elements = document.querySelectorAll(".anim-fadeout-inactive");
+    fadeIn(elements);
+
+    inactiveTimeout = setTimeout(function(){
+        fadeOut(elements)
+    }, 10000);
+    
+}
+
+function fadeOut(elements) {
+    elements.forEach(function(element) {
+        element.classList.add("inactive");
+    })
+}
+
+function fadeIn(elements) {
+    elements.forEach(function(element) {
+        element.classList.remove("inactive");
+    })
+}
 
 ScrollReveal().reveal('.anim-fadein-apparition', { 
     opacity: 0,

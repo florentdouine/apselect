@@ -3,5 +3,14 @@
 }
 
 .anim-background-inversion, .anim-background-inversion-prev {
-    transition: opacity 0.8s ease;
+    transition: opacity 0.8s ease-in-out;
+}
+
+.anim-fadeout-inactive.inactive {
+    color: transparent;
+    -webkit-text-stroke-color: transparent !important;
+}
+
+.anim-fadeout-inactive {
+    transition: all 2s ease-in-out;
 }
