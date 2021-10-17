@@ -9,38 +9,44 @@ banner-subtitle: "SERVICES"
 banner-image: services/services-sport-cars.webp
 ---
 
-<section class="section-behind-banner row">
-    <div id="services-intro-container" class="anim-bottom-apparition">
-        <h2>Aide à la vente</h2>
-        <h5 class="caption">Voitures de sport et vintage</h5>
-        <span class="cmp-horizontal-line-secondary"></span>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-</section>
-
-<section class="section-col-light row" id="services-concierge">
-
-    <div class="col-md-6" id="services-concierge-illustration">
-        <img src="images/services/conciergerie-vintage-cars.webp" class="cmp-padding-col-img anim-left-apparition">
-    </div>
-
-    {% capture contact %}{% link contact.html %}{% endcapture %}
+{% capture contact %}{% link contact.html %}{% endcapture %}
+<section class="section-col-light row" id="services-help">
     {% include section/section-col-detailed.html
-        title="conciergerie"
+        title="Aide à la vente"
         text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         link="contactez-nous"
         url=contact
         theme="light"
         %}
+
+    <div class="col-md-6" id="services-help-illustration">
+        <img src="images/services/conciergerie-vintage-cars.webp" class="cmp-padding-col-img anim-right-apparition">
+    </div>
+
 </section>
 
-<section class="row" id="services-detailing">
+<section class="row" id="services-concierge">
+
+    <div class="col-md-6" id="services-concierge-illustration">
+        <img src="images/services/conciergerie-vintage-cars.webp" class="cmp-padding-col-img anim-left-apparition">
+    </div>
+
+    {% include section/section-col-detailed.html
+        title="conciergerie"
+        text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        link="contactez-nous"
+        url=contact
+        theme="dark"
+        %}
+</section>
+
+<section class="section-col-light row" id="services-detailing">
     {% include section/section-col-detailed.html
         title="detailing"
         text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         link="contactez-nous"
         url=contact
-        theme="dark"
+        theme="light"
         %}
     <div class="col-md-6" id="services-detailing-illustration">
         <img src="images/services/detailing-voiture-luxe.webp" class="cmp-full-col-img anim-right-apparition">
