@@ -166,7 +166,7 @@
 }
 
 #main-resale-illustration {
-    background-image: url("/images/home/bg-light-street.webp");
+    background-image: url("/images/home/aston-martin-street.jpg");
 
     @include media-breakpoint-down(sm) {
         height: 350px;
@@ -174,16 +174,16 @@
     }
 }
 
-#main-resale-illustration img {
-    position: absolute;
-    max-width: 770px;
-    top: 52%;
-    left: -23%;
-    z-index: 10;
-    @include media-breakpoint-down(sm) {
-        width: 300px;
-    }
-}
+// #main-resale-illustration img {
+//     position: absolute;
+//     max-width: 770px;
+//     top: 52%;
+//     left: -23%;
+//     z-index: 10;
+//     @include media-breakpoint-down(sm) {
+//         width: 300px;
+//     }
+// }
 
 #main-detailing-illustration {
     display: flex;
