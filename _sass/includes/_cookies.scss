@@ -1,0 +1,42 @@
+#cookies-banner {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    background: black;
+    align-items: center;
+    z-index: 1000000;
+    width: 100%;
+
+    // up
+    justify-content: flex-end;
+    padding: 20px 30px;
+
+    @include media-breakpoint-down(sm) {
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px 15px;
+    }
+  }
+  
+  #cookies-banner span {
+    line-height: 20px;
+    font-size: $font-size-caption;
+
+    padding-right: 10px;
+    width: 100%;
+
+    @include media-breakpoint-down(sm) {
+        text-align: justify;
+        margin-bottom: 10px;
+        padding-right: 0px;
+        width: auto;
+    }
+  }
+  
+  #cookies-banner .link-small {
+    margin-left: 20px;
+  }
+  
+  #cookies-banner .button-small {
+    margin-left: 20px;
+  }

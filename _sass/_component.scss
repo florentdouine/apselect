@@ -13,6 +13,25 @@
     @include text-style-button;
 }
 
+.button-small {
+    padding: 12px 12px;
+    line-height: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    font-size: $font-size-caption;
+    font-weight: $font-weight-bold;
+    letter-spacing: 1px;
+}
+
+.button-small:hover {
+    background-color: $color-accent-medium;
+}
+
 .button.button-arrowed:hover::after {
     left: 25px;
 }
@@ -28,7 +47,7 @@
     transition: all 0.3s ease 0s;
 }
 
-.button.button-accented {
+.button-accented {
     background-color: $color-accent-main;
 }
 
@@ -41,16 +60,25 @@
     border-color: transparent;
 }
 
-a.link-arrowed {
+a.link-small {
+    white-space: nowrap;
+    font-size: $font-size-caption;
+}
+
+a.link-small:hover {
+    color: $color-content-light;
+}
+
+a.link {
     white-space: nowrap;
     @include text-style-link;
 }
 
-a.link-arrowed:hover::after {
+a.link.link-arrowed:hover::after {
     left: 25px;
 }
 
-a.link-arrowed::after {
+a.link.link-arrowed::after {
     content: "";
     width: 35px;
     height: 8px;
