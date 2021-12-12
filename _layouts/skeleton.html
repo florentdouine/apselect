@@ -6,11 +6,7 @@
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <div id="cookies-banner">
-        <span>Dans le but de vous offrir une meilleure expérience de navigation, ce site utilise des cookies pour suivre et analyser le traffic.</span>
-        <a onclick="refuseCookies()" class="link-small active">Refuser</a>
-        <a onclick="acceptCookies()" class="button-small button-accented">Accepter</a>
-    </div>
+    {% include cookies.html %}
     <header>
         {% include menu.html %}
     </header>
