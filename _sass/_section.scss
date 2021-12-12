@@ -21,7 +21,7 @@
     display: flex;
     position: relative;
     @include media-breakpoint-down(sm) {
-        padding-bottom: 100px;
+        padding-bottom: 60px;
     }
 }
 
@@ -35,6 +35,9 @@
 
 .section-col-detailed p {
     margin: 80px 0px 60px 0px;
+    @include media-breakpoint-down(sm) {
+        margin: 40px 0px 30px 0px;
+    }
 }
 
 .section-col-detailed h3 {
@@ -112,4 +115,8 @@
         width: 90%;
         margin: auto;
     }
+}
+
+.section-plain {
+    margin-top: 166px;
 }

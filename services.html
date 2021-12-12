@@ -10,10 +10,7 @@ banner-image: services/services-sport-cars.jpg
 ---
 
 {% capture contact %}{% link contact.html %}{% endcapture %}
-<section class="section-col-light row" id="services-help">
-    <div class="col-md-6" id="services-help-illustration">
-        <img src="images/services/aide-vente-vehicule.jpg" class="cmp-padding-col-img anim-left-apparition">
-    </div>
+<section class="section-col-light row flex-md-row-reverse" id="services-help">
 
     {% include section/section-col-detailed.html
         title="Aide à la vente"
@@ -22,6 +19,10 @@ banner-image: services/services-sport-cars.jpg
         url=contact
         theme="light"
         %}
+
+    <div class="col-md-6" id="services-help-illustration">
+        <img src="images/services/aide-vente-vehicule.jpg" class="cmp-padding-col-img anim-left-apparition">
+    </div>
 
 </section>
 
@@ -38,12 +39,7 @@ banner-image: services/services-sport-cars.jpg
     </div>
 </section>
 
-<section class="section-col-light row" id="services-detailing">
-
-    <div class="col-md-6" id="services-detailing-illustration">
-        <img src="images/services/detailing-voiture-luxe.webp" class="cmp-full-col-img anim-left-apparition">
-    </div>
-
+<section class="section-col-light row flex-md-row-reverse" id="services-detailing">
     {% include section/section-col-detailed.html
         title="detailing"
         text="Nous proposons un service esthétique de prestige, un soin d'exception adapté à votre véhicule.<br/><br/>L'art de la préparation cosmétique offre une complète mise en beauté et une protection irréprochable à votre automobile."
@@ -52,5 +48,8 @@ banner-image: services/services-sport-cars.jpg
         theme="light"
         %}
     
+    <div class="col-md-6" id="services-detailing-illustration">
+        <img src="images/services/detailing-voiture-luxe.webp" class="cmp-full-col-img anim-left-apparition">
+    </div>
 </section>
 
