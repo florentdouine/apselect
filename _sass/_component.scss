@@ -60,6 +60,14 @@
     border-color: transparent;
 }
 
+a.link-inline {
+    text-decoration: underline;
+}
+
+a.link-inline:hover {
+    color: $color-content-dark;
+}
+
 a.link-small {
     white-space: nowrap;
     font-size: $font-size-caption;
