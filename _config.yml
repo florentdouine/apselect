@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: AP SELECT #TODO
+title: AP SELECT - Courtage et Conciergerie sur mesure de véhicules Sports et Vintage
 email: contact@apselect.fr
-description: >- # this means to ignore newlines until "baseurl:" TODO
-  AP SELECT descrition
+description: >- # this means to ignore newlines until "baseurl:"
+  Des solutions de courtages et conciergerie automobile sur mesure. Un expert dédié vous accompagne dans la recherche et la sélection de votre véhicule. L'art de conjuguer passion et investissement.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://dev.apselect.fr" # http://127.0.0.1:4000
 
@@ -47,3 +47,10 @@ exclude:
   - .sass-cache/
   - _site/
   - img/Ressources/
+
+defaults:
+  -
+    scope:
+      path:            "calculator/*"
+    values:
+      sitemap:         false
