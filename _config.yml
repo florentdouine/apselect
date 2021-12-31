@@ -23,7 +23,7 @@ email: contact@apselect.fr
 description: >- # this means to ignore newlines until "baseurl:"
   Des solutions de courtages et conciergerie automobile sur mesure. Un expert dédié vous accompagne dans la recherche et la sélection de votre véhicule. L'art de conjuguer passion et investissement.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://dev.apselect.fr" # http://127.0.0.1:4000
+url: "https://apselect.fr" # http://127.0.0.1:4000
 
 # Build settings
 theme: minima
