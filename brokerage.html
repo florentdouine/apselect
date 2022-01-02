@@ -1,0 +1,86 @@
+---
+permalink: /courtage-automobile
+layout: page
+menu: main
+menu-title: Courtage
+order: 2
+banner-title: "Le courtage"
+banner-subtitle: "AP SELECT"
+banner-image: brokerage/courtage-ferrari-sport.webp
+---
+
+<section class="section-col-light section-behind-banner row">
+    <div id="brokerage-intro-container">
+    <p>Le Courtage AP SELECT est un service exclusif, personnalisé et sur mesure. Nous mettons notre savoir-faire à la disposition de nos clients afin de proposer des véhicules clé en main et négociés pour vous au meilleur prix.</p>
+    <h3 class="shadow-secondary">Le courtage avec <br/>
+        AP SELECT en 5 étapes</h3>
+    </div>
+</section>
+<section class="section-col-light row" style="position: relative;">
+    <div id="brokerage-white-degraded" class="d-none-mobile"></div>
+    <div id="brokerage-steps-container" class="anim-right-apparition anim-paginator">
+        <div class="brokerage-step-container">
+            <span class="bordered-letters">01</span>
+            <div class="brokerage-step-content">
+                <h4>Premier échange et liste de vos critères</h4>
+                <p>Etablir une relation de confiance et être à votre écoute pour définir ensemble vos exigences.</p>
+            </div>
+        </div>
+        <div class="brokerage-step-container">
+            <span class="bordered-letters">02</span>
+            <div class="brokerage-step-content">
+                <h4>Sélection et proposition de modèles</h4>
+                <p>Un expert dédié vous propose une sélection de véhicules répondant à vos attentes. Il vous accompagne et vous conseille dans votre sélection automobile.</p>
+            </div>
+        </div>
+        <div class="brokerage-step-container">
+            <span class="bordered-letters">03</span>
+            <div class="brokerage-step-content">
+                <h4>Négociation et achat de votre véhicule</h4>
+                <p>Votre expert effectue les contrôles qualité et négocie la voiture que vous avez sélectionné au meilleur prix.</p>
+            </div>
+        </div>
+        <div class="brokerage-step-container">
+            <span class="bordered-letters">04</span>
+            <div class="brokerage-step-content">
+                <h4>démarches administratives</h4>
+                <p>AP SELECT s'occupe de toutes les démarches administratives pour vous</p>
+            </div>
+        </div>
+        <div class="brokerage-step-container">
+            <span class="bordered-letters">05</span>
+            <div class="brokerage-step-content">
+                <h4>Remise des clés</h4>
+                <p>Votre automobile sera préparée à la cosmétique avec possibilité de livraison à domicile.</p>
+            </div>
+        </div>
+    </div>
+    {% include components/page-control.html
+        count=5
+        %}
+</section>
+<section id="brokerage-contact-container" class="section-col-light row">
+    <a href="{% link contact.html %}" class="button button-arrowed button-accented">Contactez-nous</a>
+</section>
+<section class="row">
+    <img src="images/brokerage/courtage-porsche-passion.webp" width="100%"/>
+</section>
+<section class="row anim-background-parallax" id="brokerage-punch-line">
+    <h2>BIEN ACHETER MAIS AUSSI BIEN VENDRE</h2>
+</section>
+
+<section class="section-col-light row" id="brokerage-investment">
+
+    <div class="col-md-6" id="brokerage-investment-illustration">
+        <img src="images/brokerage/achat-porsche-import.webp" class="cmp-padding-col-img anim-left-apparition">
+    </div>
+
+    {% capture contact %}{% link contact.html %}{% endcapture %}
+    {% include section/section-col-detailed.html
+        title="un achat intelligent avec ap select"
+        text="La satisfaction client est au centre de nos préoccupations. C'est pourquoi AP SELECT négocie votre véhicule au meilleur prix d'achat pour vous assurer un bénéfice à la revente."
+        link="contact"
+        url=contact
+        theme="light"
+        %}
+</section>

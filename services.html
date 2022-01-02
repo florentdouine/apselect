@@ -1,0 +1,55 @@
+---
+permalink: /services
+layout: page
+menu: main
+menu-title: Services
+order: 4
+banner-title: "AP SELECT"
+banner-subtitle: "SERVICES"
+banner-image: services/services-sport-cars.jpg
+---
+
+{% capture contact %}{% link contact.html %}{% endcapture %}
+<section class="section-col-light row flex-md-row-reverse" id="services-help">
+
+    {% include section/section-col-detailed.html
+        title="Aide à la vente"
+        text="L'équipe AP SELECT prend en main l'intégralité des étapes de la vente de votre véhicule.<br/><br/>Estimer, mettre en annonce, répondre aux potentiels acheteurs et réaliser les démarches administratives une fois votre véhicule vendu."
+        link="contactez-nous"
+        url=contact
+        theme="light"
+        %}
+
+    <div class="col-md-6" id="services-help-illustration">
+        <img src="images/services/aide-vente-vehicule.jpg" class="cmp-padding-col-img anim-left-apparition">
+    </div>
+
+</section>
+
+<section class="row" id="services-concierge">
+    {% include section/section-col-detailed.html
+        title="conciergerie"
+        text="AP SELECT assure la gestion logistique de votre véhicule.<br/><br/>C'est une prise en charge en réponse à vos besoins du quotidien."
+        link="contactez-nous"
+        url=contact
+        theme="dark"
+        %}
+    <div class="col-md-6" id="services-concierge-illustration">
+        <img src="images/services/conciergerie-vintage-cars.webp" class="cmp-padding-col-img anim-right-apparition">
+    </div>
+</section>
+
+<section class="section-col-light row flex-md-row-reverse" id="services-detailing">
+    {% include section/section-col-detailed.html
+        title="detailing"
+        text="Nous proposons un service esthétique de prestige, un soin d'exception adapté à votre véhicule.<br/><br/>L'art de la préparation cosmétique offre une complète mise en beauté et une protection irréprochable à votre automobile."
+        link="contactez-nous"
+        url=contact
+        theme="light"
+        %}
+    
+    <div class="col-md-6" id="services-detailing-illustration">
+        <img src="images/services/detailing-voiture-luxe.webp" class="cmp-full-col-img anim-left-apparition">
+    </div>
+</section>
+

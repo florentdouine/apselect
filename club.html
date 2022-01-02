@@ -1,0 +1,43 @@
+---
+permalink: /le-club
+layout: page
+menu: main
+menu-title: Le Club
+order: 3
+banner-title: "le club"
+banner-subtitle: "AP SELECT"
+banner-subline: "Club privé pour passionnés"
+banner-image: club/club-passionnes-vintage-sport-cars.webp
+---
+
+<section class="section-behind-banner row">
+    <div id="club-intro-container" class="anim-bottom-apparition">
+        <h2>bientôt...</h2>
+        <p>
+        <span class="cmp-horizontal-line-secondary"></span>
+        Un club de passionnés dans lequel les membres pourront profiter de véhicules d’exception à n’importe quel moment.
+        <span class="cmp-horizontal-line-secondary"></span>
+        Un fonctionnement simple :<br/>Réservez au sein du club la voiture de votre choix !
+        <span class="cmp-horizontal-line-secondary"></span>
+        Vous possédez vous-même une voiture de sport ou vintage ? Proposez la aux membres du club en toute sérénité et rentabilisez la immédiatement.
+        </p>
+    </div>
+</section>
+
+<section class="section-col-light row" id="club-inscription">
+    <div id="club-inscription-title-container">
+        <h3 class="shadow-secondary">Prévenez-moi quand il y a du nouveau</h3>
+    </div>
+    <form id="club-form" action="https://formsubmit.co/{{ site.email }}" method="POST" />
+        <input type="email" name="email" id="input-club-email" placeholder="Votre email"/>
+        <input type="hidden" name="_subject" value="Nouvelle inscription au club">
+        <input type="hidden" name="_next" value="{{ site.url }}{% link club.html %}?submitted=true#club-form" />
+        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_captcha" value="false">
+        <a href="javascript:submit()" class="link link-arrowed shadow-secondary active">Envoyer</a>
+    </form>
+    <p id="club-thanks" style="display: none;">
+        Merci de votre inscription !
+    </p>
+</section>
+

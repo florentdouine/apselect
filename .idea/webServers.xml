@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c1e23b23-cfad-4742-9c04-b8edbaa39149" name="ApSelect (douine.fr)" url="http://dev.apselect.fr">
+        <fileTransfer host="ftp.cluster003.ovh.net" port="21" rootFolder="/apselect" username="bookmaga" password="df98df98dfd3dfc7dfe0dfc2dfeedfcddfc1dff0dffddfd0">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

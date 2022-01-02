@@ -1,0 +1,126 @@
+.section-light,
+.section-col-light {
+    color: $color-content-dark;
+}
+
+.section-light p,
+.section-col-light p {
+    color: $color-content-medium;
+}
+
+.section-col-backgrounded {
+    background-color: black;
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.section-col-detailed {
+    display: flex;
+    position: relative;
+    @include media-breakpoint-down(sm) {
+        padding-bottom: 60px;
+    }
+}
+
+.section-col-dark {
+    background-color: black;
+}
+
+.section-col-light {
+    background-color: white;
+}
+
+.section-col-detailed p {
+    margin: 80px 0px 60px 0px;
+    @include media-breakpoint-down(sm) {
+        margin: 40px 0px 30px 0px;
+    }
+}
+
+.section-col-detailed h3 {
+    display: inline;
+}
+
+.section-col-detailed-container {
+    align-self: center;
+    padding: 0px 15% 0px 15%;
+    position: relative;
+    @include media-breakpoint-down(sm) {
+        margin-top: 120px;
+        padding: 0px 5% 0px 5%;
+    }
+}
+
+#section-banner {
+    padding-top: 105px; // For header
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#section-banner-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 370px;
+    @include media-breakpoint-down(sm) {
+        height: 220px;
+    }
+}
+
+#section-banner-title h2:first-child {
+    margin-left: -30%;
+}
+
+#section-banner-title h2:last-child {
+    margin-right: -30%;
+}
+
+#section-banner-title .caption {
+    margin-top: 18px;
+    text-align: center;
+}
+
+.section-behind-banner {
+    margin-top: -580px;
+    padding-top: 580px;
+    @include media-breakpoint-down(sm) {
+        margin-top: -50px;
+        padding-top: 50px;
+    }
+}
+
+#section-vertical-band {
+    min-height: 520px;
+    display: flex;
+    justify-content: center;
+    @include media-breakpoint-down(sm) {
+        flex-wrap: wrap-reverse;
+    }
+}
+
+#section-vertical-band p {
+    font-size: $font-size-body-highlighted;
+    line-height: 38px;
+}
+
+#section-vertical-band-description {
+    width: 390px;
+    margin-left: 160px;
+    @include media-breakpoint-down(sm) {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+.section-plain {
+    margin-top: 166px;
+}
+
+.section-content {
+    margin-top: 115px;
+}

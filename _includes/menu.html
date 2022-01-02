@@ -1,31 +1,56 @@
-<div class="row" id="menu">
-<div id="logo" class="col">
-    <a href="{{ site.baseurl }}/">
-        <img class="img-fluid" src="{{ '/img/logo-small.png' | prepend: site.baseurl }}"/><br/>
-    </a>
-</div>
-
-
 {% assign main_pages = site.pages | where:"menu", "main" | sort:"order" %}
- <nav class="closed col-auto">
-    <ul class="">
-        <li class="d-md-none">
-            <a href="javascript:toggleMenu()"><i class="fa fa-bars"></i> Menu</a>
-        </li>
-        <!--
+{% assign mobile_pages = site.pages | where:"menu", "mobile" | sort:"order" %}
+{% assign all_pages = main_pages | concat: mobile_pages %}
+
+<nav>
+    <ul>
         {% for the_page in main_pages %}
-        <li {% if the_page.order == page.order %}class="active"{% endif %}>
-            <a href="{{ the_page.url | prepend: site.baseurl }}" title="{{ the_page.title }}" {% if the_page.order == page.order %}class="active"{% endif %}>
+        <li>
+            <a href="{{ the_page.url | prepend: site.baseurl }}" title="{{ the_page.title }}" class="shadow-accented {% if the_page.order == page.order %} active{% endif %}">
                 {{ the_page.menu-title }}
             </a>
         </li>
         {% endfor %}
-        -->
-
-        <li> <a href="/" title="Chasseur de voitures Youngtimers" class="active"> Accueil </a> </li>
-        <li> <a href="javascript:goToPageAnchor('#services')" title="Chasseur de voitures Youngtimers"> Services </a> </li>
-        <li> <a href="javascript:goToPageAnchor('#contact')" title="Chasseur de voitures Youngtimers"> Contact </a> </li> </ul>
-
     </ul>
 </nav>
+
+<div id="logo" > 
+    <a href="{{ site.baseurl }}/">
+        <img class="img-fluid" src="{{ '/images/apselect_logo.svg' | prepend: site.baseurl }}" width="185"/><br/>    
+    </a>
+</div>
+
+<div id="right-menu">
+    <ul id="socialicons" class="d-lg-flex">
+        <li><a class="facebook" href="http://www.facebook.com/AutomobilePassionSelection" target="_blank"> <i class="fa fa-facebook"></i> </a> </li>
+        <li> <a class="instagram" href="https://www.instagram.com/ap.select/" target="_blank"> <i class="fa fa-instagram"></i> </a> </li>
+        <li> <a class="linkedin" href="https://www.linkedin.com/company/ap-select-courtage/" target="_blank"> <i class="fa fa-linkedin"></i> </a> </li>
+    </ul>
+    <a href="{% link contact.html %}" id="btn-menu-contact" class="button button-secondary button-arrowed">Contact</a>
+    <a id="link-mobile-menu" class="d-lg-none" onclick="toggleMenu()">
+        Menu
+        <span for="check" id="cmp-burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+    </a>
+</div>
+
+<div id="popover-menu">
+    <ul id="popover-links">
+        {% for the_page in all_pages %}
+        <li>
+            <a href="{{ the_page.url | prepend: site.baseurl }}" title="{{ the_page.title }}" class="shadow-accented {% if the_page.order == page.order %} active{% endif %}">
+                {{ the_page.menu-title }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <ul id="popover-socialicons" class="d-lg-flex">
+        <li><a class="facebook" href="http://www.facebook.com/AutomobilePassionSelection" target="_blank"> <i class="fa fa-facebook"></i> </a> </li>
+        <li> <a class="instagram" href="https://www.instagram.com/ap.select/" target="_blank"> <i class="fa fa-instagram"></i> </a> </li>
+        <li> <a class="linkedin" href="https://www.linkedin.com/company/ap-select-courtage/" target="_blank"> <i class="fa fa-linkedin"></i> </a> </li>
+    </ul>
 </div>

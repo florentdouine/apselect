@@ -1,0 +1,53 @@
+#club-intro-container {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 106px;
+}
+
+#club-intro-container h2 {
+    padding: 110px 0px 110px 0px;
+    margin: auto;
+    @include media-breakpoint-down(sm) {
+        padding: 55px 0px 55px 0px;
+    }
+}
+
+#club-intro-container .cmp-horizontal-line-secondary {
+    margin: 30px auto;
+}
+
+#club-intro-container p {
+    max-width: 500px;
+}
+
+#club-inscription {
+    padding: 120px 0px;
+    @include media-breakpoint-down(sm) {
+        padding: 60px 0px;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#club-inscription-title-container {
+    margin-bottom: 90px;
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 45px;
+    }
+    text-align: center;
+}
+
+
+#club-inscription form {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    max-width: 600px;
+    flex-direction: column;
+}
+
+#club-inscription a {
+    margin-top: 20px;
+    align-self: flex-end;
+}

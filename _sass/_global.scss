@@ -1,230 +1,115 @@
 // GLOBAL STYLES
-
-html, body {
-  font-family: $font-family;
-  color: white;
-}
-
+html,
 body {
-  font-weight: $light-weight;
-  font-style: normal;
-  background-color: transparent;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: $dark-gray;
-  letter-spacing: normal;
-  text-align: center;
-}
-
-h1{
-  font-size: $font-size-big-title;
-  color: white;
-  text-transform: uppercase;
-}
-
-h2{
-  font-size: $font-size-subtitle;
-  font-family: $font-family-ternary;
-  color: white;
-}
-
-h3 {
-  font-size: $font-size-large-title;
-}
-
-h4 {
-  font-size: $font-size-middle-title;
-}
-
-h5 {
-  font-size: $font-size-body;
-}
-
-@include media-breakpoint-down(md) {
-  h3 {
-    font-size: $font-size-large-title-sm;
-  }
-
-  h4 {
-    font-size: $font-size-large-title-sm;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  h1 {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-}
-
-h1::after{
-  border-bottom: 1px dashed #bbb;
-  content: "";
-  height: 1px;
-  left: 50%;
-  margin-left: -31.5px;
-  position: absolute;
-  width: 63px;
-  margin-bottom: 0px;
-  bottom: 0;
+  font-family: $font-family;
+  color: $color-content-reverse;
+  @include text-style-body;
 }
 
 a {
-  color: $main-color;
-}
-
-a:hover, a:active {
-  color: $dark-gray;
+  color: inherit;
   text-decoration: none;
 }
 
-a.button{
-  display: inline-block;
-  background-color: $main-color;
-  padding: 3px 15px;
-  color: white;
-  font-size: 14px;
-  text-decoration: none;
-}
-
-a.button:hover {
+body {
   background-color: black;
 }
 
-strong {
-  font-weight: $bold-weight;
+h1 {
+  @include text-style-title-1;
 }
 
-span {
-  line-height: normal;
+h2 {
+  @include text-style-title-2;
+}
+
+h3 {
+  @include text-style-title-3;
+  display: inline;
+  z-index: 10;
+}
+
+h4 {
+  @include text-style-title-4;
 }
 
 p {
-  font-size: $font-size-body;
-  line-height: normal;
-  text-align: center;
+  line-height: 28px;
 }
 
-@include media-breakpoint-down(md) {
-  p {
-    font-size: $font-size-body-sm;
-  }
+a {
+  cursor: pointer;
 }
 
-
-li {
-  line-height: normal;
+ul li {
+  list-style-type: none;
 }
 
-p.sub-content {
-  font-size: 13px;
+.caption {
+  @include text-style-caption;
+}
+
+strong {
+  font-weight: $font-weight-bold;
 }
 
 img {
-  max-width: 100%;
+  object-fit: contain;
 }
 
-.block-background {
-  background-color: rgba(250,250,250,0.95);
-  //border: solid 1px $light-gray;
-  //box-shadow: 0px 0px 2px rgba(30, 70, 70, 0.23);
-}
-
-@include media-breakpoint-up(md) {
-  .container section {
-    margin-left: 20px;
+@media (min-width: 768px) {
+  .offset-md-1-5 {
+    margin-left: 12.5%;
   }
 }
 
-.pre-vertical-line::before, .post-vertical-line::after {
-  content: "";
-  width: 1px;
-  border-right: 1px solid #bbb;
-  margin: auto;
-  height: 40px;
-  display: block;
-}
-
-
-.pre-vertical-line::before{
-  margin-top: 40px;
-
-}
-
-.post-vertical-line::after {
-  margin-bottom: 40px;
-}
-
-.verticalCenterTitle {
-  display: flex;
-  flex-direction: column;
-}
-
-.underlined::after {
-  content: "";
-  width: 50%;
-  border-top: 1px solid $extra-light-gray;
-  margin: auto;
-  margin-top: 30px;
-  padding-bottom: 30px;
-  display: block;
-}
-
-.btn-default {
-  background-color: $main-color;
-  color: white;
-  border-color: #ccc;
-}
-
-.btn:hover {
-  color: $light-gray;
-  background-color: #fff;
-}
-
-cite::after, cite::before {
-  content: "\""
-}
-
-cite {
-  display: block;
-  font-style: italic;
-  font-weight: $light-weight;
-  font-size: 14px;
-  margin-bottom: 10px;
-}
-
-.black_filter {
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  transition: all 0.5s ease;
-}
-
-a.black_filter:hover {
-  background: rgba(0, 0, 0, 0.8);
-  transition: all 0.5s ease;
-}
-
 footer {
-  background-color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: -1;
 }
 
-.text-shadowed {
-  text-shadow: 1px 1px 10px black;
+input[type="text"],
+input[type="email"],
+input[type="phone"] {
+  border-bottom: 3px solid $color-content-dark;
+  border-radius: 0;
+  -webkit-appearance: none;
 }
 
-.btn {
-  background-color: $main-color !important;
-  color: white;
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+label {
+  padding-left: 25px;
 }
 
-.btn:hover {
-  color: white;
-  background-color: $light-gray !important;
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="phone"]::placeholder,
+label {
+  color: $color-content-main;
 }
 
-.btn-big {
-  font-size: $font-size-big-button;
+textarea {
+  border: 3px solid $color-content-dark;
+  border-radius: 0;
+  -webkit-appearance: none;
+  min-height: 200px;
+  padding: 5px;
+
+  @include media-breakpoint-down(sm) {
+    min-height: 130px;
+  }
+}
+
+.d-none-mobile {
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+}
+
+.inline-link:hover {
+  font-weight: $font-weight-bold;
 }

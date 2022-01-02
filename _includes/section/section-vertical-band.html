@@ -1,0 +1,13 @@
+<section id="section-vertical-band">
+    <div class="section-vertical-band-container">
+        {% include components/vertical-bands.html %}
+    </div>
+    <div class="align-self-center" id="section-vertical-band-description" >
+        <div>
+            <span class="cmp-number-watermark anim-parallax {% if include.watermarkHiddenOnMobile == true %}d-none-mobile{% endif %}">{{ include.watermark }}</span>
+            <h3>{{ include.title }}</h3>
+        </div>
+        <span class="cmp-horizontal-line"></span>
+        <p>{{ include.description }}</p>
+    </div>
+</section>

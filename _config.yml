@@ -7,28 +7,39 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "APSelect : Sport et Vintage Cars"
+
+title: AP SELECT - Courtage et Conciergerie sur mesure de véhicules Sports et Vintage
 email: contact@apselect.fr
-description: > # this means to ignore newlines until "baseurl:"
-  APSelect
-baseurl:  # the subpath of your site, e.g. /blog
-url: "http://dev.apselect.fr" # the base hostname & protocol for your site, e.g. http://example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Des solutions de courtages et conciergerie automobile sur mesure. Un expert dédié vous accompagne dans la recherche et la sélection de votre véhicule. L'art de conjuguer passion et investissement.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://apselect.fr" # http://127.0.0.1:4000
 
 # Build settings
-default_locale: "fr"
-markdown: kramdown
 theme: minima
-permalink: pretty
 plugins:
   - jekyll-feed
   - jekyll-minifier
   - jekyll-sitemap
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -36,3 +47,10 @@ exclude:
   - .sass-cache/
   - _site/
   - img/Ressources/
+
+defaults:
+  -
+    scope:
+      path:            "calculator/*"
+    values:
+      sitemap:         false

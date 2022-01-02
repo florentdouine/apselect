@@ -1,119 +1,191 @@
+#main-cover-container {
+    height: calc(100vh);
+
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 100px;
+    }
+}
+
 #main-cover {
-  height: calc(100vh);
+    background-image: url('/images/apselect-presentation.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
 }
 
-.main-covers {
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  opacity: 0;
-  animation: imageAnimation 12s linear infinite 0s;
+#main-video-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
-section .main-covers:nth-child(1) {
-  background-image: url("/img/main-covers/porsche-911-singer-orange.jpg");
-  opacity: 1;
+#main-video {
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
 }
 
-section .main-covers:nth-child(2) {
-  background-image: url("/img/main-covers/bmw_m3_e46.jpg");
-  animation-delay: 4s;
+#main-title {
+    width: 700px;
+    margin: auto;
+    @include media-breakpoint-down(sm) {
+        max-width: 300px;
+    }
 }
 
-section .main-covers:nth-child(3) {
-  background-image: url("/img/main-covers/mercedes-280-sl.jpg");
-  animation-delay: 8s;
+#main-title h1:first-child {
+    text-align: left;
 }
 
-@include media-breakpoint-down(sm) {
-  section .main-covers:nth-child(1) {
-    background-image: url("/img/main-covers/mobile/Porsche_911_Turbo_S.jpg");
-  }
-
-  section .main-covers:nth-child(2) {
-    background-image: url("/img/main-covers/mobile/BMW_M3_E30_MULTI.jpg");
-  }
-
-  section .main-covers:nth-child(3) {
-    background-image: url("/img/main-covers/mobile/classic-black-car-mercedes.jpg");
-  }
+#main-title h1:nth-child(2) {
+    text-align: right;
+    margin-top: 10px;
 }
 
-#main-title-section {
-  text-align: center;
-  background-color: rgba(240, 240, 240, 0.8);
-  padding: 15px 0px;
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
+#main-title h4 {
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: normal;
+    margin-top: 30px;
 }
 
-#main-title-section h2 {
-  color: $dark-gray;
-  font-weight: 500;
+.main-arrow-link {
+    text-transform: uppercase;
+    font-weight: $font-weight-bold;
+    font-size: 12px;
+    letter-spacing: 2px;
+    transform: rotate(90deg) translateX(calc(-100% + -23px));
+    transform-origin: left;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    display: flex;
 }
 
-#main-title-section h2 span {
-  font-size: $font-size-subtitle-smaller;
-  font-weight: 300;
+.main-arrow-link::after {
+    content: "";
+    width: 75px;
+    height: 11px;
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    background-image: url("/images/arrow-white-long.png");
+    animation: bounce 1s linear infinite 0s;
 }
 
-#contactIllustration {
-  background: url('/img/levier-vitesse-noir.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: black;
-  min-height: 300px;
+@keyframes bounce {
+    0% {
+        left: 10px;
+    }
+    50% {
+        left: 30px;
+    }
+    100% {
+        left: 10px;
+    }
 }
 
-
-.slideshow {
-  list-style-type: none;
+#main-presentation .cmp-full-width-image {
+    background-position: top;
 }
 
-#history-author {
-  color: $light-gray;
-  font-size: $font-size-smaller;
+#main-presentation-description {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
 }
 
-@keyframes imageAnimation {
-  0% { opacity: 0; animation-timing-function: ease-in; }
-  4% { opacity: 1; animation-timing-function: ease-out; }
-  37% { opacity: 1 }
-  41% { opacity: 0 }
-  100% { opacity: 0 }
+#main-presentation-description h2:first-child {
+    margin: 120px 0px 20px 0px;
 }
 
-@keyframes invertAnimation {
-  0% { filter: invert(0%); color: $dark-gray; animation-timing-function: ease-in; }
-  4% { filter: invert(100%); color: $white; animation-timing-function: ease-out; }
-  37% { filter: invert(100%); color: $white; }
-  41% { filter: invert(0%); color: $dark-gray; }
-  100% { filter: invert(0%); color: $dark-gray; }
+#main-presentation-description h2:nth-child(2) {
+    margin-bottom: 90px;
 }
 
-@keyframes colorAnimation {
-  0% { color: $dark-gray; animation-timing-function: ease-in; }
-  4% { color: $white; animation-timing-function: ease-out; }
-  37% { color: $white; }
-  41% { color: $dark-gray; }
-  100% { color: $dark-gray; }
+#main-presentation-description p {
+    font-size: $font-size-body-highlighted;
+    max-width: 450px;
+    margin: auto;
+    padding-bottom: 200px;
+    line-height: 38px;
+
+    @include media-breakpoint-down(sm) {
+        padding-bottom: 150px;
+    }
 }
 
-@include media-breakpoint-up(md) {
-  #main-title-section {
-    padding: 30px 0px;
-  }
+#main-brokerage {
+    text-align: center;
+}
 
-  #header-slider #logo {
-    animation: invertAnimation 12s linear infinite 0s;
-    animation-delay: 8s;
-  }
+#main-brokerage-description {
+    padding-bottom: 86px;
+}
 
-  #header-slider nav li {
-    animation: colorAnimation 12s linear infinite 0s;
-    animation-delay: 8s;
-  }
+#main-brokerage-types-container .main-brokerage-type:nth-child(2) {
+    margin-top: 60px;
+}
+
+.main-brokerage-type p {
+    margin-top: 35px;
+}
+
+.main-brokerage-type img {
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+#main-brokerage h3 {
+    margin-bottom: 62px;
+    display: inline-block;
+}
+
+#main-brokerage a {
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 200px;
+}
+
+#main-resale {
+    overflow: hidden;
+    background-color: black;
+}
+
+#main-resale-details {
+    display: flex;
+    align-items: center;
+}
+
+#main-resale-description {
+    margin: 80px 0px;
+}
+
+#main-resale-illustration {
+    background-image: url("/images/home/aston-martin-street.jpg");
+
+    @include media-breakpoint-down(sm) {
+        height: 350px;
+        margin-left: 80px;
+    }
+}
+
+// #main-resale-illustration img {
+//     position: absolute;
+//     max-width: 770px;
+//     top: 52%;
+//     left: -23%;
+//     z-index: 10;
+//     @include media-breakpoint-down(sm) {
+//         width: 300px;
+//     }
+// }
+
+#main-detailing-illustration {
+    display: flex;
+    flex-direction: row-reverse;
 }

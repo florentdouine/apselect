@@ -1,0 +1,38 @@
+---
+permalink: /nous-contacter
+layout: skeleton
+menu: mobile
+menu-title: Contact
+order: 5
+---
+
+<section class="section-plain" id="contact-coordinates">
+{% include section/section-vertical-band.html
+    title="AP SELECT SAS"
+    description="Lyon 3e<br/>
+    Tél. <a href='tel:+33771806578' class='inline-link'>+33(0) 7 71 80 65 78</a><br/>
+    <a href='mailto:contact@apselect.fr' class='inline-link'>contact@apselect.fr</a>"
+    watermark="01"
+    watermarkHiddenOnMobile=true
+    %}
+</section>
+
+<section id="contact-form-section" class="row section-col-light">
+    <form id="contact-form" action="https://formsubmit.co/{{ site.email }}" method="POST" />
+        <h3 class="shadow-secondary">Contact</h3>
+        <input type="text" name="name" id="input-contact-name" placeholder="Votre nom"/>
+        <input type="email" name="email" id="input-contact-email" placeholder="Votre email"/>
+        <label for="message">Message</label>
+        <textarea name="message" id="input-contact-message"></textarea>
+        <input type="hidden" name="_subject" value="Nouveau contact">
+        <input type="hidden" name="_next" value="{{ site.url }}{% link contact.html %}?submitted=true#contact-form-section" />
+        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_captcha" value="false">
+        <p>Je reconnais que mes données personnelles seront traitées conformément à la <a href="{% link legal-mentions.html %}" class="link-inline">politique de confidentialité</a> d'AP SELECT.</p>
+        <a href="javascript:submit()" class="link link-arrowed shadow-secondary active">Envoyer</a>
+    </form>
+    <p id="contact-thanks" style="display: none;">
+        Votre message a bien été envoyé. Nous reviendrons vers vous rapidement !
+    </p>
+
+</section>

@@ -1,41 +1,130 @@
 // Variables
-$main-color: #05386B; //#fb606c;//#a4ca44;
-$dark-gray: #26282a;
-$light-gray: #707274;
-$extra-light-gray: #bbb;
-$border-gray: #ddd;
+$color-accent-main: #1426ae;
+$color-accent-medium: #303fac;
+$color-accent-secondary: #c7b9a2;
+$color-accent-secondary-alpha: #c7b9a233;
 
-$font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
-$font-family-secondary: Helvetica, Arial, sans-serif;
-$font-family-ternary: "Montserrat", sans-serif;
+$color-content-main: #636262;
+$color-content-medium: #464646;
+$color-content-light: #7f7f7f;
+$color-content-extra-light: #bdbdbd;
+$color-content-dark: #000;
 
-$light-weight: 300;
-$normal-weight: 400;
-$bold-weight: 700;
+$color-content-reverse: #fff;
+$color-content-reverse-aplha: #ffffff33;
+$color-content-reverse-light: #e3e4e4;
 
-$font-size-menu: 18px;
-$font-size-smaller: 20px;
-$font-size-title: 24px;
-$font-size-body: 24px;
-$font-size-body-sm: 20px;
-$font-size-big-title: 100px;
-$font-size-subtitle: 36px;
-$font-size-subtitle-smaller: 32px;
+$font-family: "Montserrat", sans-serif;
+$font-family-secondary: "Oswald", sans-serif;
 
-$font-size-large-title: 90px;
-$font-size-large-title-sm: 40px;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
 
-$font-size-middle-title: 70px;
-$font-size-number-icon: 114px;
+$font-size-extra-large: 300px;
+$font-size-title-1: 90px;
+$font-size-title-2: 48px;
+$font-size-title-3: 36px;
+$font-size-title-4: 22px;
+$font-size-body-highlighted: 20px;
+$font-size-body: 16px;
+$font-size-subhead: 15px;
+$font-size-caption: 13px;
+$font-size-footer: 25px;
 
+$font-size-mobile-extra-large: 150px;
+$font-size-mobile-title-1: 34px;
+$font-size-mobile-title-2: 40px;
+$font-size-mobile-title-3: 25px;
+$font-size-mobile-subhead: 25px;
 
-$font-size-big-button: 30px;
+/* Specific */
 
-$arrow-height: 300px;
+@mixin text-style-title-1 {
+    font-size: $font-size-title-1;
+    @include media-breakpoint-down(sm) {
+        font-size: $font-size-mobile-title-1;
+        letter-spacing: 7px;
+    }
+    font-weight: $font-weight-bold;
+    font-family: $font-family-secondary;
+    letter-spacing: 18px;
+    text-transform: uppercase;
+}
 
-$header-size: 61px;
-$header-padding: 5px;
-$header-content: 51px;
+@mixin text-style-title-2 {
+    font-size: $font-size-title-2;
+    @include media-breakpoint-down(sm) {
+        font-size: $font-size-mobile-title-2;
+    }
+    font-weight: $font-weight-bold;
+    font-family: $font-family-secondary;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
 
-$background-menu: #cbcbcb;
-$background-section-colors: #FFF, #EDECED, #FEFEFE, #EBECEC, #2F3537, #EBECEC, #FEFEFE, #EDECED, #FFFFFF;
+@mixin text-style-title-3 {
+    font-size: $font-size-title-3;
+    @include media-breakpoint-down(sm) {
+        font-size: $font-size-mobile-title-3;
+    }
+    font-weight: $font-weight-bold;
+    line-height: 48px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+@mixin text-style-title-4 {
+    font-size: $font-size-title-4;
+    font-weight: $font-weight-bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+@mixin text-style-caption {
+    font-size: $font-size-caption;
+    font-weight: $font-weight-normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+@mixin text-style-subhead {
+    font-size: $font-size-subhead;
+    font-weight: $font-weight-bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+@mixin text-style-mobile-subhead {
+    font-size: $font-size-mobile-subhead;
+    font-weight: $font-weight-bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+@mixin text-style-button {
+    font-size: $font-size-subhead;
+    font-weight: $font-weight-bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+@mixin text-style-link {
+    font-size: $font-size-body;
+    font-weight: $font-weight-bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+@mixin text-style-body {
+    font-size: $font-size-body;
+    font-weight: $font-weight-normal;
+}
+
+@mixin text-style-extra-large {
+    font-size: $font-size-extra-large;
+    @include media-breakpoint-down(sm) {
+        font-size: $font-size-mobile-extra-large;
+    }
+}

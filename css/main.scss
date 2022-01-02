@@ -6,16 +6,18 @@
 $baseurl: "{{ site.baseurl }}";
 
 // Imports
-//@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:700i');
+@import "../_sass/bootstrap/bootstrap-grid.scss";
 @import "../_sass/reset";
 @import "../_sass/variable";
-@import "bootstrap/bootstrap";
 @import "../_sass/global";
-@import "../_sass/menu";
-@import "../_sass/footer";
-@import "../_sass/sections";
-@import "../_sass/element";
+@import "../_sass/animation";
+@import "../_sass/component";
+@import "../_sass/section";
+@import "../_sass/includes/cookies";
+@import "../_sass/includes/footer";
+@import "../_sass/includes/menu";
 @import "../_sass/pages/home";
-@import "../_sass/pages/prestations";
-@import "../_sass/pages/courtage";
-@import "tooltipster.bundle.min.css";
+@import "../_sass/pages/brokerage";
+@import "../_sass/pages/services";
+@import "../_sass/pages/club";
+@import "../_sass/pages/contact";

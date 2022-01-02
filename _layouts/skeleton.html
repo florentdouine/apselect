@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+{% include head.html %}
+
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    {% include cookies.html %}
+    <header>
+        {% include menu.html %}
+    </header>
+    <div id="container" class="container-fluid" style="background-color: black;">
+        {{ content }}
+    </div>
+    <footer>
+        {% include footer.html %}
+    </footer>
+</body>
+</html>

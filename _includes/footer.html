@@ -1,3 +1,44 @@
-<footer class="light-background-section">
-    <p>SAS AP SELECT au capital de 1000€ - 69100 VILLEURBANNE - RCS 851 519 280 - APE 4511Z</p>
-</footer>
+{% if page.footer-large == true %}
+<section id="section-footer-large">
+    <div id="section-footer-container">
+        <h3 class="shadow-reverse">Prenez le volant, AP SELECT s’occupe du reste</h3>
+        <div id="footer-contact-container">
+            <div id="footer-contact-coordinates-container">
+                <div id="footer-contact-lines">
+                    <span id="footer-phone-line"></span>
+                    <span id="footer-mail-line"></span>
+                </div>
+                <div id="footer-contact-coordinates">
+                    <a id="footer-phone-link" href="tel:+33771806578" class="inline-link">07 71 80 65 78</a>
+                    <a id="footer-mail-link" href="mailto:contact@apselect.fr" class="inline-link">contact@apselect.fr</a>
+                </div>
+            </div>
+            <div id="footer-contact-button">
+                <a href="{% link contact.html %}" class="button button-arrowed button-accented">Contact</a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
+<section id="section-footer-small">
+    <span id="footer-copyright">
+        <span>© 2021 <strong>AP SELECT</strong></span>
+        <span><img src="images/arrow-min.png">&nbsp;Designed by <a href="https://mz-studio.fr/" target="_blank""><strong>MZ Studio</strong></a></span>
+    </span>
+    <div id="footer-logo">
+        <a href="{% link index.html %}"><img class="img-fluid" src="{{ '/images/apselect_logo.svg' | prepend: site.baseurl }}" width="185"/></a><br/> 
+    </div>
+    <div id="footer-links">
+        <div id="footer-links-pages">
+            <a href="{% link legal-mentions.html %}"><img src="images/arrow-min.png">&nbsp;Mentions Légales</a>
+            <a href="{% link contact.html %}"><img src="images/arrow-min.png">&nbsp;Contact</a>
+        </div>
+        <div id="footer-social-links">
+            <a class="footer-social-link facebook" href="http://www.facebook.com/AutomobilePassionSelection" target="_blank"> <i class="fa fa-facebook"></i> </a>&nbsp;
+            <a class="footer-social-link instagram" href="https://www.instagram.com/ap.select/" target="_blank"> <i class="fa fa-instagram"></i> </a>&nbsp;
+            <a class="footer-social-link linkedin" href="https://www.linkedin.com/company/ap-select-courtage/" target="_blank"> <i class="fa fa-linkedin"></i> </a>
+        </div>
+    </div>
+</section>
+
+<script src="{{ '/js/main.js?t=' | prepend: site.baseurl }}{{ site.time | date: '%y-%m-%d' }}"></script>
