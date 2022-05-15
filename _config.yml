@@ -47,6 +47,7 @@ exclude:
   - .sass-cache/
   - _site/
   - img/Ressources/
+  - vendor/
 
 defaults:
   -
