@@ -2,5 +2,6 @@
   "photos": [
     "/uploads/ferrari-test.jpg"
   ],
-  "nom": "Ferrari 599 GTB"
+  "nom": "Ferrari 599 GTB",
+  "published": false
 }
