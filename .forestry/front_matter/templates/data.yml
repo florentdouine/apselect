@@ -1,0 +1,13 @@
+---
+label: Data
+hide_body: true
+fields:
+- name: photos
+  type: image_gallery
+  config: {}
+  label: Photos
+- name: nom
+  type: text
+  config:
+    required: false
+  label: Nom
