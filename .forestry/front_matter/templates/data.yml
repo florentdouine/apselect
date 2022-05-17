@@ -2,14 +2,29 @@
 label: Data
 hide_body: true
 fields:
-- name: photos
-  type: image_gallery
-  config: {}
-  label: Photos
-- name: nom
+- name: name
   type: text
   config:
     required: false
   label: Nom
+- name: price
+  type: number
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  label: Prix
+- name: main-photo
+  type: file
+  config:
+    maxSize: 64
+  label: Photo-principale
+- name: photos
+  type: image_gallery
+  config: {}
+  label: Photos
 pages:
 - _data/ferrari-599-gtb-1.json
