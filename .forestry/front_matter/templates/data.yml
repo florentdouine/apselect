@@ -51,5 +51,10 @@ fields:
     display_utc: false
   hidden: true
   default: now
-pages:
-- _cars/ferrari.
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: true
+  default: car
