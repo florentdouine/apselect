@@ -1,0 +1,17 @@
+---
+permalink: /vente
+layout: page
+menu-title: Vente
+order: 4
+banner-title: "VÉHICULES"
+banner-subtitle: "EN VENTE"
+---
+
+<section class="section-col-light row flex-md-row-reverse">
+    {% for post in site.posts %}
+    <div class="col-md-6">
+        <img src="uploads/{{ post.main-photo }}" class="cmp-padding-col-img anim-fadein-apparition">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </div>
+    {% endfor %}
+</section>
