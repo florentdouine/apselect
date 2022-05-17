@@ -22,12 +22,23 @@ fields:
   config: {}
   label: Photos
   description: La première photo sera celle de couverture.
-- name: test
-  type: list
+- name: proprietes
+  type: field_group_list
+  fields:
+  - name: propriete
+    type: text
+    config:
+      required: false
+    label: Propriété
+  - name: valeur
+    type: text
+    config:
+      required: false
+    label: Valeur
   config:
-    use_select: false
     min: 
     max: 
-  label: Test
+    labelField: 
+  label: Propriétés
 pages:
 - _data/ferrari-599-gtb-1.json
