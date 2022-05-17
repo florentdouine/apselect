@@ -6,13 +6,12 @@ webhook_url:
 sections:
 - type: directory
   path: _data
-  label: Data
+  label: Véhicules
   create: all
   match: "**/*"
   new_doc_ext: json
-- type: jekyll-posts
-  label: Voitures
-  create: documents
+  templates:
+  - data
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
