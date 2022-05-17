@@ -9,11 +9,12 @@ banner-subtitle: "EN VENTE"
 
 <section class="section-col-light row flex-md-row">
     {% for car in site.cars %}
-    <div class="col-md-6">
+    <div class="col-md-6 car-box">
         <a href="{{ car.url }}">
             <img src="{{ car.photos | first }}" class="cmp-full-col-img anim-fadein-apparition">
             <span class="cmp-horizontal-line-secondary"></span>
-            <h4>{{ car.name }}</h4>
+            <h4 class="">{{ car.name }}</h4>
+            <p>{{ car.price }} €</p>
         </a>
     </div>
     {% endfor %}
