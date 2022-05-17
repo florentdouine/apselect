@@ -124,6 +124,7 @@ $font-size-mobile-subhead: 25px;
 }
 
 @mixin text-style-extra-large {
+    font-family: $font-family-alternates;
     font-size: $font-size-extra-large;
     @include media-breakpoint-down(sm) {
         font-size: $font-size-mobile-extra-large;
