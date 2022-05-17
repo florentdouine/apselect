@@ -7,5 +7,5 @@ photos:
 - "/uploads/lan00084-42.jpg"
 - "/uploads/porsche356sc-13.jpg"
 proprietes: []
-
+layout: car
 ---

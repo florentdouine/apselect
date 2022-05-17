@@ -48,7 +48,10 @@ exclude:
   - _site/
   - img/Ressources/
   - vendor/
-
+collections:
+    cars:
+        output: true
+        permalink: /vente/:path/
 defaults:
   -
     scope:
