@@ -11,3 +11,5 @@ fields:
   config:
     required: false
   label: Nom
+pages:
+- _data/ferrari-599-gtb-1.json
