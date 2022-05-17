@@ -40,6 +40,17 @@ fields:
     max: 
     labelField: 
   label: Propriétés
+- name: creation_date
+  type: datetime
+  label: Creation Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  hidden: true
+  default: now
 pages:
 - _data/ferrari-599-gtb-1.json
 - _data/ferrari-verte.json

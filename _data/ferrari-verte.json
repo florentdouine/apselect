@@ -1,6 +1,6 @@
 {
   "price": 203000,
-  "name": "Ferrari verte",
+  "name": "Ferrari verte 2",
   "photos": [
     "/uploads/porsche356sc-13.jpg",
     "/uploads/ferrari-test.jpg",
@@ -15,5 +15,6 @@
       "propriete": "Couleur",
       "valeur": "Verte"
     }
-  ]
+  ],
+  "creation_date": ""
 }
