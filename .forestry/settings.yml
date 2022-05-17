@@ -9,7 +9,7 @@ sections:
   label: Véhicules
   create: documents
   match: "**/*"
-  new_doc_ext: ''
+  new_doc_ext: app
   templates:
   - data
 upload_dir: uploads
