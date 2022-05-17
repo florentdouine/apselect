@@ -58,3 +58,6 @@ fields:
   label: layout
   hidden: true
   default: car
+pages:
+- _cars/Chevrolet-2021.app
+- _cars/lancia.md
