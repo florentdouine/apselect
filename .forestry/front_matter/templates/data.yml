@@ -60,4 +60,5 @@ fields:
   default: car
 pages:
 - _cars/Chevrolet-2021.app
+- _cars/bmw.md
 - _cars/lancia.md
