@@ -5,7 +5,11 @@
   ],
   "nom": "Ferrari 599 GTB",
   "published": false,
-  "name": "Ferrari 599",
+  "name": "Ferrari 599 GTB",
   "price": 150000,
-  "main-photo": "/uploads/lan00084-42.jpg"
+  "main-photo": "/uploads/lan00084-42.jpg",
+  "proprietes": [
+
+  ],
+  "creation_date": ""
 }
