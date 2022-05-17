@@ -51,6 +51,3 @@ fields:
     display_utc: false
   hidden: true
   default: now
-pages:
-- _data/ferrari-599-gtb-1.json
-- _data/ferrari-verte.json
