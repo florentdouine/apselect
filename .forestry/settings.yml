@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: _data
+  path: _data/cars
   label: Véhicules
   create: all
   match: "**/*"
