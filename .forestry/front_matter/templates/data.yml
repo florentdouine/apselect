@@ -59,5 +59,6 @@ fields:
   hidden: true
   default: car
 pages:
+- _cars/bmw-1.md
 - _cars/bmw.md
 - _cars/lancia.md
