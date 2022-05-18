@@ -7,15 +7,38 @@ banner-title: "VÉHICULES"
 banner-subtitle: "EN VENTE"
 ---
 
-<section class="section-col-light row flex-md-row">
+<!-- <section class="section-col-light row flex-md-row" id="section-sell">
     {% for car in site.cars %}
     <div class="col-md-6 car-box">
         <a href="{{ car.url }}">
-            <img src="{{ car.photos | first }}" class="cmp-full-col-img anim-fadein-apparition">
+            <img src="{{ car.photos | first }}" class="anim-fadein-apparition">
             <span class="cmp-horizontal-line-secondary"></span>
             <h4 class="">{{ car.name }}</h4>
             <p>{{ car.price }} €</p>
         </a>
     </div>
     {% endfor %}
+</section> -->
+
+
+{% for car in site.cars %}
+{% capture theme %}{% cycle 'light', 'dark' %}{% endcapture %}
+{% capture apparition %}{% cycle 'left', 'right' %}{% endcapture %}
+{% capture text %}Prix: {{ car.price }}€{% endcapture %}
+<section class="{% if theme == 'light' %}section-col-light flex-md-row-reverse{% endif %} row">
+
+    {% include section/section-col-detailed.html
+        title=car.name
+        text=text
+        link="en savoir plus"
+        url=car.url
+        theme=theme
+        %}
+
+    <div class="col-md-6">
+        <img src="{{ car.photos | first }}" class="cmp-full-col-img anim-{{ apparition }}-apparition">
+    </div>
+
+
 </section>
+{% endfor %}

@@ -124,3 +124,18 @@
 .section-content {
     margin-top: 115px;
 }
+
+.section-parallax {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-parallax h2 {
+    margin: 0px 5%;
+    text-align: center;
+}

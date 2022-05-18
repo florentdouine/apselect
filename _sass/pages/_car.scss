@@ -1,3 +1,16 @@
+#section-sell {
+    padding-top: 30px;
+}
+
 .car-box h4, .car-box p {
     text-align: center;
+}
+
+.car-box img {
+    object-fit: cover;
+    width: 100%;
+}
+
+#car-main-cover {
+    height: 500px;
 }

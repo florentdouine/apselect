@@ -1,5 +1,44 @@
 ---
-layout: page
+layout: skeleton
 ---
 
-<img src="{{ page.photos | first }}" />
+<script type="module">
+    import Lightbox from '/js/photoswipe-lightbox.esm.min.js';
+    const lightbox = new Lightbox({
+      gallery: '#gallery',
+      children: 'a',
+      pswpModule: () => import('/js/photoswipe.esm.min.js')
+    });
+    lightbox.init();
+</script>
+
+
+<section class="row anim-background-parallax section-parallax section-content section-col-light" id="car-main-cover" style="background-image: url('{{ page.photos | first }}');">
+    
+</section>
+
+<section class="row section-col-light">
+    <div class="col-md-10 offset-md-1">
+        <h3 class="shadow-secondary">{{ page.name }}</h3>
+        <p>
+            Une description de la voiture ou les détails techniques etc...<br/>
+            Prix: {{ page.price }}€
+        </p>
+
+        <div class="pswp-gallery pswp-gallery--single-column" id="gallery">
+            {% for photo in page.photos %}
+                <a href="{{ photo }}"
+                    data-pswp-width="1617" 
+                data-pswp-height="1080"
+                target="_blank">
+                <img src="{{ photo }}" alt="" width="33%"/>
+                </a>
+            <!-- data-pswp-width="1669" 
+                data-pswp-height="2500"  -->
+            {% endfor %}
+        </div>
+
+        <a href="{% link contact.html %}" class="button button-arrowed button-accented">Contactez-nous</a>
+    </div>
+
+</section>

@@ -12,5 +12,4 @@ photos:
 - "/uploads/che00005_9_-1.jpg"
 - "/uploads/che00005_18_.jpg"
 proprietes: []
-
 ---
