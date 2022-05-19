@@ -92,5 +92,6 @@ description: |-
   AP SELECT c'est des solutions de courtage et conciergerie sur mesure pour profiter librement de sa passion et de son patrimoine.
 
   Prenez le volant, AP SELECT s'occupe du reste.
+fuel: Essence
 
 ---
