@@ -11,12 +11,12 @@ fields:
 - name: brand
   type: text
   config:
-    required: false
+    required: true
   label: Marque
 - name: model
   type: text
   config:
-    required: false
+    required: true
   label: Modèle
 - name: year
   type: number
@@ -39,6 +39,7 @@ fields:
     min: 
     max: 
     step: 
+    required: true
 - name: price
   type: number
   description: ''
