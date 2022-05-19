@@ -1,6 +1,6 @@
 ---
 price: 145000
-creation_date: 2022-05-17 16:00:06 +0000
+creation_date: 2022-05-17T16:00:06.000+00:00
 layout: car
 name: 2021 CHEVROLET CORVETTE C8 STINGRAY Z51
 photos:
@@ -12,4 +12,10 @@ photos:
 - "/uploads/che00005_9_-1.jpg"
 - "/uploads/che00005_18_.jpg"
 proprietes: []
+brand: Chevrolet
+model: Corvette
+year: 2021
+kilometers: 42000
+fuel: Hybride
+
 ---
