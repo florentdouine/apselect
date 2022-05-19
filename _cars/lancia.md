@@ -13,5 +13,11 @@ photos:
 - "/uploads/lan00084-24.jpg"
 - "/uploads/lan00084-25.jpg"
 proprietes: []
+brand: Lancia
+model: Aprilia
+year: 1949
+kilometers: 180000
+fuel: Essence
+description: ''
 
 ---
