@@ -40,6 +40,11 @@ fields:
     max: 
     step: 
     required: true
+- name: fuel
+  type: text
+  config:
+    required: true
+  label: Carburant
 - name: price
   type: number
   description: ''
