@@ -49,39 +49,39 @@ description: |-
   Consommables Pneus et freinage en état neuf.
 
   Équipements et options :
-  - Pack compétition
-  - Serie Born in ///M Town
-  - Couleur San Marino Individual
-  - Boîte DKG7 double embrayage Drivelogic
-  - Jantes 20" Style 666M
-  - Châssis M Adaptatif
-  - Échappement sport
-  - Radars de stationnement avant/arrière
-  - Caméra 360
-  - Système de manoeuvre "Park Assist"
-  - Alarme antivol
-  - Système Hi-fi Harman Kardon
-  - Toit Carbone
-  - Retroviseurs rabattables electriquement et anti-éblouissement
-  - Sièges électriques et chauffants
-  - Volant Chauffant
-  - Feux de route anti-éblouissement
-  - Pack advanced Full LED
-  - Detecteur de pluie et allumage automatique des projecteurs
-  - Climatisation 3 zones
-  - Regulateur de vitesse avec fonction freinage en descente
-  - Avertisseur d'angle mort
-  - Navigation multimedia Professional
-  - Affichage Tête Haute HUD couleur
-  - Indicateur de limitation de vitesse
-  - Vitrage calorifuge
-  - Shadow line brillant
-  - Inserts décoratifs 'Carbon Fibre' avec baguette d'accentuation San Marino bleu
-  - Kit éclairage
-  - Ciel de pavillon Anthracite
+
+  * Pack compétition
+  * Serie Born in ///M Town
+  * Couleur San Marino Individual
+  * Boîte DKG7 double embrayage Drivelogic
+  * Jantes 20" Style 666M
+  * Châssis M Adaptatif
+  * Échappement sport
+  * Radars de stationnement avant/arrière
+  * Caméra 360
+  * Système de manoeuvre "Park Assist"
+  * Alarme antivol
+  * Système Hi-fi Harman Kardon
+  * Toit Carbone
+  * Retroviseurs rabattables electriquement et anti-éblouissement
+  * Sièges électriques et chauffants
+  * Volant Chauffant
+  * Feux de route anti-éblouissement
+  * Pack advanced Full LED
+  * Detecteur de pluie et allumage automatique des projecteurs
+  * Climatisation 3 zones
+  * Regulateur de vitesse avec fonction freinage en descente
+  * Avertisseur d'angle mort
+  * Navigation multimedia Professional
+  * Affichage Tête Haute HUD couleur
+  * Indicateur de limitation de vitesse
+  * Vitrage calorifuge
+  * Shadow line brillant
+  * Inserts décoratifs 'Carbon Fibre' avec baguette d'accentuation San Marino bleu
+  * Kit éclairage
+  * Ciel de pavillon Anthracite
 
   Le véhicule est tres bien optionné et dans un état irréprochable.
-
 
   Disponible et visible sur RDV pour acheteur sérieux.
 
