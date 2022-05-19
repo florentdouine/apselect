@@ -5,11 +5,33 @@ fields:
 - name: name
   type: text
   config:
-    required: false
+    required: true
   label: Nom
+  description: Le titre complet de l'annonce
+- name: brand
+  type: text
+  config:
+    required: false
+  label: Marque
+- name: model
+  type: text
+  config:
+    required: false
+  label: Modèle
 - name: year
   type: number
   label: Année
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+    required: true
+- name: kilometers
+  type: number
+  label: Kilometrage
   description: ''
   default: 0
   required: true
@@ -26,12 +48,24 @@ fields:
     min: 
     max: 
     step: 
+    required: true
   label: Prix
 - name: photos
   type: image_gallery
   config: {}
   label: Photos
   description: La première photo sera celle de couverture.
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+  description: Une description supplémentaire du véhicule contenant par exemple son
+    historique ou ses options.
 - name: proprietes
   type: field_group_list
   fields:
