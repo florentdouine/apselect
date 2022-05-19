@@ -12,5 +12,11 @@ photos:
 - "/uploads/bmv00052_16_.jpg"
 - "/uploads/bmv00052_20_-1.jpg"
 proprietes: []
+brand: BMW
+model: M3
+year: 2008
+kilometers: 30000
+fuel: Diesel
+description: ''
 
 ---
