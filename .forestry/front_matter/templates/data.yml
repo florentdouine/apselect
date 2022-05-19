@@ -55,7 +55,7 @@ fields:
   type: image_gallery
   config: {}
   label: Photos
-  description: La première photo sera celle de couverture.
+  description: La première photo, de préférence au format paysage, sera celle de couverture.
 - name: description
   type: textarea
   default: ''
