@@ -1,5 +1,5 @@
-#section-sell {
-    padding-top: 30px;
+#section-sell .sell-photo-container {
+    padding: 30px;
 }
 
 .car-box h4, .car-box p {
@@ -13,4 +13,22 @@
 
 #car-main-cover {
     height: 500px;
+}
+
+#car-property-container {
+    display: flex;
+}
+
+.car-property-name {
+
+}
+
+.car-property-separator {
+    background-color: red;
+    height: 1px;
+    flex-grow: 2;
+}
+
+.car-property-value {
+    
 }

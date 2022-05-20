@@ -19,19 +19,17 @@ photos:
 - "/uploads/img_20220502_144732-1.jpg"
 - "/uploads/img_20220502_144639-1.jpg"
 - "/uploads/img_20220502_144626-1.jpg"
-proprietes:
-- propriete: Mise en circulation
-  valeur: 10/2019
-- propriete: Boîte de vitesse
-  valeur: Automatique
-- propriete: Carburant
-  valeur: Essence
-- propriete: Type de véhicule
-  valeur: Coupé
-- propriete: Nombre de portes
-  valeur: "2"
-- propriete: Puissance DIN
-  valeur: 450 Ch
+properties:
+- property: Mise en circulation
+  value: 10/2019
+- property: Boîte de vitesse
+  value: Automatique
+- property: Type de véhicule
+  value: Coupé
+- property: Nombre de portes
+  value: "2"
+- property: Puissance DIN
+  value: 450 Ch
 brand: BMW
 model: M4
 year: 2019
@@ -92,6 +90,6 @@ description: |-
   AP SELECT c'est des solutions de courtage et conciergerie sur mesure pour profiter librement de sa passion et de son patrimoine.
 
   Prenez le volant, AP SELECT s'occupe du reste.
-fuel: Essence
+fuel: essence
 
 ---

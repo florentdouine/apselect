@@ -14,7 +14,6 @@ layout: skeleton
 
 
 <section class="row anim-background-parallax section-parallax section-content section-col-light" id="car-main-cover" style="background-image: url('{{ page.photos | first }}');">
-    
 </section>
 
 <section class="row section-col-light">
@@ -25,16 +24,23 @@ layout: skeleton
             Prix: {{ page.price }}€
         </p>
 
+        <p class="row col-md-6" id="car-property-container">
+            {% for property in page.properties %}
+            <span class="car-property-name">{{ property.property }}</span>
+            <span class="car-property-separator"></span>
+            <span class="car-property-value">{{ property.value }}</span>
+            {% endfor %}
+
+        </div>
+
         <div class="pswp-gallery pswp-gallery--single-column" id="gallery">
             {% for photo in page.photos %}
                 <a href="{{ photo }}"
-                    data-pswp-width="1617" 
-                data-pswp-height="1080"
-                target="_blank">
+                    data-pswp-width="2048" 
+                    data-pswp-height="2048" 
+                    target="_blank">
                 <img src="{{ photo }}" alt="" width="33%"/>
-                </a>
-            <!-- data-pswp-width="1669" 
-                data-pswp-height="2500"  -->
+                </a> 
             {% endfor %}
         </div>
 
