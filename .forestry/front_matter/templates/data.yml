@@ -72,15 +72,15 @@ fields:
   label: Description
   description: Une description supplémentaire du véhicule contenant par exemple son
     historique ou ses options.
-- name: proprietes
+- name: properties
   type: field_group_list
   fields:
-  - name: propriete
+  - name: property
     type: text
     config:
       required: false
     label: Propriété
-  - name: valeur
+  - name: value
     type: text
     config:
       required: false
