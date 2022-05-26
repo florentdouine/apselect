@@ -21,19 +21,28 @@
     line-height: inherit;
 }
 
-.car-property-name {
+#car-info-container {
+    margin: 20px 0px;
+}
 
+#car-price-container {
+    display: flex;
+    align-items: center;
+}
+
+#car-price-container p {
+    flex-grow: 1;
 }
 
 .car-property-separator {
     background-color: $color-accent-secondary;
     height: 1px;
     flex-grow: 2;
-    margin: 14px 10px 0px 10px;
+    margin: 8px 10px 0px 10px;
 }
 
-.car-property-value {
-    
+#car-section h3 {
+    text-align: center;
 }
 
 .gallery-photo {
@@ -53,4 +62,13 @@
 
 .car-price-container {
     align-items: center;
+}
+
+#car-bottom-contact-button {
+    margin: 20px auto 40px auto;
+}
+
+#car-name-container {
+    text-align: center;
+    margin: 20px 0px;
 }
