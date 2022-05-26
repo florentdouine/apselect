@@ -2,9 +2,17 @@
 layout: skeleton
 ---
 
+<script>
+    var lightbox;
+
+    function openGallery() {
+        document.querySelectorAll("#gallery a:first-child")[0].click()
+    }
+
+</script>
 <script type="module">
     import Lightbox from '/js/photoswipe-lightbox.esm.min.js';
-    const lightbox = new Lightbox({
+    lightbox = new Lightbox({
       gallery: '#gallery',
       children: 'a',
       pswpModule: () => import('/js/photoswipe.esm.min.js')
@@ -13,8 +21,8 @@ layout: skeleton
 </script>
 
 
-<section class="row anim-background-parallax section-parallax section-content section-col-light" id="car-main-cover" style="background-image: url('{{ page.photos | first }}');">
-    <img src="{{ page.photos | first }}" width="100%" height="100%"/>
+<section class="row section-parallax section-content section-col-light" id="car-main-cover" style="background-image: url('{{ page.photos | first }}');">
+    <img onClick="javascript:openGallery()" src="{{ page.photos | first }}" width="100%" height="100%"/>
 </section>
 
 <section class="row section-col-light" id="car-section">
@@ -68,9 +76,9 @@ layout: skeleton
             </div>
         </div>
 
-        <div class="row pswp-gallery pswp-gallery--single-column" id="gallery">
+        <div class="pswp-gallery pswp-gallery--single-column" id="gallery">
             {% for photo in page.photos %}
-            <div class="col-md-4 col-6">
+            <div class="gallery-photo-container">
                 <a href="{{ photo }}"
                     data-pswp-width="2048" 
                     data-pswp-height="2048" 
