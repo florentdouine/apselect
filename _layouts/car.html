@@ -47,7 +47,7 @@ layout: skeleton
                     data-pswp-width="2048" 
                     data-pswp-height="2048" 
                     target="_blank">
-                <img src="{{ photo }}" alt=""/>
+                    <span class="gallery-photo" style="background-image: url('{{ photo }}');"> </span>
                 </a> 
             </div>
             {% endfor %}
@@ -55,10 +55,11 @@ layout: skeleton
         </div>
 
         <div class="row">
-            <p>
-                {{ page.description | markdownify | liquify }}
-            </p>
-
+            <div class="col-md-12">
+                <p>
+                    {{ page.description | newline_to_br }}
+                </p>
+            </div>
         </div>
 
         <a href="{% link contact.html %}" class="button button-arrowed button-accented">Contactez-nous</a>
