@@ -47,7 +47,7 @@
     transition: all 0.3s ease 0s;
 }
 
-.button-accented {
+.button-accented, .button-accented:hover {
     color: $color-content-reverse;
     background-color: $color-accent-main;
 }

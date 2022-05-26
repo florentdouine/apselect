@@ -15,8 +15,9 @@
     height: 500px;
 }
 
-#car-property-container {
+.car-property-container {
     display: flex;
+    line-height: inherit;
 }
 
 .car-property-name {
@@ -24,11 +25,22 @@
 }
 
 .car-property-separator {
-    background-color: red;
+    background-color: $color-accent-secondary;
     height: 1px;
     flex-grow: 2;
+    margin: 14px 10px 0px 10px;
 }
 
 .car-property-value {
     
+}
+
+#gallery img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.car-price-container {
+    align-items: center;
 }

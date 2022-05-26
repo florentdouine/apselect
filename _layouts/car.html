@@ -18,30 +18,47 @@ layout: skeleton
 
 <section class="row section-col-light">
     <div class="col-md-10 offset-md-1">
-        <h3 class="shadow-secondary">{{ page.name }}</h3>
-        <p>
-            Une description de la voiture ou les détails techniques etc...<br/>
-            Prix: {{ page.price }}€
-        </p>
-
-        <p class="row col-md-6" id="car-property-container">
-            {% for property in page.properties %}
-            <span class="car-property-name">{{ property.property }}</span>
-            <span class="car-property-separator"></span>
-            <span class="car-property-value">{{ property.value }}</span>
-            {% endfor %}
-
+        <div>
+            <h3 class="shadow-secondary">{{ page.name }}</h3>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-6 ">
+                {% for property in page.properties %}
+                <p class="car-property-container">
+                    <span class="car-property-name">{{ property.property }}</span>
+                    <span class="car-property-separator"></span>
+                    <span class="car-property-value">{{ property.value }}</span><br/>
+                </p>
+                {% endfor %}
+            </div>
+            <div class="offset-md-1 col-md-5" id="car-price-container">
+                <p>
+                    Prix: <strong>{{ page.price }}€</strong><br/>
+                    <a href="{% link contact.html %}" class="button button-arrowed button-accented">Plus d'infos</a>
+                </p>
+            </div>
         </div>
 
-        <div class="pswp-gallery pswp-gallery--single-column" id="gallery">
+        <div class="row pswp-gallery pswp-gallery--single-column" id="gallery">
             {% for photo in page.photos %}
+            <div class="col-md-4 col-6">
                 <a href="{{ photo }}"
                     data-pswp-width="2048" 
                     data-pswp-height="2048" 
                     target="_blank">
-                <img src="{{ photo }}" alt="" width="33%"/>
+                <img src="{{ photo }}" alt=""/>
                 </a> 
+            </div>
             {% endfor %}
+
+        </div>
+
+        <div class="row">
+            <p>
+                {{ page.description | markdownify | liquify }}
+            </p>
+
         </div>
 
         <a href="{% link contact.html %}" class="button button-arrowed button-accented">Contactez-nous</a>

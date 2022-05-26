@@ -2,8 +2,10 @@
 permalink: /vente
 layout: page
 menu-title: Vente
+menu: main
 order: 4
 banner-title: "VÉHICULES"
+banner-title-bordered: true
 banner-subtitle: "EN VENTE"
 ---
 
@@ -23,7 +25,7 @@ banner-subtitle: "EN VENTE"
 
 {% for car in site.cars %}
 {% capture theme %}{% cycle 'light', 'dark' %}{% endcapture %}
-{% capture apparition %}{% cycle 'left', 'right' %}{% endcapture %}
+{% capture apparition %}{% cycle 'right', 'left' %}{% endcapture %}
 {% capture text %}
 {{ car.year }} • {{ car.kilometers }}km • {{ car.fuel | capitalize }}<br/>
 <strong>{{ car.price }}€</strong>
