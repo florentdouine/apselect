@@ -1,6 +1,6 @@
 ---
 price: 77990
-creation_date: 2022-05-18 13:21:46 +0000
+creation_date: 2022-05-18T13:21:46.000+00:00
 layout: car
 name: BMW M4 Competition DKG 450ch San Marino individual Born in /M Town
 photos:
@@ -27,14 +27,14 @@ properties:
 - property: Type de véhicule
   value: Coupé
 - property: Nombre de portes
-  value: "2"
+  value: '2'
 - property: Puissance DIN
   value: 450 Ch
 brand: BMW
 model: M4
 year: 2019
 kilometers: 9900
-description: |-
+description: |
   AP SELECT vous propose à la vente une BMW M4 F82 Compétition 450ch Individual Serie Born in ///M Town.
   Modèle du 10/2019 avec 9900km.
 
@@ -91,5 +91,6 @@ description: |-
 
   Prenez le volant, AP SELECT s'occupe du reste.
 fuel: essence
+proprietes: []
 
 ---
