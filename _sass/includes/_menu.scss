@@ -1,14 +1,15 @@
 // Menu styling
 
 header {
-  position: absolute;
-  z-index: 1;
+  position: fixed;
+  z-index: 999;
   width: 100%;
   top: 0px;
-  padding: 26px 45px 0px 45px;
+  padding: 26px 45px 26px 45px;
   display: flex;
   align-items: center;
   overflow: hidden;
+  background-color: black;
   @include text-style-subhead;
 }
 
@@ -125,7 +126,7 @@ nav a {
   }
 
   header {
-    padding: 26px 25px 0px 25px;
+    padding: 18px 25px 18px 25px;
   }
 
 }

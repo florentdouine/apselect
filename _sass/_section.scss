@@ -137,14 +137,34 @@
 }
 
 .section-content {
-    margin-top: 115px;
+    margin-top: 113px;
+    @include media-breakpoint-down(sm) {
+        margin-top: 91px;
+    }
+}
+
+.section-fixed {
+    height: 500px;
+    width: 100%;
+    position: fixed;
+    top: 113px;
+    @include media-breakpoint-down(sm) {
+        top: 91px;
+        height: 300px;
+    }
+}
+
+.section-fixed-overlapping {
+    margin-top: 613px; // 500 + top
+    @include media-breakpoint-down(sm) {
+        margin-top: 391px;
+    }
 }
 
 .section-parallax {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;

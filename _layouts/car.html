@@ -21,11 +21,11 @@ layout: skeleton
 </script>
 
 
-<section class="row section-parallax section-content section-col-light" id="car-main-cover" style="background-image: url('{{ page.photos | first }}');">
-    <img onClick="javascript:openGallery()" src="{{ page.photos | first }}" width="100%" height="100%"/>
+<section onClick="javascript:openGallery()" class="row section-parallax section-fixed section-col-light" id="car-main-cover" style="background-image: url('{{ page.photos | first }}');">
+    <!-- <img onClick="javascript:openGallery()" src="{{ page.photos | first }}" width="100%" height="100%"/> -->
 </section>
 
-<section class="row section-col-light" id="car-section">
+<section class="row section-col-light section-fixed-overlapping" id="car-section">
     <div class="col-md-10 offset-md-1">
         <div id="car-name-container">
             <h3 class="shadow-secondary">{{ page.name }}</h3>
