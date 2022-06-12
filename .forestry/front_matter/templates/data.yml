@@ -110,3 +110,4 @@ fields:
   default: car
 pages:
 - _cars/bmw-1.md
+- _cars/mercedes_amg.md
