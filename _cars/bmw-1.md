@@ -2,7 +2,7 @@
 price: 77990
 creation_date: 2022-05-18T13:21:46.000+00:00
 layout: car
-name: BMW M4 Competition DKG 450ch San Marino individual Born in /M Town
+name: BMW M4 Competition DKG 450ch San Marino individual Born in M Town
 photos:
 - "/uploads/format-paysage.jpg"
 - "/uploads/img_20220502_144346-1.jpg"
@@ -27,7 +27,7 @@ properties:
 - property: Type de véhicule
   value: Coupé
 - property: Nombre de portes
-  value: '2'
+  value: "2"
 - property: Puissance DIN
   value: 450 Ch
 brand: BMW
@@ -91,4 +91,5 @@ description: |
 
   Prenez le volant, AP SELECT s'occupe du reste.
 fuel: essence
+
 ---
