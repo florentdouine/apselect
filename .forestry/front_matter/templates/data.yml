@@ -109,5 +109,6 @@ fields:
   hidden: true
   default: car
 pages:
+- _cars/BMW_M3_e46_cabrio.md
 - _cars/bmw-1.md
 - _cars/mercedes_amg.md
