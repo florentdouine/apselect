@@ -1,7 +1,7 @@
 ---
 year: 2003
 kilometers: 138000
-price: 334990
+price: 34990
 creation_date: 2022-06-16 16:21:34 +0000
 layout: car
 name: BMW M3 e46 cabrio 343ch SMG2, Hardtop, HK, echap sport, 19’’ EVO
