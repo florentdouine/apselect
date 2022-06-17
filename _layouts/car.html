@@ -1,0 +1,106 @@
+---
+layout: skeleton
+---
+
+<script>
+    var lightbox;
+
+    function openGallery() {
+        document.querySelectorAll("#gallery a:first-child")[0].click()
+    }
+
+</script>
+<script type="module">
+    import Lightbox from '/js/photoswipe-lightbox.esm.min.js';
+    lightbox = new Lightbox({
+      gallery: '#gallery',
+      children: 'a',
+      pswpModule: () => import('/js/photoswipe.esm.min.js')
+    });
+    lightbox.init();
+</script>
+
+
+<section onClick="javascript:openGallery()" class="row section-parallax section-fixed section-col-light" id="car-main-cover" style="background-image: url('{{ page.photos | first }}');">
+    <!-- <img onClick="javascript:openGallery()" src="{{ page.photos | first }}" width="100%" height="100%"/> -->
+</section>
+
+<section class="row section-col-light section-fixed-overlapping" id="car-section">
+    <div class="col-md-10 offset-md-1">
+        <div id="car-name-container">
+            <h3 class="shadow-secondary">{{ page.name }}</h3>
+        </div>
+        
+        <div class="row no-gutters" id="car-info-container">
+            <div class="col-md-6 ">
+                <p class="car-property-container">
+                    <span class="car-property-name">Marque</span>
+                    <span class="car-property-separator"></span>
+                    <span class="car-property-value">{{ page.brand }}</span><br/>
+                </p>
+                <p class="car-property-container">
+                    <span class="car-property-name">Modèle</span>
+                    <span class="car-property-separator"></span>
+                    <span class="car-property-value">{{ page.model }}</span><br/>
+                </p>
+                <p class="car-property-container">
+                    <span class="car-property-name">Année</span>
+                    <span class="car-property-separator"></span>
+                    <span class="car-property-value">{{ page.year }}</span><br/>
+                </p>
+                <p class="car-property-container">
+                    <span class="car-property-name">Kilomètres</span>
+                    <span class="car-property-separator"></span>
+                    <span class="car-property-value">{{ page.kilometers }} km</span><br/>
+                </p>
+                <p class="car-property-container">
+                    <span class="car-property-name">Carburant</span>
+                    <span class="car-property-separator"></span>
+                    <span class="car-property-value">{{ page.fuel | capitalize }}</span><br/>
+                </p>
+                {% for property in page.properties %}
+                <p class="car-property-container">
+                    <span class="car-property-name">{{ property.property }}</span>
+                    <span class="car-property-separator"></span>
+                    <span class="car-property-value">{{ property.value }}</span><br/>
+                </p>
+                {% endfor %}
+            </div>
+            <div class="offset-md-1 col-md-5" id="car-price-container">
+                <p>
+                    Prix: <strong>{{ page.price }}€ TTC*</strong><br/>
+                    <span class="cmp-horizontal-line-secondary cmp-horizontal-line-secondary-align-left"></span>
+                    <a href="{% link contact.html %}" class="button button-arrowed button-accented">Plus d'infos</a><br/>
+                    <span class="small-text">* Inclus les démarches administratives et la préparation cosmétique du véhicule.</span><br/>
+                </p>
+            </div>
+        </div>
+
+        <div class="pswp-gallery pswp-gallery--single-column" id="gallery">
+            {% for photo in page.photos %}
+            <div class="gallery-photo-container">
+                <a href="{{ photo }}"
+                    data-pswp-width="2048" 
+                    data-pswp-height="2048" 
+                    target="_blank">
+                    <span class="gallery-photo" style="background-image: url('{{ photo }}');"> </span>
+                </a> 
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h4>Description</h4>
+                <p>
+                    {{ page.description | newline_to_br }}
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <a href="{% link contact.html %}" class="button button-arrowed button-accented" id="car-bottom-contact-button">Contactez-nous</a>
+        </div>
+    </div>
+
+</section>

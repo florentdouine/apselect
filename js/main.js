@@ -39,7 +39,7 @@ function animateBackgroundInversion() {
 function animateBackgroundParallax() {
     document.querySelectorAll(".anim-background-parallax").forEach(function(element) {
         var middle = element.getBoundingClientRect().top * 2 + element.offsetHeight - window.innerHeight
-        var constant = 5
+        var constant = 7
         var offset = middle * -1 / constant
         element.style.backgroundPositionY = "calc(50% - "+offset+"px)";
     });

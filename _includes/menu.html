@@ -21,10 +21,12 @@
 </div>
 
 <div id="right-menu">
-    <ul id="socialicons" class="d-lg-flex">
-        <li><a class="facebook" href="http://www.facebook.com/AutomobilePassionSelection" target="_blank"> <i class="fa fa-facebook"></i> </a> </li>
-        <li> <a class="instagram" href="https://www.instagram.com/ap.select/" target="_blank"> <i class="fa fa-instagram"></i> </a> </li>
-        <li> <a class="linkedin" href="https://www.linkedin.com/company/ap-select-courtage/" target="_blank"> <i class="fa fa-linkedin"></i> </a> </li>
+    <ul class="d-lg-flex">
+        <li>
+            <a href="{% link club.html %}" class="shadow-secondary {% if the_page.order == page.order %} active{% endif %}">
+                Le club
+            </a>
+        </li>
     </ul>
     <a href="{% link contact.html %}" id="btn-menu-contact" class="button button-secondary button-arrowed">Contact</a>
     <a id="link-mobile-menu" class="d-lg-none" onclick="toggleMenu()">

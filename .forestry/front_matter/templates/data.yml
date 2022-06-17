@@ -1,0 +1,114 @@
+---
+label: Data
+hide_body: true
+fields:
+- name: name
+  type: text
+  config:
+    required: true
+  label: Nom
+  description: Le titre complet de l'annonce
+- name: brand
+  type: text
+  config:
+    required: true
+  label: Marque
+- name: model
+  type: text
+  config:
+    required: true
+  label: Modèle
+- name: year
+  type: number
+  label: Année
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+    required: true
+- name: kilometers
+  type: number
+  label: Kilometrage
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+    required: true
+- name: fuel
+  type: text
+  config:
+    required: true
+  label: Carburant
+- name: price
+  type: number
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+    required: true
+  label: Prix
+- name: photos
+  type: image_gallery
+  config: {}
+  label: Photos
+  description: La première photo, de préférence au format paysage, sera celle de couverture.
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+  description: Une description supplémentaire du véhicule contenant par exemple son
+    historique ou ses options.
+- name: properties
+  type: field_group_list
+  fields:
+  - name: property
+    type: text
+    config:
+      required: false
+    label: Propriété
+  - name: value
+    type: text
+    config:
+      required: false
+    label: Valeur
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Propriétés
+- name: creation_date
+  type: datetime
+  label: Creation Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  hidden: true
+  default: now
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: true
+  default: car
+pages:
+- _cars/BMW_M3_e46_cabrio.md
+- _cars/bmw-1.md
+- _cars/mercedes_amg.md

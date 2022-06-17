@@ -1,5 +1,5 @@
-<div class="col-md-6 section-col-detailed {% if include.theme == "dark" %}section-col-dark{% else %}section-col-light{% endif %}">
-    <div class="section-col-detailed-container">
+<div class="col-md-6 section-col-{% if include.compact == true %}compact{% else %}detailed{% endif %} {% if include.theme == "dark" %}section-col-dark{% else %}section-col-light{% endif %}">
+    <div class="section-col-{% if include.compact == true %}compact{% else %}detailed{% endif %}-container">
         {% if include.watermark %}<span class="anim-parallax {% if include.theme == "dark" %}cmp-number-watermark{% else %}cmp-number-watermark-secondary{% endif %}">{{ include.watermark }}</span>{% endif %}
         <h3 class="shadow-secondary anim-fadein-apparition">{{ include.title }}</h3>
         <p class=" anim-fadein-apparition">

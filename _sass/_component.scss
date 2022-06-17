@@ -47,7 +47,8 @@
     transition: all 0.3s ease 0s;
 }
 
-.button-accented {
+.button-accented, .button-accented:hover {
+    color: $color-content-reverse;
     background-color: $color-accent-main;
 }
 
@@ -136,6 +137,10 @@ a.link.link-arrowed::after {
     display: block;
     background-color: $color-accent-secondary;
     margin: 13px auto;
+}
+
+.cmp-horizontal-line-secondary-align-left {
+    margin: 13px 0px;
 }
 
 .cmp-number-watermark,

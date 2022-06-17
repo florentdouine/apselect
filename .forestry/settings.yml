@@ -4,9 +4,14 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: jekyll-posts
-  label: Voitures
-  create: all
+- type: directory
+  path: _cars
+  label: Véhicules
+  create: documents
+  match: "**/*"
+  new_doc_ext: md
+  templates:
+  - data
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''

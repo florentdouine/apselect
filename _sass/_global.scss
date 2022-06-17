@@ -113,3 +113,10 @@ textarea {
 .inline-link:hover {
   font-weight: $font-weight-bold;
 }
+
+.small-text {
+  font-size: $font-size-caption;
+  font-style: italic;
+  line-height: 16px;
+  display: inline-block;
+}

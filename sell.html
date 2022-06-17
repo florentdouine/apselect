@@ -1,0 +1,53 @@
+---
+permalink: /vente/
+layout: page
+menu-title: Vente
+menu: main
+order: 4
+banner-title: "VÉHICULES"
+banner-title-bordered: true
+banner-subtitle: "EN VENTE"
+---
+
+<!-- <section class="section-col-light row flex-md-row" id="section-sell">
+    {% for car in site.cars %}
+    <div class="col-md-6 car-box">
+        <a href="{{ car.url }}">
+            <img src="{{ car.photos | first }}" class="anim-fadein-apparition">
+            <span class="cmp-horizontal-line-secondary"></span>
+            <h4 class="">{{ car.name }}</h4>
+            <p>{{ car.price }} €</p>
+        </a>
+    </div>
+    {% endfor %}
+</section> -->
+
+<script>
+    function redirectTo(url) {
+        location.href=url
+    }
+</script>
+
+{% for car in site.cars %}
+{% capture theme %}{% cycle 'light', 'dark' %}{% endcapture %}
+{% capture apparition %}{% cycle 'right', 'left' %}{% endcapture %}
+{% capture text %}
+{{ car.year }} • {{ car.kilometers }}km • {{ car.fuel | capitalize }}<br/>
+<strong>{{ car.price }}€</strong>
+{% endcapture %}
+<section onClick="javascript:redirectTo('{{ car.url }}')" class="{% if theme == 'light' %}section-col-light flex-md-row-reverse{% endif %} row" id="section-sell">
+    <div class="col-md-6 sell-photo-container">
+        <img src="{{ car.photos | first }}" class="cmp-full-col-img anim-{{ apparition }}-apparition">
+    </div>
+
+    {% include section/section-col-detailed.html
+        title=car.name
+        text=text
+        link="en savoir plus"
+        url=car.url
+        theme=theme
+        compact=true
+        %}
+
+</section>
+{% endfor %}
