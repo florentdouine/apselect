@@ -56,10 +56,10 @@
 .section-col-detailed-container,
 .section-col-compact-container {
     align-self: center;
-    padding: 0px 15% 0px 15%;
+    padding: 20px 15% 20px 15%;
     position: relative;
     @include media-breakpoint-down(sm) {
-        padding: 0px 5% 0px 5%;
+        padding: 10px 5% 10px 5%;
     }
 }
 
