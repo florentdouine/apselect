@@ -4,7 +4,7 @@ creation_date: 2022-05-18T13:21:46.000+00:00
 layout: car
 name: BMW M4 Competition DKG 450ch San Marino individual Born in /M Town
 photos:
-- "/uploads/format-paysage.jpg"
+- "/uploads/77ce025b-f20c-44cf-bc7d-b33094c8349c.jpeg"
 - "/uploads/img_20220502_144346-1.jpg"
 - "/uploads/img_20220502_150401-1.jpg"
 - "/uploads/img_20220502_150918-1.jpg"
