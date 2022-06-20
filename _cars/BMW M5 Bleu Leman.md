@@ -94,6 +94,10 @@ description: |-
 
   Prenez le volant, AP SELECT s'occupe du reste
 properties:
+- property: Sellerie
+  value: Cuir bi ton noir / gris
+- property: Couleur
+  value: bleu Le Mans métallic
 - property: 'Boîte de vitesse  '
   value: Manuelle
 - property: Puissance DIN
