@@ -10,7 +10,6 @@ model: M5
 fuel: Essence
 photos:
 - "/uploads/1ere-couv.jpg"
-- "/uploads/partage-a-partir-de-lightroom-mobile-42.jpg"
 - "/uploads/partage-a-partir-de-lightroom-mobile-14.jpg"
 - "/uploads/partage-a-partir-de-lightroom-mobile-17.jpg"
 - "/uploads/partage-a-partir-de-lightroom-mobile-18.jpg"
