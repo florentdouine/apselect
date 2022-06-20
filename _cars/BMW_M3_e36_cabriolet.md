@@ -85,7 +85,7 @@ properties:
   value: Manuelle
 - property: Puissance DIN
   value: 286 Ch
-- property: ''
-  value: ''
+- property: 'Couleur '
+  value: Couleur Cosmosschwarz métallic
 
 ---
