@@ -2,13 +2,14 @@
 year: 2018
 kilometers: 20000
 price: 128000
-creation_date: 2022-06-12 15:51:40 +0000
+creation_date: 2022-06-12T15:51:40.000+00:00
 layout: car
 name: Mercedes AMG GT Roadster 4.0 V8 476ch DCT-7
 brand: Mercedes
 model: AMG
 fuel: Essence
 photos:
+- "/uploads/img_20220525_172233-6.jpg"
 - "/uploads/img_20220525_181248.jpg"
 - "/uploads/img_20220525_173140.jpg"
 - "/uploads/img_20220525_172957.jpg"
@@ -52,7 +53,6 @@ photos:
 - "/uploads/img_20220525_172220.jpg"
 - "/uploads/img_20220525_172326.jpg"
 - "/uploads/img_20220525_172348.jpg"
-- "/uploads/img_20220525_172233-6.jpg"
 - "/uploads/img_20220525_173040.jpg"
 - "/uploads/img_20220525_172406.jpg"
 - "/uploads/img_20220525_172758.jpg"
