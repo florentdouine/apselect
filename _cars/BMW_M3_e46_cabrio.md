@@ -10,10 +10,7 @@ model: M3 e46 cabrio
 fuel: Essence
 photos:
 - "/uploads/img_20220513_165134.jpg"
-- "/uploads/partage-a-partir-de-lightroom-mobile-10.jpg"
-- "/uploads/partage-a-partir-de-lightroom-mobile-9.jpg"
 - "/uploads/img_20220513_165531_1.jpg"
-- "/uploads/partage-a-partir-de-lightroom-mobile-7.jpg"
 - "/uploads/img_20220513_171353.jpg"
 - "/uploads/img_20220513_170444.jpg"
 - "/uploads/img_20220513_164223.jpg"
@@ -36,10 +33,6 @@ photos:
 - "/uploads/img_20220513_193618.jpg"
 - "/uploads/img_20220513_193710.jpg"
 - "/uploads/img_20220513_193727.jpg"
-- "/uploads/partage-a-partir-de-lightroom-mobile-8.jpg"
-- "/uploads/partage-a-partir-de-lightroom-mobile-5.jpg"
-- "/uploads/partage-a-partir-de-lightroom-mobile-6.jpg"
-- "/uploads/partage-a-partir-de-lightroom-mobile-4.jpg"
 description: |-
   Description
   AP SELECT met en vente une M3 e46 cabrio 343ch SMG2 phase 2.
