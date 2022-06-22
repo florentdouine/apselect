@@ -2,7 +2,7 @@
 year: 1994
 kilometers: 172800
 price: 24990
-creation_date: 2022-06-20 11:42:43 +0000
+creation_date: 2022-06-20T11:42:43.000+00:00
 layout: car
 name: BMW M3 e36 Cabriolet 3.0l 286ch Méca
 brand: BMW
@@ -55,7 +55,7 @@ description: |-
   La capote fonctionne parfaitement.
 
   Équipements et options :
-  - Boîte Mécanique 6
+  - Boîte Mécanique 5
   - Cuir complet noir
   - Jantes 17 pouces M3 cabriolet
   - ODB 18 touches
