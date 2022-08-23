@@ -81,6 +81,5 @@ properties:
   value: 285 Ch
 - property: Puissance fiscale
   value: 21 Cv
-published: false
 
 ---
