@@ -9,8 +9,8 @@ brand: Fiat
 model: 124 Spider
 fuel: Essence
 photos:
-- "/uploads/fiat-124-spider-23.jpg"
 - "/uploads/fiat-124-spider-22.jpg"
+- "/uploads/fiat-124-spider-23.jpg"
 - "/uploads/fiat-124-spider-5.jpg"
 - "/uploads/fiat-124-spider-12.jpg"
 - "/uploads/fiat-124-spider-7.jpg"
