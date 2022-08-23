@@ -2,7 +2,7 @@
 year: 2003
 kilometers: 138000
 price: 34990
-creation_date: 2022-06-16 16:21:34 +0000
+creation_date: 2022-06-16T16:21:34.000+00:00
 layout: car
 name: BMW M3 e46 cabrio 343ch SMG2, Hardtop, HK, echap sport, 19’’ EVO
 brand: BMW
@@ -43,7 +43,7 @@ description: |-
 
   Carte Grise a moitié prix sans malus.
 
-  Le véhicule est possède son carnet complet avec historique limpide.
+  Le véhicule possède son carnet complet avec historique limpide.
 
   Tous les rappels BMW ont été fait dont les coussinets de bielles.
 
