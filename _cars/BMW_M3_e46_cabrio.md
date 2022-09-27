@@ -4,7 +4,7 @@ kilometers: 138000
 price: 34990
 creation_date: 2022-06-16T16:21:34.000+00:00
 layout: car
-name: BMW M3 e46 cabrio
+name: BMW M3 e46 cabriolet
 brand: BMW
 model: M3 e46 cabrio
 fuel: Essence

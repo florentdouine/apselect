@@ -4,7 +4,7 @@ kilometers: 172800
 price: 24990
 creation_date: 2022-06-20T11:42:43.000+00:00
 layout: car
-name: BMW M3 e36 Cabriolet 3.0l 286ch Méca
+name: 'BMW M3 e36 Cabriolet '
 brand: BMW
 model: M3 e36 Cabriolet
 fuel: Essence
