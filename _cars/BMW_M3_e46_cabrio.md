@@ -4,7 +4,7 @@ kilometers: 138000
 price: 34990
 creation_date: 2022-06-16T16:21:34.000+00:00
 layout: car
-name: BMW M3 e46 cabrio 343ch SMG2, Hardtop, HK, echap sport, 19’’ EVO
+name: BMW M3 e46 cabrio
 brand: BMW
 model: M3 e46 cabrio
 fuel: Essence
