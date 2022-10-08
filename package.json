@@ -1,0 +1,20 @@
+{
+  "name": "apselect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "installDependencies": "bundle install",
+    "start": "bundle exec jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florentdouine/apselect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/florentdouine/apselect/issues"
+  },
+  "homepage": "https://github.com/florentdouine/apselect#readme"
+}
