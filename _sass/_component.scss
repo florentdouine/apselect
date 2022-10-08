@@ -61,33 +61,33 @@
     border-color: transparent;
 }
 
-a.link-inline {
+.link-inline, .link-inline {
     text-decoration: underline;
 }
 
-a.link-inline:hover {
+.link-inline:hover {
     color: $color-content-dark;
 }
 
-a.link-small {
+.link-small {
     white-space: nowrap;
     font-size: $font-size-caption;
 }
 
-a.link-small:hover {
+.link-small:hover {
     color: $color-content-light;
 }
 
-a.link {
+.link {
     white-space: nowrap;
     @include text-style-link;
 }
 
-a.link.link-arrowed:hover::after {
+.link.link-arrowed:hover::after {
     left: 25px;
 }
 
-a.link.link-arrowed::after {
+.link.link-arrowed::after {
     content: "";
     width: 35px;
     height: 8px;
