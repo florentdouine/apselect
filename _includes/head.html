@@ -18,7 +18,7 @@
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <title>{% if page.title %}{{ page.title | strip_html | escape }} | {% endif %}{{ site.title | escape }}</title>
 
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ site.url  | append: page.url }}">
     
     <link rel="shortcut icon" href="{{ '/images/favicon.png' | prepend: site.baseurl }}" />
 

@@ -16,7 +16,7 @@
 
 <div id="logo" > 
     <a href="{{ site.baseurl }}/">
-        <img class="img-fluid" src="{{ '/images/apselect_logo.svg' | prepend: site.baseurl }}" width="185"/><br/>    
+        <img class="img-fluid" src="{{ '/images/apselect_logo.svg' | prepend: site.baseurl }}" width="185" height="59" alt="Logo d'AP SELECT"/>
     </a>
 </div>
 
@@ -29,7 +29,7 @@
         </li>
     </ul>
     <a href="{% link contact.html %}" id="btn-menu-contact" class="button button-secondary button-arrowed">Contact</a>
-    <a id="link-mobile-menu" class="d-lg-none" onclick="toggleMenu()">
+    <button id="link-mobile-menu" class="d-lg-none" onclick="toggleMenu()">
         Menu
         <span for="check" id="cmp-burger-menu">
             <span></span>

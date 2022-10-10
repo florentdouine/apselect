@@ -37,7 +37,7 @@ banner-subtitle: "EN VENTE"
 {% endcapture %}
 <section onClick="javascript:redirectTo('{{ car.url }}')" class="{% if theme == 'light' %}section-col-light flex-md-row-reverse{% endif %} row" id="section-sell">
     <div class="col-md-6 sell-photo-container">
-        <img src="{{ car.photos | first }}" class="cmp-full-col-img anim-{{ apparition }}-apparition">
+        <img src="{{ car.photos | first }}" class="cmp-full-col-img anim-{{ apparition }}-apparition" alt="Photographie d'une {{ car.name }} vue de trois quarts face dans les locaux d'AP SELECT">
     </div>
 
     {% include section/section-col-detailed.html

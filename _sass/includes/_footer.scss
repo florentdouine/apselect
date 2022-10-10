@@ -189,4 +189,18 @@ footer {
 
 #footer-links-pages a {
     margin-right: 10px;
+
+}
+
+.footer-text-with-arrow {
+    display: flex;
+    align-items: center;
+    &::before {
+        content: '';
+        display: block;
+        background-image: url(/images/arrow-min.png);
+        height: 7px;
+        width: 3px;
+        margin-right: 5px;
+    }
 }
