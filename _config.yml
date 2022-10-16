@@ -48,6 +48,7 @@ exclude:
   - _site/
   - img/Ressources/
   - vendor/
+  - node_modules
 collections:
     cars:
         output: true
@@ -58,6 +59,7 @@ defaults:
       path:            "calculator/*"
     values:
       sitemap:         false
+
 # Minify CSS output
 sass:
   style: compressed
