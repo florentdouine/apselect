@@ -58,3 +58,6 @@ defaults:
       path:            "calculator/*"
     values:
       sitemap:         false
+# Minify CSS output
+sass:
+  style: compressed
