@@ -109,6 +109,7 @@ fields:
   hidden: true
   default: car
 pages:
+- _cars/BMW M3 e46 coupé.md
 - _cars/BMW M5 Bleu Leman.md
 - _cars/BMW_M3_e36_cabriolet.md
 - _cars/BMW_M3_e46_cabrio.md
