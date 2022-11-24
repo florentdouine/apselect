@@ -40,6 +40,5 @@ properties:
   value: 25 Cv
 - property: ''
   value: ''
-published: false
 
 ---
