@@ -2,10 +2,10 @@
 year: 1996
 kilometers: 179200
 price: 94990
-creation_date: 2022-08-23 12:58:43 +0000
+creation_date: 2022-08-23T12:58:43.000+00:00
 layout: car
 name: PORSCHE 993 Carrera 4S
-brand: PORSCHE
+brand: Porsche
 model: 993 Carrera 4S
 fuel: Essence
 photos:
