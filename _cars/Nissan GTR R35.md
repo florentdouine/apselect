@@ -1,7 +1,7 @@
 ---
 year: 2010
 kilometers: 86000
-price: 64990
+price: 59990
 creation_date: 2022-11-25 12:58:13 +0000
 layout: car
 name: Nissan GT-R R35

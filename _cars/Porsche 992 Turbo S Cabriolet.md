@@ -1,8 +1,8 @@
 ---
 year: 2021
 kilometers: 5600
-price: 314990
-creation_date: 2022-10-04 14:23:41 +0000
+price: 309990
+creation_date: 2022-10-04T14:23:41.000+00:00
 layout: car
 name: 'Porsche 992 TURBO S Cabriolet '
 brand: PORSCHE
