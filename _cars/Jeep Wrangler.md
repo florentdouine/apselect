@@ -8,6 +8,7 @@ name: Jeep Wrangler First Edition 4Xe
 brand: Jeep
 model: Wrangler
 fuel: Hybride
+isSold: false
 photos:
 - "/uploads/jeep-wrangler-hybride-33.jpg"
 - "/uploads/jeep-wrangler-hybride-18.jpg"

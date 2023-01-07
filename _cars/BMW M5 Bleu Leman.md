@@ -8,6 +8,7 @@ name: BMW M5 e39 V8 400ch Le Mans phase 2
 brand: BMW
 model: M5
 fuel: Essence
+isSold: false
 photos:
 - "/uploads/1ere-couv.jpg"
 - "/uploads/partage-a-partir-de-lightroom-mobile-38.jpg"

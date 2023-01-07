@@ -8,6 +8,7 @@ name: Porsche 991 4S
 brand: Porsche
 model: "911"
 fuel: Essence
+isSold: false
 photos:
 - "/uploads/porsche-911-4s-2.jpg"
 - "/uploads/porsche-911-4s-12.jpg"

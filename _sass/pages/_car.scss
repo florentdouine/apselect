@@ -2,6 +2,45 @@
     padding: 30px;
 }
 
+#section-sell .sell-sold-card {
+    position: relative;
+}
+
+.sell-sold-card{
+    overflow: hidden;
+}
+
+.sell-sold-card:before {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  content: '';
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.sell-sold-card::after {
+    content: "VENDU";
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    right: -90px;
+    margin-left: 30px;
+    padding: 10px 100px;
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: "Helvetica";
+    font-weight: bold;
+    transform: rotate(45deg);
+    z-index: 2;
+    opacity: 0.8;
+    border-top: solid 4px white;
+    border-bottom: solid 4px white;
+}
+
 .car-box h4, .car-box p {
     text-align: center;
 }

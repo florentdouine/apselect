@@ -8,6 +8,7 @@ name: MINI 1300 British Open BALMORAL
 brand: ROVER
 model: MINI BALMORAL
 fuel: Essence
+isSold: false
 photos:
 - "/uploads/mini-balmoral-9.jpg"
 - "/uploads/mini-balmoral-7.jpg"

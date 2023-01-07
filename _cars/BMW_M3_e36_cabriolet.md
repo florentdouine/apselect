@@ -8,6 +8,7 @@ name: 'BMW M3 e36 Cabriolet '
 brand: BMW
 model: M3 e36 Cabriolet
 fuel: Essence
+isSold: false
 photos:
 - "/uploads/img_20220513_185339.jpg"
 - "/uploads/img_20220513_184917.jpg"

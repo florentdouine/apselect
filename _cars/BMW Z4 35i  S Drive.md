@@ -8,6 +8,7 @@ name: BMW Z4 35i SDrive
 brand: BMW
 model: Z4
 fuel: Essence
+isSold: false
 photos:
 - "/uploads/bmw-z4-15.jpg"
 - "/uploads/bmw-z4-13.jpg"

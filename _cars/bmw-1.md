@@ -91,5 +91,6 @@ description: |
 
   Prenez le volant, AP SELECT s'occupe du reste.
 fuel: essence
+isSold: false
 
 ---

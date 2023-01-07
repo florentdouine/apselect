@@ -9,26 +9,16 @@ banner-title-bordered: true
 banner-subtitle: "EN VENTE"
 ---
 
-<!-- <section class="section-col-light row flex-md-row" id="section-sell">
-    {% for car in site.cars %}
-    <div class="col-md-6 car-box">
-        <a href="{{ car.url }}">
-            <img src="{{ car.photos | first }}" class="anim-fadein-apparition">
-            <span class="cmp-horizontal-line-secondary"></span>
-            <h4 class="">{{ car.name }}</h4>
-            <p>{{ car.price }} €</p>
-        </a>
-    </div>
-    {% endfor %}
-</section> -->
-
 <script>
     function redirectTo(url) {
         location.href=url
     }
 </script>
 
-{% for car in site.cars %}
+{% assign sell_cars = site.cars | where: 'isSold',true %}
+{% assign other_cars = site.cars | where: 'isSold',false %}
+{% assign all_cars = other_cars | concat: sell_cars %}
+{% for car in all_cars %}
 {% capture theme %}{% cycle 'light', 'dark' %}{% endcapture %}
 {% capture apparition %}{% cycle 'right', 'left' %}{% endcapture %}
 {% capture text %}
@@ -36,8 +26,10 @@ banner-subtitle: "EN VENTE"
 <strong>{{ car.price }}€</strong>
 {% endcapture %}
 <section onClick="javascript:redirectTo('{{ car.url }}')" class="{% if theme == 'light' %}section-col-light flex-md-row-reverse{% endif %} row" id="section-sell">
-    <div class="col-md-6 sell-photo-container">
-        <img src="{{ car.photos | first }}" class="cmp-full-col-img anim-{{ apparition }}-apparition" alt="Photographie d'une {{ car.name }} vue de trois quarts face dans les locaux d'AP SELECT">
+    <div class="col-md-6 sell-photo-container anim-{{ apparition }}-apparition">
+        <div class="{% if car.isSold == true %}sell-sold-card{% endif %}">
+            <img src="{{ car.photos | first }}" class="cmp-full-col-img" alt="Photographie d'une {{ car.name }} vue de trois quarts face dans les locaux d'AP SELECT">
+        </div>
     </div>
 
     {% include section/section-col-detailed.html

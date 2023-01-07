@@ -8,6 +8,7 @@ name: Maserati Ghibli III Gransport
 brand: Maserati
 model: Ghibli III Gransport
 fuel: Diesel
+isSold: false
 photos:
 - "/uploads/maserati-ghibli-26.jpg"
 - "/uploads/maserati-ghibli-4.jpg"

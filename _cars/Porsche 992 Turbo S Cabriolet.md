@@ -8,6 +8,7 @@ name: 'Porsche 992 TURBO S Cabriolet '
 brand: PORSCHE
 model: '992 TURBO S Cabriolet '
 fuel: Essence
+isSold: false
 photos:
 - "/uploads/porsche-992-turbo-s-cabriolet-33.jpg"
 - "/uploads/porsche-992-turbo-s-cabriolet-6.jpg"

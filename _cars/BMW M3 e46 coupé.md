@@ -8,6 +8,7 @@ name: BMW M3 e46 coupé
 brand: BMW
 model: M3
 fuel: Essence
+isSold: false
 photos:
 - "/uploads/bmw-m3-e46-carbon-4.jpg"
 - "/uploads/bmw-m3-e46-carbon-14.jpg"

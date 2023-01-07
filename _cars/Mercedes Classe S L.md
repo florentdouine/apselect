@@ -8,6 +8,7 @@ name: 'Mercedes Classe S L '
 brand: Mercedes
 model: Classe S
 fuel: Diesel
+isSold: false
 photos:
 - "/uploads/mercedes-classe-s-l-350-4.jpg"
 - "/uploads/mercedes-classe-s-l-350-7.jpg"

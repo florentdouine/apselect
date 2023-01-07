@@ -8,6 +8,7 @@ name: Nissan GT-R R35
 brand: Nissan
 model: Gt-r
 fuel: Essence
+isSold: false
 photos:
 - "/uploads/nissan-gtr-1.jpg"
 - "/uploads/nissan-gtr-2.jpg"

@@ -8,6 +8,7 @@ name: Porsche 991 Carrera 4S
 brand: Porsche
 model: "911"
 fuel: Essence
+isSold: false
 photos:
 - "/uploads/porsche-991-carrera-4s-3-0-420ch-pdk-32.jpg"
 - "/uploads/porsche-991-carrera-4s-3-0-420ch-pdk-6.jpg"
