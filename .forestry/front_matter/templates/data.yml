@@ -8,6 +8,10 @@ fields:
     required: true
   label: Nom
   description: Le titre complet de l'annonce
+- name: isSold
+  type: boolean
+  label: Véhicule vendu ?
+  default: false
 - name: brand
   type: text
   config:
