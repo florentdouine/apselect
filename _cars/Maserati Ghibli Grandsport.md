@@ -2,13 +2,13 @@
 year: 2017
 kilometers: 128600
 price: 38990
-creation_date: 2022-08-23 13:31:13 +0000
+creation_date: 2022-08-23T13:31:13.000+00:00
 layout: car
 name: Maserati Ghibli III Gransport
 brand: Maserati
 model: Ghibli III Gransport
 fuel: Diesel
-isSold: false
+isSold: true
 photos:
 - "/uploads/maserati-ghibli-26.jpg"
 - "/uploads/maserati-ghibli-4.jpg"

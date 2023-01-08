@@ -2,13 +2,13 @@
 year: 1995
 kilometers: 89990
 price: 14990
-creation_date: 2022-09-27 13:06:37 +0000
+creation_date: 2022-09-27T13:06:37.000+00:00
 layout: car
 name: MINI 1300 British Open BALMORAL
 brand: ROVER
 model: MINI BALMORAL
 fuel: Essence
-isSold: false
+isSold: true
 photos:
 - "/uploads/mini-balmoral-9.jpg"
 - "/uploads/mini-balmoral-7.jpg"
