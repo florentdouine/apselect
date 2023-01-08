@@ -2,13 +2,13 @@
 year: 2001
 kilometers: 163000
 price: 34990
-creation_date: 2022-06-20 10:26:07 +0000
+creation_date: 2022-06-20T10:26:07.000+00:00
 layout: car
 name: BMW M5 e39 V8 400ch Le Mans phase 2
 brand: BMW
 model: M5
 fuel: Essence
-isSold: false
+isSold: true
 photos:
 - "/uploads/1ere-couv.jpg"
 - "/uploads/partage-a-partir-de-lightroom-mobile-38.jpg"

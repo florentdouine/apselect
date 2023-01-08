@@ -8,7 +8,7 @@ name: PORSCHE 993 Carrera 4S
 brand: Porsche
 model: 993 Carrera 4S
 fuel: Essence
-isSold: false
+isSold: true
 photos:
 - "/uploads/porsche-993-carrera-4s-1.jpg"
 - "/uploads/porsche-993-carrera-4s-15.jpg"
