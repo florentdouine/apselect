@@ -113,6 +113,7 @@ fields:
   hidden: true
   default: car
 pages:
+- _cars/AUDI R8.md
 - _cars/AUDI RS4 B7.md
 - _cars/BMW M3 e46 coupé.md
 - _cars/BMW M5 Bleu Leman.md
