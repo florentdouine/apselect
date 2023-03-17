@@ -2,13 +2,13 @@
 year: 2002
 kilometers: 176500
 price: 32990
-creation_date: 2022-11-24 14:20:58 +0000
+creation_date: 2022-11-24T14:20:58.000+00:00
 layout: car
 name: BMW M3 e46 coupé
 brand: BMW
 model: M3
 fuel: Essence
-isSold: false
+isSold: true
 photos:
 - "/uploads/bmw-m3-e46-carbon-4.jpg"
 - "/uploads/bmw-m3-e46-carbon-14.jpg"
