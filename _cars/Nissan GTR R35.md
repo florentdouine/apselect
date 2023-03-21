@@ -2,13 +2,13 @@
 year: 2010
 kilometers: 86000
 price: 59990
-creation_date: 2022-11-25 12:58:13 +0000
+creation_date: 2022-11-25T12:58:13.000+00:00
 layout: car
 name: Nissan GT-R R35
 brand: Nissan
 model: Gt-r
 fuel: Essence
-isSold: false
+isSold: true
 photos:
 - "/uploads/nissan-gtr-1.jpg"
 - "/uploads/nissan-gtr-2.jpg"

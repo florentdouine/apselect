@@ -2,13 +2,13 @@
 year: 2021
 kilometers: 29000
 price: 72990
-creation_date: 2022-12-15 13:23:15 +0000
+creation_date: 2022-12-15T13:23:15.000+00:00
 layout: car
 name: Jeep Wrangler First Edition 4Xe
 brand: Jeep
 model: Wrangler
 fuel: Hybride
-isSold: false
+isSold: true
 photos:
 - "/uploads/jeep-wrangler-hybride-33.jpg"
 - "/uploads/jeep-wrangler-hybride-18.jpg"

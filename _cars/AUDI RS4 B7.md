@@ -93,6 +93,6 @@ description: |-
 properties:
 - property: Puissance Din
   value: 420 Ch
-isSold: false
+isSold: true
 
 ---
