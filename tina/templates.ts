@@ -2,6 +2,13 @@ import type { TinaField } from "tinacms";
 export function dataFields() {
   return [
     {
+      name: 'draft',
+      label: 'Brouillon',
+      type: 'boolean',
+      required: true,
+      description: 'Cochez de champ pour cacher le véhicule en ligne',
+    },
+    {
       type: "string",
       name: "name",
       label: "Nom",
@@ -83,12 +90,13 @@ export function dataFields() {
     {
       type: "datetime",
       name: "creation_date",
-      label: "Creation Date",
+      label: "Ajoutée le",
     },
     {
       type: "string",
       name: "layout",
       label: "layout",
+      description: 'Ne pas modifier ce champ.',
     },
   ] as TinaField[];
 }

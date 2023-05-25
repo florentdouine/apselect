@@ -48,13 +48,8 @@ exclude:
   - _site/
   - img/Ressources/
   - vendor/
+  - node_modules/
 collections:
     cars:
         output: true
         permalink: /vente/:path/
-defaults:
-  -
-    scope:
-      path:            "calculator/*"
-    values:
-      sitemap:         false

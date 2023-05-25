@@ -11,12 +11,12 @@ export default defineConfig({
   client: { skip: true },
   build: {
     outputFolder: "admin",
-    publicFolder: "uploads",
+    publicFolder: "./",
   },
   media: {
     tina: {
       mediaRoot: "",
-      publicFolder: "uploads",
+      publicFolder: "./",
     },
   },
   schema: {
@@ -29,14 +29,24 @@ export default defineConfig({
         match: {
           include: "**/*",
         },
-        fields: [
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: true,
+        defaultItem: () => {
+          return {
+            // When a new post is created the title field will be set to "New post"
+            layout: 'car',
+          }
+        },
+        ui: {
+          filename: {
+            // if disabled, the editor can not edit the filename
+            readonly: true,
+            // Example of using a custom slugify function
+            slugify: values => {
+              // Values is an object containing all the values of the form. In this case it is {title?: string, topic?: string}
+              return `${values?.name?.toLowerCase().replace(/ /g, '-')}`
+            },
           },
+        },
+        fields: [
           ...dataFields(),
         ],
       },
