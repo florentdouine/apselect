@@ -83,7 +83,7 @@ jobs:
         env:
           TINA_PUBLIC_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-        run: npx tinacms dev -c "bundle exec jekyll build --baseurl '${{ steps.pages.outputs.base_path }}'"
+        run: npx tinacms build -c "bundle exec jekyll build --baseurl '${{ steps.pages.outputs.base_path }}'"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
