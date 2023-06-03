@@ -10,36 +10,36 @@ model: Ghibli III Gransport
 fuel: Diesel
 isSold: true
 photos:
-  - /uploads/maserati-ghibli-26.jpg
-  - /uploads/maserati-ghibli-4.jpg
-  - /uploads/maserati-ghibli-5.jpg
-  - /uploads/maserati-ghibli-2.jpg
-  - /uploads/maserati-ghibli-8.jpg
-  - /uploads/maserati-ghibli-24.jpg
-  - /uploads/maserati-ghibli-6.jpg
-  - /uploads/maserati-ghibli-25.jpg
-  - /uploads/maserati-ghibli-23.jpg
-  - /uploads/maserati-ghibli-7.jpg
-  - /uploads/maserati-ghibli-21.jpg
-  - /uploads/maserati-ghibli-20.jpg
-  - /uploads/maserati-ghibli-19.jpg
-  - /uploads/maserati-ghibli-22.jpg
-  - /uploads/maserati-ghibli-12.jpg
-  - /uploads/maserati-ghibli-18.jpg
-  - /uploads/maserati-ghibli-17.jpg
-  - /uploads/maserati-ghibli-11.jpg
-  - /uploads/maserati-ghibli-10.jpg
-  - /uploads/maserati-ghibli-13.jpg
-  - /uploads/maserati-ghibli-16.jpg
-  - /uploads/maserati-ghibli-15.jpg
-  - /uploads/maserati-ghibli-14.jpg
-  - /uploads/maserati-ghibli-9.jpg
-  - /uploads/maserati-ghibli-33.jpg
-  - /uploads/maserati-ghibli-30.jpg
-  - /uploads/maserati-ghibli-31.jpg
-  - /uploads/maserati-ghibli-34.jpg
-  - /uploads/maserati-ghibli-27.jpg
-  - /uploads/maserati-ghibli-1.jpg
+  - /assets/maserati-ghibli-26.jpg
+  - /assets/maserati-ghibli-4.jpg
+  - /assets/maserati-ghibli-5.jpg
+  - /assets/maserati-ghibli-2.jpg
+  - /assets/maserati-ghibli-8.jpg
+  - /assets/maserati-ghibli-24.jpg
+  - /assets/maserati-ghibli-6.jpg
+  - /assets/maserati-ghibli-25.jpg
+  - /assets/maserati-ghibli-23.jpg
+  - /assets/maserati-ghibli-7.jpg
+  - /assets/maserati-ghibli-21.jpg
+  - /assets/maserati-ghibli-20.jpg
+  - /assets/maserati-ghibli-19.jpg
+  - /assets/maserati-ghibli-22.jpg
+  - /assets/maserati-ghibli-12.jpg
+  - /assets/maserati-ghibli-18.jpg
+  - /assets/maserati-ghibli-17.jpg
+  - /assets/maserati-ghibli-11.jpg
+  - /assets/maserati-ghibli-10.jpg
+  - /assets/maserati-ghibli-13.jpg
+  - /assets/maserati-ghibli-16.jpg
+  - /assets/maserati-ghibli-15.jpg
+  - /assets/maserati-ghibli-14.jpg
+  - /assets/maserati-ghibli-9.jpg
+  - /assets/maserati-ghibli-33.jpg
+  - /assets/maserati-ghibli-30.jpg
+  - /assets/maserati-ghibli-31.jpg
+  - /assets/maserati-ghibli-34.jpg
+  - /assets/maserati-ghibli-27.jpg
+  - /assets/maserati-ghibli-1.jpg
 description: >-
   AP SELECT met en vente une Maserati Ghibli III Gransport 3.0D V6 275ch du
   12/2017 avec 128700km.

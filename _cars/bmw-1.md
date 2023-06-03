@@ -4,21 +4,21 @@ creation_date: 2022-05-18T13:21:46.000Z
 layout: car
 name: 'BMW M4 Competition  '
 photos:
-  - /uploads/77ce025b-f20c-44cf-bc7d-b33094c8349c.jpeg
-  - /uploads/img_20220502_144346-1.jpg
-  - /uploads/img_20220502_150401-1.jpg
-  - /uploads/img_20220502_150918-1.jpg
-  - /uploads/img_20220502_151002-1.jpg
-  - /uploads/img_20220502_151125-1.jpg
-  - /uploads/img_20220502_145609-1.jpg
-  - /uploads/img_20220502_145601-1.jpg
-  - /uploads/img_20220502_145501-1.jpg
-  - /uploads/img_20220502_145418-1.jpg
-  - /uploads/img_20220502_145313-1.jpg
-  - /uploads/img_20220502_145137-1.jpg
-  - /uploads/img_20220502_144732-1.jpg
-  - /uploads/img_20220502_144639-1.jpg
-  - /uploads/img_20220502_144626-1.jpg
+  - /assets/77ce025b-f20c-44cf-bc7d-b33094c8349c.jpeg
+  - /assets/img_20220502_144346-1.jpg
+  - /assets/img_20220502_150401-1.jpg
+  - /assets/img_20220502_150918-1.jpg
+  - /assets/img_20220502_151002-1.jpg
+  - /assets/img_20220502_151125-1.jpg
+  - /assets/img_20220502_145609-1.jpg
+  - /assets/img_20220502_145601-1.jpg
+  - /assets/img_20220502_145501-1.jpg
+  - /assets/img_20220502_145418-1.jpg
+  - /assets/img_20220502_145313-1.jpg
+  - /assets/img_20220502_145137-1.jpg
+  - /assets/img_20220502_144732-1.jpg
+  - /assets/img_20220502_144639-1.jpg
+  - /assets/img_20220502_144626-1.jpg
 properties:
   - property: Mise en circulation
     value: 10/2019

@@ -10,28 +10,28 @@ model: '911'
 fuel: Essence
 isSold: false
 photos:
-  - /uploads/lknd1.jpg
-  - /uploads/lknd-2.jpg
-  - /uploads/lknd3.jpg
-  - /uploads/porsche-911-4s-20.jpg
-  - /uploads/porsche-911-4s-17.jpg
-  - /uploads/porsche-911-4s-28.jpg
-  - /uploads/porsche-911-4s-16.jpg
-  - /uploads/porsche-911-4s-22.jpg
-  - /uploads/porsche-911-4s-7.jpg
-  - /uploads/porsche-911-4s-26.jpg
-  - /uploads/porsche-911-4s-25.jpg
-  - /uploads/porsche-911-4s-21.jpg
-  - /uploads/porsche-911-4s-23.jpg
-  - /uploads/porsche-911-4s-29.jpg
-  - /uploads/porsche-911-4s-19.jpg
-  - /uploads/porsche-911-4s-18.jpg
-  - /uploads/porsche-911-4s-27.jpg
-  - /uploads/porsche-911-4s-11.jpg
-  - /uploads/lknd4.jpg
-  - /uploads/porsche-911-4s-10.jpg
-  - /uploads/porsche-911-4s-3.jpg
-  - /uploads/porsche-911-4s-14.jpg
+  - /assets/lknd1.jpg
+  - /assets/lknd-2.jpg
+  - /assets/lknd3.jpg
+  - /assets/porsche-911-4s-20.jpg
+  - /assets/porsche-911-4s-17.jpg
+  - /assets/porsche-911-4s-28.jpg
+  - /assets/porsche-911-4s-16.jpg
+  - /assets/porsche-911-4s-22.jpg
+  - /assets/porsche-911-4s-7.jpg
+  - /assets/porsche-911-4s-26.jpg
+  - /assets/porsche-911-4s-25.jpg
+  - /assets/porsche-911-4s-21.jpg
+  - /assets/porsche-911-4s-23.jpg
+  - /assets/porsche-911-4s-29.jpg
+  - /assets/porsche-911-4s-19.jpg
+  - /assets/porsche-911-4s-18.jpg
+  - /assets/porsche-911-4s-27.jpg
+  - /assets/porsche-911-4s-11.jpg
+  - /assets/lknd4.jpg
+  - /assets/porsche-911-4s-10.jpg
+  - /assets/porsche-911-4s-3.jpg
+  - /assets/porsche-911-4s-14.jpg
 description: >-
   AP SELECT met en vente pour une Porsche 991 Carrera 4S cabriolet 3.8l 400ch
   PDK phase 1.

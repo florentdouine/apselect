@@ -10,26 +10,26 @@ model: MINI BALMORAL
 fuel: Essence
 isSold: true
 photos:
-  - /uploads/mini-balmoral-9.jpg
-  - /uploads/mini-balmoral-7.jpg
-  - /uploads/mini-balmoral-8.jpg
-  - /uploads/mini-balmoral-23.jpg
-  - /uploads/mini-balmoral-17.jpg
-  - /uploads/mini-balmoral-20.jpg
-  - /uploads/mini-balmoral-15.jpg
-  - /uploads/mini-balmoral-16.jpg
-  - /uploads/mini-balmoral-21.jpg
-  - /uploads/mini-balmoral-19.jpg
-  - /uploads/mini-balmoral-18.jpg
-  - /uploads/mini-balmoral-14.jpg
-  - /uploads/mini-balmoral-13.jpg
-  - /uploads/mini-balmoral-10.jpg
-  - /uploads/mini-balmoral-24.jpg
-  - /uploads/mini-balmoral-6.jpg
-  - /uploads/mini-balmoral-11.jpg
-  - /uploads/mini-balmoral-4.jpg
-  - /uploads/mini-balmoral-2.jpg
-  - /uploads/mini-balmoral-5.jpg
+  - /assets/mini-balmoral-9.jpg
+  - /assets/mini-balmoral-7.jpg
+  - /assets/mini-balmoral-8.jpg
+  - /assets/mini-balmoral-23.jpg
+  - /assets/mini-balmoral-17.jpg
+  - /assets/mini-balmoral-20.jpg
+  - /assets/mini-balmoral-15.jpg
+  - /assets/mini-balmoral-16.jpg
+  - /assets/mini-balmoral-21.jpg
+  - /assets/mini-balmoral-19.jpg
+  - /assets/mini-balmoral-18.jpg
+  - /assets/mini-balmoral-14.jpg
+  - /assets/mini-balmoral-13.jpg
+  - /assets/mini-balmoral-10.jpg
+  - /assets/mini-balmoral-24.jpg
+  - /assets/mini-balmoral-6.jpg
+  - /assets/mini-balmoral-11.jpg
+  - /assets/mini-balmoral-4.jpg
+  - /assets/mini-balmoral-2.jpg
+  - /assets/mini-balmoral-5.jpg
 description: >-
   AP SELECT met en vente une Mini British Open 1300cc Balmoral injection 53cv.
 

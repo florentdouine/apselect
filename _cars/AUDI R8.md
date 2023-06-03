@@ -10,27 +10,27 @@ brand: AUDI
 model: R8
 fuel: Essence
 photos:
-  - /uploads/audi-r8-2.jpg
-  - /uploads/audi-r8-16.jpg
-  - /uploads/audi-r8-15.jpg
-  - /uploads/audi-r8-30.jpg
-  - /uploads/audi-r8-4.jpg
-  - /uploads/audi-r8-7.jpg
-  - /uploads/audi-r8-5.jpg
-  - /uploads/audi-r8-6.jpg
-  - /uploads/audi-r8-10.jpg
-  - /uploads/audi-r8-11.jpg
-  - /uploads/audi-r8-9.jpg
-  - /uploads/audi-r8-8.jpg
-  - /uploads/audi-r8-13.jpg
-  - /uploads/audi-r8-26.jpg
-  - /uploads/audi-r8-27.jpg
-  - /uploads/audi-r8-25.jpg
-  - /uploads/audi-r8-23.jpg
-  - /uploads/audi-r8-17.jpg
-  - /uploads/audi-r8-22.jpg
-  - /uploads/audi-r8-12.jpg
-  - /uploads/audi-r8-1.jpg
+  - /assets/audi-r8-2.jpg
+  - /assets/audi-r8-16.jpg
+  - /assets/audi-r8-15.jpg
+  - /assets/audi-r8-30.jpg
+  - /assets/audi-r8-4.jpg
+  - /assets/audi-r8-7.jpg
+  - /assets/audi-r8-5.jpg
+  - /assets/audi-r8-6.jpg
+  - /assets/audi-r8-10.jpg
+  - /assets/audi-r8-11.jpg
+  - /assets/audi-r8-9.jpg
+  - /assets/audi-r8-8.jpg
+  - /assets/audi-r8-13.jpg
+  - /assets/audi-r8-26.jpg
+  - /assets/audi-r8-27.jpg
+  - /assets/audi-r8-25.jpg
+  - /assets/audi-r8-23.jpg
+  - /assets/audi-r8-17.jpg
+  - /assets/audi-r8-22.jpg
+  - /assets/audi-r8-12.jpg
+  - /assets/audi-r8-1.jpg
 description: >-
   AP SELECT met en vente une Audi R8 4.2 V8 430ch boîte mécanique.
 

@@ -10,24 +10,24 @@ model: Z4
 fuel: Essence
 isSold: false
 photos:
-  - /uploads/bmw-z4-15.jpg
-  - /uploads/bmw-z4-13.jpg
-  - /uploads/bmw-z4-16.jpg
-  - /uploads/bmw-z4-11.jpg
-  - /uploads/bmw-z4-10.jpg
-  - /uploads/bmw-z4-12.jpg
-  - /uploads/bmw-z4-2.jpg
-  - /uploads/bmw-z4-3.jpg
-  - /uploads/bmw-z4-1.jpg
-  - /uploads/bmw-z4-17.jpg
-  - /uploads/bmw-z4-19.jpg
-  - /uploads/bmw-z4-20.jpg
-  - /uploads/bmw-z4-22.jpg
-  - /uploads/bmw-z4-9.jpg
-  - /uploads/bmw-z4-7.jpg
-  - /uploads/bmw-z4-5.jpg
-  - /uploads/bmw-z4-8.jpg
-  - /uploads/bmw-z4-4.jpg
+  - /assets/bmw-z4-15.jpg
+  - /assets/bmw-z4-13.jpg
+  - /assets/bmw-z4-16.jpg
+  - /assets/bmw-z4-11.jpg
+  - /assets/bmw-z4-10.jpg
+  - /assets/bmw-z4-12.jpg
+  - /assets/bmw-z4-2.jpg
+  - /assets/bmw-z4-3.jpg
+  - /assets/bmw-z4-1.jpg
+  - /assets/bmw-z4-17.jpg
+  - /assets/bmw-z4-19.jpg
+  - /assets/bmw-z4-20.jpg
+  - /assets/bmw-z4-22.jpg
+  - /assets/bmw-z4-9.jpg
+  - /assets/bmw-z4-7.jpg
+  - /assets/bmw-z4-5.jpg
+  - /assets/bmw-z4-8.jpg
+  - /assets/bmw-z4-4.jpg
 description: >-
   AP SELECT met en vente une BMW Z4 35is SDrive 306ch.
 

@@ -10,24 +10,24 @@ brand: Porsche
 model: 911 Coupé
 fuel: Essence
 photos:
-  - /uploads/porsche-996-3-6-carrera-25.jpg
-  - /uploads/porsche-996-3-6-carrera-24.jpg
-  - /uploads/porsche-996-3-6-carrera-4.jpg
-  - /uploads/porsche-996-3-6-carrera-21.jpg
-  - /uploads/porsche-996-3-6-carrera-7.jpg
-  - /uploads/porsche-996-3-6-carrera-13.jpg
-  - /uploads/porsche-996-3-6-carrera-17.jpg
-  - /uploads/porsche-996-3-6-carrera-14.jpg
-  - /uploads/porsche-996-3-6-carrera-12.jpg
-  - /uploads/porsche-996-3-6-carrera-11.jpg
-  - /uploads/porsche-996-3-6-carrera-10.jpg
-  - /uploads/porsche-996-3-6-carrera-8.jpg
-  - /uploads/porsche-996-3-6-carrera-9.jpg
-  - /uploads/porsche-996-3-6-carrera-26.jpg
-  - /uploads/porsche-996-3-6-carrera-20.jpg
-  - /uploads/porsche-996-3-6-carrera-3.jpg
-  - /uploads/porsche-996-3-6-carrera-27.jpg
-  - /uploads/porsche-996-3-6-carrera-1.jpg
+  - /assets/porsche-996-3-6-carrera-25.jpg
+  - /assets/porsche-996-3-6-carrera-24.jpg
+  - /assets/porsche-996-3-6-carrera-4.jpg
+  - /assets/porsche-996-3-6-carrera-21.jpg
+  - /assets/porsche-996-3-6-carrera-7.jpg
+  - /assets/porsche-996-3-6-carrera-13.jpg
+  - /assets/porsche-996-3-6-carrera-17.jpg
+  - /assets/porsche-996-3-6-carrera-14.jpg
+  - /assets/porsche-996-3-6-carrera-12.jpg
+  - /assets/porsche-996-3-6-carrera-11.jpg
+  - /assets/porsche-996-3-6-carrera-10.jpg
+  - /assets/porsche-996-3-6-carrera-8.jpg
+  - /assets/porsche-996-3-6-carrera-9.jpg
+  - /assets/porsche-996-3-6-carrera-26.jpg
+  - /assets/porsche-996-3-6-carrera-20.jpg
+  - /assets/porsche-996-3-6-carrera-3.jpg
+  - /assets/porsche-996-3-6-carrera-27.jpg
+  - /assets/porsche-996-3-6-carrera-1.jpg
 description: >-
   AP SELECT met en vente une Porsche Carrera S 3.6l 320ch boîte mécanique.
 

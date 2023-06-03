@@ -10,32 +10,32 @@ model: M3 e36 Cabriolet
 fuel: Essence
 isSold: true
 photos:
-  - /uploads/img_20220513_185339.jpg
-  - /uploads/img_20220513_184917.jpg
-  - /uploads/img_20220513_190919.jpg
-  - /uploads/img_20220513_190750.jpg
-  - /uploads/img_20220513_185502.jpg
-  - /uploads/img_20220513_190157.jpg
-  - /uploads/img_20220513_185646.jpg
-  - /uploads/img_20220513_190007.jpg
-  - /uploads/img_20220513_185704.jpg
-  - /uploads/img_20220513_185742.jpg
-  - /uploads/img_20220513_185811.jpg
-  - /uploads/img_20220513_190120.jpg
-  - /uploads/img_20220513_185417.jpg
-  - /uploads/img_20220513_190105.jpg
-  - /uploads/img_20220513_185559.jpg
-  - /uploads/img_20220513_191629.jpg
-  - /uploads/img_20220513_190249.jpg
-  - /uploads/img_20220513_190246.jpg
-  - /uploads/img_20220513_185116.jpg
-  - /uploads/img_20220513_185048.jpg
-  - /uploads/img_20220513_185039.jpg
-  - /uploads/img_20220513_191827.jpg
-  - /uploads/img_20220513_193011.jpg
-  - /uploads/img_20220513_192200.jpg
-  - /uploads/img_20220513_192053.jpg
-  - /uploads/img_20220513_191955.jpg
+  - /assets/img_20220513_185339.jpg
+  - /assets/img_20220513_184917.jpg
+  - /assets/img_20220513_190919.jpg
+  - /assets/img_20220513_190750.jpg
+  - /assets/img_20220513_185502.jpg
+  - /assets/img_20220513_190157.jpg
+  - /assets/img_20220513_185646.jpg
+  - /assets/img_20220513_190007.jpg
+  - /assets/img_20220513_185704.jpg
+  - /assets/img_20220513_185742.jpg
+  - /assets/img_20220513_185811.jpg
+  - /assets/img_20220513_190120.jpg
+  - /assets/img_20220513_185417.jpg
+  - /assets/img_20220513_190105.jpg
+  - /assets/img_20220513_185559.jpg
+  - /assets/img_20220513_191629.jpg
+  - /assets/img_20220513_190249.jpg
+  - /assets/img_20220513_190246.jpg
+  - /assets/img_20220513_185116.jpg
+  - /assets/img_20220513_185048.jpg
+  - /assets/img_20220513_185039.jpg
+  - /assets/img_20220513_191827.jpg
+  - /assets/img_20220513_193011.jpg
+  - /assets/img_20220513_192200.jpg
+  - /assets/img_20220513_192053.jpg
+  - /assets/img_20220513_191955.jpg
 description: >-
   AP SELECT met en vente une M3 e36 cabriolet 3.0l 286ch boîte mécanique.
 

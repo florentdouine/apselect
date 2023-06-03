@@ -10,30 +10,30 @@ model: M3 e46 cabrio
 fuel: Essence
 isSold: true
 photos:
-  - /uploads/img_20220513_165134.jpg
-  - /uploads/img_20220513_165531_1.jpg
-  - /uploads/img_20220513_171353.jpg
-  - /uploads/img_20220513_170444.jpg
-  - /uploads/img_20220513_164223.jpg
-  - /uploads/img_20220513_171346.jpg
-  - /uploads/img_20220513_165150.jpg
-  - /uploads/img_20220513_164123.jpg
-  - /uploads/img_20220513_165356.jpg
-  - /uploads/img_20220513_165919.jpg
-  - /uploads/img_20220513_165927.jpg
-  - /uploads/img_20220513_165838.jpg
-  - /uploads/img_20220513_165941.jpg
-  - /uploads/img_20220513_171035.jpg
-  - /uploads/img_20220513_171002.jpg
-  - /uploads/img_20220513_170312.jpg
-  - /uploads/img_20220513_170241.jpg
-  - /uploads/img_20220513_170144.jpg
-  - /uploads/img_20220513_170137.jpg
-  - /uploads/img_20220513_170729.jpg
-  - /uploads/img_20220513_170801.jpg
-  - /uploads/img_20220513_193618.jpg
-  - /uploads/img_20220513_193710.jpg
-  - /uploads/img_20220513_193727.jpg
+  - /assets/img_20220513_165134.jpg
+  - /assets/img_20220513_165531_1.jpg
+  - /assets/img_20220513_171353.jpg
+  - /assets/img_20220513_170444.jpg
+  - /assets/img_20220513_164223.jpg
+  - /assets/img_20220513_171346.jpg
+  - /assets/img_20220513_165150.jpg
+  - /assets/img_20220513_164123.jpg
+  - /assets/img_20220513_165356.jpg
+  - /assets/img_20220513_165919.jpg
+  - /assets/img_20220513_165927.jpg
+  - /assets/img_20220513_165838.jpg
+  - /assets/img_20220513_165941.jpg
+  - /assets/img_20220513_171035.jpg
+  - /assets/img_20220513_171002.jpg
+  - /assets/img_20220513_170312.jpg
+  - /assets/img_20220513_170241.jpg
+  - /assets/img_20220513_170144.jpg
+  - /assets/img_20220513_170137.jpg
+  - /assets/img_20220513_170729.jpg
+  - /assets/img_20220513_170801.jpg
+  - /assets/img_20220513_193618.jpg
+  - /assets/img_20220513_193710.jpg
+  - /assets/img_20220513_193727.jpg
 description: >-
   Description
 

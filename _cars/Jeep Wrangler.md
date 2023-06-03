@@ -10,35 +10,35 @@ model: Wrangler
 fuel: Hybride
 isSold: true
 photos:
-  - /uploads/jeep-wrangler-hybride-33.jpg
-  - /uploads/jeep-wrangler-hybride-18.jpg
-  - /uploads/jeep-wrangler-hybride-17.jpg
-  - /uploads/jeep-wrangler-hybride-31.jpg
-  - /uploads/jeep-wrangler-hybride-30.jpg
-  - /uploads/jeep-wrangler-hybride-8.jpg
-  - /uploads/jeep-wrangler-hybride-20.jpg
-  - /uploads/jeep-wrangler-hybride-27.jpg
-  - /uploads/jeep-wrangler-hybride-25.jpg
-  - /uploads/jeep-wrangler-hybride-7.jpg
-  - /uploads/jeep-wrangler-hybride-26.jpg
-  - /uploads/jeep-wrangler-hybride-29.jpg
-  - /uploads/jeep-wrangler-hybride-28.jpg
-  - /uploads/jeep-wrangler-hybride-24.jpg
-  - /uploads/jeep-wrangler-hybride-21.jpg
-  - /uploads/jeep-wrangler-hybride-23.jpg
-  - /uploads/jeep-wrangler-hybride-22.jpg
-  - /uploads/jeep-wrangler-hybride-34.jpg
-  - /uploads/jeep-wrangler-hybride-16.jpg
-  - /uploads/jeep-wrangler-hybride-32.jpg
-  - /uploads/jeep-wrangler-hybride-15.jpg
-  - /uploads/jeep-wrangler-hybride-9.jpg
-  - /uploads/jeep-wrangler-hybride-13.jpg
-  - /uploads/jeep-wrangler-hybride-14.jpg
-  - /uploads/jeep-wrangler-hybride-10.jpg
-  - /uploads/jeep-wrangler-hybride-1.jpg
-  - /uploads/jeep-wrangler-hybride-5.jpg
-  - /uploads/jeep-wrangler-hybride-4.jpg
-  - /uploads/jeep-wrangler-hybride-2.JPG
+  - /assets/jeep-wrangler-hybride-33.jpg
+  - /assets/jeep-wrangler-hybride-18.jpg
+  - /assets/jeep-wrangler-hybride-17.jpg
+  - /assets/jeep-wrangler-hybride-31.jpg
+  - /assets/jeep-wrangler-hybride-30.jpg
+  - /assets/jeep-wrangler-hybride-8.jpg
+  - /assets/jeep-wrangler-hybride-20.jpg
+  - /assets/jeep-wrangler-hybride-27.jpg
+  - /assets/jeep-wrangler-hybride-25.jpg
+  - /assets/jeep-wrangler-hybride-7.jpg
+  - /assets/jeep-wrangler-hybride-26.jpg
+  - /assets/jeep-wrangler-hybride-29.jpg
+  - /assets/jeep-wrangler-hybride-28.jpg
+  - /assets/jeep-wrangler-hybride-24.jpg
+  - /assets/jeep-wrangler-hybride-21.jpg
+  - /assets/jeep-wrangler-hybride-23.jpg
+  - /assets/jeep-wrangler-hybride-22.jpg
+  - /assets/jeep-wrangler-hybride-34.jpg
+  - /assets/jeep-wrangler-hybride-16.jpg
+  - /assets/jeep-wrangler-hybride-32.jpg
+  - /assets/jeep-wrangler-hybride-15.jpg
+  - /assets/jeep-wrangler-hybride-9.jpg
+  - /assets/jeep-wrangler-hybride-13.jpg
+  - /assets/jeep-wrangler-hybride-14.jpg
+  - /assets/jeep-wrangler-hybride-10.jpg
+  - /assets/jeep-wrangler-hybride-1.jpg
+  - /assets/jeep-wrangler-hybride-5.jpg
+  - /assets/jeep-wrangler-hybride-4.jpg
+  - /assets/jeep-wrangler-hybride-2.JPG
 description: >-
   AP SELECT met en vente un Jeep Wrangler Unlimited 4Xe 2.0 PEHV hybride 380ch
   série spéciale First Édition full options

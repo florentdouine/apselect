@@ -10,28 +10,28 @@ model: 993 Carrera 4S
 fuel: Essence
 isSold: true
 photos:
-  - /uploads/porsche-993-carrera-4s-1.jpg
-  - /uploads/porsche-993-carrera-4s-15.jpg
-  - /uploads/porsche-993-carrera-4s-17.jpg
-  - /uploads/porsche-993-carrera-4s-16.jpg
-  - /uploads/porsche-993-carrera-4s-12.jpg
-  - /uploads/porsche-993-carrera-4s-4.jpg
-  - /uploads/porsche-993-carrera-4s-3.jpg
-  - /uploads/porsche-993-carrera-4s-6.jpg
-  - /uploads/porsche-993-carrera-4s-5.jpg
-  - /uploads/porsche-993-carrera-4s-10.jpg
-  - /uploads/porsche-993-carrera-4s-7.jpg
-  - /uploads/porsche-993-carrera-4s-11.jpg
-  - /uploads/porsche-993-carrera-4s-8.jpg
-  - /uploads/porsche-993-carrera-4s-9.jpg
-  - /uploads/porsche-993-carrera-4s-13.jpg
-  - /uploads/porsche-993-carrera-4s-26.jpg
-  - /uploads/porsche-993-carrera-4s-25.jpg
-  - /uploads/porsche-993-carrera-4s-28.jpg
-  - /uploads/porsche-993-carrera-4s-33.jpg
-  - /uploads/porsche-993-carrera-4s-19.jpg
-  - /uploads/porsche-993-carrera-4s-21.jpg
-  - /uploads/porsche-993-carrera-4s-31.jpg
+  - /assets/porsche-993-carrera-4s-1.jpg
+  - /assets/porsche-993-carrera-4s-15.jpg
+  - /assets/porsche-993-carrera-4s-17.jpg
+  - /assets/porsche-993-carrera-4s-16.jpg
+  - /assets/porsche-993-carrera-4s-12.jpg
+  - /assets/porsche-993-carrera-4s-4.jpg
+  - /assets/porsche-993-carrera-4s-3.jpg
+  - /assets/porsche-993-carrera-4s-6.jpg
+  - /assets/porsche-993-carrera-4s-5.jpg
+  - /assets/porsche-993-carrera-4s-10.jpg
+  - /assets/porsche-993-carrera-4s-7.jpg
+  - /assets/porsche-993-carrera-4s-11.jpg
+  - /assets/porsche-993-carrera-4s-8.jpg
+  - /assets/porsche-993-carrera-4s-9.jpg
+  - /assets/porsche-993-carrera-4s-13.jpg
+  - /assets/porsche-993-carrera-4s-26.jpg
+  - /assets/porsche-993-carrera-4s-25.jpg
+  - /assets/porsche-993-carrera-4s-28.jpg
+  - /assets/porsche-993-carrera-4s-33.jpg
+  - /assets/porsche-993-carrera-4s-19.jpg
+  - /assets/porsche-993-carrera-4s-21.jpg
+  - /assets/porsche-993-carrera-4s-31.jpg
 description: >-
   AP SELECT met en vente une 911 type 993 Carrera 4S 3.6l 285ch.
 

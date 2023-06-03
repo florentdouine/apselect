@@ -10,23 +10,23 @@ brand: BMW
 model: Série 3
 fuel: Diesel
 photos:
-  - /uploads/bmw-320da-m-sport-g20-11.jpg
-  - /uploads/bmw-320da-m-sport-g20-6.jpg
-  - /uploads/bmw-320da-m-sport-g20-9.jpg
-  - /uploads/bmw-320da-m-sport-g20-22.jpg
-  - /uploads/bmw-320da-m-sport-g20-16.jpg
-  - /uploads/bmw-320da-m-sport-g20-17.jpg
-  - /uploads/bmw-320da-m-sport-g20-24.jpg
-  - /uploads/bmw-320da-m-sport-g20-18.jpg
-  - /uploads/bmw-320da-m-sport-g20-20.jpg
-  - /uploads/bmw-320da-m-sport-g20-19.jpg
-  - /uploads/bmw-320da-m-sport-g20-21.jpg
-  - /uploads/bmw-320da-m-sport-g20-15.jpg
-  - /uploads/bmw-320da-m-sport-g20-14.jpg
-  - /uploads/bmw-320da-m-sport-g20-1.jpg
-  - /uploads/bmw-320da-m-sport-g20-10.jpg
-  - /uploads/bmw-320da-m-sport-g20-4.jpg
-  - /uploads/bmw-320da-m-sport-g20-5.jpg
+  - /assets/bmw-320da-m-sport-g20-11.jpg
+  - /assets/bmw-320da-m-sport-g20-6.jpg
+  - /assets/bmw-320da-m-sport-g20-9.jpg
+  - /assets/bmw-320da-m-sport-g20-22.jpg
+  - /assets/bmw-320da-m-sport-g20-16.jpg
+  - /assets/bmw-320da-m-sport-g20-17.jpg
+  - /assets/bmw-320da-m-sport-g20-24.jpg
+  - /assets/bmw-320da-m-sport-g20-18.jpg
+  - /assets/bmw-320da-m-sport-g20-20.jpg
+  - /assets/bmw-320da-m-sport-g20-19.jpg
+  - /assets/bmw-320da-m-sport-g20-21.jpg
+  - /assets/bmw-320da-m-sport-g20-15.jpg
+  - /assets/bmw-320da-m-sport-g20-14.jpg
+  - /assets/bmw-320da-m-sport-g20-1.jpg
+  - /assets/bmw-320da-m-sport-g20-10.jpg
+  - /assets/bmw-320da-m-sport-g20-4.jpg
+  - /assets/bmw-320da-m-sport-g20-5.jpg
 description: >-
   AP SELECT met en vente une BMW 320d G20 BVA8 190ch M Sport.
 

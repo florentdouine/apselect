@@ -9,33 +9,33 @@ brand: AUDI
 model: RS4
 fuel: Essence
 photos:
-  - /uploads/audi-rs4-b7-4.jpg
-  - /uploads/audi-rs4-b7-13.jpg
-  - /uploads/audi-rs4-b7-12.jpg
-  - /uploads/audi-rs4-b7-16.jpg
-  - /uploads/audi-rs4-b7-3.jpg
-  - /uploads/audi-rs4-b7-26.jpg
-  - /uploads/audi-rs4-b7-22.jpg
-  - /uploads/audi-rs4-b7-24.jpg
-  - /uploads/audi-rs4-b7-25.jpg
-  - /uploads/audi-rs4-b7-23.jpg
-  - /uploads/audi-rs4-b7-27.jpg
-  - /uploads/audi-rs4-b7-2.jpg
-  - /uploads/audi-rs4-b7-1.jpg
-  - /uploads/audi-rs4-b7-21.jpg
-  - /uploads/audi-rs4-b7-20.jpg
-  - /uploads/audi-rs4-b7-19.jpg
-  - /uploads/audi-rs4-b7-18.jpg
-  - /uploads/audi-rs4-b7-17.jpg
-  - /uploads/audi-rs4-b7-11.jpg
-  - /uploads/audi-rs4-b7-10.jpg
-  - /uploads/audi-rs4-b7-8.jpg
-  - /uploads/audi-rs4-b7-7.jpg
-  - /uploads/audi-rs4-b7-9.jpg
-  - /uploads/audi-rs4-b7-15.jpg
-  - /uploads/audi-rs4-b7-14.jpg
-  - /uploads/audi-rs4-b7-6.jpg
-  - /uploads/audi-rs4-b7-5.jpg
+  - /assets/audi-rs4-b7-4.jpg
+  - /assets/audi-rs4-b7-13.jpg
+  - /assets/audi-rs4-b7-12.jpg
+  - /assets/audi-rs4-b7-16.jpg
+  - /assets/audi-rs4-b7-3.jpg
+  - /assets/audi-rs4-b7-26.jpg
+  - /assets/audi-rs4-b7-22.jpg
+  - /assets/audi-rs4-b7-24.jpg
+  - /assets/audi-rs4-b7-25.jpg
+  - /assets/audi-rs4-b7-23.jpg
+  - /assets/audi-rs4-b7-27.jpg
+  - /assets/audi-rs4-b7-2.jpg
+  - /assets/audi-rs4-b7-1.jpg
+  - /assets/audi-rs4-b7-21.jpg
+  - /assets/audi-rs4-b7-20.jpg
+  - /assets/audi-rs4-b7-19.jpg
+  - /assets/audi-rs4-b7-18.jpg
+  - /assets/audi-rs4-b7-17.jpg
+  - /assets/audi-rs4-b7-11.jpg
+  - /assets/audi-rs4-b7-10.jpg
+  - /assets/audi-rs4-b7-8.jpg
+  - /assets/audi-rs4-b7-7.jpg
+  - /assets/audi-rs4-b7-9.jpg
+  - /assets/audi-rs4-b7-15.jpg
+  - /assets/audi-rs4-b7-14.jpg
+  - /assets/audi-rs4-b7-6.jpg
+  - /assets/audi-rs4-b7-5.jpg
 description: >-
   AP SELECT met en vente une Audi RS4 B7 Avant 4.2 V8 420ch.
 

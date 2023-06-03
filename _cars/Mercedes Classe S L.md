@@ -10,30 +10,30 @@ model: Classe S
 fuel: Diesel
 isSold: false
 photos:
-  - /uploads/mercedes-classe-s-l-350-4.jpg
-  - /uploads/mercedes-classe-s-l-350-7.jpg
-  - /uploads/mercedes-classe-s-l-350-6.jpg
-  - /uploads/mercedes-classe-s-l-350-25.jpg
-  - /uploads/mercedes-classe-s-l-350-26.jpg
-  - /uploads/mercedes-classe-s-l-350-16.jpg
-  - /uploads/mercedes-classe-s-l-350-24.jpg
-  - /uploads/mercedes-classe-s-l-350-23.jpg
-  - /uploads/mercedes-classe-s-l-350-22.jpg
-  - /uploads/mercedes-classe-s-l-350-21.jpg
-  - /uploads/mercedes-classe-s-l-350-15.jpg
-  - /uploads/mercedes-classe-s-l-350-13.jpg
-  - /uploads/mercedes-classe-s-l-350-20.jpg
-  - /uploads/mercedes-classe-s-l-350-17.jpg
-  - /uploads/mercedes-classe-s-l-350-18.jpg
-  - /uploads/mercedes-classe-s-l-350-12.jpg
-  - /uploads/mercedes-classe-s-l-350-11.jpg
-  - /uploads/mercedes-classe-s-l-350-10.jpg
-  - /uploads/mercedes-classe-s-l-350-9.jpg
-  - /uploads/mercedes-classe-s-l-350-3.jpg
-  - /uploads/mercedes-classe-s-l-350-1.jpg
-  - /uploads/mercedes-classe-s-l-350-2.jpg
-  - /uploads/mercedes-classe-s-l-350-8.jpg
-  - /uploads/mercedes-classe-s-l-350-5.jpg
+  - /assets/mercedes-classe-s-l-350-4.jpg
+  - /assets/mercedes-classe-s-l-350-7.jpg
+  - /assets/mercedes-classe-s-l-350-6.jpg
+  - /assets/mercedes-classe-s-l-350-25.jpg
+  - /assets/mercedes-classe-s-l-350-26.jpg
+  - /assets/mercedes-classe-s-l-350-16.jpg
+  - /assets/mercedes-classe-s-l-350-24.jpg
+  - /assets/mercedes-classe-s-l-350-23.jpg
+  - /assets/mercedes-classe-s-l-350-22.jpg
+  - /assets/mercedes-classe-s-l-350-21.jpg
+  - /assets/mercedes-classe-s-l-350-15.jpg
+  - /assets/mercedes-classe-s-l-350-13.jpg
+  - /assets/mercedes-classe-s-l-350-20.jpg
+  - /assets/mercedes-classe-s-l-350-17.jpg
+  - /assets/mercedes-classe-s-l-350-18.jpg
+  - /assets/mercedes-classe-s-l-350-12.jpg
+  - /assets/mercedes-classe-s-l-350-11.jpg
+  - /assets/mercedes-classe-s-l-350-10.jpg
+  - /assets/mercedes-classe-s-l-350-9.jpg
+  - /assets/mercedes-classe-s-l-350-3.jpg
+  - /assets/mercedes-classe-s-l-350-1.jpg
+  - /assets/mercedes-classe-s-l-350-2.jpg
+  - /assets/mercedes-classe-s-l-350-8.jpg
+  - /assets/mercedes-classe-s-l-350-5.jpg
 description: >-
   AP SELECT met en vente une Mercedes classe S version L 3.0 V6 CDI 258cv 9G
   Tronic.

@@ -10,21 +10,21 @@ brand: MERCEDES-BENZ
 model: Classe E Coupe
 fuel: Diesel
 photos:
-  - /uploads/mercedes-e220-15.jpg
-  - /uploads/mercedes-e220-5.jpg
-  - /uploads/mercedes-e220-12.jpg
-  - /uploads/mercedes-e220-16.jpg
-  - /uploads/mercedes-e220-11.jpg
-  - /uploads/mercedes-e220-20.jpg
-  - /uploads/mercedes-e220-17.jpg
-  - /uploads/mercedes-e220-10.jpg
-  - /uploads/mercedes-e220-8.jpg
-  - /uploads/mercedes-e220-7.jpg
-  - /uploads/mercedes-e220-19.jpg
-  - /uploads/mercedes-e220-14.jpg
-  - /uploads/mercedes-e220-4.jpg
-  - /uploads/mercedes-e220-2.jpg
-  - /uploads/mercedes-e220-3.jpg
+  - /assets/mercedes-e220-15.jpg
+  - /assets/mercedes-e220-5.jpg
+  - /assets/mercedes-e220-12.jpg
+  - /assets/mercedes-e220-16.jpg
+  - /assets/mercedes-e220-11.jpg
+  - /assets/mercedes-e220-20.jpg
+  - /assets/mercedes-e220-17.jpg
+  - /assets/mercedes-e220-10.jpg
+  - /assets/mercedes-e220-8.jpg
+  - /assets/mercedes-e220-7.jpg
+  - /assets/mercedes-e220-19.jpg
+  - /assets/mercedes-e220-14.jpg
+  - /assets/mercedes-e220-4.jpg
+  - /assets/mercedes-e220-2.jpg
+  - /assets/mercedes-e220-3.jpg
 description: >-
   AP SELECT met en vente une Mercedes E220d coupé 194ch 9G Tronic AMG Line du
   06/2020 avec 38900km.

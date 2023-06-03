@@ -10,27 +10,27 @@ model: Gt-r
 fuel: Essence
 isSold: true
 photos:
-  - /uploads/nissan-gtr-1.jpg
-  - /uploads/nissan-gtr-2.jpg
-  - /uploads/nissan-gtr-5.jpg
-  - /uploads/nissan-gtr-4.jpg
-  - /uploads/nissan-gtr-3.jpg
-  - /uploads/nissan-gtr-6.jpg
-  - /uploads/nissan-gtr-21.jpg
-  - /uploads/nissan-gtr-17.jpg
-  - /uploads/nissan-gtr-7.jpg
-  - /uploads/nissan-gtr-8.jpg
-  - /uploads/nissan-gtr-10.jpg
-  - /uploads/nissan-gtr-12.jpg
-  - /uploads/nissan-gtr-11.jpg
-  - /uploads/nissan-gtr-13.jpg
-  - /uploads/nissan-gtr-14.jpg
-  - /uploads/nissan-gtr-20.jpg
-  - /uploads/nissan-gtr-18.jpg
-  - /uploads/nissan-gtr-16.jpg
-  - /uploads/nissan-gtr-15.jpg
-  - /uploads/nissan-gtr-9.jpg
-  - /uploads/nissan-gtr-22.jpg
+  - /assets/nissan-gtr-1.jpg
+  - /assets/nissan-gtr-2.jpg
+  - /assets/nissan-gtr-5.jpg
+  - /assets/nissan-gtr-4.jpg
+  - /assets/nissan-gtr-3.jpg
+  - /assets/nissan-gtr-6.jpg
+  - /assets/nissan-gtr-21.jpg
+  - /assets/nissan-gtr-17.jpg
+  - /assets/nissan-gtr-7.jpg
+  - /assets/nissan-gtr-8.jpg
+  - /assets/nissan-gtr-10.jpg
+  - /assets/nissan-gtr-12.jpg
+  - /assets/nissan-gtr-11.jpg
+  - /assets/nissan-gtr-13.jpg
+  - /assets/nissan-gtr-14.jpg
+  - /assets/nissan-gtr-20.jpg
+  - /assets/nissan-gtr-18.jpg
+  - /assets/nissan-gtr-16.jpg
+  - /assets/nissan-gtr-15.jpg
+  - /assets/nissan-gtr-9.jpg
+  - /assets/nissan-gtr-22.jpg
 description: >-
   AP SELECT met en vente pour une Nissan GT-R R35 3.8l V6 485ch DCT phase 1.
 

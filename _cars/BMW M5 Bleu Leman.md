@@ -10,24 +10,24 @@ model: M5
 fuel: Essence
 isSold: true
 photos:
-  - /uploads/1ere-couv.jpg
-  - /uploads/partage-a-partir-de-lightroom-mobile-38.jpg
-  - /uploads/partage-a-partir-de-lightroom-mobile-41.jpg
-  - /uploads/partage-a-partir-de-lightroom-mobile-39.jpg
-  - /uploads/partage-a-partir-de-lightroom-mobile-37.jpg
-  - /uploads/partage-a-partir-de-lightroom-mobile-36.jpg
-  - /uploads/partage-a-partir-de-lightroom-mobile-35.jpg
-  - /uploads/partage-a-partir-de-lightroom-mobile-32.jpg
-  - /uploads/partage-a-partir-de-lightroom-mobile-34.jpg
-  - /uploads/partage-a-partir-de-lightroom-mobile-33.jpg
-  - /uploads/porte-arriere.jpg
-  - /uploads/bi-ar.jpg
-  - /uploads/arriere.jpg
-  - /uploads/arri.jpg
-  - /uploads/malle-open.jpg
-  - /uploads/sono.jpg
-  - /uploads/outils.jpg
-  - /uploads/arriere-2.jpg
+  - /assets/1ere-couv.jpg
+  - /assets/partage-a-partir-de-lightroom-mobile-38.jpg
+  - /assets/partage-a-partir-de-lightroom-mobile-41.jpg
+  - /assets/partage-a-partir-de-lightroom-mobile-39.jpg
+  - /assets/partage-a-partir-de-lightroom-mobile-37.jpg
+  - /assets/partage-a-partir-de-lightroom-mobile-36.jpg
+  - /assets/partage-a-partir-de-lightroom-mobile-35.jpg
+  - /assets/partage-a-partir-de-lightroom-mobile-32.jpg
+  - /assets/partage-a-partir-de-lightroom-mobile-34.jpg
+  - /assets/partage-a-partir-de-lightroom-mobile-33.jpg
+  - /assets/porte-arriere.jpg
+  - /assets/bi-ar.jpg
+  - /assets/arriere.jpg
+  - /assets/arri.jpg
+  - /assets/malle-open.jpg
+  - /assets/sono.jpg
+  - /assets/outils.jpg
+  - /assets/arriere-2.jpg
 description: >-
   AP SELECT met en vente une M5 e39 5.0l V8 400ch phase 2.
 

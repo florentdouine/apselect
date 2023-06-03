@@ -10,23 +10,23 @@ brand: BMW
 model: 'X5 '
 fuel: Diesel
 photos:
-  - /uploads/bmw-x5-40d-12.jpg
-  - /uploads/bmw-x5-40d-18.jpg
-  - /uploads/bmw-x5-40d-1.jpg
-  - /uploads/bmw-x5-40d-11.jpg
-  - /uploads/bmw-x5-40d-10.jpg
-  - /uploads/bmw-x5-40d-9.jpg
-  - /uploads/bmw-x5-40d-2.jpg
-  - /uploads/bmw-x5-40d-8.jpg
-  - /uploads/bmw-x5-40d-7.jpg
-  - /uploads/bmw-x5-40d-5.jpg
-  - /uploads/bmw-x5-40d-6.jpg
-  - /uploads/bmw-x5-40d-4.jpg
-  - /uploads/bmw-x5-40d-3.jpg
-  - /uploads/bmw-x5-40d-17.jpg
-  - /uploads/bmw-x5-40d-15.jpg
-  - /uploads/bmw-x5-40d-16.jpg
-  - /uploads/bmw-x5-40d-14.jpg
+  - /assets/bmw-x5-40d-12.jpg
+  - /assets/bmw-x5-40d-18.jpg
+  - /assets/bmw-x5-40d-1.jpg
+  - /assets/bmw-x5-40d-11.jpg
+  - /assets/bmw-x5-40d-10.jpg
+  - /assets/bmw-x5-40d-9.jpg
+  - /assets/bmw-x5-40d-2.jpg
+  - /assets/bmw-x5-40d-8.jpg
+  - /assets/bmw-x5-40d-7.jpg
+  - /assets/bmw-x5-40d-5.jpg
+  - /assets/bmw-x5-40d-6.jpg
+  - /assets/bmw-x5-40d-4.jpg
+  - /assets/bmw-x5-40d-3.jpg
+  - /assets/bmw-x5-40d-17.jpg
+  - /assets/bmw-x5-40d-15.jpg
+  - /assets/bmw-x5-40d-16.jpg
+  - /assets/bmw-x5-40d-14.jpg
 description: >-
   AP SELECT met en vente un BMW X5 40d 3.0 L6 XDrive 313ch pack M.
 
