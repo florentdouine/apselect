@@ -2,31 +2,31 @@
 year: 2020
 kilometers: 41800
 price: 38990
-creation_date: '2023-03-20 17:03:26 +0000'
+creation_date: 2023-03-20T17:03:26.000Z
 layout: car
 name: BMW 320dA M Sport G20
-isSold: false
+isSold: true
 brand: BMW
 model: Série 3
 fuel: Diesel
 photos:
-  - /assets/bmw-320da-m-sport-g20-11.jpg
-  - /assets/bmw-320da-m-sport-g20-6.jpg
-  - /assets/bmw-320da-m-sport-g20-9.jpg
-  - /assets/bmw-320da-m-sport-g20-22.jpg
-  - /assets/bmw-320da-m-sport-g20-16.jpg
-  - /assets/bmw-320da-m-sport-g20-17.jpg
-  - /assets/bmw-320da-m-sport-g20-24.jpg
-  - /assets/bmw-320da-m-sport-g20-18.jpg
-  - /assets/bmw-320da-m-sport-g20-20.jpg
-  - /assets/bmw-320da-m-sport-g20-19.jpg
-  - /assets/bmw-320da-m-sport-g20-21.jpg
-  - /assets/bmw-320da-m-sport-g20-15.jpg
-  - /assets/bmw-320da-m-sport-g20-14.jpg
-  - /assets/bmw-320da-m-sport-g20-1.jpg
-  - /assets/bmw-320da-m-sport-g20-10.jpg
-  - /assets/bmw-320da-m-sport-g20-4.jpg
-  - /assets/bmw-320da-m-sport-g20-5.jpg
+  - /./assets/bmw-320da-m-sport-g20-11.jpg
+  - /./assets/bmw-320da-m-sport-g20-6.jpg
+  - /./assets/bmw-320da-m-sport-g20-9.jpg
+  - /./assets/bmw-320da-m-sport-g20-22.jpg
+  - /./assets/bmw-320da-m-sport-g20-16.jpg
+  - /./assets/bmw-320da-m-sport-g20-17.jpg
+  - /./assets/bmw-320da-m-sport-g20-24.jpg
+  - /./assets/bmw-320da-m-sport-g20-18.jpg
+  - /./assets/bmw-320da-m-sport-g20-20.jpg
+  - /./assets/bmw-320da-m-sport-g20-19.jpg
+  - /./assets/bmw-320da-m-sport-g20-21.jpg
+  - /./assets/bmw-320da-m-sport-g20-15.jpg
+  - /./assets/bmw-320da-m-sport-g20-14.jpg
+  - /./assets/bmw-320da-m-sport-g20-1.jpg
+  - /./assets/bmw-320da-m-sport-g20-10.jpg
+  - /./assets/bmw-320da-m-sport-g20-4.jpg
+  - /./assets/bmw-320da-m-sport-g20-5.jpg
 description: >-
   AP SELECT met en vente une BMW 320d G20 BVA8 190ch M Sport.
 
@@ -142,6 +142,7 @@ properties:
     value: 190 Ch
   - property: Boîte de vitesse
     value: Automatique
-_template: data
+draft: false
 ---
+
 
