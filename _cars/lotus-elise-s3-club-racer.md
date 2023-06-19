@@ -91,5 +91,17 @@ description: >-
 
   Prenez le volant, AP SELECT s'occupe du reste
 layout: car
+photos:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - /./assets/AA_LOTUS/Lotus elise CR (11).jpg
+  - /./assets/AA_LOTUS/Lotus elise CR (18).jpg
+  - /./assets/AA_LOTUS/Lotus elise CR (16).jpg
+  - /./assets/AA_LOTUS/Lotus elise CR (17).jpg
 ---
+
 
