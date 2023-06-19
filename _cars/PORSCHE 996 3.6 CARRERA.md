@@ -2,32 +2,32 @@
 year: 2004
 kilometers: 95900
 price: 36900
-creation_date: '2023-04-03 13:46:11 +0000'
+creation_date: 2023-04-03T13:46:11.000Z
 layout: car
 name: Porsche 996 3.6 carrera
-isSold: false
+isSold: true
 brand: Porsche
 model: 911 Coupé
 fuel: Essence
 photos:
-  - /assets/porsche-996-3-6-carrera-25.jpg
-  - /assets/porsche-996-3-6-carrera-24.jpg
-  - /assets/porsche-996-3-6-carrera-4.jpg
-  - /assets/porsche-996-3-6-carrera-21.jpg
-  - /assets/porsche-996-3-6-carrera-7.jpg
-  - /assets/porsche-996-3-6-carrera-13.jpg
-  - /assets/porsche-996-3-6-carrera-17.jpg
-  - /assets/porsche-996-3-6-carrera-14.jpg
-  - /assets/porsche-996-3-6-carrera-12.jpg
-  - /assets/porsche-996-3-6-carrera-11.jpg
-  - /assets/porsche-996-3-6-carrera-10.jpg
-  - /assets/porsche-996-3-6-carrera-8.jpg
-  - /assets/porsche-996-3-6-carrera-9.jpg
-  - /assets/porsche-996-3-6-carrera-26.jpg
-  - /assets/porsche-996-3-6-carrera-20.jpg
-  - /assets/porsche-996-3-6-carrera-3.jpg
-  - /assets/porsche-996-3-6-carrera-27.jpg
-  - /assets/porsche-996-3-6-carrera-1.jpg
+  - /./assets/porsche-996-3-6-carrera-25.jpg
+  - /./assets/porsche-996-3-6-carrera-24.jpg
+  - /./assets/porsche-996-3-6-carrera-4.jpg
+  - /./assets/porsche-996-3-6-carrera-21.jpg
+  - /./assets/porsche-996-3-6-carrera-7.jpg
+  - /./assets/porsche-996-3-6-carrera-13.jpg
+  - /./assets/porsche-996-3-6-carrera-17.jpg
+  - /./assets/porsche-996-3-6-carrera-14.jpg
+  - /./assets/porsche-996-3-6-carrera-12.jpg
+  - /./assets/porsche-996-3-6-carrera-11.jpg
+  - /./assets/porsche-996-3-6-carrera-10.jpg
+  - /./assets/porsche-996-3-6-carrera-8.jpg
+  - /./assets/porsche-996-3-6-carrera-9.jpg
+  - /./assets/porsche-996-3-6-carrera-26.jpg
+  - /./assets/porsche-996-3-6-carrera-20.jpg
+  - /./assets/porsche-996-3-6-carrera-3.jpg
+  - /./assets/porsche-996-3-6-carrera-27.jpg
+  - /./assets/porsche-996-3-6-carrera-1.jpg
 description: >-
   AP SELECT met en vente une Porsche Carrera S 3.6l 320ch boîte mécanique.
 
@@ -104,6 +104,7 @@ properties:
     value: 320 Ch
   - property: 'Puissance fiscale '
     value: 23 Cv
-_template: data
+draft: false
 ---
+
 
