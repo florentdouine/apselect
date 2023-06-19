@@ -94,7 +94,11 @@ layout: car
 photos:
   - ''
   - ''
-  - ''
+  - /./assets/AA_LOTUS/Lotus elise CR (32).jpg
+  - /./assets/AA_LOTUS/Lotus elise CR (21).jpg
+  - /./assets/AA_LOTUS/Lotus elise CR (30).jpg
+  - /./assets/AA_LOTUS/Lotus elise CR (22).jpg
+  - /./assets/AA_LOTUS/Lotus elise CR (25).jpg
   - /./assets/AA_LOTUS/Lotus elise CR (26).jpg
   - /./assets/AA_LOTUS/Lotus elise CR (27).jpg
   - /./assets/AA_LOTUS/Lotus elise CR (28).jpg
@@ -107,6 +111,7 @@ photos:
   - /./assets/AA_LOTUS/Lotus elise CR (17).jpg
 isSold: false
 ---
+
 
 
 
