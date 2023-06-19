@@ -2,31 +2,31 @@
 year: 2014
 kilometers: 93000
 price: 44990
-creation_date: '2023-02-13 13:18:09 +0000'
+creation_date: 2023-02-13T13:18:09.000Z
 layout: car
 name: BMW X5 40d pack M
-isSold: false
+isSold: true
 brand: BMW
 model: 'X5 '
 fuel: Diesel
 photos:
-  - /assets/bmw-x5-40d-12.jpg
-  - /assets/bmw-x5-40d-18.jpg
-  - /assets/bmw-x5-40d-1.jpg
-  - /assets/bmw-x5-40d-11.jpg
-  - /assets/bmw-x5-40d-10.jpg
-  - /assets/bmw-x5-40d-9.jpg
-  - /assets/bmw-x5-40d-2.jpg
-  - /assets/bmw-x5-40d-8.jpg
-  - /assets/bmw-x5-40d-7.jpg
-  - /assets/bmw-x5-40d-5.jpg
-  - /assets/bmw-x5-40d-6.jpg
-  - /assets/bmw-x5-40d-4.jpg
-  - /assets/bmw-x5-40d-3.jpg
-  - /assets/bmw-x5-40d-17.jpg
-  - /assets/bmw-x5-40d-15.jpg
-  - /assets/bmw-x5-40d-16.jpg
-  - /assets/bmw-x5-40d-14.jpg
+  - /./assets/bmw-x5-40d-12.jpg
+  - /./assets/bmw-x5-40d-18.jpg
+  - /./assets/bmw-x5-40d-1.jpg
+  - /./assets/bmw-x5-40d-11.jpg
+  - /./assets/bmw-x5-40d-10.jpg
+  - /./assets/bmw-x5-40d-9.jpg
+  - /./assets/bmw-x5-40d-2.jpg
+  - /./assets/bmw-x5-40d-8.jpg
+  - /./assets/bmw-x5-40d-7.jpg
+  - /./assets/bmw-x5-40d-5.jpg
+  - /./assets/bmw-x5-40d-6.jpg
+  - /./assets/bmw-x5-40d-4.jpg
+  - /./assets/bmw-x5-40d-3.jpg
+  - /./assets/bmw-x5-40d-17.jpg
+  - /./assets/bmw-x5-40d-15.jpg
+  - /./assets/bmw-x5-40d-16.jpg
+  - /./assets/bmw-x5-40d-14.jpg
 description: >-
   AP SELECT met en vente un BMW X5 40d 3.0 L6 XDrive 313ch pack M.
 
@@ -128,6 +128,7 @@ properties:
     value: Automatique
   - property: Puissance fiscale
     value: 20 Cv
-_template: data
+draft: false
 ---
+
 
