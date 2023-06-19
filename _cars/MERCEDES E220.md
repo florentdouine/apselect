@@ -2,29 +2,29 @@
 year: 2020
 kilometers: 38900
 price: 46990
-creation_date: '2023-03-31 11:01:34 +0000'
+creation_date: 2023-03-31T11:01:34.000Z
 layout: car
 name: Mercedes E220d coupé AMG
-isSold: false
+isSold: true
 brand: MERCEDES-BENZ
 model: Classe E Coupe
 fuel: Diesel
 photos:
-  - /assets/mercedes-e220-15.jpg
-  - /assets/mercedes-e220-5.jpg
-  - /assets/mercedes-e220-12.jpg
-  - /assets/mercedes-e220-16.jpg
-  - /assets/mercedes-e220-11.jpg
-  - /assets/mercedes-e220-20.jpg
-  - /assets/mercedes-e220-17.jpg
-  - /assets/mercedes-e220-10.jpg
-  - /assets/mercedes-e220-8.jpg
-  - /assets/mercedes-e220-7.jpg
-  - /assets/mercedes-e220-19.jpg
-  - /assets/mercedes-e220-14.jpg
-  - /assets/mercedes-e220-4.jpg
-  - /assets/mercedes-e220-2.jpg
-  - /assets/mercedes-e220-3.jpg
+  - /./assets/mercedes-e220-15.jpg
+  - /./assets/mercedes-e220-5.jpg
+  - /./assets/mercedes-e220-12.jpg
+  - /./assets/mercedes-e220-16.jpg
+  - /./assets/mercedes-e220-11.jpg
+  - /./assets/mercedes-e220-20.jpg
+  - /./assets/mercedes-e220-17.jpg
+  - /./assets/mercedes-e220-10.jpg
+  - /./assets/mercedes-e220-8.jpg
+  - /./assets/mercedes-e220-7.jpg
+  - /./assets/mercedes-e220-19.jpg
+  - /./assets/mercedes-e220-14.jpg
+  - /./assets/mercedes-e220-4.jpg
+  - /./assets/mercedes-e220-2.jpg
+  - /./assets/mercedes-e220-3.jpg
 description: >-
   AP SELECT met en vente une Mercedes E220d coupé 194ch 9G Tronic AMG Line du
   06/2020 avec 38900km.
@@ -134,6 +134,7 @@ properties:
     value: 10 Cv
   - property: Boîte de vitesse
     value: Automatique
-_template: data
+draft: false
 ---
+
 
