@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Lotus Elise S3 Club Racer
 brand: Lotus
 model: Elise
@@ -103,6 +103,7 @@ photos:
   - /./assets/AA_LOTUS/Lotus elise CR (29).jpg
   - /./assets/AA_LOTUS/Lotus elise CR (30).jpg
   - /./assets/AA_LOTUS/Lotus elise CR (22).jpg
+  - /./assets/AA_LOTUS/Lotus elise CR (23).jpg
   - /./assets/AA_LOTUS/Lotus elise CR (6).jpg
   - /./assets/AA_LOTUS/Lotus elise CR (12).jpg
   - /./assets/AA_LOTUS/Lotus elise CR (11).jpg
@@ -111,6 +112,7 @@ photos:
   - /./assets/AA_LOTUS/Lotus elise CR (17).jpg
 isSold: false
 ---
+
 
 
 
