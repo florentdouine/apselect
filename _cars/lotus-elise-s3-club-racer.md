@@ -95,14 +95,18 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/AA_LOTUS/Lotus elise CR (26).jpg
+  - /./assets/AA_LOTUS/Lotus elise CR (27).jpg
+  - /./assets/AA_LOTUS/Lotus elise CR (28).jpg
+  - /./assets/AA_LOTUS/Lotus elise CR (29).jpg
+  - /./assets/AA_LOTUS/Lotus elise CR (6).jpg
+  - /./assets/AA_LOTUS/Lotus elise CR (12).jpg
   - /./assets/AA_LOTUS/Lotus elise CR (11).jpg
   - /./assets/AA_LOTUS/Lotus elise CR (18).jpg
   - /./assets/AA_LOTUS/Lotus elise CR (16).jpg
   - /./assets/AA_LOTUS/Lotus elise CR (17).jpg
-isSold: true
+isSold: false
 ---
+
 
 
