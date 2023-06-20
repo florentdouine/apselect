@@ -115,7 +115,21 @@ description: >-
 properties:
   - property: Puissance DIN
     value: 330 Ch
-  - {}
+photos:
+  - /./assets/AA_PORSCHE 981/Porsche Boxster 981 GTS 1.jpg
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
 ---
+
 
 
