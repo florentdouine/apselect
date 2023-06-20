@@ -126,7 +126,7 @@ photos:
   - /./assets/AA_PORSCHE 981/Porsche Boxster 981 GTS 9.jpg
   - /./assets/AA_PORSCHE 981/Partagé à partir de Lightroom mobile(21).jpg
   - /./assets/AA_PORSCHE 981/Partagé à partir de Lightroom mobile(5).jpg
-  - ''
+  - /./assets/AA_PORSCHE 981/Partagé à partir de Lightroom mobile(12).jpg
   - ''
 ---
 
