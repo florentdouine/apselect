@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Porsche Boxster 981 GTS
 brand: 'Porsche '
 model: Boxster
@@ -129,6 +129,7 @@ photos:
   - /./assets/AA_PORSCHE 981/Partagé à partir de Lightroom mobile(12).jpg
   - /./assets/AA_PORSCHE 981/Porsche Boxster 981 GTS 4.jpg
   - /./assets/AA_PORSCHE 981/Partagé à partir de Lightroom mobile(7).jpg
+  - /./assets/AA_PORSCHE 981/Partagé à partir de Lightroom mobile(6).jpg
 ---
 
 
