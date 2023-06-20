@@ -112,5 +112,10 @@ description: >-
 
 
   Prenez le volant, AP SELECT s'occupe du reste
+properties:
+  - property: Puissance DIN
+    value: 330 Ch
+  - {}
 ---
+
 
