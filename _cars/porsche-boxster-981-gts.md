@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Porsche Boxster 981 GTS
-brand: 'Porsche '
+brand: Porsche
 model: Boxster
 year: 2015
 kilometers: 78500
@@ -131,6 +131,7 @@ photos:
   - /./assets/AA_PORSCHE 981/Partagé à partir de Lightroom mobile(7).jpg
   - /./assets/AA_PORSCHE 981/Partagé à partir de Lightroom mobile(6).jpg
 ---
+
 
 
 
