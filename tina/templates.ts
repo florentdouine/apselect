@@ -5,6 +5,7 @@ export function dataFields() {
       name: 'draft',
       label: 'Brouillon',
       type: 'boolean',
+      required: true,
       description: 'Cochez de champ pour cacher le véhicule en ligne',
     },
     {
@@ -16,8 +17,7 @@ export function dataFields() {
     {
       type: "boolean",
       name: "isSold",
-      label: "Véhicule vendu ?",
-      required: true
+      label: "Véhicule vendu ?"
     },
     {
       type: "string",
