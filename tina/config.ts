@@ -32,6 +32,7 @@ export default defineConfig({
         defaultItem: () => {
           return {
             // When a new post is created the title field will be set to "New post"
+            isSold: false,
             layout: 'car',
           }
         },

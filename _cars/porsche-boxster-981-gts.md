@@ -8,6 +8,7 @@ kilometers: 78500
 fuel: Essence
 price: 75990
 layout: car
+isSold: false
 description: >-
   AP SELECT met en vente pour une Porsche Boxster 981 3.4 GTS 330ch PDK.
 
