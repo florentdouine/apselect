@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Porsche Cayman S 987
 isSold: false
 brand: Porsche
@@ -92,6 +92,7 @@ photos:
   - /./assets/AA_Porsche_Cayman/Porsche Cayman (15).jpg
   - /./assets/AA_Porsche_Cayman/Porsche Cayman (18).jpg
   - /./assets/AA_Porsche_Cayman/Porsche Cayman (17).jpg
+  - /./assets/AA_Porsche_Cayman/Porsche Cayman (16).jpg
 ---
 
 
