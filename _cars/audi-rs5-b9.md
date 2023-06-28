@@ -103,7 +103,7 @@ description: >-
 
   Prenez le volant, AP SELECT s'occupe du reste
 photos:
-  - ''
+  - /./assets/AA_AUDI_RS5_RED/AUDI RS5 RED (1).jpg
   - /./assets/AA_AUDI_RS5_RED/AUDI RS5 RED (13).jpg
   - /./assets/AA_AUDI_RS5_RED/AUDI RS5 RED (12).jpg
   - /./assets/AA_AUDI_RS5_RED/AUDI RS5 RED (11).jpg
