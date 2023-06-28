@@ -9,5 +9,74 @@ kilometers: 124990
 fuel: Essence
 price: 34990
 layout: car
+description: >-
+  AP SELECT met en vente une Porsche Cayman S 987 3.4l 295ch boîte mécanique.
+
+
+  Modèle du 05/2007 avec 124900km.
+
+
+  Couleur Argent GT metallic, intérieur Cuir noir.
+
+
+  Carte grise française.
+
+
+  Le véhicule est une première main et possède son carnet complet avec
+  historique limpide et dossier factures.
+
+
+  Équipements et options :
+
+  - Boîte mécanique 6
+
+  - Échappement Sport PSE
+
+  - Jantes Carrera Sport design
+
+  - Spoiler arrière électrique
+
+  - Régulateur de vitesse
+
+  - Sièges Sport + avec réglage électrique
+
+  - Climatisation
+
+  - Vitres électrique
+
+  - Fermeture centralisée
+
+  - Sytème alarme Porsche
+
+  - Tableau de bord cuir
+
+  - Panneaux de portes cuir
+
+  - Ordinateur de bord
+
+  - Systeme navigation Porsche
+
+  - Préparation téléphone
+
+  - Trousse à outils
+
+  - Roue de secours
+
+
+  Disponible et visible sur RDV pour acheteur sérieux.
+
+
+  Possibilité d'une garantie 3, 6 ou 12 mois en supplément.
+
+
+  Réalisation des démarches d'immatriculation.
+
+
+  AP SELECT c'est des solutions de courtage et conciergerie sur mesure pour
+  profiter librement de sa passion et de son patrimoine.
+
+
+  Prenez le volant, AP SELECT s'occupe du reste
 ---
+
 
