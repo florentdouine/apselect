@@ -15,12 +15,13 @@ photos:
   - ''
   - ''
   - ''
-  - ''
+  - /./assets/AA_BMW_DTM/BMW DTM (6).jpg
   - /./assets/AA_BMW_DTM/BMW DTM (9).jpg
   - /./assets/AA_BMW_DTM/BMW DTM (9).jpg
   - /./assets/AA_BMW_DTM/BMW DTM (7).jpg
   - /./assets/AA_BMW_DTM/BMW DTM (4).jpg
   - /./assets/AA_BMW_DTM/BMW DTM (3).jpg
 ---
+
 
 
