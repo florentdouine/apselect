@@ -73,7 +73,9 @@ description: >-
 
   Prenez le volant, AP SELECT s'occupe du reste
 photos:
-  - ''
+  - /./assets/AA_Cayenne_Porsche_hybrid/PORSCHE_CAYENNE_COUPE (1).jpg
+  - /./assets/AA_Cayenne_Porsche_hybrid/PORSCHE_CAYENNE_COUPE (27).jpg
+  - /./assets/AA_Cayenne_Porsche_hybrid/PORSCHE_CAYENNE_COUPE (10).jpg
   - /./assets/AA_Cayenne_Porsche_hybrid/PORSCHE_CAYENNE_COUPE (13).jpg
   - /./assets/AA_Cayenne_Porsche_hybrid/PORSCHE_CAYENNE_COUPE (15).jpg
   - /./assets/AA_Cayenne_Porsche_hybrid/PORSCHE_CAYENNE_COUPE (26).jpg
