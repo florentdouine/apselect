@@ -12,6 +12,8 @@ layout: car
 photos:
   - ''
   - ''
+  - /./assets/AA_AUDI_TTS/AUDI_TTS (17).jpg
+  - /./assets/AA_AUDI_TTS/AUDI_TTS (16).jpg
   - /./assets/AA_AUDI_TTS/AUDI_TTS (5).jpg
   - /./assets/AA_AUDI_TTS/AUDI_TTS (6).jpg
   - /./assets/AA_AUDI_TTS/AUDI_TTS (9).jpg
