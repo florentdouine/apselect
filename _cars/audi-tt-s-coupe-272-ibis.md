@@ -11,7 +11,7 @@ price: 24990
 layout: car
 photos:
   - ''
-  - ''
+  - /./assets/AA_AUDI_TTS/AUDI_TTS (11).jpg
   - /./assets/AA_AUDI_TTS/AUDI_TTS (10).jpg
   - /./assets/AA_AUDI_TTS/AUDI_TTS (15).jpg
   - /./assets/AA_AUDI_TTS/AUDI_TTS (14).jpg
