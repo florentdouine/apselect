@@ -102,7 +102,13 @@ description: >-
 layout: car
 photos:
   - ''
-  - ''
+  - /./assets/AA_GTS_RED/997 GTS.jpg
+  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (22).jpg
+  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (21).jpg
+  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (20).jpg
+  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (19).jpg
+  - /./assets/AA_GTS_RED/997 GTS (5).jpg
+  - /./assets/AA_GTS_RED/997 GTS (3).jpg
   - /./assets/AA_GTS_RED/PORSCHE_997_GTS (14).jpg
   - /./assets/AA_GTS_RED/PORSCHE_997_GTS (15).jpg
   - /./assets/AA_GTS_RED/PORSCHE_997_GTS (16).jpg
@@ -117,6 +123,7 @@ photos:
   - /./assets/AA_GTS_RED/PORSCHE_997_GTS (28).jpg
   - /./assets/AA_GTS_RED/PORSCHE_997_GTS (29).jpg
 ---
+
 
 
 
