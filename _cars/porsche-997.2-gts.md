@@ -104,6 +104,8 @@ photos:
   - ''
   - ''
   - /./assets/AA_GTS_RED/PORSCHE_997_GTS (18).jpg
+  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (12).jpg
+  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (11).jpg
   - /./assets/AA_GTS_RED/PORSCHE_997_GTS (26).jpg
   - /./assets/AA_GTS_RED/PORSCHE_997_GTS (27).jpg
   - /./assets/AA_GTS_RED/PORSCHE_997_GTS (28).jpg
