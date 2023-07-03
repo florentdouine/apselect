@@ -10,8 +10,8 @@ fuel: Essence
 price: 24990
 layout: car
 photos:
-  - ''
-  - ''
+  - /./assets/AA_AUDI_TTS/AUDI_TTS (2).jpg
+  - /./assets/AA_AUDI_TTS/AUDI_TTS (18).jpg
   - /./assets/AA_AUDI_TTS/AUDI_TTS (17).jpg
   - /./assets/AA_AUDI_TTS/AUDI_TTS (16).jpg
   - /./assets/AA_AUDI_TTS/AUDI_TTS (5).jpg
