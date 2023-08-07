@@ -116,7 +116,7 @@ properties:
     value: 306 Ch
   - property: Puissance fiscale
     value: 21 cv
-draft: true
+draft: false
 ---
 
 
