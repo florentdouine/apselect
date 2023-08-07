@@ -1,7 +1,7 @@
 ---
-draft: true
+draft: false
 name: BMW M3 e46 cabriolet
-isSold: true
+isSold: false
 brand: BMW
 model: M3 Cabriolet
 year: 2002
