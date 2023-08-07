@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: BMW X1
 isSold: false
 brand: BMW
@@ -94,8 +94,6 @@ photos:
   - /./assets/AA_X1_BMW/BMW X1 (19).jpg
   - /./assets/AA_X1_BMW/BMW X1 (18).jpg
   - /./assets/AA_X1_BMW/BMW X1 (1).jpg
-  - ''
-  - ''
 ---
 
 
