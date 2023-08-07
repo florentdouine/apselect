@@ -101,12 +101,12 @@ photos:
   - /./assets/AA_BWM_M3_e46/BMW M3 e46 (16).jpg
   - /./assets/AA_BWM_M3_e46/BMW M3 e46 (17).jpg
   - /./assets/AA_BWM_M3_e46/BMW M3 e46 (18).jpg
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (13).jpg
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (3).jpg
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (2).jpg
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (6).jpg
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (4).jpg
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (5).jpg
   - ''
   - ''
   - ''
