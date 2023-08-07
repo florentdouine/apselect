@@ -2,37 +2,37 @@
 year: 2016
 kilometers: 42000
 price: 124990
-creation_date: '2022-11-24 14:03:29 +0000'
+creation_date: 2022-11-24T14:03:29.000Z
 layout: car
 name: Porsche 991 Carrera 4S
 brand: Porsche
 model: '911'
 fuel: Essence
-isSold: false
+isSold: true
 photos:
-  - /assets/porsche-991-carrera-4s-3-0-420ch-pdk-32.jpg
-  - /assets/porsche-991-carrera-4s-3-0-420ch-pdk-6.jpg
-  - /assets/porsche-991-carrera-4s-3-0-420ch-pdk-8.jpg
-  - /assets/porsche-991-carrera-4s-3-0-420ch-pdk-28.jpg
-  - /assets/porsche-991-carrera-4s-3-0-420ch-pdk-21.jpg
-  - /assets/porsche-991-carrera-4s-3-0-420ch-pdk-14.jpg
-  - /assets/porsche-991-carrera-4s-3-0-420ch-pdk-30.jpg
-  - /assets/porsche-991-carrera-4s-3-0-420ch-pdk-19.jpg
-  - /assets/porsche-991-carrera-4s-3-0-420ch-pdk-17.jpg
-  - /assets/porsche-991-carrera-4s-3-0-420ch-pdk-23.jpg
-  - /assets/porsche-991-carrera-4s-3-0-420ch-pdk-24.jpg
-  - /assets/porsche-991-carrera-4s-3-0-420ch-pdk-27.jpg
-  - /assets/porsche-991-carrera-4s-3-0-420ch-pdk-26.jpg
-  - /assets/porsche-991-carrera-4s-3-0-420ch-pdk-25.jpg
-  - /assets/porsche-991-carrera-4s-3-0-420ch-pdk-5.jpg
-  - /assets/porsche-991-carrera-4s-3-0-420ch-pdk-4.jpg
-  - /assets/porsche-991-carrera-4s-3-0-420ch-pdk-3.jpg
-  - /assets/porsche-991-carrera-4s-3-0-420ch-pdk-2.jpg
-  - /assets/porsche-991-carrera-4s-3-0-420ch-pdk-1.jpg
-  - /assets/porsche-991-carrera-4s-3-0-420ch-pdk-13.jpg
-  - /assets/porsche-991-carrera-4s-3-0-420ch-pdk-10.jpg
-  - /assets/porsche-991-carrera-4s-3-0-420ch-pdk-12.jpg
-  - /assets/porsche-991-carrera-4s-3-0-420ch-pdk-33.jpg
+  - /./assets/porsche-991-carrera-4s-3-0-420ch-pdk-32.jpg
+  - /./assets/porsche-991-carrera-4s-3-0-420ch-pdk-6.jpg
+  - /./assets/porsche-991-carrera-4s-3-0-420ch-pdk-8.jpg
+  - /./assets/porsche-991-carrera-4s-3-0-420ch-pdk-28.jpg
+  - /./assets/porsche-991-carrera-4s-3-0-420ch-pdk-21.jpg
+  - /./assets/porsche-991-carrera-4s-3-0-420ch-pdk-14.jpg
+  - /./assets/porsche-991-carrera-4s-3-0-420ch-pdk-30.jpg
+  - /./assets/porsche-991-carrera-4s-3-0-420ch-pdk-19.jpg
+  - /./assets/porsche-991-carrera-4s-3-0-420ch-pdk-17.jpg
+  - /./assets/porsche-991-carrera-4s-3-0-420ch-pdk-23.jpg
+  - /./assets/porsche-991-carrera-4s-3-0-420ch-pdk-24.jpg
+  - /./assets/porsche-991-carrera-4s-3-0-420ch-pdk-27.jpg
+  - /./assets/porsche-991-carrera-4s-3-0-420ch-pdk-26.jpg
+  - /./assets/porsche-991-carrera-4s-3-0-420ch-pdk-25.jpg
+  - /./assets/porsche-991-carrera-4s-3-0-420ch-pdk-5.jpg
+  - /./assets/porsche-991-carrera-4s-3-0-420ch-pdk-4.jpg
+  - /./assets/porsche-991-carrera-4s-3-0-420ch-pdk-3.jpg
+  - /./assets/porsche-991-carrera-4s-3-0-420ch-pdk-2.jpg
+  - /./assets/porsche-991-carrera-4s-3-0-420ch-pdk-1.jpg
+  - /./assets/porsche-991-carrera-4s-3-0-420ch-pdk-13.jpg
+  - /./assets/porsche-991-carrera-4s-3-0-420ch-pdk-10.jpg
+  - /./assets/porsche-991-carrera-4s-3-0-420ch-pdk-12.jpg
+  - /./assets/porsche-991-carrera-4s-3-0-420ch-pdk-33.jpg
 description: >-
   AP SELECT met en vente pour une Porsche 991 Carrera 4S coupé 3.0 420ch PDK
   phase 2.
@@ -136,6 +136,7 @@ properties:
     value: 420 Ch
   - property: Puissance fiscale
     value: 30 Cv
-_template: data
+draft: false
 ---
+
 
