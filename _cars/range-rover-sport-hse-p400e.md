@@ -110,11 +110,12 @@ properties:
 photos:
   - /./assets/AA_Range_Rover/Range Rover Sport HSE 1.jpg
   - /./assets/AA_Range_Rover/Range Rover Sport HSE 2.jpg
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/AA_Range_Rover/Range Rover Sport HSE 3.jpg
+  - /./assets/AA_Range_Rover/Range Rover Sport HSE 4.jpg
+  - /./assets/AA_Range_Rover/Range Rover Sport HSE 5.jpg
+  - /./assets/AA_Range_Rover/Range Rover Sport HSE 6.jpg
+  - /./assets/AA_Range_Rover/Range Rover Sport HSE 7.jpg
 ---
+
 
 
