@@ -115,20 +115,6 @@ photos:
   - /./assets/AA_BWM_M3_e46/BMW M3 e46 (21).jpg
   - /./assets/AA_BWM_M3_e46/BMW M3 e46 (22).jpg
   - /./assets/AA_BWM_M3_e46/BMW M3 e46 (23).jpg
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
 ---
 
 
