@@ -2,32 +2,32 @@
 year: 2010
 kilometers: 75500
 price: 34990
-creation_date: '2022-11-24 15:03:46 +0000'
+creation_date: 2022-11-24T15:03:46.000Z
 layout: car
 name: BMW Z4 35i SDrive
 brand: BMW
 model: Z4
 fuel: Essence
-isSold: false
+isSold: true
 photos:
-  - /assets/bmw-z4-15.jpg
-  - /assets/bmw-z4-13.jpg
-  - /assets/bmw-z4-16.jpg
-  - /assets/bmw-z4-11.jpg
-  - /assets/bmw-z4-10.jpg
-  - /assets/bmw-z4-12.jpg
-  - /assets/bmw-z4-2.jpg
-  - /assets/bmw-z4-3.jpg
-  - /assets/bmw-z4-1.jpg
-  - /assets/bmw-z4-17.jpg
-  - /assets/bmw-z4-19.jpg
-  - /assets/bmw-z4-20.jpg
-  - /assets/bmw-z4-22.jpg
-  - /assets/bmw-z4-9.jpg
-  - /assets/bmw-z4-7.jpg
-  - /assets/bmw-z4-5.jpg
-  - /assets/bmw-z4-8.jpg
-  - /assets/bmw-z4-4.jpg
+  - /./assets/bmw-z4-15.jpg
+  - /./assets/bmw-z4-13.jpg
+  - /./assets/bmw-z4-16.jpg
+  - /./assets/bmw-z4-11.jpg
+  - /./assets/bmw-z4-10.jpg
+  - /./assets/bmw-z4-12.jpg
+  - /./assets/bmw-z4-2.jpg
+  - /./assets/bmw-z4-3.jpg
+  - /./assets/bmw-z4-1.jpg
+  - /./assets/bmw-z4-17.jpg
+  - /./assets/bmw-z4-19.jpg
+  - /./assets/bmw-z4-20.jpg
+  - /./assets/bmw-z4-22.jpg
+  - /./assets/bmw-z4-9.jpg
+  - /./assets/bmw-z4-7.jpg
+  - /./assets/bmw-z4-5.jpg
+  - /./assets/bmw-z4-8.jpg
+  - /./assets/bmw-z4-4.jpg
 description: >-
   AP SELECT met en vente une BMW Z4 35is SDrive 306ch.
 
@@ -116,6 +116,7 @@ properties:
     value: 306 Ch
   - property: Puissance fiscale
     value: 21 cv
-_template: data
+draft: true
 ---
+
 
