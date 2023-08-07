@@ -83,10 +83,10 @@ photos:
   - /./assets/AA_X1_BMW/BMW X1 (15).jpg
   - /./assets/AA_X1_BMW/BMW X1 (14).jpg
   - /./assets/AA_X1_BMW/BMW X1 (6).jpg
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/AA_X1_BMW/BMW X1 (5).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (7).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (10).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (9).jpg
   - ''
   - ''
   - ''
