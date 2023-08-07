@@ -8,7 +8,7 @@ name: 'BMW M3 e36 Cabriolet '
 brand: BMW
 model: M3 e36 Cabriolet
 fuel: Essence
-isSold: false
+isSold: true
 photos:
   - /./assets/img_20220513_185339.jpg
   - /./assets/img_20220513_184917.jpg
@@ -118,7 +118,7 @@ properties:
     value: 286 Ch
   - property: 'Couleur '
     value: Couleur Cosmosschwarz métallic
-draft: true
+draft: false
 ---
 
 
