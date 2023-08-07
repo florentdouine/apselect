@@ -76,5 +76,26 @@ description: >-
 
 
   Prenez le volant, AP SELECT s'occupe du reste.
+photos:
+  - /./assets/AA_X1_BMW/BMW X1 (3).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (4).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (16).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (15).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (14).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (6).jpg
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
 ---
+
 
