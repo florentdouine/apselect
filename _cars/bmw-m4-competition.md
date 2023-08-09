@@ -127,7 +127,7 @@ photos:
   - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (24).jpg
   - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (29).jpg
   - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (31).jpg
-  - ''
+  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (30).jpg
 ---
 
 
