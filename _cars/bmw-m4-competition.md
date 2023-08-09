@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: BMW M4 Competition
 isSold: false
 brand: BMW
@@ -132,6 +132,7 @@ photos:
   - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (32).jpg
   - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (25).jpg
 ---
+
 
 
 
