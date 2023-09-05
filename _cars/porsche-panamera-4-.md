@@ -10,7 +10,10 @@ fuel: Hybride
 price: 81990
 photos:
   - /./assets/PANAMERA/PORSCHE PANAMERA (28).jpg
-  - ''
+  - /./assets/PANAMERA/PORSCHE PANAMERA (14).jpg
+  - /./assets/PANAMERA/PORSCHE PANAMERA (31).jpg
+  - /./assets/PANAMERA/PORSCHE PANAMERA (17).jpg
+  - /./assets/PANAMERA/PORSCHE PANAMERA (30).jpg
   - /./assets/PANAMERA/PORSCHE PANAMERA (29).jpg
   - /./assets/PORSCHE PANAMERA/PORSCHE PANAMERA (4).jpg
   - /./assets/PANAMERA/PORSCHE PANAMERA (3).jpg
