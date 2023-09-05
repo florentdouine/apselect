@@ -9,6 +9,7 @@ kilometers: 98490
 fuel: Hybride
 price: 81990
 photos:
+  - /./assets/PANAMERA/PORSCHE PANAMERA (28).jpg
   - ''
   - ''
   - ''
@@ -21,9 +22,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/PORSCHE PANAMERA/PORSCHE PANAMERA (9).jpg
+  - /./assets/PANAMERA/PORSCHE PANAMERA (10).jpg
 description: >-
   AP SELECT met en vente un Porsche Panamera 4 E-Hybrid 462ch PDK.
 
@@ -93,4 +93,5 @@ description: >-
   Prenez le volant, AP SELECT s'occupe du reste
 layout: car
 ---
+
 
