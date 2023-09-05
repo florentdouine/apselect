@@ -1,7 +1,7 @@
 ---
 year: 2021
-kilometers: 5600
-price: 309990
+kilometers: 7900
+price: 289900
 creation_date: 2022-10-04T14:23:41.000Z
 layout: car
 name: 'Porsche 992 TURBO S Cabriolet '
@@ -10,38 +10,38 @@ model: '992 TURBO S Cabriolet '
 fuel: Essence
 isSold: false
 photos:
-  - /assets/porsche-992-turbo-s-cabriolet-33.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-6.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-36.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-8.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-31.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-28.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-21.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-27.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-14.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-9.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-13.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-15.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-24.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-25.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-30.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-29.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-23.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-22.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-40.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-37.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-18.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-34.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-10.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-3.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-17.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-19.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-11.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-41.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-1.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-20.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-2.jpg
-  - /assets/porsche-992-turbo-s-cabriolet-1.MOV
+  - /./assets/porsche-992-turbo-s-cabriolet-33.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-6.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-36.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-8.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-31.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-28.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-21.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-27.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-14.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-9.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-13.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-15.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-24.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-25.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-30.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-29.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-23.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-22.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-40.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-37.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-18.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-34.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-10.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-3.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-17.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-19.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-11.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-41.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-1.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-20.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-2.jpg
+  - /./assets/porsche-992-turbo-s-cabriolet-1.MOV
 description: >-
   AP SELECT met en vente une Porsche 992 TURBO S cabriolet 3.8l 650ch PDK.
 
@@ -131,6 +131,7 @@ properties:
     value: Automatique
   - property: Mise en circulation
     value: 10/2021
-_template: data
+draft: false
 ---
+
 
