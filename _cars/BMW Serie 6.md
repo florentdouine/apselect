@@ -113,7 +113,7 @@ properties:
     value: 18 Cv
   - property: 'Boîte de vitesse  '
     value: Automatique
-draft: true
+draft: false
 ---
 
 
