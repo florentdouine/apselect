@@ -28,9 +28,9 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/GENTIANE PORSCHE 992/PORSCHE 992 BLEUE GENTIANE (24).jpg
+  - /./assets/GENTIANE PORSCHE 992/PORSCHE 992 BLEUE GENTIANE (2).jpg
+  - /./assets/GENTIANE PORSCHE 992/PORSCHE 992 BLEUE GENTIANE (5).jpg
 layout: car
 description: >-
   AP SELECT met en vente une Porsche 992 Carrera 4S PDK 450ch.
@@ -111,5 +111,6 @@ description: >-
 
   Prenez le volant, AP SELECT s'occupe du reste.
 ---
+
 
 
