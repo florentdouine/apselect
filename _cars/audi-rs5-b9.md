@@ -7,7 +7,7 @@ model: RS5
 year: 2018
 kilometers: 58500
 fuel: Essence
-price: 67490
+price: 62990
 layout: car
 description: >-
   AP SELECT met en vente une Audi RS5 coupé 2.9 TFSI 450ch quattro.
@@ -118,6 +118,7 @@ photos:
   - /./assets/AA_AUDI_RS5_RED/AUDI RS5 RED (16).jpg
   - /./assets/AA_AUDI_RS5_RED/AUDI RS5 RED (15).jpg
 ---
+
 
 
 
