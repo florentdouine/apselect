@@ -2,32 +2,32 @@
 year: 2010
 kilometers: 119990
 price: 22990
-creation_date: '2023-03-24 16:33:40 +0000'
+creation_date: 2023-03-24T16:33:40.000Z
 layout: car
 name: BMW 635d cabriolet Exclusive
-isSold: false
+isSold: true
 brand: BMW
 model: Série 6 Coupé
 fuel: Diesel
 photos:
-  - /assets/bmw-serie-6-13.jpg
-  - /assets/bmw-serie-6-15.jpg
-  - /assets/bmw-serie-6-2.jpg
-  - /assets/bmw-serie-6-3.jpg
-  - /assets/bmw-serie-6-10.jpg
-  - /assets/bmw-serie-6-12.jpg
-  - /assets/bmw-serie-6-11.jpg
-  - /assets/bmw-serie-6-9.jpg
-  - /assets/bmw-serie-6-8.jpg
-  - /assets/bmw-serie-6-7.jpg
-  - /assets/bmw-serie-6-6.jpg
-  - /assets/bmw-serie-6-18.jpg
-  - /assets/bmw-serie-6-17.jpg
-  - /assets/bmw-serie-6-1.jpg
-  - /assets/bmw-serie-6-16.jpg
-  - /assets/bmw-serie-6-14.jpg
-  - /assets/bmw-serie-6-5.jpg
-  - /assets/bmw-serie-6-4.jpg
+  - /./assets/bmw-serie-6-13.jpg
+  - /./assets/bmw-serie-6-15.jpg
+  - /./assets/bmw-serie-6-2.jpg
+  - /./assets/bmw-serie-6-3.jpg
+  - /./assets/bmw-serie-6-10.jpg
+  - /./assets/bmw-serie-6-12.jpg
+  - /./assets/bmw-serie-6-11.jpg
+  - /./assets/bmw-serie-6-9.jpg
+  - /./assets/bmw-serie-6-8.jpg
+  - /./assets/bmw-serie-6-7.jpg
+  - /./assets/bmw-serie-6-6.jpg
+  - /./assets/bmw-serie-6-18.jpg
+  - /./assets/bmw-serie-6-17.jpg
+  - /./assets/bmw-serie-6-1.jpg
+  - /./assets/bmw-serie-6-16.jpg
+  - /./assets/bmw-serie-6-14.jpg
+  - /./assets/bmw-serie-6-5.jpg
+  - /./assets/bmw-serie-6-4.jpg
 description: >-
   AP SELECT met en vente une BMW 635d e64 cabriolet 286ch phase 2.
 
@@ -113,6 +113,7 @@ properties:
     value: 18 Cv
   - property: 'Boîte de vitesse  '
     value: Automatique
-_template: data
+draft: true
 ---
+
 
