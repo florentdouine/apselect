@@ -14,16 +14,16 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - /./assets/PORSCHE PANAMERA/PORSCHE PANAMERA (9).jpg
+  - /./assets/PANAMERA/PORSCHE PANAMERA (22).jpg
+  - /./assets/PANAMERA/PORSCHE PANAMERA (21).jpg
+  - /./assets/PANAMERA/PORSCHE PANAMERA (23).jpg
+  - /./assets/PANAMERA/PORSCHE PANAMERA (24).jpg
+  - /./assets/PANAMERA/PORSCHE PANAMERA (25).jpg
+  - /./assets/PORSCHE PANAMERA/PORSCHE PANAMERA (5).jpg
   - /./assets/PANAMERA/PORSCHE PANAMERA (10).jpg
+  - /./assets/PORSCHE PANAMERA/PORSCHE PANAMERA (6).jpg
+  - /./assets/PORSCHE PANAMERA/PORSCHE PANAMERA (7).jpg
+  - /./assets/PORSCHE PANAMERA/PORSCHE PANAMERA (9).jpg
 description: >-
   AP SELECT met en vente un Porsche Panamera 4 E-Hybrid 462ch PDK.
 
@@ -93,5 +93,6 @@ description: >-
   Prenez le volant, AP SELECT s'occupe du reste
 layout: car
 ---
+
 
 
