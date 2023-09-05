@@ -9,13 +9,18 @@ kilometers: 98490
 fuel: Hybride
 price: 81990
 photos:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - /./assets/PANAMERA/PORSCHE PANAMERA (28).jpg
-  - ''
-  - ''
-  - ''
-  - ''
-  - /./assets/PANAMERA/PORSCHE PANAMERA (22).jpg
+  - /./assets/PANAMERA/PORSCHE PANAMERA (20).jpg
+  - /./assets/PANAMERA/PORSCHE PANAMERA (26).jpg
+  - /./assets/PANAMERA/PORSCHE PANAMERA (27).jpg
+  - /./assets/PANAMERA/PORSCHE PANAMERA (19).jpg
   - /./assets/PANAMERA/PORSCHE PANAMERA (21).jpg
+  - /./assets/PANAMERA/PORSCHE PANAMERA (22).jpg
   - /./assets/PANAMERA/PORSCHE PANAMERA (23).jpg
   - /./assets/PANAMERA/PORSCHE PANAMERA (24).jpg
   - /./assets/PANAMERA/PORSCHE PANAMERA (25).jpg
