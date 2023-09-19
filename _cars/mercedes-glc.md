@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Mercedes GLC
 isSold: false
 brand: Mercedes-Benz
