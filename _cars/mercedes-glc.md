@@ -119,8 +119,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/Mercedes GLC/Mercedes GLC (19).jpg
+  - /./assets/Mercedes GLC/Mercedes GLC (13).jpg
   - /./assets/Mercedes GLC/Mercedes GLC (1).jpg
   - /./assets/Mercedes GLC/Mercedes GLC (14).jpg
   - /./assets/Mercedes GLC/Mercedes GLC (16).jpg
@@ -132,6 +132,7 @@ photos:
   - /./assets/Mercedes GLC/Mercedes GLC (9).jpg
   - /./assets/Mercedes GLC/Mercedes GLC (10).jpg
 ---
+
 
 
 
