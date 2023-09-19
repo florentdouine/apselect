@@ -16,7 +16,7 @@ description: >-
   Couleur noir metallic, intérieur cuir / alcantara AMG, intérieur frêne.
 
 
-  Véhicule origine France.
+  Véhicule origine France. 
 
 
   Suivi et historique full Mercedes.
@@ -134,6 +134,7 @@ photos:
   - /./assets/Mercedes GLC/Mercedes GLC (9).jpg
   - /./assets/Mercedes GLC/Mercedes GLC (10).jpg
 ---
+
 
 
 
