@@ -114,6 +114,10 @@ description: >-
   Prenez le volant, AP SELECT s'occupe du reste.
 layout: car
 photos:
+  - ''
+  - ''
+  - /./assets/Mercedes GLC/Mercedes GLC (12).jpg
+  - /./assets/Mercedes GLC/Mercedes GLC (4).jpg
   - /./assets/Mercedes GLC/Mercedes GLC (5).jpg
   - /./assets/Mercedes GLC/Mercedes GLC (3).jpg
   - /./assets/Mercedes GLC/Mercedes GLC (2).jpg
