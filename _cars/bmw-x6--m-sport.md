@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: BMW X6  M Sport
 isSold: false
 brand: BMW
@@ -143,6 +143,7 @@ photos:
   - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (17).jpg
   - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (19).jpg
 ---
+
 
 
 
