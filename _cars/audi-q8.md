@@ -104,7 +104,7 @@ description: >-
 photos:
   - ''
   - ''
-  - ''
+  - /./assets/AA_GENTIANE/AUDI Q8 (8).jpg
   - /./assets/AUDI Q8/AUDI Q8 (7).jpg
   - /./assets/AUDI Q8/AUDI Q8 (6).jpg
   - /./assets/AUDI Q8/AUDI Q8 (10).jpg
