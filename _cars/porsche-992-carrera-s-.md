@@ -80,5 +80,16 @@ description: >-
 
   Prenez le volant, AP SELECT s'occupe du reste.
 layout: car
+photos:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - /./assets/PORSCHE 992 CARRERA S Christophe/porsche 992 CARRERA S (22).jpg
 ---
+
 
