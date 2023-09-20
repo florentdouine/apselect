@@ -82,7 +82,7 @@ description: >-
 layout: car
 photos:
   - ''
-  - ''
+  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (4).jpg
   - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (12).jpg
   - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (11).jpg
   - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (15).jpg
