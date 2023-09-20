@@ -7,7 +7,7 @@ model: Panamera
 year: 2018
 kilometers: 98490
 fuel: Hybride
-price: 81990
+price: 79990
 photos:
   - /./assets/PANAMERA/PORSCHE PANAMERA (28).jpg
   - /./assets/PANAMERA/PORSCHE PANAMERA (14).jpg
@@ -101,6 +101,7 @@ description: >-
   Prenez le volant, AP SELECT s'occupe du reste. 
 layout: car
 ---
+
 
 
 
