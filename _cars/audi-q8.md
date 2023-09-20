@@ -102,7 +102,7 @@ description: >-
 
   Prenez le volant, AP SELECT s'occupe du reste.
 photos:
-  - ''
+  - /./assets/AUDI Q8/AUDI Q8 (1).jpg
   - /./assets/AUDI Q8/AUDI Q8 (4).jpg
   - /./assets/AUDI Q8/AUDI Q8 (2).jpg
   - /./assets/AUDI Q8/AUDI Q8 (16).jpg
