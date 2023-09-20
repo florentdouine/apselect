@@ -82,7 +82,7 @@ layout: car
 photos:
   - ''
   - ''
-  - ''
+  - /./assets/AA_Macan_Turbo_Porsche/Porsche Macan turbo  (18).jpg
   - /./assets/AA_Macan_Turbo_Porsche/Porsche Macan turbo  (4).jpg
   - /./assets/AA_Macan_Turbo_Porsche/Porsche Macan turbo  (15).jpg
   - /./assets/AA_Macan_Turbo_Porsche/Porsche Macan turbo  (5).jpg
