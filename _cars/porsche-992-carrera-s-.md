@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: 'Porsche 992 Carrera S '
 isSold: false
 brand: Porsche
@@ -81,8 +81,8 @@ description: >-
   Prenez le volant, AP SELECT s'occupe du reste.
 layout: car
 photos:
-  - ''
-  - ''
+  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (3).jpg
+  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (2).jpg
   - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (18).jpg
   - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (20).jpg
   - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (16).jpg
@@ -102,6 +102,7 @@ photos:
   - /./assets/PORSCHE 992 CARRERA S CHRISTOPHE/porsche 992 CARRERA S (28).jpg
   - /./assets/PORSCHE 992 CARRERA S Christophe/porsche 992 CARRERA S (22).jpg
 ---
+
 
 
 
