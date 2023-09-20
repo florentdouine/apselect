@@ -124,11 +124,9 @@ description: >-
   Prenez le volant, AP SELECT s'occupe du reste.
 layout: car
 photos:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (1).jpg
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (2).jpg
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (14).jpg
   - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (13).jpg
   - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (12).jpg
   - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (11).jpg
