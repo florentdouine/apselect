@@ -123,5 +123,27 @@ description: >-
 
   Prenez le volant, AP SELECT s'occupe du reste.
 layout: car
+photos:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
 ---
 
