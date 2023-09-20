@@ -7,7 +7,7 @@ model: Cayman
 year: 2007
 kilometers: 124990
 fuel: Essence
-price: 34990
+price: 33990
 layout: car
 description: >-
   AP SELECT met en vente une Porsche Cayman S 987 3.4l 295ch boîte mécanique.
@@ -94,6 +94,7 @@ photos:
   - /./assets/AA_Porsche_Cayman/Porsche Cayman (17).jpg
   - /./assets/AA_Porsche_Cayman/Porsche Cayman (16).jpg
 ---
+
 
 
 
