@@ -106,7 +106,7 @@ photos:
   - ''
   - ''
   - ''
-  - ''
+  - /./assets/AUDI Q8/AUDI Q8 (17).jpg
   - /./assets/AUDI Q8/AUDI Q8 (18).jpg
   - /./assets/AUDI Q8/AUDI Q8 (19).jpg
   - /./assets/AUDI Q8/AUDI Q8 (20).jpg
