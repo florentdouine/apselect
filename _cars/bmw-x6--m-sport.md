@@ -134,9 +134,9 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (4).jpg
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (7).jpg
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (6).jpg
   - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (9).jpg
   - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (10).jpg
   - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (15).jpg
@@ -145,5 +145,6 @@ photos:
   - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (17).jpg
   - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (19).jpg
 ---
+
 
 
