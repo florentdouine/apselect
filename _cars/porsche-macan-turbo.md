@@ -83,7 +83,7 @@ photos:
   - ''
   - ''
   - ''
-  - ''
+  - /./assets/AA_Macan_Turbo_Porsche/Porsche Macan turbo  (8).jpg
   - /./assets/AA_Macan_Turbo_Porsche/Porsche Macan turbo  (17).jpg
   - /./assets/AA_Macan_Turbo_Porsche/Porsche Macan turbo  (16).jpg
   - /./assets/AA_Macan_Turbo_Porsche/Porsche Macan turbo  (20).jpg
