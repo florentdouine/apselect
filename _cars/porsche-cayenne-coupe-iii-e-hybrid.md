@@ -20,7 +20,7 @@ photos:
   - ''
   - ''
   - ''
-  - ''
+  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 9.jpg
   - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid (11).jpg
   - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 14.jpg
   - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 15.jpg
