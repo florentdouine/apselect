@@ -10,11 +10,13 @@ fuel: Hybride
 price: 86990
 layout: car
 photos:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 1.jpg
+  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 2.jpg
+  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 3.jpg
+  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 4.jpg
+  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 5.jpg
+  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 6.jpg
+  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 7.jpg
   - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 8.jpg
   - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 9.jpg
   - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 10.jpg
