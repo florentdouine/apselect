@@ -14,6 +14,7 @@ photos:
   - /./assets/Turbo S /IMG_1220_jpg.jpg
   - /./assets/Turbo S /IMG_1222_jpg.jpg
   - /./assets/Turbo S /IMG_1225_jpg.jpg
+  - /./assets/Turbo S /IMG_1221_jpg.jpg
   - /./assets/porsche-992-turbo-s-cabriolet-31.jpg
   - /./assets/porsche-992-turbo-s-cabriolet-28.jpg
   - /./assets/porsche-992-turbo-s-cabriolet-21.jpg
