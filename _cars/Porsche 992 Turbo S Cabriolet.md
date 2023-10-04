@@ -10,7 +10,7 @@ model: '992 TURBO S Cabriolet '
 fuel: Essence
 isSold: false
 photos:
-  - /./assets/Turbo S /IMG_1217_jpg.jpg
+  - /./assets/Turbo S /IMG_1241_jpg.jpg
   - /./assets/Turbo S /IMG_1220_jpg.jpg
   - /./assets/Turbo S /IMG_1222_jpg.jpg
   - /./assets/Turbo S /IMG_1225_jpg.jpg
