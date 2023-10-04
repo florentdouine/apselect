@@ -11,9 +11,9 @@ fuel: Essence
 isSold: false
 photos:
   - /./assets/Turbo S /IMG_1217_jpg.jpg
-  - /./assets/Turbo S /IMG_1225_jpg.jpg
+  - /./assets/Turbo S /IMG_1220_jpg.jpg
   - /./assets/Turbo S /IMG_1222_jpg.jpg
-  - /./assets/porsche-992-turbo-s-cabriolet-8.jpg
+  - /./assets/Turbo S /IMG_1225_jpg.jpg
   - /./assets/porsche-992-turbo-s-cabriolet-31.jpg
   - /./assets/porsche-992-turbo-s-cabriolet-28.jpg
   - /./assets/porsche-992-turbo-s-cabriolet-21.jpg
@@ -133,6 +133,7 @@ properties:
     value: 10/2021
 draft: false
 ---
+
 
 
 
