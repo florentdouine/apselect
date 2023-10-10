@@ -9,8 +9,8 @@ kilometers: 106500
 fuel: Essence
 price: 54990
 photos:
-  - ''
-  - ''
+  - /./assets/Mercedes GLE coupe/Mercedes GLE (3).jpg
+  - /./assets/Mercedes GLE coupe/Mercedes GLE (18).jpg
   - /./assets/Mercedes GLE coupe/Mercedes GLE (16).jpg
   - /./assets/Mercedes GLE coupe/Mercedes GLE (4).jpg
   - /./assets/Mercedes GLE coupe/Mercedes GLE (15).jpg
