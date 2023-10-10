@@ -1,13 +1,32 @@
 ---
 draft: false
 name: BMW X6  M Sport
-isSold: false
+isSold: true
 brand: BMW
 model: X6
 year: 2021
 kilometers: 54500
 fuel: Diesel
 price: 79990
+photos:
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (1).jpg
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (2).jpg
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (14).jpg
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (13).jpg
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (12).jpg
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (11).jpg
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (8).jpg
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (3).jpg
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (4).jpg
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (7).jpg
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (6).jpg
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (9).jpg
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (10).jpg
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (15).jpg
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (21).jpg
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (16).jpg
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (17).jpg
+  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (19).jpg
 description: >-
   AP SELECT met en vente un BMW X6 G06 30dA BVA8 286ch M Sport.
 
@@ -123,27 +142,5 @@ description: >-
 
   Prenez le volant, AP SELECT s'occupe du reste.
 layout: car
-photos:
-  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (1).jpg
-  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (2).jpg
-  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (14).jpg
-  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (13).jpg
-  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (12).jpg
-  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (11).jpg
-  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (8).jpg
-  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (3).jpg
-  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (4).jpg
-  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (7).jpg
-  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (6).jpg
-  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (9).jpg
-  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (10).jpg
-  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (15).jpg
-  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (21).jpg
-  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (16).jpg
-  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (17).jpg
-  - /./assets/AA_AUDI X6 Brutus/BMW X6 M SPORT (19).jpg
 ---
-
-
-
 
