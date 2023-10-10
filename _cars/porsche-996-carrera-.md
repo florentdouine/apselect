@@ -9,14 +9,8 @@ kilometers: 116500
 fuel: Essence
 price: 39990
 photos:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/Porsche 996/PORSCHE 996 1.jpg
+  - /./assets/Porsche 996/PORSCHE 996 3.jpg
   - /./assets/Porsche 996/PORSCHE 996 4.jpg
   - /./assets/Porsche 996/PORSCHE 996 5.jpg
   - /./assets/Porsche 996/PORSCHE 996 6.jpg
