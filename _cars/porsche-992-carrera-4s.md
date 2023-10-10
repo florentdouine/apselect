@@ -7,7 +7,7 @@ model: 911 Coupé
 year: 2019
 kilometers: 18200
 fuel: Essence
-price: 169990
+price: 164990
 photos:
   - /./assets/AA_GENTIANE/PORSCHE 992 BLEUE GENTIANE (23).jpg
   - /./assets/AA_GENTIANE/PORSCHE 992 BLEUE GENTIANE (8).jpg
@@ -31,7 +31,6 @@ photos:
   - /./assets/GENTIANE PORSCHE 992/PORSCHE 992 BLEUE GENTIANE (10).jpg
   - /./assets/GENTIANE PORSCHE 992/PORSCHE 992 BLEUE GENTIANE (11).jpg
   - /./assets/GENTIANE PORSCHE 992/PORSCHE 992 BLEUE GENTIANE (15).jpg
-layout: car
 description: >-
   AP SELECT met en vente une Porsche 992 Carrera 4S PDK 450ch.
 
@@ -110,11 +109,6 @@ description: >-
 
 
   Prenez le volant, AP SELECT s'occupe du reste.
+layout: car
 ---
-
-
-
-
-
-
 
