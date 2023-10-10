@@ -22,7 +22,7 @@ photos:
   - ''
   - ''
   - ''
-  - ''
+  - /./assets/Porsche 996/PORSCHE 996 9.jpg
   - /./assets/Porsche 996/PORSCHE 996 10.jpg
   - /./assets/Porsche 996/PORSCHE 996 12.jpg
   - /./assets/Porsche 996/PORSCHE 996 13.jpg
