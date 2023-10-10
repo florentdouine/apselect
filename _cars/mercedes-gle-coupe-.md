@@ -21,8 +21,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/Mercedes GLE coupe/Mercedes GLE (13).jpg
+  - /./assets/Mercedes GLE coupe/Mercedes GLE (14).jpg
 layout: car
 ---
 
