@@ -9,7 +9,7 @@ kilometers: 18200
 fuel: Essence
 price: 164990
 photos:
-  - /./assets/AA_GENTIANE/PORSCHE 992 BLEUE GENTIANE (23).jpg
+  - /./assets/AA_GENTIANE/porsche 992 4S.jpg
   - /./assets/AA_GENTIANE/porsche_992_gentiane_bleue.jpg
   - /./assets/AA_GENTIANE/PORSCHE 992 BLEUE GENTIANE (7).jpg
   - /./assets/AA_GENTIANE/PORSCHE 992 BLEUE GENTIANE (9).jpg
