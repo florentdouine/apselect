@@ -11,9 +11,9 @@ price: 54990
 photos:
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/Mercedes GLE coupe/Mercedes GLE (19).jpg
+  - /./assets/Mercedes GLE coupe/Mercedes GLE (21).jpg
+  - /./assets/Mercedes GLE coupe/Mercedes GLE (22).jpg
   - /./assets/Mercedes GLE coupe/Mercedes GLE (5).jpg
   - /./assets/Mercedes GLE coupe/Mercedes GLE (6).jpg
   - /./assets/Mercedes GLE coupe/Mercedes GLE (8).jpg
