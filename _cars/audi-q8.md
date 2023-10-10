@@ -1,14 +1,34 @@
 ---
 draft: false
 name: AUDI Q8
-isSold: false
+isSold: true
 brand: 'AUDI '
 model: Q8
 year: 2023
 kilometers: 50
 fuel: Hybride
 price: 129990
-layout: car
+photos:
+  - /./assets/AUDI Q8/AUDI Q8 (1).jpg
+  - /./assets/AUDI Q8/AUDI Q8 (4).jpg
+  - /./assets/AUDI Q8/AUDI Q8 (2).jpg
+  - /./assets/AUDI Q8/AUDI Q8 (16).jpg
+  - /./assets/AUDI Q8/AUDI Q8 (14).jpg
+  - /./assets/AUDI Q8/AUDI Q8 (15).jpg
+  - /./assets/AUDI Q8/AUDI Q8 (3).jpg
+  - /./assets/AUDI Q8/AUDI Q8 (13).jpg
+  - /./assets/AA_GENTIANE/AUDI Q8 (8).jpg
+  - /./assets/AUDI Q8/AUDI Q8 (7).jpg
+  - /./assets/AUDI Q8/AUDI Q8 (6).jpg
+  - /./assets/AUDI Q8/AUDI Q8 (10).jpg
+  - /./assets/AUDI Q8/AUDI Q8 (12).jpg
+  - /./assets/AUDI Q8/AUDI Q8 (11).jpg
+  - /./assets/AUDI Q8/AUDI Q8 (17).jpg
+  - /./assets/AUDI Q8/AUDI Q8 (18).jpg
+  - /./assets/AUDI Q8/AUDI Q8 (19).jpg
+  - /./assets/AUDI Q8/AUDI Q8 (20).jpg
+  - /./assets/AUDI Q8/AUDI Q8 (21).jpg
+  - /./assets/AUDI Q8/AUDI Q8 (22).jpg
 description: >-
   AP SELECT met en vente un Audi Q8 60 TFSIe Hybride Compétition 462ch quattro
 
@@ -101,31 +121,6 @@ description: >-
 
 
   Prenez le volant, AP SELECT s'occupe du reste.
-photos:
-  - /./assets/AUDI Q8/AUDI Q8 (1).jpg
-  - /./assets/AUDI Q8/AUDI Q8 (4).jpg
-  - /./assets/AUDI Q8/AUDI Q8 (2).jpg
-  - /./assets/AUDI Q8/AUDI Q8 (16).jpg
-  - /./assets/AUDI Q8/AUDI Q8 (14).jpg
-  - /./assets/AUDI Q8/AUDI Q8 (15).jpg
-  - /./assets/AUDI Q8/AUDI Q8 (3).jpg
-  - /./assets/AUDI Q8/AUDI Q8 (13).jpg
-  - /./assets/AA_GENTIANE/AUDI Q8 (8).jpg
-  - /./assets/AUDI Q8/AUDI Q8 (7).jpg
-  - /./assets/AUDI Q8/AUDI Q8 (6).jpg
-  - /./assets/AUDI Q8/AUDI Q8 (10).jpg
-  - /./assets/AUDI Q8/AUDI Q8 (12).jpg
-  - /./assets/AUDI Q8/AUDI Q8 (11).jpg
-  - /./assets/AUDI Q8/AUDI Q8 (17).jpg
-  - /./assets/AUDI Q8/AUDI Q8 (18).jpg
-  - /./assets/AUDI Q8/AUDI Q8 (19).jpg
-  - /./assets/AUDI Q8/AUDI Q8 (20).jpg
-  - /./assets/AUDI Q8/AUDI Q8 (21).jpg
-  - /./assets/AUDI Q8/AUDI Q8 (22).jpg
+layout: car
 ---
-
-
-
-
-
 
