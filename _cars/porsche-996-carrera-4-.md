@@ -18,8 +18,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/A_Porsche 996 CARRERA 4 COUPE/PORSCHE 996 COUPE (4).jpg
+  - /./assets/A_Porsche 996 CARRERA 4 COUPE/PORSCHE 996 COUPE (8).jpg
   - /./assets/A_Porsche 996 CARRERA 4 COUPE/PORSCHE 996 COUPE (10).jpg
   - /./assets/A_Porsche 996 CARRERA 4 COUPE/PORSCHE 996 COUPE (9).jpg
   - /./assets/A_Porsche 996 CARRERA 4 COUPE/PORSCHE 996 COUPE (6).jpg
