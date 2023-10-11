@@ -24,7 +24,7 @@ photos:
   - ''
   - ''
   - ''
-  - ''
+  - /./assets/A_Porsche 996 CARRERA 4 COUPE/PORSCHE 996 COUPE (19).jpg
   - /./assets/A_Porsche 996 CARRERA 4 COUPE/PORSCHE 996 COUPE (20).jpg
 description: >-
   AP SELECT met en vente une Porsche 996 coupé Carrera 4 3.6l 320ch boîte
