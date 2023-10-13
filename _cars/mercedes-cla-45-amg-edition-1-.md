@@ -14,8 +14,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (16).jpg
+  - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (19).jpg
   - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (17).jpg
   - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (18).jpg
   - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (12).jpg
