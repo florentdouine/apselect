@@ -24,9 +24,9 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (23).jpg
+  - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (6).jpg
+  - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (6).jpg
 description: >-
   AP SELECT met en vente un Mercedes CLA 45 AMG 360ch série Édition 1 4Matic 7G
   Tronic du 06/2014 avec 56900km.
