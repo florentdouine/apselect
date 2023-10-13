@@ -9,8 +9,8 @@ kilometers: 56900
 fuel: Essence
 price: 38990
 photos:
-  - ''
-  - ''
+  - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (4).jpg
+  - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (3).jpg
   - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (5).jpg
   - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (14).jpg
   - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (15).jpg
