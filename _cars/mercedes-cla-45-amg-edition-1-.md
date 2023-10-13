@@ -8,6 +8,25 @@ year: 2014
 kilometers: 56900
 fuel: Essence
 price: 38990
+photos:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
 description: >-
   AP SELECT met en vente un Mercedes CLA 45 AMG 360ch série Édition 1 4Matic 7G
   Tronic du 06/2014 avec 56900km.
@@ -109,7 +128,7 @@ description: >-
   profiter librement de sa passion et de son patrimoine.
 
 
-  Prenez le volant, AP SELECT s'occupe du reste
+  Prenez le volant, AP SELECT s'occupe du reste.
 layout: car
 ---
 
