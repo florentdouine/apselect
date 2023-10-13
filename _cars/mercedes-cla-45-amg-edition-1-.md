@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: 'Mercedes CLA 45 AMG Edition 1 '
 isSold: false
 brand: Mercedes-Benz
@@ -14,7 +14,6 @@ photos:
   - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (1).jpg
   - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (9).jpg
   - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (10).jpg
-  - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (4).jpg
   - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (3).jpg
   - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (5).jpg
   - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (14).jpg
@@ -30,7 +29,7 @@ photos:
   - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (21).jpg
   - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (22).jpg
   - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (23).jpg
-  - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (6).jpg
+  - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (2).jpg
   - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (6).jpg
 description: >-
   AP SELECT met en vente un Mercedes CLA 45 AMG 360ch série Édition 1 4Matic 7G
