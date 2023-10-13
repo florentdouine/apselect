@@ -11,8 +11,8 @@ price: 38990
 photos:
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (5).jpg
+  - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (14).jpg
   - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (15).jpg
   - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (16).jpg
   - /./assets/AA_CLA45 AMG MERCEDES/MERCEDES CLA45 AMG (19).jpg
