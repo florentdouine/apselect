@@ -1,7 +1,7 @@
 ---
-draft: true
+draft: false
 name: 'Porsche 996 Carrera 4 '
-isSold: false
+isSold: true
 brand: Porsche
 model: 996 Coupe
 year: 2002
