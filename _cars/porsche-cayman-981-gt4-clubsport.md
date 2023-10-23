@@ -26,13 +26,12 @@ photos:
   - /./assets/GT4_Cayman_Porsche/PORSCHE CAYMAN GT4 (10).jpg
   - /./assets/GT4_Cayman_Porsche/PORSCHE CAYMAN GT4 (7).jpg
   - /./assets/GT4_Cayman_Porsche/PORSCHE CAYMAN GT4 (8).jpg
-  - /./assets/GT4_Cayman_Porsche/PORSCHE CAYMAN GT4 (9).jpg
   - /./assets/GT4_Cayman_Porsche/PORSCHE CAYMAN GT4 (13).jpg
   - /./assets/GT4_Cayman_Porsche/PORSCHE CAYMAN GT4 (11).jpg
   - /./assets/GT4_Cayman_Porsche/PORSCHE CAYMAN GT4 (12).jpg
   - /./assets/GT4_Cayman_Porsche/PORSCHE CAYMAN GT4 (16).jpg
-  - /./assets/GT4_Cayman_Porsche/PORSCHE CAYMAN GT4 (15).jpg
   - /./assets/GT4_Cayman_Porsche/PORSCHE CAYMAN GT4 (14).jpg
+  - /./assets/GT4_Cayman_Porsche/PORSCHE CAYMAN GT4 (9).jpg
 description: >-
   AP SELECT met en vente une Porsche Cayman 981 GT4 Clubsport 3.8 385cv .
 
