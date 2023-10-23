@@ -9,6 +9,9 @@ kilometers: 28990
 fuel: Essence
 price: 104990
 photos:
+  - ''
+  - ''
+  - /./assets/GT4_Cayman_Porsche/PORSCHE CAYMAN GT4 (22).jpg
   - /./assets/GT4_Cayman_Porsche/PORSCHE CAYMAN GT4 (25).jpg
   - /./assets/GT4_Cayman_Porsche/PORSCHE CAYMAN GT4 (24).jpg
   - /./assets/GT4_Cayman_Porsche/PORSCHE CAYMAN GT4 (23).jpg
