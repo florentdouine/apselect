@@ -11,8 +11,8 @@ price: 104990
 photos:
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/GT4_Cayman_Porsche/PORSCHE CAYMAN GT4 (7).jpg
+  - /./assets/GT4_Cayman_Porsche/PORSCHE CAYMAN GT4 (6).jpg
   - /./assets/GT4_Cayman_Porsche/PORSCHE CAYMAN GT4 (8).jpg
   - /./assets/GT4_Cayman_Porsche/PORSCHE CAYMAN GT4 (9).jpg
   - /./assets/GT4_Cayman_Porsche/PORSCHE CAYMAN GT4 (13).jpg
