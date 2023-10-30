@@ -1,14 +1,29 @@
 ---
 draft: false
 name: Porsche Cayman S 987
-isSold: false
+isSold: true
 brand: Porsche
 model: Cayman
 year: 2007
 kilometers: 124990
 fuel: Essence
 price: 33990
-layout: car
+photos:
+  - /./assets/AA_Porsche_Cayman/Porsche Cayman (1).jpg
+  - /./assets/AA_Porsche_Cayman/Porsche Cayman (2).jpg
+  - /./assets/AA_Porsche_Cayman/Porsche Cayman (13).jpg
+  - /./assets/AA_Porsche_Cayman/Porsche Cayman (10).jpg
+  - /./assets/AA_Porsche_Cayman/Porsche Cayman (6).jpg
+  - /./assets/AA_Porsche_Cayman/Porsche Cayman (7).jpg
+  - /./assets/AA_Porsche_Cayman/Porsche Cayman (8).jpg
+  - /./assets/AA_Porsche_Cayman/Porsche Cayman (5).jpg
+  - /./assets/AA_Porsche_Cayman/Porsche Cayman (9).jpg
+  - /./assets/AA_Porsche_Cayman/Porsche Cayman (3).jpg
+  - /./assets/AA_Porsche_Cayman/Porsche Cayman (14).jpg
+  - /./assets/AA_Porsche_Cayman/Porsche Cayman (15).jpg
+  - /./assets/AA_Porsche_Cayman/Porsche Cayman (18).jpg
+  - /./assets/AA_Porsche_Cayman/Porsche Cayman (17).jpg
+  - /./assets/AA_Porsche_Cayman/Porsche Cayman (16).jpg
 description: >-
   AP SELECT met en vente une Porsche Cayman S 987 3.4l 295ch boîte mécanique.
 
@@ -77,26 +92,6 @@ description: >-
 
 
   Prenez le volant, AP SELECT s'occupe du reste
-photos:
-  - /./assets/AA_Porsche_Cayman/Porsche Cayman (1).jpg
-  - /./assets/AA_Porsche_Cayman/Porsche Cayman (2).jpg
-  - /./assets/AA_Porsche_Cayman/Porsche Cayman (13).jpg
-  - /./assets/AA_Porsche_Cayman/Porsche Cayman (10).jpg
-  - /./assets/AA_Porsche_Cayman/Porsche Cayman (6).jpg
-  - /./assets/AA_Porsche_Cayman/Porsche Cayman (7).jpg
-  - /./assets/AA_Porsche_Cayman/Porsche Cayman (8).jpg
-  - /./assets/AA_Porsche_Cayman/Porsche Cayman (5).jpg
-  - /./assets/AA_Porsche_Cayman/Porsche Cayman (9).jpg
-  - /./assets/AA_Porsche_Cayman/Porsche Cayman (3).jpg
-  - /./assets/AA_Porsche_Cayman/Porsche Cayman (14).jpg
-  - /./assets/AA_Porsche_Cayman/Porsche Cayman (15).jpg
-  - /./assets/AA_Porsche_Cayman/Porsche Cayman (18).jpg
-  - /./assets/AA_Porsche_Cayman/Porsche Cayman (17).jpg
-  - /./assets/AA_Porsche_Cayman/Porsche Cayman (16).jpg
+layout: car
 ---
-
-
-
-
-
 
