@@ -1,14 +1,33 @@
 ---
 draft: false
 name: BMW M3 e46 cabriolet
-isSold: false
+isSold: true
 brand: BMW
 model: M3 Cabriolet
 year: 2002
 kilometers: 137990
 fuel: Essence
 price: 34990
-layout: car
+photos:
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (14).jpg
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (1).jpg
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (16).jpg
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (17).jpg
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (18).jpg
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (13).jpg
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (3).jpg
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (2).jpg
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (6).jpg
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (4).jpg
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (5).jpg
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (10).jpg
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (12).jpg
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (20).jpg
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (25).jpg
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (24).jpg
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (21).jpg
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (22).jpg
+  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (23).jpg
 description: >-
   AP SELECT met en vente une M3 e46 cabrio 343ch SMG2.
 
@@ -95,30 +114,6 @@ description: >-
 
 
   Prenez le volant, AP SELECT s'occupe du reste.
-photos:
-  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (14).jpg
-  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (1).jpg
-  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (16).jpg
-  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (17).jpg
-  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (18).jpg
-  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (13).jpg
-  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (3).jpg
-  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (2).jpg
-  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (6).jpg
-  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (4).jpg
-  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (5).jpg
-  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (10).jpg
-  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (12).jpg
-  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (20).jpg
-  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (25).jpg
-  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (24).jpg
-  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (21).jpg
-  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (22).jpg
-  - /./assets/AA_BWM_M3_e46/BMW M3 e46 (23).jpg
+layout: car
 ---
-
-
-
-
-
 
