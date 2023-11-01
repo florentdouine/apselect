@@ -143,25 +143,41 @@ function submit() {
 }
 
 function getURLParameters() {
-    var prmstr = window.location.search.substr(1);
-    return prmstr
+    const queryString = window.location.search;
+    return new URLSearchParams(queryString);
 }
 
 function displayThanksMessage(formId, thanksId) {
     if(document.getElementById(formId) == null) { return }
-    let param = getURLParameters();
+    let param = getURLParameters().get('submitted')
 
-    document.getElementById(formId).style.display = (param != "" ? "none" : "flex");
-    document.getElementById(thanksId).style.display = (param == "" ? "none" : "flex");
-    if(param != "") {
+    document.getElementById(formId).style.display = (param != "true" ? "flex" : "none");
+    document.getElementById(thanksId).style.display = (param == "true" ? "flex" : "none");
+    if(param == "true") {
         window.scrollTo({ 
             top: 100000,
             left: 0})
     }
 }
 
+function addCarNameInForm() {
+    let car = getURLParameters().get('car')
+    if (car == null || car == "") {
+        return
+    }
+    let form = document.getElementsByTagName("form")[0]
+    var input = document.createElement('input');//prepare a new input DOM element
+    input.setAttribute('name', "voiture");//set the param name
+    input.setAttribute('value', car);//set the value
+    input.setAttribute('type', "hidden")//set the type, like "hidden" or other
+
+    form.appendChild(input);//append the input to the form
+}
+
+
 displayThanksMessage("club-form", "club-thanks");
 displayThanksMessage("contact-form", "contact-thanks");
+addCarNameInForm()
 reloadStaticAnimations();
 
 var inactiveTimeout;
