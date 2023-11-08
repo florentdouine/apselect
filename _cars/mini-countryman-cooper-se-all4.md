@@ -9,8 +9,8 @@ kilometers: 18900
 fuel: Hybride
 price: 39990
 photos:
-  - ''
-  - ''
+  - /./assets/Mini Cooper Countryman/Mini countryman 1.jpg
+  - /./assets/Mini Cooper Countryman/Mini countryman 6.jpg
   - /./assets/Mini Cooper Countryman/Mini countryman 7.jpg
   - /./assets/Mini Cooper Countryman/Mini countryman 2.jpg
   - /./assets/Mini Cooper Countryman/Mini countryman 3.jpg
