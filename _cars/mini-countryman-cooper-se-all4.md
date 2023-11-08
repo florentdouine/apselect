@@ -11,6 +11,8 @@ price: 39990
 photos:
   - ''
   - ''
+  - /./assets/Mini Cooper Countryman/Mini countryman 7.jpg
+  - /./assets/Mini Cooper Countryman/Mini countryman 2.jpg
   - /./assets/Mini Cooper Countryman/Mini countryman 3.jpg
   - /./assets/Mini Cooper Countryman/Mini countryman 4.jpg
   - /./assets/Mini Cooper Countryman/Mini countryman 5.jpg
