@@ -14,8 +14,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/Mini Cooper Countryman/Mini countryman 8.jpg
+  - /./assets/Mini Cooper Countryman/Mini countryman 9.jpg
 layout: car
 ---
 
