@@ -1,0 +1,21 @@
+---
+draft: true
+name: MINI Countryman Cooper SE ALL4
+isSold: false
+brand: MINI
+model: Countryman
+year: 2022
+kilometers: 18900
+fuel: Hybride
+price: 39990
+photos:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+layout: car
+---
+
