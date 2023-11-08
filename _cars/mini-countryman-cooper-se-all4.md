@@ -113,7 +113,7 @@ description: >-
   profiter librement de sa passion et de son patrimoine.
 
 
-  Prenez le volant, AP SELECT s'occupe du reste
+  Prenez le volant, AP SELECT s'occupe du reste.
 layout: car
 ---
 
