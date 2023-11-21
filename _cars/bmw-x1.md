@@ -1,14 +1,31 @@
 ---
 draft: false
 name: BMW X1
-isSold: false
+isSold: true
 brand: BMW
 model: X1
 year: 2018
 kilometers: 45690
 fuel: Diesel
 price: 29990
-layout: car
+photos:
+  - /./assets/AA_X1_BMW/BMW X1 (3).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (4).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (16).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (15).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (14).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (6).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (5).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (7).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (10).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (9).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (11).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (12).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (13).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (17).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (19).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (18).jpg
+  - /./assets/AA_X1_BMW/BMW X1 (1).jpg
 description: >-
   AP SELECT met en vente une BMW X1 F48 20da xDrive 190 X-LINE.
 
@@ -76,25 +93,6 @@ description: >-
 
 
   Prenez le volant, AP SELECT s'occupe du reste.
-photos:
-  - /./assets/AA_X1_BMW/BMW X1 (3).jpg
-  - /./assets/AA_X1_BMW/BMW X1 (4).jpg
-  - /./assets/AA_X1_BMW/BMW X1 (16).jpg
-  - /./assets/AA_X1_BMW/BMW X1 (15).jpg
-  - /./assets/AA_X1_BMW/BMW X1 (14).jpg
-  - /./assets/AA_X1_BMW/BMW X1 (6).jpg
-  - /./assets/AA_X1_BMW/BMW X1 (5).jpg
-  - /./assets/AA_X1_BMW/BMW X1 (7).jpg
-  - /./assets/AA_X1_BMW/BMW X1 (10).jpg
-  - /./assets/AA_X1_BMW/BMW X1 (9).jpg
-  - /./assets/AA_X1_BMW/BMW X1 (11).jpg
-  - /./assets/AA_X1_BMW/BMW X1 (12).jpg
-  - /./assets/AA_X1_BMW/BMW X1 (13).jpg
-  - /./assets/AA_X1_BMW/BMW X1 (17).jpg
-  - /./assets/AA_X1_BMW/BMW X1 (19).jpg
-  - /./assets/AA_X1_BMW/BMW X1 (18).jpg
-  - /./assets/AA_X1_BMW/BMW X1 (1).jpg
+layout: car
 ---
-
-
 
