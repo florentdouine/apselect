@@ -10,7 +10,6 @@ fuel: Diesel
 price: 24990
 photos:
   - ''
-  - ''
   - /./assets/VW Touareg/VW Touareg (2).jpg
   - /./assets/VW Touareg/VW Touareg (3).jpg
   - /./assets/VW Touareg/VW Touareg (14).jpg
@@ -21,6 +20,7 @@ photos:
   - /./assets/VW Touareg/VW Touareg (8).jpg
   - /./assets/VW Touareg/VW Touareg (10).jpg
   - /./assets/VW Touareg/VW Touareg (12).jpg
+  - /./assets/VW Touareg/VW Touareg (11).jpg
 description: >-
   AP SELECT met en vente un VW Touareg 3.0 V6 TDI 262cv DSG R-LINE.
 
