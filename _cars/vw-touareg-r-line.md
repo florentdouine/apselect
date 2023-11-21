@@ -9,7 +9,7 @@ kilometers: 172900
 fuel: Diesel
 price: 24990
 photos:
-  - ''
+  - /./assets/VW Touareg/VW Touareg (13).jpg
   - /./assets/VW Touareg/VW Touareg (15).jpg
   - /./assets/VW Touareg/VW Touareg (9).jpg
   - /./assets/VW Touareg/VW Touareg (1).jpg
