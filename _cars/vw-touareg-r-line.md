@@ -12,8 +12,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/VW Touareg/VW Touareg (3).jpg
+  - /./assets/VW Touareg/VW Touareg (14).jpg
   - /./assets/VW Touareg/VW Touareg (5).jpg
   - /./assets/VW Touareg/VW Touareg (4).jpg
   - /./assets/VW Touareg/VW Touareg (6).jpg
