@@ -9,7 +9,7 @@ kilometers: 27500
 fuel: Essence
 price: 169990
 photos:
-  - ''
+  - /./assets/Porsche 50Yahre/Porsche 911 50 YEARS jubilé édition (13).jpg
   - /./assets/Porsche 50Yahre/Porsche 911 50 YEARS jubilé édition (11).jpg
   - /./assets/Porsche 50Yahre/Porsche 911 50 YEARS jubilé édition (12).jpg
   - /./assets/Porsche 50Yahre/Porsche 911 50 YEARS jubilé édition (14).jpg
