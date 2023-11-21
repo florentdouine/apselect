@@ -1,7 +1,7 @@
 ---
 draft: false
 name: 'Porsche Panamera 4 '
-isSold: false
+isSold: true
 brand: Porsche
 model: Panamera
 year: 2018
