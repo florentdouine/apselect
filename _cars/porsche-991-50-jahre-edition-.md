@@ -12,7 +12,7 @@ photos:
   - ''
   - ''
   - ''
-  - ''
+  - /./assets/Porsche 50Yahre/Porsche 911 50 YEARS jubilé édition (4).jpg
   - /./assets/Porsche 50Yahre/Porsche 911 50 YEARS jubilé édition (3).jpg
   - /./assets/Porsche 50Yahre/Porsche 911 50 YEARS jubilé édition (9).jpg
   - /./assets/Porsche 50Yahre/Porsche 911 50 YEARS jubilé édition (16).jpg
