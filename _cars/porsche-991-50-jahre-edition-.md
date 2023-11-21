@@ -10,7 +10,7 @@ fuel: Essence
 price: 169990
 photos:
   - ''
-  - ''
+  - /./assets/Porsche 50Yahre/Porsche 911 50 YEARS jubilé édition (8).jpg
   - /./assets/Porsche 50Yahre/Porsche 911 50 YEARS jubilé édition (1).png
   - /./assets/Porsche 50Yahre/Porsche 911 50 YEARS jubilé édition (2).png
   - /./assets/Porsche 50Yahre/Porsche 911 50 YEARS jubilé édition (6).jpg
