@@ -1,13 +1,32 @@
 ---
 draft: false
 name: 'Porsche 991.2 GTS cabriolet '
-isSold: false
+isSold: true
 brand: Porsche
 model: 911 Coupe
 year: 2017
 kilometers: 39990
 fuel: Essence
 price: 124990
+photos:
+  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 1.jpg
+  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 (2).jpg
+  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 (3).jpg
+  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 (18).jpg
+  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 (17).jpg
+  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 2.jpg
+  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 3.jpg
+  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 (6).jpg
+  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 (13).jpg
+  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 4.jpg
+  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 (14).jpg
+  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 6.jpg
+  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 (10).jpg
+  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 5.jpg
+  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 (15).jpg
+  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 (20).jpg
+  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 (1).jpg
+  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 7.jpg
 description: >-
   AP SELECT met en vente une Porsche 991.2 GTS Cabriolet PDK 3.0l 450ch.
 
@@ -98,27 +117,5 @@ description: >-
 
   Prenez le volant, AP SELECT s'occupe du reste.
 layout: car
-photos:
-  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 1.jpg
-  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 (2).jpg
-  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 (3).jpg
-  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 (18).jpg
-  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 (17).jpg
-  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 2.jpg
-  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 3.jpg
-  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 (6).jpg
-  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 (13).jpg
-  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 4.jpg
-  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 (14).jpg
-  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 6.jpg
-  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 (10).jpg
-  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 5.jpg
-  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 (15).jpg
-  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 (20).jpg
-  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 (1).jpg
-  - /./assets/991.2 GTS CAB PORSCHE/PORSCHE 991 2 7.jpg
 ---
-
-
-
 
