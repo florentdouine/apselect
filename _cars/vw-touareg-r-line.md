@@ -10,7 +10,7 @@ fuel: Diesel
 price: 24990
 photos:
   - ''
-  - ''
+  - /./assets/VW Touareg/VW Touareg (15).jpg
   - /./assets/VW Touareg/VW Touareg (9).jpg
   - /./assets/VW Touareg/VW Touareg (1).jpg
   - /./assets/VW Touareg/VW Touareg (2).jpg
