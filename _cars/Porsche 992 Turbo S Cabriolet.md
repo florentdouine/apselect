@@ -1,14 +1,13 @@
 ---
-year: 2021
-kilometers: 7900
-price: 289900
-creation_date: 2022-10-04T14:23:41.000Z
-layout: car
+draft: false
 name: 'Porsche 992 TURBO S Cabriolet '
+isSold: false
 brand: PORSCHE
 model: '992 TURBO S Cabriolet '
+year: 2021
+kilometers: 7900
 fuel: Essence
-isSold: false
+price: 279990
 photos:
   - /./assets/Turbo S /IMG_1241_jpg.jpg
   - /./assets/Turbo S /IMG_1220_jpg.jpg
@@ -133,9 +132,7 @@ properties:
     value: Automatique
   - property: Mise en circulation
     value: 10/2021
-draft: false
+creation_date: 2022-10-04T14:23:41.000Z
+layout: car
 ---
-
-
-
 
