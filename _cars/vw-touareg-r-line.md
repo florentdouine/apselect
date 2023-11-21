@@ -19,8 +19,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/VW Touareg/VW Touareg (10).jpg
+  - /./assets/VW Touareg/VW Touareg (12).jpg
 description: >-
   AP SELECT met en vente un VW Touareg 3.0 V6 TDI 262cv DSG R-LINE.
 
