@@ -7,7 +7,7 @@ model: GLC
 year: 2019
 kilometers: 53990
 fuel: Hybride
-price: 55990
+price: 53990
 photos:
   - /./assets/Mercedes GLC/Mercedes GLC (12).jpg
   - /./assets/Mercedes GLC/Mercedes GLC (4).jpg
