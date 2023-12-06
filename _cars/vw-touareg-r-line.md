@@ -1,7 +1,7 @@
 ---
 draft: false
 name: VW Touareg R-Line
-isSold: false
+isSold: true
 brand: VOLKSWAGEN
 model: Touareg
 year: 2015
