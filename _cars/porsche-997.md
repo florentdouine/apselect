@@ -10,7 +10,7 @@ fuel: Essence
 price: 84990
 photos:
   - ''
-  - ''
+  - /./assets/PORSCHE 997 NOIRE/PORSCHE 997 2 GTS 3.jpg
   - /./assets/PORSCHE 997 NOIRE/IMG_3924_jpg.jpg
   - /./assets/PORSCHE 997 NOIRE/PORSCHE 997 2 GTS 6.jpg
   - /./assets/PORSCHE 997 NOIRE/PORSCHE 997 2 GTS 7.jpg
