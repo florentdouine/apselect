@@ -1,6 +1,6 @@
 ---
 draft: false
-name: Porsche 997
+name: Porsche 997 2 GTS PDK
 isSold: false
 brand: Porsche
 model: 997 2 GTS
