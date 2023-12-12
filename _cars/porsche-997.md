@@ -17,8 +17,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/PORSCHE 997 NOIRE/IMG_3933_jpg.jpg
+  - /./assets/PORSCHE 997 NOIRE/IMG_3927_jpg.jpg
   - /./assets/PORSCHE 997 NOIRE/PORSCHE 997 2 GTS 4.jpg
   - /./assets/PORSCHE 997 NOIRE/PORSCHE 997 2 GTS 5.jpg
 description: >-
