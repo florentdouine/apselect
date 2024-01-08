@@ -1,7 +1,7 @@
 ---
 draft: false
 name: 'Mercedes CLA 45 AMG Edition 1 '
-isSold: false
+isSold: true
 brand: Mercedes-Benz
 model: CLA
 year: 2014
