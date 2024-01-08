@@ -13,7 +13,7 @@ photos:
   - ''
   - ''
   - ''
-  - ''
+  - /./assets/AAA_Boxster_GTS_Carmin /Porsche Boxster GTS 12.png
   - /./assets/AAA_Boxster_GTS_Carmin /Porsche Boxster GTS 13.jpg
   - /./assets/AAA_Boxster_GTS_Carmin /Porsche Boxster GTS 14.png
   - /./assets/AAA_Boxster_GTS_Carmin /Porsche Boxster GTS 15.jpg
