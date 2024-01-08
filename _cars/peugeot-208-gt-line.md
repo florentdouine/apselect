@@ -9,7 +9,7 @@ kilometers: 19990
 fuel: Essence
 price: 18990
 photos:
-  - ''
+  - /./assets/AAA_Peugeot_208/PEUGEOT 208 (9).jpg
   - /./assets/AAA_Peugeot_208/PEUGEOT 208 (10).jpg
   - /./assets/AAA_Peugeot_208/PEUGEOT 208 (8).jpg
   - /./assets/AAA_Peugeot_208/PEUGEOT 208 (14).jpg
