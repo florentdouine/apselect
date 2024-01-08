@@ -1,7 +1,7 @@
 ---
 draft: false
 name: MINI Countryman Cooper SE ALL4
-isSold: false
+isSold: true
 brand: MINI
 model: Countryman
 year: 2022
