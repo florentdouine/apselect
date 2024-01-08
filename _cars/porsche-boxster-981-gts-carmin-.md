@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: 'Porsche Boxster 981 GTS Carmin '
 isSold: false
 brand: Porsche
@@ -9,7 +9,7 @@ kilometers: 63499
 fuel: Essence
 price: 78990
 photos:
-  - ''
+  - /./assets/AAA_Boxster_GTS_Carmin /Porsche Boxster GTS 1.png
   - /./assets/AAA_Boxster_GTS_Carmin /Porsche Boxster GTS 2.jpg
   - /./assets/AAA_Boxster_GTS_Carmin /Porsche Boxster GTS 4.jpg
   - /./assets/AAA_Boxster_GTS_Carmin /Porsche Boxster GTS 3.png
