@@ -19,7 +19,7 @@ photos:
   - ''
   - ''
   - ''
-  - ''
+  - /./assets/AAA_Peugeot_208/PEUGEOT 208 (1).jpg
 description: >-
   AP SELECT met en vente une Peugeot 208 GT LINE 1.2 puretech 100cv boîte
   mécanique.
