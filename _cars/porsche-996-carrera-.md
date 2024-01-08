@@ -1,7 +1,7 @@
 ---
 draft: false
 name: 'Porsche 996 Carrera '
-isSold: false
+isSold: true
 brand: Porsche
 model: 996 Cabriolet
 year: 2003
