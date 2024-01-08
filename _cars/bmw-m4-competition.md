@@ -1,14 +1,35 @@
 ---
 draft: false
 name: BMW M4 Competition
-isSold: false
+isSold: true
 brand: BMW
 model: M4 Coupe
 year: 2017
 kilometers: 53800
 fuel: Essence
 price: 67990
-layout: car
+photos:
+  - /./assets/M4/M4 CC.jpg
+  - /./assets/M4/M4 CCC.jpg
+  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (20).jpg
+  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (19).jpg
+  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (21).jpg
+  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (2).jpg
+  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (16).jpg
+  - /./assets/M4/COMPETITION.jpg
+  - /./assets/M4/M4 CCCC.jpg
+  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (13).jpg
+  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (12).jpg
+  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (15).jpg
+  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (10).jpg
+  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (11).jpg
+  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (23).jpg
+  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (24).jpg
+  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (29).jpg
+  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (31).jpg
+  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (30).jpg
+  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (32).jpg
+  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (25).jpg
 description: >-
   AP SELECT met en vente une BMW M4 LCI Compétition 450ch DKG.
 
@@ -109,33 +130,6 @@ description: >-
 
 
   Prenez le volant, AP SELECT s'occupe du reste.
-photos:
-  - /./assets/M4/M4 CC.jpg
-  - /./assets/M4/M4 CCC.jpg
-  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (20).jpg
-  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (19).jpg
-  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (21).jpg
-  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (2).jpg
-  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (16).jpg
-  - /./assets/M4/COMPETITION.jpg
-  - /./assets/M4/M4 CCCC.jpg
-  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (13).jpg
-  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (12).jpg
-  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (15).jpg
-  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (10).jpg
-  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (11).jpg
-  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (23).jpg
-  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (24).jpg
-  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (29).jpg
-  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (31).jpg
-  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (30).jpg
-  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (32).jpg
-  - /./assets/AA_M4_competition_BMW_CHRISTOPHE/BMW M4 Compétition (25).jpg
+layout: car
 ---
-
-
-
-
-
-
 
