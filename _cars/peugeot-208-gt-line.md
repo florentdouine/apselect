@@ -12,10 +12,10 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/AAA_Peugeot_208/PEUGEOT 208 (11).jpg
+  - /./assets/AAA_Peugeot_208/PEUGEOT 208 (3).jpg
+  - /./assets/AAA_Peugeot_208/PEUGEOT 208 (2).jpg
+  - /./assets/AAA_Peugeot_208/PEUGEOT 208 (7).jpg
   - /./assets/AAA_Peugeot_208/PEUGEOT 208 (6).jpg
   - /./assets/AAA_Peugeot_208/PEUGEOT 208 (5).jpg
   - /./assets/AAA_Peugeot_208/PEUGEOT 208 (4).jpg
