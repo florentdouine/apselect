@@ -10,7 +10,7 @@ fuel: Essence
 price: 18990
 photos:
   - ''
-  - ''
+  - /./assets/AAA_Peugeot_208/PEUGEOT 208 (10).jpg
   - /./assets/AAA_Peugeot_208/PEUGEOT 208 (8).jpg
   - /./assets/AAA_Peugeot_208/PEUGEOT 208 (14).jpg
   - /./assets/AAA_Peugeot_208/PEUGEOT 208 (15).jpg
