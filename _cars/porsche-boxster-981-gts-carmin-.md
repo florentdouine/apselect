@@ -9,6 +9,8 @@ kilometers: 63499
 fuel: Essence
 price: 78990
 photos:
+  - ''
+  - /./assets/AAA_Boxster_GTS_Carmin /Porsche Boxster GTS 3.png
   - /./assets/AAA_Boxster_GTS_Carmin /Porsche Boxster GTS 5.jpg
   - /./assets/AAA_Boxster_GTS_Carmin /Porsche Boxster GTS 6.png
   - /./assets/AAA_Boxster_GTS_Carmin /Porsche Boxster GTS 7.jpg
