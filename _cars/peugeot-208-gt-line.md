@@ -7,7 +7,7 @@ model: '208'
 year: 2020
 kilometers: 19990
 fuel: Essence
-price: 18990
+price: 18490
 photos:
   - /./assets/AAA_Peugeot_208/PEUGEOT 208 (1).png
   - /./assets/AAA_Peugeot_208/PEUGEOT 208 (12).jpg
