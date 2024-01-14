@@ -9,6 +9,8 @@ kilometers: 119990
 fuel: Essence
 price: 52990
 photos:
+  - /./assets/AAA_Panamera_GTS/Porsche panamera GTS 2.jpg
+  - /./assets/AAA_Panamera_GTS/Porsche panamera GTS 3.jpg
   - /./assets/AAA_Panamera_GTS/Porsche panamera GTS 4.jpg
   - /./assets/AAA_Panamera_GTS/Porsche panamera GTS 5.jpg
   - /./assets/AAA_Panamera_GTS/Porsche panamera GTS 6.png
