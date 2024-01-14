@@ -10,6 +10,9 @@ fuel: Essence
 price: 52990
 photos:
   - ''
+  - ''
+  - /./assets/AAA_Panamera_GTS/Porsche panamera GTS 6.png
+  - /./assets/AAA_Panamera_GTS/Porsche panamera GTS 7.jpg
   - /./assets/AAA_Panamera_GTS/Porsche panamera GTS 8.jpg
   - /./assets/AAA_Panamera_GTS/Porsche panamera GTS 9.jpg
   - /./assets/AAA_Panamera_GTS/Porsche panamera GTS 10.jpg
