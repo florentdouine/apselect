@@ -13,9 +13,9 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/AAA_Panamera_GTS/Porsche panamera GTS 11.jpg
+  - /./assets/AAA_Panamera_GTS/Porsche panamera GTS 12.jpg
+  - /./assets/AAA_Panamera_GTS/Porsche panamera GTS 13.jpg
 description: >-
   AP SELECT met en vente une Porsche Panamera GTS 4.8 V8 440cv PDK.
 
