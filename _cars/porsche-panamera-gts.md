@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Porsche Panamera GTS
 isSold: false
 brand: PORSCHE
@@ -9,6 +9,7 @@ kilometers: 119990
 fuel: Essence
 price: 52990
 photos:
+  - /./assets/AAA_Panamera_GTS/Porsche panamera GTS 1.jpg
   - /./assets/AAA_Panamera_GTS/Porsche panamera GTS 2.jpg
   - /./assets/AAA_Panamera_GTS/Porsche panamera GTS 3.jpg
   - /./assets/AAA_Panamera_GTS/Porsche panamera GTS 4.jpg
