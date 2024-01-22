@@ -9,7 +9,12 @@ kilometers: 4990
 fuel: Essence
 price: 29990
 photos:
-  - ''
+  - /./assets/AAA_Mini_Cooper_MK2/Mini Cooper MK2 1.png
+  - /./assets/AAA_Mini_Cooper_MK2/Mini Cooper MK2 2.jpg
+  - /./assets/AAA_Mini_Cooper_MK2/Mini Cooper MK2 3.jpg
+  - /./assets/AAA_Mini_Cooper_MK2/Mini Cooper MK2 12.jpg
+  - /./assets/AAA_Mini_Cooper_MK2/Mini Cooper MK2 4.jpg
+  - /./assets/AAA_Mini_Cooper_MK2/Mini Cooper MK2 5.jpg
   - /./assets/AAA_Mini_Cooper_MK2/Mini Cooper MK2 6.jpg
   - /./assets/AAA_Mini_Cooper_MK2/Mini Cooper MK2 7.jpg
   - /./assets/AAA_Mini_Cooper_MK2/Mini Cooper MK2 8.jpg
