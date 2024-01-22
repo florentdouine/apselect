@@ -14,8 +14,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/AAA_Mini_Cooper_MK2/Mini Cooper MK2 10.jpg
+  - /./assets/AAA_Mini_Cooper_MK2/Mini Cooper MK2 11.jpg
   - /./assets/AAA_Mini_Cooper_MK2/Mini Cooper MK2 13.jpg
   - /./assets/AAA_Mini_Cooper_MK2/Mini Cooper MK2 14.jpg
   - /./assets/AAA_Mini_Cooper_MK2/Mini Cooper MK2 15.jpg
