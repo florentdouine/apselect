@@ -11,9 +11,9 @@ price: 44990
 photos:
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/AUDI_RS4_B8/Audi RS4 B8 (11).jpg
+  - /./assets/AUDI_RS4_B8/Audi RS4 B8 (12).jpg
+  - /./assets/AUDI_RS4_B8/Audi RS4 B8 (7).jpg
   - /./assets/AUDI_RS4_B8/Audi RS4 B8 (14).jpg
   - /./assets/AUDI_RS4_B8/Audi RS4 B8 (15).jpg
   - /./assets/AUDI_RS4_B8/Audi RS4 B8 (20).jpg
