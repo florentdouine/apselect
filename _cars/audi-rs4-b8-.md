@@ -18,8 +18,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/AUDI_RS4_B8/Audi RS4 B8 (21).jpg
+  - /./assets/AUDI_RS4_B8/Audi RS4 B8 (19).jpg
 description: >-
   AP SELECT met en vente une Audi RS4 B8 Avant 4.2 V8 450ch S-Tronic.
 
