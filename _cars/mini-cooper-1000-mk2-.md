@@ -10,10 +10,10 @@ fuel: Essence
 price: 29990
 photos:
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/AAA_Mini_Cooper_MK2/Mini Cooper MK2 6.jpg
+  - /./assets/AAA_Mini_Cooper_MK2/Mini Cooper MK2 7.jpg
+  - /./assets/AAA_Mini_Cooper_MK2/Mini Cooper MK2 8.jpg
+  - /./assets/AAA_Mini_Cooper_MK2/Mini Cooper MK2 9.png
   - /./assets/AAA_Mini_Cooper_MK2/Mini Cooper MK2 10.jpg
   - /./assets/AAA_Mini_Cooper_MK2/Mini Cooper MK2 11.jpg
   - /./assets/AAA_Mini_Cooper_MK2/Mini Cooper MK2 13.jpg
