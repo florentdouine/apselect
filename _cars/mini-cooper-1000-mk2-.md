@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: 'MINI Cooper 1000 MK2 '
 isSold: false
 brand: MINI
