@@ -11,6 +11,8 @@ price: 79990
 photos:
   - ''
   - ''
+  - ''
+  - /./assets/A_AUDI_RS_Q3/AUDI RS Q3 (5).jpg
   - /./assets/A_AUDI_RS_Q3/AUDI RS Q3 (4).jpg
   - /./assets/A_AUDI_RS_Q3/AUDI RS Q3 (13).jpg
   - /./assets/A_AUDI_RS_Q3/AUDI RS Q3 (9).jpg
