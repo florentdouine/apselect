@@ -10,7 +10,7 @@ fuel: Essence
 price: 44990
 photos:
   - ''
-  - ''
+  - /./assets/AUDI_RS4_B8/Audi RS4 B8 (13).jpg
   - /./assets/AUDI_RS4_B8/Audi RS4 B8 (11).jpg
   - /./assets/AUDI_RS4_B8/Audi RS4 B8 (12).jpg
   - /./assets/AUDI_RS4_B8/Audi RS4 B8 (7).jpg
