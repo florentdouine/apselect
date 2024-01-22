@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: AUDI RS Q3 II Sportback
 isSold: false
 brand: AUDI
@@ -9,6 +9,8 @@ kilometers: 36900
 fuel: Essence
 price: 79990
 photos:
+  - /./assets/A_AUDI_RS_Q3/AUDI RS Q3 (1).jpg
+  - /./assets/A_AUDI_RS_Q3/AUDI RS Q3 (2).jpg
   - /./assets/A_AUDI_RS_Q3/AUDI RS Q3 (16).jpg
   - /./assets/A_AUDI_RS_Q3/AUDI RS Q3 (3).png
   - /./assets/A_AUDI_RS_Q3/AUDI RS Q3 (6).jpg
