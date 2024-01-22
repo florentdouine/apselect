@@ -9,8 +9,12 @@ kilometers: 36900
 fuel: Essence
 price: 79990
 photos:
+  - ''
+  - ''
+  - /./assets/A_AUDI_RS_Q3/AUDI RS Q3 (4).jpg
   - /./assets/A_AUDI_RS_Q3/AUDI RS Q3 (13).jpg
   - /./assets/A_AUDI_RS_Q3/AUDI RS Q3 (9).jpg
+  - /./assets/A_AUDI_RS_Q3/AUDI RS Q3 (12).jpg
   - /./assets/A_AUDI_RS_Q3/AUDI RS Q3 (10).jpg
   - /./assets/A_AUDI_RS_Q3/AUDI RS Q3 (4).png
   - /./assets/A_AUDI_RS_Q3/AUDI RS Q3 (11).jpg
