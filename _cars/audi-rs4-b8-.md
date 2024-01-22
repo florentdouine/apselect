@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: 'Audi RS4 B8 '
 isSold: false
 brand: 'AUDI '
@@ -9,8 +9,9 @@ kilometers: 122990
 fuel: Essence
 price: 44990
 photos:
-  - ''
-  - ''
+  - /./assets/AUDI_RS4_B8/Audi RS4 B8 (1).jpg
+  - /./assets/AUDI_RS4_B8/Audi RS4 B8 (3).jpg
+  - /./assets/AUDI_RS4_B8/Audi RS4 B8 (17).jpg
   - /./assets/AUDI_RS4_B8/Audi RS4 B8 (16).jpg
   - /./assets/AUDI_RS4_B8/Audi RS4 B8 (2).jpg
   - /./assets/AUDI_RS4_B8/Audi RS4 B8 (8).jpg
