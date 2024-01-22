@@ -17,7 +17,7 @@ photos:
   - ''
   - ''
   - ''
-  - ''
+  - /./assets/A_AUDI_RS_Q3/AUDI RS Q3 (15).jpg
   - /./assets/A_AUDI_RS_Q3/AUDI RS Q3 (23).jpg
   - /./assets/A_AUDI_RS_Q3/AUDI RS Q3 (19).jpg
   - /./assets/A_AUDI_RS_Q3/AUDI RS Q3 (18).jpg
