@@ -16,8 +16,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/AUDI_RS4_B8/Audi RS4 B8 (20).jpg
+  - /./assets/AUDI_RS4_B8/Audi RS4 B8 (18).jpg
   - /./assets/AUDI_RS4_B8/Audi RS4 B8 (21).jpg
   - /./assets/AUDI_RS4_B8/Audi RS4 B8 (19).jpg
 description: >-
