@@ -9,11 +9,13 @@ kilometers: 59500
 fuel: Essence
 price: 28990
 photos:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/AUDI_A1_SLINE/AUDI A1 (1).jpg
+  - /./assets/AUDI_A1_SLINE/AUDI A1 (12).jpg
+  - /./assets/AUDI_A1_SLINE/AUDI A1 (11).jpg
+  - /./assets/AUDI_A1_SLINE/AUDI A1 (10).jpg
+  - /./assets/AUDI_A1_SLINE/AUDI A1 (2).jpg
+  - /./assets/AUDI_A1_SLINE/AUDI A1 (1).png
+  - /./assets/AUDI_A1_SLINE/AUDI A1 (9).jpg
   - /./assets/AUDI_A1_SLINE/AUDI A1 (4).jpg
   - /./assets/AUDI_A1_SLINE/AUDI A1 (5).jpg
   - /./assets/AUDI_A1_SLINE/AUDI A1 (6).jpg
