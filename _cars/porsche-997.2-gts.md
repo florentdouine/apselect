@@ -7,7 +7,29 @@ model: 911 Coupe
 year: 2011
 kilometers: 78490
 fuel: Essence
-price: 92990
+price: 89990
+photos:
+  - /./assets/AA_GTS_RED/997 GTS.jpg
+  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (22).jpg
+  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (21).jpg
+  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (20).jpg
+  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (19).jpg
+  - /./assets/AA_GTS_RED/997 GTS (6).jpg
+  - /./assets/AA_GTS_RED/997 GTS (5).jpg
+  - /./assets/AA_GTS_RED/997 GTS (3).jpg
+  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (14).jpg
+  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (15).jpg
+  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (16).jpg
+  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (18).jpg
+  - /./assets/AA_GTS_RED/997 GTS (4).jpg
+  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (12).jpg
+  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (1).jpg
+  - /./assets/AA_GTS_RED/997 GTS (2).jpg
+  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (11).jpg
+  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (26).jpg
+  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (27).jpg
+  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (28).jpg
+  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (29).jpg
 description: >-
   AP SELECT met en vente une Porsche 997 phase 2 GTS 3.8 408ch boîte mécanique.
 
@@ -100,34 +122,5 @@ description: >-
 
   Prenez le volant, AP SELECT s'occupe du reste
 layout: car
-photos:
-  - /./assets/AA_GTS_RED/997 GTS.jpg
-  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (22).jpg
-  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (21).jpg
-  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (20).jpg
-  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (19).jpg
-  - /./assets/AA_GTS_RED/997 GTS (6).jpg
-  - /./assets/AA_GTS_RED/997 GTS (5).jpg
-  - /./assets/AA_GTS_RED/997 GTS (3).jpg
-  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (14).jpg
-  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (15).jpg
-  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (16).jpg
-  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (18).jpg
-  - /./assets/AA_GTS_RED/997 GTS (4).jpg
-  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (12).jpg
-  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (1).jpg
-  - /./assets/AA_GTS_RED/997 GTS (2).jpg
-  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (11).jpg
-  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (26).jpg
-  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (27).jpg
-  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (28).jpg
-  - /./assets/AA_GTS_RED/PORSCHE_997_GTS (29).jpg
 ---
-
-
-
-
-
-
-
 
