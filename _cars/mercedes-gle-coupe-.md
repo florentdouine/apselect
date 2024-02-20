@@ -7,7 +7,7 @@ model: GLE Coupé
 year: 2016
 kilometers: 106500
 fuel: Essence
-price: 54990
+price: 52990
 photos:
   - /./assets/Mercedes GLE coupe/Mercedes GLE (3).jpg
   - /./assets/Mercedes GLE coupe/Mercedes GLE (18).jpg
