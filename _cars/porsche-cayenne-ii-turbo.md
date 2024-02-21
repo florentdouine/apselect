@@ -25,7 +25,7 @@ photos:
   - ''
   - ''
   - ''
-  - ''
+  - /./assets/A_Porsche_cayenne_turbo/Porsche Cayenne Turbo 19.jpg
 description: >-
   AP SELECT met en vente un Porsche Cayenne II Turbo 4.8 V8 500cv Tiptronic.
 
