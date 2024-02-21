@@ -15,9 +15,9 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/A_Porsche_cayenne_turbo/Porsche Cayenne Turbo 9.jpg
+  - /./assets/A_Porsche_cayenne_turbo/Porsche Cayenne Turbo 10.jpg
+  - /./assets/A_Porsche_cayenne_turbo/Porsche Cayenne Turbo 11.jpg
   - /./assets/A_Porsche_cayenne_turbo/Porsche Cayenne Turbo 12.jpg
   - /./assets/A_Porsche_cayenne_turbo/Porsche Cayenne Turbo 13.jpg
   - /./assets/A_Porsche_cayenne_turbo/Porsche Cayenne Turbo 14.jpg
