@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Porsche Cayenne II Turbo
 isSold: false
 brand: Porsche
@@ -9,6 +9,8 @@ kilometers: 129500
 fuel: Essence
 price: 39990
 photos:
+  - /./assets/A_Porsche_cayenne_turbo/Porsche Cayenne Turbo 1.jpg
+  - /./assets/A_Porsche_cayenne_turbo/Porsche Cayenne Turbo 2.jpg
   - /./assets/A_Porsche_cayenne_turbo/Porsche Cayenne Turbo 4.jpg
   - /./assets/A_Porsche_cayenne_turbo/Porsche Cayenne Turbo 3.jpg
   - /./assets/A_Porsche_cayenne_turbo/Porsche Cayenne Turbo 6.jpg
