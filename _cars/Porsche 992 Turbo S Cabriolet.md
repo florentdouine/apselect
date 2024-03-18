@@ -7,7 +7,7 @@ model: '992 TURBO S Cabriolet '
 year: 2021
 kilometers: 7900
 fuel: Essence
-price: 279990
+price: 269990
 photos:
   - /./assets/Turbo S /IMG_1241_jpg.jpg
   - /./assets/Turbo S /IMG_1220_jpg.jpg
