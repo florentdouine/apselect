@@ -9,8 +9,10 @@ kilometers: 32800
 fuel: Essence
 price: 31990
 photos:
-  - ''
-  - ''
+  - /./assets/A_MERCEDES_CLA_SB/Mercedes CLA SB  1.jpg
+  - /./assets/A_MERCEDES_CLA_SB/IMG_6704_jpg(1).jpg
+  - /./assets/A_MERCEDES_CLA_SB/Mercedes CLA SB  2.jpg
+  - /./assets/A_MERCEDES_CLA_SB/IMG_6721_jpg.jpg
   - /./assets/A_MERCEDES_CLA_SB/IMG_6724_jpg.jpg
   - /./assets/A_MERCEDES_CLA_SB/Mercedes CLA SB  4.jpg
   - /./assets/A_MERCEDES_CLA_SB/Mercedes CLA SB  7.jpg
