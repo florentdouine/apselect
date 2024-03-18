@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: 'Mercedes CLA SB 200 AMG '
 isSold: false
 brand: Mercedes
