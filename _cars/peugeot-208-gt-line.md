@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Peugeot 208 GT LINE
-isSold: false
+isSold: true
 brand: Peugeot
 model: '208'
 year: 2020
