@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Chevrolet Corvette C6 ZR1
 isSold: false
 brand: Chevrolet
@@ -12,7 +12,10 @@ photos:
   - /./assets/AAA_Corvette_ZR1/Corvette C6 ZR1 (21).jpg
   - /./assets/AAA_Corvette_ZR1/Corvette C6 ZR1 (8).jpg
   - /./assets/AAA_Corvette_ZR1/Corvette C6 ZR1 (10).jpg
+  - /./assets/AAA_Corvette_ZR1/Corvette C6 ZR1 (6).jpg
+  - /./assets/AAA_Corvette_ZR1/Corvette C6 ZR1 (7).jpg
   - /./assets/AAA_Corvette_ZR1/Corvette C6 ZR1 (12).jpg
+  - /./assets/AAA_Corvette_ZR1/Corvette C6 ZR1 (11).jpg
   - /./assets/AAA_Corvette_ZR1/Corvette C6 ZR1 (20).jpg
   - /./assets/AAA_Corvette_ZR1/Corvette C6 ZR1 (3).jpg
   - /./assets/AAA_Corvette_ZR1/Corvette C6 ZR1 (19).jpg
