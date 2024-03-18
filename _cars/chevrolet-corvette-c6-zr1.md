@@ -11,7 +11,7 @@ price: 99990
 photos:
   - ''
   - ''
-  - ''
+  - /./assets/AAA_Corvette_ZR1/Corvette C6 ZR1 (19).jpg
   - /./assets/AAA_Corvette_ZR1/Corvette C6 ZR1 (18).jpg
   - /./assets/AAA_Corvette_ZR1/Corvette C6 ZR1 (15).jpg
   - /./assets/AAA_Corvette_ZR1/Corvette C6 ZR1 (16).jpg
