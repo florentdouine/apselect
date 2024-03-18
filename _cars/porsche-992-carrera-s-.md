@@ -7,7 +7,28 @@ model: 911 Coupe
 year: 2019
 kilometers: 61200
 fuel: Essence
-price: 141990
+price: 132990
+photos:
+  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (3).jpg
+  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (2).jpg
+  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (18).jpg
+  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (20).jpg
+  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (16).jpg
+  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (7).jpg
+  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (14).jpg
+  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (4).jpg
+  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (12).jpg
+  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (11).jpg
+  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (10).jpg
+  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (15).jpg
+  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (33).jpg
+  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (25).jpg
+  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (27).jpg
+  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (32).jpg
+  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (31).jpg
+  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (30).jpg
+  - /./assets/PORSCHE 992 CARRERA S CHRISTOPHE/porsche 992 CARRERA S (28).jpg
+  - /./assets/PORSCHE 992 CARRERA S Christophe/porsche 992 CARRERA S (22).jpg
 description: >-
   AP SELECT met en vente une Porsche 992 Carrera S PDK 450ch.
 
@@ -80,32 +101,5 @@ description: >-
 
   Prenez le volant, AP SELECT s'occupe du reste.
 layout: car
-photos:
-  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (3).jpg
-  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (2).jpg
-  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (18).jpg
-  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (20).jpg
-  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (16).jpg
-  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (7).jpg
-  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (14).jpg
-  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (4).jpg
-  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (12).jpg
-  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (11).jpg
-  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (10).jpg
-  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (15).jpg
-  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (33).jpg
-  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (25).jpg
-  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (27).jpg
-  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (32).jpg
-  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (31).jpg
-  - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (30).jpg
-  - /./assets/PORSCHE 992 CARRERA S CHRISTOPHE/porsche 992 CARRERA S (28).jpg
-  - /./assets/PORSCHE 992 CARRERA S Christophe/porsche 992 CARRERA S (22).jpg
 ---
-
-
-
-
-
-
 
