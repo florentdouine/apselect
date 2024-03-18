@@ -7,7 +7,7 @@ model: COOPER
 year: 1969
 kilometers: 4990
 fuel: Essence
-price: 29990
+price: 26990
 photos:
   - /./assets/AAA_Mini_Cooper_MK2/MINI COOPER MK2.png
   - /./assets/AAA_Mini_Cooper_MK2/Mini Cooper MK2 2.jpg
