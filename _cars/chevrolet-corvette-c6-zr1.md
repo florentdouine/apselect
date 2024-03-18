@@ -9,6 +9,7 @@ kilometers: 34800
 fuel: Essence
 price: 99990
 photos:
+  - /./assets/AAA_Corvette_ZR1/Corvette C6 ZR1 (21).jpg
   - /./assets/AAA_Corvette_ZR1/Corvette C6 ZR1 (8).jpg
   - /./assets/AAA_Corvette_ZR1/Corvette C6 ZR1 (10).jpg
   - /./assets/AAA_Corvette_ZR1/Corvette C6 ZR1 (12).jpg
