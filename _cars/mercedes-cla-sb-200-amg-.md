@@ -14,7 +14,7 @@ photos:
   - ''
   - ''
   - ''
-  - ''
+  - /./assets/A_MERCEDES_CLA_SB/IMG_6714_jpg.jpg
   - /./assets/A_MERCEDES_CLA_SB/IMG_6716_jpg.jpg
   - /./assets/A_MERCEDES_CLA_SB/Mercedes CLA SB  6.jpg
   - /./assets/A_MERCEDES_CLA_SB/IMG_6709_jpg.jpg
