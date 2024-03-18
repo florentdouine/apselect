@@ -7,7 +7,7 @@ model: M4 Coupe
 year: 2017
 kilometers: 66990
 fuel: Essence
-price: 74990
+price: 71990
 photos:
   - /./assets/AA_BMW_DTM/BMW DTM (28).jpg
   - /./assets/AA_BMW_DTM/BMW DTM (29).jpg
