@@ -10,6 +10,8 @@ fuel: Essence
 price: 31990
 photos:
   - ''
+  - ''
+  - /./assets/A_MERCEDES_CLA_SB/IMG_6724_jpg.jpg
   - /./assets/A_MERCEDES_CLA_SB/Mercedes CLA SB  4.jpg
   - /./assets/A_MERCEDES_CLA_SB/Mercedes CLA SB  7.jpg
   - /./assets/A_MERCEDES_CLA_SB/IMG_6707_jpg.jpg
