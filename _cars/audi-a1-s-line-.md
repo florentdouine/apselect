@@ -7,7 +7,7 @@ model: A1 Sportback
 year: 2019
 kilometers: 59500
 fuel: Essence
-price: 28990
+price: 26490
 photos:
   - /./assets/AUDI_A1_SLINE/AUDI A1 (1).jpg
   - /./assets/AUDI_A1_SLINE/AUDI A1 (12).jpg
