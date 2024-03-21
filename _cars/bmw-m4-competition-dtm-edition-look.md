@@ -9,7 +9,7 @@ kilometers: 66990
 fuel: Essence
 price: 71990
 photos:
-  - ''
+  - /./DTM NEW PIX/BMW DTM CHAMPION EDITION  (11).jpg
   - /./DTM NEW PIX/BMW DTM CHAMPION EDITION  (15).jpg
   - /./DTM NEW PIX/BMW DTM CHAMPION EDITION  (16).jpg
   - /./DTM NEW PIX/BMW DTM CHAMPION EDITION  (17).jpg
