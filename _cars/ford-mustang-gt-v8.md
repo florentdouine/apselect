@@ -9,7 +9,7 @@ kilometers: 46490
 fuel: Essence
 price: 44990
 photos:
-  - ''
+  - /./assets/A_Ford_Mustang_V8/FORD_MUSTANG_V8 (6).png
   - /./assets/A_Ford_Mustang_V8/FORD_MUSTANG_V8 (5).jpg
   - /./assets/A_Ford_Mustang_V8/FORD_MUSTANG_V8 (7).jpg
   - /./assets/A_Ford_Mustang_V8/FORD_MUSTANG_V8 (8).jpg
