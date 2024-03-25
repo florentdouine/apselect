@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Ford Mustang GT V8
 isSold: false
 brand: Ford
