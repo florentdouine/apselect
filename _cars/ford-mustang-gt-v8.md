@@ -18,8 +18,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/A_Ford_Mustang_V8/FORD_MUSTANG_V8 (18).jpg
+  - /./assets/A_Ford_Mustang_V8/FORD_MUSTANG_V8 (2).png
   - /./assets/A_Ford_Mustang_V8/FORD_MUSTANG_V8 (3).png
   - /./assets/A_Ford_Mustang_V8/FORD_MUSTANG_V8 (4).png
   - /./assets/A_Ford_Mustang_V8/FORD_MUSTANG_V8 (20).jpg
