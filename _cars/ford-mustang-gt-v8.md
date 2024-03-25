@@ -10,9 +10,9 @@ fuel: Essence
 price: 44990
 photos:
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/A_Ford_Mustang_V8/FORD_MUSTANG_V8 (6).jpg
+  - /./assets/A_Ford_Mustang_V8/FORD_MUSTANG_V8 (10).jpg
+  - /./assets/A_Ford_Mustang_V8/FORD_MUSTANG_V8 (16).jpg
   - /./assets/A_Ford_Mustang_V8/FORD_MUSTANG_V8 (15).jpg
   - /./assets/A_Ford_Mustang_V8/FORD_MUSTANG_V8 (5).png
   - /./assets/A_Ford_Mustang_V8/FORD_MUSTANG_V8 (17).jpg
