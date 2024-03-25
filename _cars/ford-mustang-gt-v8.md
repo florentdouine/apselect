@@ -13,11 +13,11 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/A_Ford_Mustang_V8/FORD_MUSTANG_V8 (15).jpg
+  - /./assets/A_Ford_Mustang_V8/FORD_MUSTANG_V8 (5).png
+  - /./assets/A_Ford_Mustang_V8/FORD_MUSTANG_V8 (17).jpg
+  - /./assets/A_Ford_Mustang_V8/FORD_MUSTANG_V8 (11).jpg
+  - /./assets/A_Ford_Mustang_V8/FORD_MUSTANG_V8 (13).jpg
   - /./assets/A_Ford_Mustang_V8/FORD_MUSTANG_V8 (18).jpg
   - /./assets/A_Ford_Mustang_V8/FORD_MUSTANG_V8 (2).png
   - /./assets/A_Ford_Mustang_V8/FORD_MUSTANG_V8 (3).png
