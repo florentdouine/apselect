@@ -1,7 +1,7 @@
 ---
 draft: false
 name: 'Mercedes CLA SB 200 AMG '
-isSold: false
+isSold: true
 brand: Mercedes
 model: CLA Shooting Brake
 year: 2019
