@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Porsche Panamera GTS
-isSold: false
+isSold: true
 brand: PORSCHE
 model: Panamera
 year: 2014
