@@ -34,7 +34,7 @@ photos:
 description: >-
   AP SELECT met en vente une Porsche 992 Carrera 4S PDK 450ch.
 
-  Modèle du 07/2019 avec 18200km.
+  Modèle du 07/2019 avec 23000km.
 
 
   Couleur bleu gentiane métallic, intérieur cuir entendu noir avec surpiqûres
