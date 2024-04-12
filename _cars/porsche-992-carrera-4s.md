@@ -98,7 +98,7 @@ description: >-
   Disponible et visible sur RDV pour acheteur sérieux.
 
 
-  Possibilité d'une garantie 3, 6 ou 12 mois en supplément.
+  1 an PORSCHE APPROVED
 
 
   Réalisation des démarches d'immatriculation.
