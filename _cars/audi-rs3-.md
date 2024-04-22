@@ -14,7 +14,7 @@ photos:
   - ''
   - ''
   - ''
-  - ''
+  - /./assets/AAUDI RS3 8V/AUDI RS3 8V (14).jpg
   - /./assets/AAUDI RS3 8V/AUDI RS3  6.jpg
   - /./assets/AAUDI RS3 8V/AUDI RS3 8V (13).jpg
   - /./assets/AAUDI RS3 8V/AUDI RS3 8V (11).jpg
