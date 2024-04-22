@@ -10,8 +10,11 @@ fuel: Essence
 price: 38990
 photos:
   - ''
-  - ''
-  - ''
+  - /./assets/AAUDI RS3 8V/AUDI RS3 8V (2).jpg
+  - /./assets/AAUDI RS3 8V/AUDI RS3  3.jpg
+  - /./assets/AAUDI RS3 8V/AUDI RS3 8V (20).jpg
+  - /./assets/AAUDI RS3 8V/AUDI RS3 8V (19).jpg
+  - /./assets/AAUDI RS3 8V/AUDI RS3 8V (21).jpg
   - /./assets/AAUDI RS3 8V/AUDI RS3  4.jpg
   - /./assets/AAUDI RS3 8V/AUDI RS3  5.jpg
   - /./assets/AAUDI RS3 8V/AUDI RS3 8V (14).jpg
