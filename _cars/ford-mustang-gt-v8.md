@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Ford Mustang GT V8
-isSold: false
+isSold: true
 brand: Ford
 model: Mustang Fastback
 year: 2018
