@@ -9,7 +9,7 @@ kilometers: 57499
 fuel: Essence
 price: 72990
 photos:
-  - ''
+  - /./assets/Aston Martin Vantage/ASTON MARTIN VANTAGE (18).jpg
   - /./assets/Aston Martin Vantage/ASTON MARTIN VANTAGE (19).jpg
   - /./assets/Aston Martin Vantage/ASTON MARTIN VANTAGE (1).jpg
   - /./assets/Aston Martin Vantage/ASTON MARTIN VANTAGE (30).jpg
