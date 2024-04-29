@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: 'SEAT Leon CUPRA 300 PERF '
 isSold: false
 brand: SEAT
@@ -9,7 +9,7 @@ kilometers: 89990
 fuel: Essence
 price: 27990
 photos:
-  - ''
+  - /./assets/SEAT Leon CUPRA 300/SEAT LEON CUPRA 300 (3).jpg
   - /./assets/SEAT Leon CUPRA 300/SEAT LEON CUPRA 300 (2).jpg
   - /./assets/SEAT Leon CUPRA 300/SEAT LEON CUPRA 300 (1).jpg
   - /./assets/SEAT Leon CUPRA 300/SEAT LEON CUPRA 300 (13).jpg
