@@ -9,6 +9,9 @@ kilometers: 73000
 fuel: Essence
 price: 61990
 photos:
+  - ''
+  - /./assets/997 2S Porsche/Porsche 997 2S (7).jpg
+  - /./assets/997 2S Porsche/Porsche 997 2S (8).jpg
   - /./assets/997 2S Porsche/Porsche 997 2S (12).jpg
   - /./assets/997 2S Porsche/Porsche 997 2S (15).jpg
   - /./assets/997 2S Porsche/Porsche 997 2S (14).jpg
