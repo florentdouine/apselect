@@ -9,6 +9,7 @@ kilometers: 89990
 fuel: Essence
 price: 27990
 photos:
+  - /./assets/SEAT Leon CUPRA 300/SEAT LEON CUPRA 300 (4).jpg
   - /./assets/SEAT Leon CUPRA 300/SEAT LEON CUPRA 300 (12).jpg
   - /./assets/SEAT Leon CUPRA 300/SEAT LEON CUPRA 300 (5).jpg
   - /./assets/SEAT Leon CUPRA 300/SEAT LEON CUPRA 300 (17).jpg
