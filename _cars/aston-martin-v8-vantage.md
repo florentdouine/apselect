@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Aston Martin V8 Vantage
 isSold: false
 brand: 'Aston Martin '
