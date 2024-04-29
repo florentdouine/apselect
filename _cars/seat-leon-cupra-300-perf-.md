@@ -10,7 +10,7 @@ fuel: Essence
 price: 27990
 photos:
   - ''
-  - ''
+  - /./assets/SEAT Leon CUPRA 300/SEAT LEON CUPRA 300 (2).jpg
   - /./assets/SEAT Leon CUPRA 300/SEAT LEON CUPRA 300 (1).jpg
   - /./assets/SEAT Leon CUPRA 300/SEAT LEON CUPRA 300 (13).jpg
   - /./assets/SEAT Leon CUPRA 300/SEAT LEON CUPRA 300 (4).jpg
