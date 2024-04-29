@@ -7,7 +7,7 @@ model: 'Corvette '
 year: 2009
 kilometers: 34800
 fuel: Essence
-price: 99990
+price: 94990
 photos:
   - /./assets/AAA_Corvette_ZR1/Corvette C6 ZR1 (21).jpg
   - /./assets/AAA_Corvette_ZR1/Corvette C6 ZR1 (8).jpg
