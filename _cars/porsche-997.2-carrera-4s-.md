@@ -9,6 +9,9 @@ kilometers: 55990
 fuel: Essence
 price: 77990
 photos:
+  - ''
+  - /./assets/997.2 4s noire Grenoble/Porsche 997 4S (9).jpg
+  - /./assets/997.2 4s noire Grenoble/Porsche 997 4S (10).jpg
   - /./assets/997.2 4s noire Grenoble/Porsche 997 4S (7).jpg
   - /./assets/997.2 4s noire Grenoble/Porsche 997 4S (6).jpg
   - /./assets/997.2 4s noire Grenoble/Porsche 997 4S (12).jpg
