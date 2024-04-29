@@ -11,7 +11,7 @@ price: 72990
 photos:
   - ''
   - ''
-  - ''
+  - /./assets/Aston Martin Vantage/ASTON MARTIN VANTAGE (24).jpg
   - /./assets/Aston Martin Vantage/ASTON MARTIN VANTAGE (25).jpg
   - /./assets/Aston Martin Vantage/ASTON MARTIN VANTAGE (26).jpg
   - /./assets/Aston Martin Vantage/ASTON MARTIN VANTAGE (28).jpg
