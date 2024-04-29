@@ -1,6 +1,6 @@
 ---
 draft: true
-name: Porsche 997 2Sp
+name: Porsche 997 2S
 isSold: false
 brand: Porsche
 model: 997 Carrera S
