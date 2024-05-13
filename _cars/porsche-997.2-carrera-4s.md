@@ -17,8 +17,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/AA_Danjou_porsche_997.2_C4S/Porsche 997.2 CARRERA 4 S 16.jpg
+  - /./assets/AA_Danjou_porsche_997.2_C4S/Porsche 997.2 CARRERA 4 S 17.jpg
   - /./assets/AA_Danjou_porsche_997.2_C4S/Porsche 997.2 CARRERA 4 S 18.jpg
   - /./assets/AA_Danjou_porsche_997.2_C4S/Porsche 997.2 CARRERA 4 S 19.jpg
   - /./assets/AA_Danjou_porsche_997.2_C4S/Porsche 997.2 CARRERA 4 S 20.jpg
