@@ -7,7 +7,7 @@ model: 997 Carrera S
 year: 2005
 kilometers: 73000
 fuel: Essence
-price: 61990
+price: 59990
 photos:
   - /./assets/997 2S Porsche/Porsche 997 2S (1).jpg
   - /./assets/997 2S Porsche/Porsche 997 2S (20).jpg
