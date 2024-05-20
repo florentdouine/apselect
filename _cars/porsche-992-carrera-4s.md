@@ -7,7 +7,7 @@ model: 911 Coupé
 year: 2019
 kilometers: 23000
 fuel: Essence
-price: 159990
+price: 157990
 photos:
   - /./assets/AA_GENTIANE/porsche 992 4S.jpg
   - /./assets/AA_GENTIANE/porsche_992_gentiane_bleue.jpg
