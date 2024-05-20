@@ -7,7 +7,7 @@ model: Leon 300 perf
 year: 2017
 kilometers: 89990
 fuel: Essence
-price: 27990
+price: 26990
 photos:
   - /./assets/SEAT Leon CUPRA 300/SEAT LEON CUPRA 300 (3).jpg
   - /./assets/SEAT Leon CUPRA 300/SEAT LEON CUPRA 300 (2).jpg
