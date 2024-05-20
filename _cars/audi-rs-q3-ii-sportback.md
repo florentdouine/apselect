@@ -1,7 +1,7 @@
 ---
 draft: false
 name: AUDI RS Q3 II Sportback
-isSold: false
+isSold: true
 brand: AUDI
 model: RS Q3 Sportback
 year: 2021
