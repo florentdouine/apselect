@@ -9,7 +9,7 @@ kilometers: 53990
 fuel: Essence
 price: 84990
 photos:
-  - ''
+  - /./assets/Porche_997.2GTSNoirejantesnoires /Porsche 997 2 GTS  (7).jpg
   - /./assets/Porche_997.2GTSNoirejantesnoires /Porsche 997 2 GTS  (5).jpg
   - /./assets/Porche_997.2GTSNoirejantesnoires /Porsche 997 2 GTS  (9).jpg
   - /./assets/Porche_997.2GTSNoirejantesnoires /Porsche 997 2 GTS  (4).jpg
