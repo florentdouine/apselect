@@ -7,7 +7,7 @@ model: '997'
 year: 2009
 kilometers: 99499
 fuel: Essence
-price: 69990
+price: 67990
 photos:
   - /./assets/AA_Danjou_porsche_997.2_C4S/Porsche 997.2 CARRERA 4 S 1.png
   - /./assets/AA_Danjou_porsche_997.2_C4S/Porsche 997.2 CARRERA 4 S 2.png
