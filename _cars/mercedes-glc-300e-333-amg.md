@@ -12,11 +12,11 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/GLCBLEU300/GLC 300 (11).jpg
+  - /./assets/GLCBLEU300/GLC 300 (12).jpg
+  - /./assets/GLCBLEU300/GLC 300 (10).jpg
+  - /./assets/GLCBLEU300/GLC 300 (13).jpg
+  - /./assets/GLCBLEU300/GLC 300 (14).jpg
   - /./assets/GLCBLEU300/GLC 300 (17).jpg
   - /./assets/GLCBLEU300/GLC 300 (18).jpg
   - /./assets/GLCBLEU300/GLC 300 (19).jpg
