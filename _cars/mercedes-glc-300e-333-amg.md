@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Mercedes GLC 300e 333 AMG
 isSold: false
 brand: Mercedes-Benz
@@ -9,8 +9,13 @@ kilometers: 77499
 fuel: Hybride
 price: 41990
 photos:
-  - /./assets/GLCBLEU300/GLC 300 (8).jpg
+  - /./assets/GLCBLEU300/GLC 300 (3).jpg
+  - /./assets/GLCBLEU300/GLC 300 (1).jpg
+  - /./assets/GLCBLEU300/GLC 300 (2).jpg
+  - /./assets/GLCBLEU300/GLC 300 (15).jpg
   - /./assets/GLCBLEU300/GLC 300 (7).jpg
+  - /./assets/GLCBLEU300/GLC 300 (6).jpg
+  - /./assets/GLCBLEU300/GLC 300 (8).jpg
   - /./assets/GLCBLEU300/GLC 300 (5).jpg
   - /./assets/GLCBLEU300/GLC 300 (11).jpg
   - /./assets/GLCBLEU300/GLC 300 (12).jpg
