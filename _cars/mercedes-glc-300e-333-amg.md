@@ -9,9 +9,9 @@ kilometers: 77499
 fuel: Hybride
 price: 41990
 photos:
-  - ''
-  - ''
-  - ''
+  - /./assets/GLCBLEU300/GLC 300 (8).jpg
+  - /./assets/GLCBLEU300/GLC 300 (7).jpg
+  - /./assets/GLCBLEU300/GLC 300 (5).jpg
   - /./assets/GLCBLEU300/GLC 300 (11).jpg
   - /./assets/GLCBLEU300/GLC 300 (12).jpg
   - /./assets/GLCBLEU300/GLC 300 (10).jpg
