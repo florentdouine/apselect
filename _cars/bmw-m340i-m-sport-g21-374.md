@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: BMW M340i M Sport G21 374
 isSold: false
 brand: 'BMW '
@@ -9,6 +9,11 @@ kilometers: 74990
 fuel: Essence
 price: 52990
 photos:
+  - /./assets/M340i BMW MSport/BMW M340i 1.jpg
+  - /./assets/M340i BMW MSport/BMW M340i 2.png
+  - /./assets/M340i BMW MSport/BMW M340i 4.jpg
+  - /./assets/M340i BMW MSport/BMW M340i 5.jpg
+  - /./assets/M340i BMW MSport/BMW M340i 6.jpg
   - /./assets/M340i BMW MSport/BMW M340i 7.jpg
   - /./assets/M340i BMW MSport/BMW M340i 8.jpg
   - /./assets/M340i BMW MSport/BMW M340i 9.jpg
