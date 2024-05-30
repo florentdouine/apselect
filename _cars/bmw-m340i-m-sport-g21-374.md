@@ -13,6 +13,10 @@ photos:
   - ''
   - ''
   - ''
+  - /./assets/M340i BMW MSport/BMW M340i 11.jpg
+  - /./assets/M340i BMW MSport/BMW M340i (5).jpg
+  - /./assets/M340i BMW MSport/BMW M340i 12 (2).jpg
+  - /./assets/M340i BMW MSport/BMW M340i 13.jpg
   - /./assets/M340i BMW MSport/BMW M340i 15.jpg
   - /./assets/M340i BMW MSport/BMW M340i 16.png
   - /./assets/M340i BMW MSport/BMW M340i (3).png
