@@ -9,10 +9,10 @@ kilometers: 74990
 fuel: Essence
 price: 52990
 photos:
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/M340i BMW MSport/BMW M340i 7.jpg
+  - /./assets/M340i BMW MSport/BMW M340i 8.jpg
+  - /./assets/M340i BMW MSport/BMW M340i 9.jpg
+  - /./assets/M340i BMW MSport/BMW M340i 10.png
   - /./assets/M340i BMW MSport/BMW M340i 11.jpg
   - /./assets/M340i BMW MSport/BMW M340i (5).jpg
   - /./assets/M340i BMW MSport/BMW M340i 12 (2).jpg
