@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Mercedes GLC 300e 333 AMG
-isSold: false
+isSold: true
 brand: Mercedes-Benz
 model: GLC
 year: 2021
