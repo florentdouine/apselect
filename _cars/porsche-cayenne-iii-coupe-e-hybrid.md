@@ -9,7 +9,27 @@ kilometers: 61990
 fuel: Hybride
 price: 81990
 photos:
-  - ''
+  - >-
+    /./assets/Porsche Cayenne III coupé E-Hybrid/Porsche Cayenne Coupé e-hybride
+    (3).jpg
+  - >-
+    /./assets/Porsche Cayenne III coupé E-Hybrid/Porsche Cayenne Coupé e-hybride
+    (4).jpg
+  - >-
+    /./assets/Porsche Cayenne III coupé E-Hybrid/Porsche Cayenne Coupé e-hybride
+    (1).jpg
+  - >-
+    /./assets/Porsche Cayenne III coupé E-Hybrid/Porsche Cayenne Coupé e-hybride
+    (9).jpg
+  - >-
+    /./assets/Porsche Cayenne III coupé E-Hybrid/Porsche Cayenne Coupé e-hybride
+    (8).jpg
+  - >-
+    /./assets/Porsche Cayenne III coupé E-Hybrid/Porsche Cayenne Coupé e-hybride
+    (5).jpg
+  - >-
+    /./assets/Porsche Cayenne III coupé E-Hybrid/Porsche Cayenne Coupé e-hybride
+    (6).jpg
   - >-
     /./assets/Porsche Cayenne III coupé E-Hybrid/Porsche Cayenne Coupé e-hybride
     (10).jpg
