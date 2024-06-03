@@ -11,7 +11,7 @@ price: 39990
 photos:
   - ''
   - ''
-  - ''
+  - /./assets/Bentley Continental GT/Bentley contiental GT (16).jpg
   - /./assets/Bentley Continental GT/Bentley contiental GT (10).jpg
   - /./assets/Bentley Continental GT/Bentley contiental GT (17).jpg
   - /./assets/Bentley Continental GT/Bentley contiental GT (13).jpg
