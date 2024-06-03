@@ -1,7 +1,7 @@
 ---
 draft: false
 name: 'Porsche 992 TURBO S Cabriolet '
-isSold: false
+isSold: true
 brand: PORSCHE
 model: '992 TURBO S Cabriolet '
 year: 2021
