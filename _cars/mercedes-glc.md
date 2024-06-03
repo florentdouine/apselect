@@ -5,9 +5,9 @@ isSold: false
 brand: Mercedes-Benz
 model: GLC
 year: 2019
-kilometers: 47990
+kilometers: 68500
 fuel: Hybride
-price: 53990
+price: 47990
 photos:
   - /./assets/Mercedes GLC/Mercedes GLC (12).jpg
   - /./assets/Mercedes GLC/Mercedes GLC (4).jpg
@@ -30,7 +30,7 @@ photos:
   - /./assets/Mercedes GLC/Mercedes GLC (10).jpg
 description: >-
   AP SELECT met en vente un Mercedes GLC coupé 300e 252ch 8G Tronic AMG Line du
-  12/2019 avec 57900km.
+  12/2019 avec 68500km.
 
 
   Couleur noir metallic, intérieur cuir / alcantara AMG, intérieur frêne.
