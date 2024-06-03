@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: JEEP Grand Cherokee SRT8
 isSold: false
 brand: JEEP
@@ -9,7 +9,7 @@ kilometers: 59499
 fuel: Essence
 price: 49990
 photos:
-  - ''
+  - /./assets/Jeep_Grand_Cherokee/Jeep_Grand_Cherokee (1).jpg
   - /./assets/Jeep_Grand_Cherokee/Jeep_Grand_Cherokee (2).jpg
   - /./assets/Jeep_Grand_Cherokee/Jeep_Grand_Cherokee (3).jpg
   - /./assets/Jeep_Grand_Cherokee/Jeep_Grand_Cherokee (14).jpg
