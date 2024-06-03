@@ -20,9 +20,9 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/Bentley Continental GT/Bentley contiental GT (2).png
+  - /./assets/Bentley Continental GT/Bentley contiental GT (3).png
+  - /./assets/Bentley Continental GT/Bentley contiental GT (23).jpg
   - /./assets/Bentley Continental GT/Bentley contiental GT (24).jpg
   - /./assets/Bentley Continental GT/Bentley contiental GT (25).jpg
   - /./assets/Bentley Continental GT/Bentley contiental GT (4).png
