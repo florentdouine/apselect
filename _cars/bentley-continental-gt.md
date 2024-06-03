@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: BENTLEY Continental GT
 isSold: false
 brand: Bentley
@@ -9,8 +9,13 @@ kilometers: 98900
 fuel: Essence
 price: 39990
 photos:
-  - ''
-  - ''
+  - /./assets/Bentley Continental GT/Bentley contiental GT (1).jpg
+  - /./assets/Bentley Continental GT/Bentley contiental GT (1).png
+  - /./assets/Bentley Continental GT/Bentley contiental GT (2).jpg
+  - /./assets/Bentley Continental GT/Bentley contiental GT (22).jpg
+  - /./assets/Bentley Continental GT/Bentley contiental GT (3).jpg
+  - /./assets/Bentley Continental GT/Bentley contiental GT (6).jpg
+  - /./assets/Bentley Continental GT/Bentley contiental GT (7).jpg
   - /./assets/Bentley Continental GT/Bentley contiental GT (8).jpg
   - /./assets/Bentley Continental GT/Bentley contiental GT (11).jpg
   - /./assets/Bentley Continental GT/Bentley contiental GT (9).jpg
