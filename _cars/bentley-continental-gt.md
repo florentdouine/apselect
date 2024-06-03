@@ -10,9 +10,11 @@ fuel: Essence
 price: 39990
 photos:
   - ''
-  - /./assets/Bentley Continental GT/Bentley contiental GT (12).jpg
+  - ''
   - /./assets/Bentley Continental GT/Bentley contiental GT (8).jpg
+  - /./assets/Bentley Continental GT/Bentley contiental GT (11).jpg
   - /./assets/Bentley Continental GT/Bentley contiental GT (9).jpg
+  - /./assets/Bentley Continental GT/Bentley contiental GT (12).jpg
   - /./assets/Bentley Continental GT/Bentley contiental GT (16).jpg
   - /./assets/Bentley Continental GT/Bentley contiental GT (10).jpg
   - /./assets/Bentley Continental GT/Bentley contiental GT (17).jpg
