@@ -10,8 +10,10 @@ fuel: Essence
 price: 49990
 photos:
   - ''
-  - ''
-  - ''
+  - /./assets/Jeep_Grand_Cherokee/Jeep_Grand_Cherokee (2).jpg
+  - /./assets/Jeep_Grand_Cherokee/Jeep_Grand_Cherokee (3).jpg
+  - /./assets/Jeep_Grand_Cherokee/Jeep_Grand_Cherokee (14).jpg
+  - /./assets/Jeep_Grand_Cherokee/Jeep_Grand_Cherokee (4).jpg
   - /./assets/Jeep_Grand_Cherokee/Jeep_Grand_Cherokee (5).jpg
   - /./assets/Jeep_Grand_Cherokee/Jeep_Grand_Cherokee (6).jpg
   - /./assets/Jeep_Grand_Cherokee/Jeep_Grand_Cherokee (7).jpg
