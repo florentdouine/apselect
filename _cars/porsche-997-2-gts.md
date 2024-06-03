@@ -1,7 +1,7 @@
 ---
-draft: true
+draft: false
 name: Porsche 997 2 GTS
-isSold: false
+isSold: true
 brand: Porsche
 model: '997'
 year: 2011
