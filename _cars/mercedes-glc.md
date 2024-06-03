@@ -5,7 +5,7 @@ isSold: false
 brand: Mercedes-Benz
 model: GLC
 year: 2019
-kilometers: 53990
+kilometers: 47990
 fuel: Hybride
 price: 53990
 photos:
