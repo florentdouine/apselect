@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Porsche 991.2 Carrera 4S
 isSold: false
 brand: Porsche
@@ -9,12 +9,15 @@ kilometers: 94990
 fuel: Essence
 price: 103990
 photos:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (10).jpg
+  - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (11).jpg
+  - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (13).jpg
+  - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (15).jpg
+  - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (9).jpg
+  - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (16).jpg
+  - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (8).jpg
+  - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (7).jpg
+  - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (3).jpg
   - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (4).jpg
   - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (5).jpg
   - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (1).png
