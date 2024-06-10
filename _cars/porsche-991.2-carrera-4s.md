@@ -15,9 +15,9 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (4).jpg
+  - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (5).jpg
+  - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (1).png
   - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (1).jpg
   - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (2).jpg
   - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (18).jpg
