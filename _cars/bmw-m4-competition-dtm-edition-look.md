@@ -5,9 +5,9 @@ isSold: false
 brand: BMW
 model: M4 Coupe
 year: 2017
-kilometers: 66990
+kilometers: 76000
 fuel: Essence
-price: 71990
+price: 69990
 photos:
   - /./DTM NEW PIX/BMW DTM CHAMPION EDITION  (4).jpg
   - /./DTM NEW PIX/BMW DTM CHAMPION EDITION  (2).jpg
