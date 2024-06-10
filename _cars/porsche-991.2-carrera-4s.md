@@ -21,6 +21,8 @@ photos:
   - ''
   - ''
   - ''
+  - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (17).jpg
+  - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (19).jpg
 properties:
   - property: 'Transmission '
     value: Automatique
