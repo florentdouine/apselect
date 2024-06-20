@@ -1,7 +1,7 @@
 ---
 draft: false
 name: BMW M340i M Sport G21 374
-isSold: false
+isSold: true
 brand: 'BMW '
 model: M340i
 year: 2020
