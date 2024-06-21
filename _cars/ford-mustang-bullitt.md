@@ -9,7 +9,12 @@ kilometers: 18500
 fuel: Essence
 price: 65000
 photos:
-  - ''
+  - /./assets/Ford_Mustang_BULLITT/Ford mustang bullitt (12).jpg
+  - /./assets/Ford_Mustang_BULLITT/Ford mustang bullitt (16).jpg
+  - /./assets/Ford_Mustang_BULLITT/Ford mustang bullitt (14).jpg
+  - /./assets/Ford_Mustang_BULLITT/Ford mustang bullitt (15).jpg
+  - /./assets/Ford_Mustang_BULLITT/Ford mustang bullitt (13).jpg
+  - /./assets/Ford_Mustang_BULLITT/Ford mustang bullitt (3).jpg
   - /./assets/Ford_Mustang_BULLITT/Ford mustang bullitt (5).jpg
   - /./assets/Ford_Mustang_BULLITT/Ford mustang bullitt (4).jpg
   - /./assets/Ford_Mustang_BULLITT/Ford mustang bullitt (9).jpg
