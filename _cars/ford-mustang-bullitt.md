@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Ford Mustang BULLITT
 isSold: true
 brand: Ford
@@ -7,7 +7,7 @@ model: Mustang BULLITT
 year: 2020
 kilometers: 18500
 fuel: Essence
-price: 65000
+price: 64990
 photos:
   - /./assets/Ford_Mustang_BULLITT/Ford mustang bullitt (12).jpg
   - /./assets/Ford_Mustang_BULLITT/Ford mustang bullitt (16).jpg
