@@ -10,6 +10,8 @@ fuel: Essence
 price: 65000
 photos:
   - ''
+  - /./assets/Ford_Mustang_BULLITT/Ford mustang bullitt (5).jpg
+  - /./assets/Ford_Mustang_BULLITT/Ford mustang bullitt (4).jpg
   - /./assets/Ford_Mustang_BULLITT/Ford mustang bullitt (9).jpg
   - /./assets/Ford_Mustang_BULLITT/Ford mustang bullitt (8).jpg
   - /./assets/Ford_Mustang_BULLITT/Ford mustang bullitt (6).jpg
