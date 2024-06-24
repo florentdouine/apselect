@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: MINI JCW Works 231 Premium plus
 isSold: false
 brand: Mini
@@ -10,7 +10,12 @@ fuel: Essence
 price: 37990
 photos:
   - ''
+  - ''
+  - /./assets/Mini_JCW_Works/IMG_9500_jpg.jpg
+  - /./assets/Mini_JCW_Works/IMG_9501_jpg.jpg
+  - /./assets/Mini_JCW_Works/IMG_9521_jpg.jpg
   - /./assets/Mini_JCW_Works/IMG_9502_jpg.jpg
+  - /./assets/Mini_JCW_Works/IMG_9503_jpg.jpg
   - /./assets/Mini_JCW_Works/IMG_9506_jpg.jpg
   - /./assets/Mini_JCW_Works/IMG_9509_jpg.jpg
   - /./assets/Mini_JCW_Works/IMG_9507_jpg.jpg
