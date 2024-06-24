@@ -9,9 +9,9 @@ kilometers: 18990
 fuel: Essence
 price: 37990
 photos:
-  - ''
-  - ''
-  - ''
+  - /./assets/Mini_JCW_Works/IMG_9515_jpg.jpg
+  - /./assets/Mini_JCW_Works/IMG_9516_jpg.jpg
+  - /./assets/Mini_JCW_Works/IMG_9519_jpg.jpg
   - /./assets/Mini_JCW_Works/IMG_9520_jpg.jpg
   - /./assets/Mini_JCW_Works/IMG_9530_jpg.jpg
   - /./assets/Mini_JCW_Works/IMG_9531_jpg.jpg
