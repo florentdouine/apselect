@@ -1,7 +1,7 @@
 ---
 draft: false
 name: MINI JCW Works 231 Premium plus
-isSold: false
+isSold: true
 brand: Mini
 model: John Cooper Works
 year: 2022
