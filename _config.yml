@@ -48,8 +48,12 @@ exclude:
   - _site/
   - img/Ressources/
   - vendor/
-  - node_modules/
+  - node_modules
 collections:
     cars:
         output: true
         permalink: /vente/:path/
+        
+# Minify CSS output
+sass:
+  style: compressed

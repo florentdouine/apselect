@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "js:build": "babel js/main.js -o js/main.min.js --presets minify",
+    "js:dev": "babel js/main.js -o js/main.min.js --source-maps inline",
     "installDependencies": "bundle install",
     "start": "bundle exec jekyll serve"
   },
@@ -17,7 +19,11 @@
     "url": "https://github.com/florentdouine/apselect/issues"
   },
   "homepage": "https://github.com/florentdouine/apselect#readme",
-  "dependencies": {
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.4",
+    "babel-preset-minify": "^0.5.2",
     "@tinacms/cli": "^1.5.14",
     "tinacms": "^1.5.6"
   }
