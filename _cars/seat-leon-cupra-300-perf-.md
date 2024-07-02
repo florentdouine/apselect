@@ -1,7 +1,7 @@
 ---
 draft: false
 name: 'SEAT Leon CUPRA 300 PERF '
-isSold: false
+isSold: true
 brand: SEAT
 model: Leon 300 perf
 year: 2017
