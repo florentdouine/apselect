@@ -1,7 +1,7 @@
 ---
 draft: false
 name: BENTLEY Continental GT
-isSold: false
+isSold: true
 brand: Bentley
 model: Continental GT
 year: 2004
