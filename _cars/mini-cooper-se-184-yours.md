@@ -9,7 +9,7 @@ kilometers: 34600
 fuel: Electrique
 price: 23990
 photos:
-  - ''
+  - /./assets/Mini_Cooper_SE/Mini Cooper SE (3).jpg
   - /./assets/Mini_Cooper_SE/Mini Cooper SE (4).jpg
   - /./assets/Mini_Cooper_SE/Mini Cooper SE (1).png
   - /./assets/Mini_Cooper_SE/Mini Cooper SE (8).jpg
