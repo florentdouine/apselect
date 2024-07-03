@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Mercedes GLC
-isSold: false
+isSold: true
 brand: Mercedes-Benz
 model: GLC
 year: 2019
