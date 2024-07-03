@@ -7,7 +7,7 @@ model: 911 Coupe
 year: 2019
 kilometers: 64900
 fuel: Essence
-price: 129990
+price: 125990
 photos:
   - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (3).jpg
   - /./assets/AA_PORSCHE_992_CARRERA_S_Christophe/porsche 992 CARRERA S (2).jpg
