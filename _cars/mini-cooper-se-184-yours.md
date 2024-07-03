@@ -10,9 +10,11 @@ fuel: Electrique
 price: 23990
 photos:
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/Mini_Cooper_SE/Mini Cooper SE (4).jpg
+  - /./assets/Mini_Cooper_SE/Mini Cooper SE (1).png
+  - /./assets/Mini_Cooper_SE/Mini Cooper SE (8).jpg
+  - /./assets/Mini_Cooper_SE/Mini Cooper SE (7).jpg
+  - /./assets/Mini_Cooper_SE/Mini Cooper SE (6).jpg
   - /./assets/Mini_Cooper_SE/Mini Cooper SE (9).jpg
   - /./assets/Mini_Cooper_SE/Mini Cooper SE (10).jpg
   - /./assets/Mini_Cooper_SE/Mini Cooper SE (13).jpg
