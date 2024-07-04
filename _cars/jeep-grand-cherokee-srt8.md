@@ -1,7 +1,7 @@
 ---
 draft: false
 name: JEEP Grand Cherokee SRT8
-isSold: false
+isSold: true
 brand: JEEP
 model: Grand Cherokee
 year: 2015
