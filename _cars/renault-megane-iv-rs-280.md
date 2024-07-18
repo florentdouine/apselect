@@ -12,8 +12,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/Renault_megane4_RS/IMG_0117_jpg.jpg
+  - /./assets/Renault_megane4_RS/IMG_0116_jpg.jpg
   - /./assets/Renault_megane4_RS/IMG_0121_jpg.jpg
   - /./assets/Renault_megane4_RS/IMG_0127_jpg(1).jpg
   - /./assets/Renault_megane4_RS/IMG_0128_jpg.jpg
