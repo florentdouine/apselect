@@ -7,7 +7,7 @@ model: RS3 Sportback
 year: 2016
 kilometers: 134900
 fuel: Essence
-price: 37990
+price: 36990
 photos:
   - /./assets/AAUDI RS3 8V/AUDI RS3  1.jpg
   - /./assets/AAUDI RS3 8V/AUDI RS3  2.jpg
