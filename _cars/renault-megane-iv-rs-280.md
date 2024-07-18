@@ -14,10 +14,9 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/Renault_megane4_RS/IMG_0121_jpg.jpg
+  - /./assets/Renault_megane4_RS/IMG_0127_jpg(1).jpg
+  - /./assets/Renault_megane4_RS/IMG_0128_jpg.jpg
 description: >-
   AP SELECT met en vente une Renault Mégane IV RS 280ch boîte mécanique.
 
