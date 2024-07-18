@@ -11,7 +11,9 @@ price: 34990
 photos:
   - ''
   - ''
-  - ''
+  - /./assets/Jeep_Wrangler_Rubicon/IMG_0203_jpg.jpg
+  - /./assets/Jeep_Wrangler_Rubicon/IMG_0204_jpg.jpg
+  - /./assets/Jeep_Wrangler_Rubicon/IMG_0206_jpg.jpg
   - /./assets/Jeep_Wrangler_Rubicon/IMG_0218_jpg.jpg
   - /./assets/Jeep_Wrangler_Rubicon/IMG_0220_jpg(1).jpg
   - /./assets/Jeep_Wrangler_Rubicon/IMG_0224_jpg.jpg
