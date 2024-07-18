@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Renault Megane IV RS 280
 isSold: false
 brand: Renault
@@ -9,8 +9,8 @@ kilometers: 24700
 fuel: Essence
 price: 39990
 photos:
-  - ''
-  - ''
+  - /./assets/Renault_megane4_RS/IMG_0106_jpg.jpg
+  - /./assets/Renault_megane4_RS/IMG_0120_jpg.jpg
   - /./assets/Renault_megane4_RS/IMG_0107_jpg.jpg
   - /./assets/Renault_megane4_RS/IMG_0118_jpg.jpg
   - /./assets/Renault_megane4_RS/IMG_0114_jpg.jpg
