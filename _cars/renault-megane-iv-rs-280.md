@@ -10,6 +10,10 @@ fuel: Essence
 price: 39990
 photos:
   - ''
+  - ''
+  - /./assets/Renault_megane4_RS/IMG_0115_jpg.jpg
+  - /./assets/Renault_megane4_RS/IMG_0109_jpg.jpg
+  - /./assets/Renault_megane4_RS/IMG_0110_jpg.jpg
   - /./assets/Renault_megane4_RS/IMG_0112_jpg.jpg
   - /./assets/Renault_megane4_RS/IMG_0113_jpg.jpg
   - /./assets/Renault_megane4_RS/IMG_0117_jpg.jpg
