@@ -12,10 +12,10 @@ photos:
   - ''
   - ''
   - ''
-  - ''
   - /./assets/Jeep_Wrangler_Rubicon/IMG_0218_jpg.jpg
   - /./assets/Jeep_Wrangler_Rubicon/IMG_0220_jpg(1).jpg
   - /./assets/Jeep_Wrangler_Rubicon/IMG_0224_jpg.jpg
+  - /./assets/Jeep_Wrangler_Rubicon/IMG_0192_jpg.jpg
   - /./assets/Jeep_Wrangler_Rubicon/IMG_0226_jpg.jpg
   - /./assets/Jeep_Wrangler_Rubicon/IMG_0227_jpg.jpg
   - /./assets/Jeep_Wrangler_Rubicon/IMG_0228_jpg.jpg
