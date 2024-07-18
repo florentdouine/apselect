@@ -11,7 +11,7 @@ price: 39990
 photos:
   - ''
   - ''
-  - ''
+  - /./assets/Renault_megane4_RS/IMG_0113_jpg.jpg
   - /./assets/Renault_megane4_RS/IMG_0117_jpg.jpg
   - /./assets/Renault_megane4_RS/IMG_0116_jpg.jpg
   - /./assets/Renault_megane4_RS/IMG_0121_jpg.jpg
