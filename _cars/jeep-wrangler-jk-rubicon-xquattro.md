@@ -9,7 +9,9 @@ kilometers: 114990
 fuel: Diesel
 price: 34990
 photos:
-  - ''
+  - /./assets/Jeep_Wrangler_Rubicon/IMG_0186_jpg.jpg
+  - /./assets/Jeep_Wrangler_Rubicon/IMG_0189_jpg.jpg
+  - /./assets/Jeep_Wrangler_Rubicon/IMG_0191_jpg.jpg
   - /./assets/Jeep_Wrangler_Rubicon/IMG_0210_jpg.jpg
   - /./assets/Jeep_Wrangler_Rubicon/IMG_0211_jpg.jpg
   - "/./assets/Jeep_Wrangler_Rubicon/Capture d’écran\_. 2024-07-16 à 22.59.43.jpeg.png"
