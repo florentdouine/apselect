@@ -7,7 +7,7 @@ model: '991 '
 year: 2016
 kilometers: 94990
 fuel: Essence
-price: 103990
+price: 99990
 photos:
   - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (10).jpg
   - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (11).jpg
