@@ -10,8 +10,10 @@ fuel: Diesel
 price: 34990
 photos:
   - ''
+  - /./assets/Jeep_Wrangler_Rubicon/IMG_0193_jpg.jpg
   - /./assets/Jeep_Wrangler_Rubicon/IMG_0199_jpg.jpg
   - /./assets/Jeep_Wrangler_Rubicon/IMG_0200_jpg.jpg
+  - /./assets/Jeep_Wrangler_Rubicon/IMG_0205_jpg.jpg
   - /./assets/Jeep_Wrangler_Rubicon/IMG_0201_jpg.jpg
   - /./assets/Jeep_Wrangler_Rubicon/IMG_0202_jpg.jpg
   - /./assets/Jeep_Wrangler_Rubicon/IMG_0229_jpg.jpg
