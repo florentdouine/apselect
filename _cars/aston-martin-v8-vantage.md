@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Aston Martin V8 Vantage
-isSold: false
+isSold: true
 brand: 'Aston Martin '
 model: Vantage
 year: 2012
