@@ -7,7 +7,7 @@ model: 'Cayenne III coupé E-Hybrid '
 year: 2019
 kilometers: 61990
 fuel: Hybride
-price: 81990
+price: 79990
 photos:
   - >-
     /./assets/Porsche Cayenne III coupé E-Hybrid/Porsche Cayenne Coupé e-hybride
