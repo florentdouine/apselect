@@ -13,9 +13,9 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/BMW_X5_45e/BMW X5 45e (13).jpg
+  - /./assets/BMW_X5_45e/BMW X5 45e (14).jpg
+  - /./assets/BMW_X5_45e/BMW X5 45e (12).jpg
 layout: car
 ---
 
