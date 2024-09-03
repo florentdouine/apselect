@@ -7,7 +7,7 @@ model: Cooper SE
 year: 2021
 kilometers: 34600
 fuel: Electrique
-price: 23990
+price: 22990
 photos:
   - /./assets/Mini_Cooper_SE/Mini Cooper SE (1).jpg
   - /./assets/Mini_Cooper_SE/Mini Cooper SE (15).jpg
