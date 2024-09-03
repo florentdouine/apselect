@@ -10,6 +10,10 @@ fuel: Hybride
 price: 91990
 photos:
   - ''
+  - ''
+  - /./assets/BMW_X5_45e/BMW X5 45e (2).jpg
+  - /./assets/BMW_X5_45e/BMW X5 45e (1).jpg
+  - /./assets/BMW_X5_45e/BMW X5 45e (22).jpg
   - /./assets/BMW_X5_45e/BMW X5 45e (3).jpg
   - /./assets/BMW_X5_45e/BMW X5 45e (5).jpg
   - /./assets/BMW_X5_45e/BMW X5 45e (6).jpg
