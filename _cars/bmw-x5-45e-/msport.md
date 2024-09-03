@@ -9,6 +9,10 @@ kilometers: 21900
 fuel: Hybride
 price: 91990
 photos:
+  - /./assets/BMW_X5_45e/BMW X5 45e (17).jpg
+  - /./assets/BMW_X5_45e/BMW X5 45e (19).jpg
+  - /./assets/BMW_X5_45e/BMW X5 45e (18).jpg
+  - /./assets/BMW_X5_45e/BMW X5 45e (8).jpg
   - /./assets/BMW_X5_45e/BMW X5 45e (20).jpg
   - /./assets/BMW_X5_45e/BMW X5 45e (21).jpg
   - /./assets/BMW_X5_45e/BMW X5 45e (2).jpg
