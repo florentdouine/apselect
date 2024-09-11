@@ -1,6 +1,6 @@
 ---
 draft: false
-name: 'BMW X5 F15 40d '
+name: BMW X5 F15 40d
 isSold: false
 brand: BMW
 model: X5 F15 40d
