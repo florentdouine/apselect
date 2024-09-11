@@ -9,6 +9,8 @@ kilometers: 133990
 fuel: Diesel
 price: 37990
 photos:
+  - ''
+  - /./assets/X5_F15_BMW/bmw x5 f15 40d (2).jpg
   - /./assets/X5_F15_BMW/bmw x5 f15 40d (7).jpg
   - /./assets/X5_F15_BMW/bmw x5 f15 40d (6).jpg
   - /./assets/X5_F15_BMW/bmw x5 f15 40d (3).jpg
