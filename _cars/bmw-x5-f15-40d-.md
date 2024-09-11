@@ -10,6 +10,9 @@ fuel: Diesel
 price: 37990
 photos:
   - ''
+  - ''
+  - /./assets/X5_F15_BMW/bmw x5 f15 40d (4).jpg
+  - /./assets/X5_F15_BMW/bmw x5 f15 40d (5).jpg
   - /./assets/X5_F15_BMW/bmw x5 f15 40d (10).jpg
   - /./assets/X5_F15_BMW/bmw x5 f15 40d (9).jpg
   - /./assets/X5_F15_BMW/bmw x5 f15 40d (8).jpg
