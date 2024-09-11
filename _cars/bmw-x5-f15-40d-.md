@@ -11,8 +11,8 @@ price: 37990
 photos:
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/X5_F15_BMW/bmw x5 f15 40d (9).jpg
+  - /./assets/X5_F15_BMW/bmw x5 f15 40d (8).jpg
   - /./assets/X5_F15_BMW/bmw x5 f15 40d (13).jpg
   - /./assets/X5_F15_BMW/bmw x5 f15 40d (15).jpg
   - /./assets/X5_F15_BMW/bmw x5 f15 40d (16).jpg
