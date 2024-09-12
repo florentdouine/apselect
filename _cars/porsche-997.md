@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Porsche 997 2 GTS PDK
-isSold: false
+isSold: true
 brand: Porsche
 model: 997 2 GTS
 year: 2011
