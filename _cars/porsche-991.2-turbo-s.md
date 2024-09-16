@@ -12,7 +12,8 @@ description: "AP SELECT met en vente pour une Porsche 991.2 Turbo S 3.8 580ch PD
 properties:
   - property: Boîte de vitesse
     value: Automatique
-  - {}
+  - property: Puissance DIN
+    value: 580 ch
 layout: car
 ---
 
