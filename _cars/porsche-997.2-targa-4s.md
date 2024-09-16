@@ -9,7 +9,12 @@ kilometers: 41900
 fuel: Essence
 price: 79990
 photos:
-  - ''
+  - /./assets/Targa_997.2_Porsche/IMG_1356_jpg.jpg
+  - /./assets/Targa_997.2_Porsche/Porsche 911 Targa (1).jpg
+  - /./assets/Targa_997.2_Porsche/Porsche 911 Targa (2).jpg
+  - /./assets/Targa_997.2_Porsche/Porsche 911 Targa (14).jpg
+  - /./assets/Targa_997.2_Porsche/Porsche 911 Targa (3).jpg
+  - /./assets/Targa_997.2_Porsche/Porsche 911 Targa (8).jpg
   - /./assets/Targa_997.2_Porsche/Porsche 911 Targa (5).jpg
   - /./assets/Targa_997.2_Porsche/Porsche 911 Targa (6).jpg
   - /./assets/Targa_997.2_Porsche/Porsche 911 Targa (7).jpg
