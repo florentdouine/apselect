@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: VW Tiguan 2.0 TDI 150 DSG
 isSold: false
 brand: VOLKSWAGEN
@@ -9,7 +9,7 @@ kilometers: 166900
 fuel: Diesel
 price: 19990
 photos:
-  - ''
+  - /./assets/Tiguan_VW_cibest/VW TIGUAN  (1).jpg
   - /./assets/Tiguan_VW_cibest/VW TIGUAN  (13).jpg
   - /./assets/Tiguan_VW_cibest/VW TIGUAN  (12).jpg
   - /./assets/Tiguan_VW_cibest/VW TIGUAN  (2).jpg
