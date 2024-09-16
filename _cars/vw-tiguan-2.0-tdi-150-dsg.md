@@ -10,6 +10,9 @@ fuel: Diesel
 price: 19990
 photos:
   - ''
+  - /./assets/Tiguan_VW_cibest/VW TIGUAN  (13).jpg
+  - /./assets/Tiguan_VW_cibest/VW TIGUAN  (12).jpg
+  - /./assets/Tiguan_VW_cibest/VW TIGUAN  (2).jpg
   - /./assets/Tiguan_VW_cibest/VW TIGUAN  (4).jpg
   - /./assets/Tiguan_VW_cibest/VW TIGUAN  (3).jpg
   - /./assets/Tiguan_VW_cibest/VW TIGUAN  (6).jpg
