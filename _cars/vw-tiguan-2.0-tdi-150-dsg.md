@@ -13,7 +13,7 @@ photos:
   - ''
   - ''
   - ''
-  - ''
+  - /./assets/Tiguan_VW_cibest/VW TIGUAN  (14).jpg
   - /./assets/Tiguan_VW_cibest/VW TIGUAN  (17).jpg
   - /./assets/Tiguan_VW_cibest/VW TIGUAN  (16).jpg
   - /./assets/Tiguan_VW_cibest/VW TIGUAN  (15).jpg
