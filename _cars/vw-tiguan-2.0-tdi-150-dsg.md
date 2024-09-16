@@ -9,8 +9,13 @@ kilometers: 166900
 fuel: Diesel
 price: 19990
 photos:
+  - ''
+  - /./assets/Tiguan_VW_cibest/VW TIGUAN  (4).jpg
+  - /./assets/Tiguan_VW_cibest/VW TIGUAN  (3).jpg
+  - /./assets/Tiguan_VW_cibest/VW TIGUAN  (6).jpg
   - /./assets/Tiguan_VW_cibest/VW TIGUAN  (7).jpg
   - /./assets/Tiguan_VW_cibest/VW TIGUAN  (8).jpg
+  - /./assets/Tiguan_VW_cibest/VW TIGUAN  (9).jpg
   - /./assets/Tiguan_VW_cibest/VW TIGUAN  (10).jpg
   - /./assets/Tiguan_VW_cibest/VW TIGUAN  (11).jpg
   - /./assets/Tiguan_VW_cibest/VW TIGUAN  (14).jpg
