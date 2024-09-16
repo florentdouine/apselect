@@ -9,6 +9,9 @@ kilometers: 61990
 fuel: Essence
 price: 156990
 photos:
+  - /./assets/Turbo_S_991.2_Porsche/porsche 991 2 Turbo S (1).png
+  - /./assets/Turbo_S_991.2_Porsche/porsche 991 2 Turbo S (2).jpg
+  - /./assets/Turbo_S_991.2_Porsche/porsche 991 2 Turbo S (14).jpg
   - /./assets/Turbo_S_991.2_Porsche/porsche 991 2 Turbo S (4).jpg
   - /./assets/Turbo_S_991.2_Porsche/porsche 991 2 Turbo S (8).jpg
   - /./assets/Turbo_S_991.2_Porsche/porsche 991 2 Turbo S (11).jpg
