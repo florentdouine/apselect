@@ -1,13 +1,13 @@
 ---
 draft: false
-name: Porsche 991.2 Carrera 4S
+name: Porsche 991.2 Carrera 4S Cabriolet
 isSold: false
 brand: Porsche
 model: '991 '
 year: 2016
 kilometers: 94990
 fuel: Essence
-price: 99990
+price: 96990
 photos:
   - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (10).jpg
   - /./assets/Porsche Y RUGER 991 Carrera 4S/PORSCHE 991 2 CARRERA 4S (11).jpg
