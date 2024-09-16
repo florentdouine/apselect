@@ -14,7 +14,7 @@ photos:
   - ''
   - ''
   - ''
-  - ''
+  - /./assets/Turbo_S_991.2_Porsche/porsche 991 2 Turbo S (2).png
   - /./assets/Turbo_S_991.2_Porsche/porsche 991 2 Turbo S (4).png
   - /./assets/Turbo_S_991.2_Porsche/porsche 991 2 Turbo S (3).png
   - /./assets/Turbo_S_991.2_Porsche/porsche 991 2 Turbo S (16).jpg
