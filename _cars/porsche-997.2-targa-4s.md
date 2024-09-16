@@ -12,8 +12,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/Targa_997.2_Porsche/Porsche 911 Targa (12).jpg
+  - /./assets/Targa_997.2_Porsche/Porsche 911 Targa (13).jpg
   - /./assets/Targa_997.2_Porsche/Porsche 911 Targa (15).jpg
   - /./assets/Targa_997.2_Porsche/Porsche 911 Targa (16).jpg
   - /./assets/Targa_997.2_Porsche/Porsche 911 Targa (17).jpg
