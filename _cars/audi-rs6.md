@@ -11,10 +11,12 @@ price: 104000
 photos:
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/Audi_RS6_GMK/AUDI RS6 (13).jpg
+  - /./assets/Audi_RS6_GMK/AUDI RS6 (11).jpg
+  - /./assets/Audi_RS6_GMK/AUDI RS6 (14).jpg
+  - /./assets/Audi_RS6_GMK/AUDI RS6 (5).jpg
+  - /./assets/Audi_RS6_GMK/AUDI RS6 (6).jpg
+  - /./assets/Audi_RS6_GMK/AUDI RS6 (7).jpg
   - /./assets/Audi_RS6_GMK/AUDI RS6 (2).jpg
   - /./assets/Audi_RS6_GMK/AUDI RS6 (4).jpg
   - /./assets/Audi_RS6_GMK/AUDI RS6 (3).jpg
