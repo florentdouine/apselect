@@ -9,7 +9,6 @@ kilometers: 111
 fuel: Essence
 price: 104000
 photos:
-  - /./assets/Audi_RS6_GMK/AUDI RS6 (1).jpg
   - /./assets/Audi_RS6_GMK/AUDI RS6 (12).jpg
   - /./assets/Audi_RS6_GMK/AUDI RS6 (13).jpg
   - /./assets/Audi_RS6_GMK/AUDI RS6 (11).jpg
@@ -27,6 +26,7 @@ photos:
   - /./assets/Audi_RS6_GMK/AUDI RS6 (18).jpg
   - /./assets/Audi_RS6_GMK/AUDI RS6 (17).jpg
   - /./assets/Audi_RS6_GMK/AUDI RS6 (16).jpg
+  - /./assets/Audi_RS6_GMK/AUDI RS6 (1).jpg
 layout: car
 ---
 
