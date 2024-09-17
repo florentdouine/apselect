@@ -23,7 +23,8 @@ description: "AP SELECT met en vente un Mercedes GLC coupé 300d 245ch 9G Tronic
 properties:
   - property: 'Transmission '
     value: Automatique
-  - {}
+  - property: Puissance DIN
+    value: 245 ch
 layout: car
 ---
 
