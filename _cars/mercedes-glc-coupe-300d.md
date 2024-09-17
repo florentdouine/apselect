@@ -10,7 +10,9 @@ fuel: Diesel
 price: 43990
 photos:
   - ''
-  - ''
+  - /./assets/GLC_coupe_300d_mercedes/Mercedes glc 300d (8).jpg
+  - /./assets/GLC_coupe_300d_mercedes/Mercedes glc 300d (6).jpg
+  - /./assets/GLC_coupe_300d_mercedes/Mercedes glc 300d (3).jpg
   - /./assets/GLC_coupe_300d_mercedes/Mercedes glc 300d (4).jpg
   - /./assets/GLC_coupe_300d_mercedes/Mercedes glc 300d (5).jpg
   - /./assets/GLC_coupe_300d_mercedes/Mercedes glc 300d (9).jpg
