@@ -7,7 +7,7 @@ model: RS6
 year: 111
 kilometers: 111
 fuel: Essence
-price: 111
+price: 104000
 photos:
   - ''
   - ''
@@ -19,8 +19,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/Audi_RS6_GMK/AUDI RS6 (9).jpg
+  - /./assets/Audi_RS6_GMK/AUDI RS6 (10).jpg
   - /./assets/Audi_RS6_GMK/AUDI RS6 (15).jpg
   - /./assets/Audi_RS6_GMK/AUDI RS6 (18).jpg
   - /./assets/Audi_RS6_GMK/AUDI RS6 (17).jpg
