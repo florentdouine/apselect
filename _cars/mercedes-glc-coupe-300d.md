@@ -15,7 +15,7 @@ photos:
   - ''
   - ''
   - ''
-  - ''
+  - /./assets/GLC_coupe_300d_mercedes/Mercedes glc 300d (14).jpg
   - /./assets/GLC_coupe_300d_mercedes/Mercedes glc 300d (15).jpg
   - /./assets/GLC_coupe_300d_mercedes/Mercedes glc 300d (16).jpg
   - /./assets/GLC_coupe_300d_mercedes/Mercedes glc 300d (17).jpg
