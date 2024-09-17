@@ -30,7 +30,8 @@ photos:
 properties:
   - property: Puissance DIN
     value: 600 ch
-  - {}
+  - property: 'Transmission '
+    value: Automatique
 layout: car
 ---
 
