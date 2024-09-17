@@ -15,7 +15,7 @@ photos:
   - ''
   - ''
   - ''
-  - ''
+  - /./assets/Audi_RS6_GMK/AUDI RS6 (2).jpg
   - /./assets/Audi_RS6_GMK/AUDI RS6 (4).jpg
   - /./assets/Audi_RS6_GMK/AUDI RS6 (3).jpg
   - /./assets/Audi_RS6_GMK/AUDI RS6 (8).jpg
