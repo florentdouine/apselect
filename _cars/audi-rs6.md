@@ -4,10 +4,10 @@ name: AUDI RS6
 isSold: false
 brand: AUDI
 model: RS6
-year: 111
+year: 2020
 kilometers: 111
 fuel: Essence
-price: 104000
+price: 104990
 photos:
   - /./assets/Audi_RS6_GMK/AUDI RS6 (12).jpg
   - /./assets/Audi_RS6_GMK/AUDI RS6 (13).jpg
@@ -27,6 +27,10 @@ photos:
   - /./assets/Audi_RS6_GMK/AUDI RS6 (17).jpg
   - /./assets/Audi_RS6_GMK/AUDI RS6 (16).jpg
   - /./assets/Audi_RS6_GMK/AUDI RS6 (1).jpg
+properties:
+  - property: Puissance DIN
+    value: 600 ch
+  - {}
 layout: car
 ---
 
