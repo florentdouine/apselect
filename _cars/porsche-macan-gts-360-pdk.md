@@ -13,9 +13,9 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/Macan_GTS_360_PDK_porsche/Porsche Macan GTS (8).jpg
+  - /./assets/Mercedes GLC/Mercedes GLC (18).jpg
+  - /./assets/Macan_GTS_360_PDK_porsche/Porsche Macan GTS (15).jpg
   - /./assets/Macan_GTS_360_PDK_porsche/Porsche Macan GTS (16).jpg
   - /./assets/Macan_GTS_360_PDK_porsche/Porsche Macan GTS (19).jpg
   - /./assets/Macan_GTS_360_PDK_porsche/Porsche Macan GTS (17).jpg
