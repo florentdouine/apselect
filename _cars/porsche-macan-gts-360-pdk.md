@@ -9,8 +9,10 @@ kilometers: 64990
 fuel: Essence
 price: 64990
 photos:
-  - ''
-  - ''
+  - /./assets/Macan_GTS_360_PDK_porsche/Porsche Macan GTS (10).jpg
+  - /./assets/Macan_GTS_360_PDK_porsche/Porsche Macan GTS (13).jpg
+  - /./assets/Macan_GTS_360_PDK_porsche/Porsche Macan GTS (11).jpg
+  - /./assets/Macan_GTS_360_PDK_porsche/Porsche Macan GTS (14).jpg
   - /./assets/Macan_GTS_360_PDK_porsche/Porsche Macan GTS (2).jpg
   - /./assets/Macan_GTS_360_PDK_porsche/Porsche Macan GTS (3).jpg
   - /./assets/Macan_GTS_360_PDK_porsche/Porsche Macan GTS (4).jpg
