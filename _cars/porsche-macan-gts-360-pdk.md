@@ -10,6 +10,10 @@ fuel: Essence
 price: 64990
 photos:
   - ''
+  - ''
+  - ''
+  - /./assets/Macan_GTS_360_PDK_porsche/Porsche Macan GTS (3).jpg
+  - /./assets/Macan_GTS_360_PDK_porsche/Porsche Macan GTS (4).jpg
   - /./assets/Macan_GTS_360_PDK_porsche/Porsche Macan GTS (5).jpg
   - /./assets/Macan_GTS_360_PDK_porsche/Porsche Macan GTS (6).jpg
   - /./assets/Macan_GTS_360_PDK_porsche/Porsche Macan GTS (7).jpg
