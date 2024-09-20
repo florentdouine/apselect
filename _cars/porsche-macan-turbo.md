@@ -7,7 +7,7 @@ model: Macan
 year: 2014
 kilometers: 75990
 fuel: Essence
-price: 46990
+price: 44990
 photos:
   - /./assets/AA_Macan_Turbo_Porsche/Porsche Macan turbo  (2).jpg
   - /./assets/AA_Macan_Turbo_Porsche/Porsche Macan turbo  (3).jpg
