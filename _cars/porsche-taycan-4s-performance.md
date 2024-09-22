@@ -10,7 +10,7 @@ fuel: Electrique
 price: 73990
 photos:
   - ''
-  - ''
+  - /./assets/Taycan_4S_Porsche/Porsche Taycan 4s (8).jpg
   - /./assets/Taycan_4S_Porsche/Porsche Taycan 4s (6).jpg
   - /./assets/Taycan_4S_Porsche/Porsche Taycan 4s (7).jpg
   - /./assets/Taycan_4S_Porsche/Porsche Taycan 4s (12).jpg
