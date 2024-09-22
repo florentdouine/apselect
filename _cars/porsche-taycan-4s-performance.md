@@ -9,8 +9,8 @@ kilometers: 48900
 fuel: Electrique
 price: 73990
 photos:
-  - ''
-  - ''
+  - /./assets/Taycan_4S_Porsche/Porsche Taycan 4s (2).jpg
+  - /./assets/Taycan_4S_Porsche/Porsche Taycan 4s (3).jpg
   - /./assets/Taycan_4S_Porsche/Porsche Taycan 4s (9).jpg
   - /./assets/Taycan_4S_Porsche/Porsche Taycan 4s (4).jpg
   - /./assets/Taycan_4S_Porsche/Porsche Taycan 4s (5).jpg
