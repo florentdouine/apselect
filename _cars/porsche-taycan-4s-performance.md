@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Porsche Taycan 4S Performance
 isSold: false
 brand: Porsche
@@ -10,6 +10,9 @@ fuel: Electrique
 price: 73990
 photos:
   - ''
+  - ''
+  - /./assets/Taycan_4S_Porsche/Porsche Taycan 4s (1).png
+  - /./assets/Taycan_4S_Porsche/Porsche Taycan 4s (10).jpg
   - /./assets/Taycan_4S_Porsche/Porsche Taycan 4s (1).jpg
   - /./assets/Taycan_4S_Porsche/Porsche Taycan 4s (19).jpg
   - /./assets/Taycan_4S_Porsche/Porsche Taycan 4s (18).jpg
