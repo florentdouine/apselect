@@ -11,9 +11,9 @@ price: 41990
 photos:
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/C220d_SW_Mercedes_AMG/Mercedes C SW (5).jpg
+  - /./assets/C220d_SW_Mercedes_AMG/Mercedes C SW (15).jpg
+  - /./assets/C220d_SW_Mercedes_AMG/Mercedes C SW (12).jpg
   - /./assets/C220d_SW_Mercedes_AMG/Mercedes C SW (8).jpg
   - /./assets/C220d_SW_Mercedes_AMG/Mercedes C SW (11).jpg
   - /./assets/C220d_SW_Mercedes_AMG/Mercedes C SW (9).jpg
