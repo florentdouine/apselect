@@ -37,7 +37,8 @@ description: "AP SELECT met en vente une Mercedes Classe C220d SW 200ch 9G Troni
 properties:
   - property: 'Transmission '
     value: Automatique
-  - {}
+  - property: Puissance DIN
+    value: 200 ch
 layout: car
 ---
 
