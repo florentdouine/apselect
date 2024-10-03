@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Chevrolet Corvette C6 ZR1
-isSold: false
+isSold: true
 brand: Chevrolet
 model: 'Corvette '
 year: 2009
