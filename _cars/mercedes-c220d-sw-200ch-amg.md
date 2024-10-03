@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Mercedes C220d SW 200ch AMG
 isSold: false
 brand: Mercedes
