@@ -12,7 +12,10 @@ photos:
   - ''
   - ''
   - ''
+  - ''
+  - ''
   - /./assets/C220d_SW_Mercedes_AMG/Mercedes C SW (8).jpg
+  - /./assets/C220d_SW_Mercedes_AMG/Mercedes C SW (11).jpg
   - /./assets/C220d_SW_Mercedes_AMG/Mercedes C SW (9).jpg
   - /./assets/C220d_SW_Mercedes_AMG/Mercedes C SW (10).jpg
   - /./assets/C220d_SW_Mercedes_AMG/Mercedes C SW (6).jpg
