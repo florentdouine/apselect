@@ -1,7 +1,7 @@
 ---
 draft: false
 name: JEEP Wrangler JK Rubicon XQuattro
-isSold: false
+isSold: true
 brand: 'Jeep '
 model: Wrangler
 year: 2011
