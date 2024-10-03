@@ -1,7 +1,7 @@
 ---
 draft: false
 name: 'Porsche 992 Carrera S '
-isSold: false
+isSold: true
 brand: Porsche
 model: 911 Coupe
 year: 2019
