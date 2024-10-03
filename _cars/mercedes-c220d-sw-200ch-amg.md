@@ -9,7 +9,10 @@ kilometers: 55900
 fuel: Diesel
 price: 41990
 photos:
-  - ''
+  - /./assets/C220d_SW_Mercedes_AMG/Mercedes C SW 1.jpg
+  - /./assets/C220d_SW_Mercedes_AMG/Mercedes C SW 2.jpg
+  - /./assets/C220d_SW_Mercedes_AMG/Mercedes C SW 3.jpg
+  - /./assets/C220d_SW_Mercedes_AMG/Mercedes C SW 4.jpg
   - /./assets/C220d_SW_Mercedes_AMG/Mercedes C SW (4).jpg
   - /./assets/C220d_SW_Mercedes_AMG/Mercedes C SW (5).jpg
   - /./assets/C220d_SW_Mercedes_AMG/Mercedes C SW (15).jpg
