@@ -10,9 +10,9 @@ fuel: Diesel
 price: 21990
 photos:
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/GOLF_7_vw_gtd/GOLF 7 GTD (12).jpg
+  - /./assets/GOLF_7_vw_gtd/GOLF 7 GTD (11).jpg
+  - /./assets/GOLF_7_vw_gtd/GOLF 7 GTD (13).jpg
   - /./assets/GOLF_7_vw_gtd/GOLF 7 GTD (15).jpg
   - /./assets/GOLF_7_vw_gtd/GOLF 7 GTD (16).jpg
   - /./assets/GOLF_7_vw_gtd/GOLF 7 GTD (17).jpg
