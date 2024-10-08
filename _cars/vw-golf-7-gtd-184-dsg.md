@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: VW Golf 7 GTD 184 DSG
 isSold: false
 brand: VW
@@ -9,7 +9,16 @@ kilometers: 112900
 fuel: Diesel
 price: 21990
 photos:
-  - ''
+  - /./assets/GOLF_7_vw_gtd/GOLF 7 GTD (1).jpg
+  - /./assets/GOLF_7_vw_gtd/GOLF 7 GTD (3).jpg
+  - /./assets/GOLF_7_vw_gtd/GOLF 7 GTD (2).jpg
+  - /./assets/GOLF_7_vw_gtd/GOLF 7 GTD (14).jpg
+  - /./assets/GOLF_7_vw_gtd/GOLF 7 GTD (5).jpg
+  - /./assets/GOLF_7_vw_gtd/GOLF 7 GTD (4).jpg
+  - /./assets/GOLF_7_vw_gtd/GOLF 7 GTD (6).jpg
+  - /./assets/GOLF_7_vw_gtd/GOLF 7 GTD (7).jpg
+  - /./assets/GOLF_7_vw_gtd/GOLF 7 GTD (8).jpg
+  - /./assets/GOLF_7_vw_gtd/GOLF 7 GTD (10).jpg
   - /./assets/GOLF_7_vw_gtd/GOLF 7 GTD (12).jpg
   - /./assets/GOLF_7_vw_gtd/GOLF 7 GTD (11).jpg
   - /./assets/GOLF_7_vw_gtd/GOLF 7 GTD (13).jpg
