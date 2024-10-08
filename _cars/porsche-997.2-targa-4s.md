@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Porsche 997.2 Targa 4S
-isSold: false
+isSold: true
 brand: Porsche
 model: 997.2 Targa
 year: 2011
