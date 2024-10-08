@@ -14,8 +14,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/C_Porsche_997.2_Carrera_4S/Porsche 997 Carrera 4S (3).png
+  - /./assets/C_Porsche_997.2_Carrera_4S/Porsche 997 Carrera 4S (24).jpg
   - /./assets/C_Porsche_997.2_Carrera_4S/Porsche 997 Carrera 4S (23).jpg
   - /./assets/C_Porsche_997.2_Carrera_4S/Porsche 997 Carrera 4S (21).jpg
   - /./assets/C_Porsche_997.2_Carrera_4S/Porsche 997 Carrera 4S (22).jpg
