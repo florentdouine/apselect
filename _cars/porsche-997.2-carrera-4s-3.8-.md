@@ -9,6 +9,9 @@ kilometers: 84500
 fuel: Essence
 price: 76990
 photos:
+  - /./assets/C_Porsche_997.2_Carrera_4S/Porsche 997 Carrera 4S (1).png
+  - /./assets/C_Porsche_997.2_Carrera_4S/Porsche 997 Carrera 4S (2).png
+  - /./assets/C_Porsche_997.2_Carrera_4S/Porsche 997 Carrera 4S (4).jpg
   - /./assets/C_Porsche_997.2_Carrera_4S/Porsche 997 Carrera 4S (18).jpg
   - /./assets/C_Porsche_997.2_Carrera_4S/Porsche 997 Carrera 4S (8).jpg
   - /./assets/C_Porsche_997.2_Carrera_4S/Porsche 997 Carrera 4S (11).jpg
