@@ -7,7 +7,7 @@ model: X5 F15 40d
 year: 2016
 kilometers: 133990
 fuel: Diesel
-price: 37990
+price: 36490
 photos:
   - /./assets/X5_F15_BMW/bmw x5 f15 40d (1).jpg
   - /./assets/X5_F15_BMW/bmw x5 f15 40d (11).jpg
