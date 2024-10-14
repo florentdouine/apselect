@@ -9,10 +9,12 @@ kilometers: 74990
 fuel: Essence
 price: 59990
 photos:
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./Audi_TT_RS_Daza/IMG_2934_jpg.jpg
+  - /./Audi_TT_RS_Daza/TTRS (3).png
+  - /./Audi_TT_RS_Daza/TTRS (2).png
+  - /./Audi_TT_RS_Daza/IMG_2951_jpg.jpg
+  - /./Audi_TT_RS_Daza/IMG_2938_jpg.jpg
+  - /./Audi_TT_RS_Daza/IMG_2939_jpg.jpg
   - /./Audi_TT_RS_Daza/IMG_2940_jpg.jpg
   - /./Audi_TT_RS_Daza/IMG_2949_jpg.jpg
   - /./Audi_TT_RS_Daza/IMG_2943_jpg.jpg
