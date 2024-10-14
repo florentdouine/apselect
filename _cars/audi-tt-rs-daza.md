@@ -11,9 +11,6 @@ price: 59990
 photos:
   - ''
   - ''
-  - ''
-  - ''
-  - ''
   - /./Audi_TT_RS_Daza/Capture dÔÇÖ+®cran-á. 2024-10-11 +á 15.13.16.jpeg.png
   - /./Audi_TT_RS_Daza/Capture dÔÇÖ+®cran-á. 2024-10-11 +á 15.29.50.jpeg.png
   - /./Audi_TT_RS_Daza/Capture dÔÇÖ+®cran-á. 2024-10-11 +á 15.39.30.jpeg.png
