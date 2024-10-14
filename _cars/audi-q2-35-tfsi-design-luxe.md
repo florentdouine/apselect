@@ -3,7 +3,7 @@ draft: false
 name: AUDI Q2 35 TFSI Design luxe
 isSold: false
 brand: Audi
-model: Q2
+model: Q2 Design Luxe
 year: 2019
 kilometers: 55990
 fuel: Essence
