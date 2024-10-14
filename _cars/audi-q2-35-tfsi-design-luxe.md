@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: AUDI Q2 35 TFSI Design luxe
 isSold: false
 brand: Audi
@@ -9,13 +9,12 @@ kilometers: 55990
 fuel: Essence
 price: 23990
 photos:
+  - /./assets/Audi_Q2_DesignLuxe/Audi_Q2 (1).jpg
   - /./assets/Audi_Q2_DesignLuxe/Audi_Q2 (1).png
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/Audi_Q2_DesignLuxe/Audi_Q2 (2).jpg
+  - /./assets/Audi_Q2_DesignLuxe/Audi_Q2 (11).jpg
+  - /./assets/Audi_Q2_DesignLuxe/Audi_Q2 (3).jpg
+  - /./assets/Audi_Q2_DesignLuxe/Audi_Q2 (4).jpg
   - /./assets/Audi_Q2_DesignLuxe/Audi_Q2 (5).jpg
   - /./assets/Audi_Q2_DesignLuxe/Audi_Q2 (6).jpg
   - /./assets/Audi_Q2_DesignLuxe/Audi_Q2 (7).jpg
