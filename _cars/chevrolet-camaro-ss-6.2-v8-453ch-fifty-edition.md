@@ -9,9 +9,9 @@ kilometers: 24490
 fuel: Essence
 price: 53990
 photos:
-  - ''
-  - ''
-  - ''
+  - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3425_jpg.jpg
+  - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3410_jpg.jpg
+  - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3413_jpg.jpg
   - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3412_jpg.jpg
   - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3419_jpg.jpg
   - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3421_jpg(1).jpg
