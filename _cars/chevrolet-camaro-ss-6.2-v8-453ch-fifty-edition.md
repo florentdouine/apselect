@@ -15,9 +15,9 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3450_jpg.jpg
+  - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3448_jpg.jpg
+  - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3400_jpg.jpg
 description: >-
   AP SELECT met en vente une Chevrolet Camaro SS 6.2 V8 453ch BVA8.
 
