@@ -7,7 +7,7 @@ model: Macan GTS
 year: 2018
 kilometers: 64990
 fuel: Essence
-price: 64990
+price: 59990
 photos:
   - /./assets/Macan_GTS_360_PDK_porsche/Porsche Macan GTS (10).jpg
   - /./assets/Macan_GTS_360_PDK_porsche/Porsche Macan GTS (13).jpg
