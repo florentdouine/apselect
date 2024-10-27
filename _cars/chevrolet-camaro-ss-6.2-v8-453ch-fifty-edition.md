@@ -12,7 +12,6 @@ photos:
   - ''
   - ''
   - ''
-  - ''
   - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3412_jpg.jpg
   - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3419_jpg.jpg
   - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3421_jpg(1).jpg
@@ -21,6 +20,7 @@ photos:
   - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3416_jpg.jpg
   - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3417_jpg.jpg
   - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3432_jpg.jpg
+  - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3429_jpg.jpg
   - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3427_jpg.jpg
   - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3426_jpg.jpg
   - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3445_jpg.jpg
