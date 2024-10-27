@@ -10,8 +10,8 @@ fuel: Essence
 price: 53990
 photos:
   - ''
-  - ''
-  - ''
+  - "/./assets/Chervolet_Camaro_SS_FIFTY/Capture d’écran\_. 2024-10-24 à 10.58.32.jpeg.png"
+  - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3408_jpg.jpg
   - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3411_jpg.jpg
   - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3425_jpg.jpg
   - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3410_jpg.jpg
