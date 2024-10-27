@@ -12,13 +12,13 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/Shelby_GT500/IMG_0333_jpg.jpg
+  - /./assets/Shelby_GT500/IMG_0336_jpg.jpg
+  - /./assets/Shelby_GT500/IMG_0322_jpg.jpg
+  - /./assets/Shelby_GT500/IMG_0324_jpg.jpg
+  - /./assets/Shelby_GT500/IMG_0304_jpg.jpg
+  - /./assets/Shelby_GT500/IMG_0311_jpg.jpg
+  - /./assets/Shelby_GT500/IMG_0306_jpg.jpg
 description: "AP SELECT met en vente une FORD Shelby GT500 5.4 V8 compresseur 550ch pack SVT boîte mécanique.\nModèle du 05/2010 avec 59800km.\n\nCouleur grey metallic, intérieur Cuir bi matière cuir / Alcantara avec surpiqûres blanc\n\nCarte grise française sans malus \U0001F1EB\U0001F1F7\n\nLe véhicule est en parfait état avec historique limpide.\n\nVendu avec une garantie 6 mois.\n\nEntretien complet moteur, boîte, pont fait en 2023.\nNouvel entretien 2024 fait pour la vente avec pneus et freins neuf.\n\nÉquipements et options :\n- Pack SVT\n- Boîte mécanique 6\n- Châssis sport\n- Système hi-fi\n- Navigation GPS 3D\n- Climatisation\n- Alarme antivol\n- Sièges électriques\n- Retroviseurs rabattables electriquement et anti-éblouissement\n- Régulateur de vitesse\n- Vitrage calorifuge\n- Shadow line brillant\n- Kit éclairage\n- Ciel de pavillon Anthracite\n\nDisponible et visible sur RDV pour acheteur sérieux.\n\nPossibilité d’un garantie 3 mois avec 6 ou 12 mois en supplément.\n\nRéalisation des démarches d'immatriculation.\n\nAP SELECT c'est des solutions de courtage et conciergerie sur mesure pour profiter librement de sa passion et de son patrimoine.\n\nPrenez le volant, AP SELECT s'occupe du reste."
 properties:
   - property: Transmission
