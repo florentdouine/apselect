@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: FORD Shelby GT500
 isSold: false
 brand: Ford
