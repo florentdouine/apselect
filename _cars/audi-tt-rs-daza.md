@@ -7,7 +7,7 @@ model: TT RS
 year: 2016
 kilometers: 74990
 fuel: Essence
-price: 59990
+price: 57990
 photos:
   - /./Audi_TT_RS_Daza/IMG_2934_jpg.jpg
   - /./Audi_TT_RS_Daza/TTRS (3).png
