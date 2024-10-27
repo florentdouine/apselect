@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Chevrolet Camaro SS 6.2 V8 453ch FIFTY Edition
 isSold: false
 brand: Chevrolet
