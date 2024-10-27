@@ -14,7 +14,7 @@ photos:
   - ''
   - ''
   - ''
-  - ''
+  - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3445_jpg.jpg
   - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3450_jpg.jpg
   - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3448_jpg.jpg
   - /./assets/Chervolet_Camaro_SS_FIFTY/IMG_3400_jpg.jpg
