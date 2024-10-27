@@ -9,7 +9,9 @@ kilometers: 59800
 fuel: Essence
 price: 54990
 photos:
-  - ''
+  - /./assets/Shelby_GT500/IMG_0267_jpg(1).jpg
+  - /./assets/Shelby_GT500/IMG_0269_jpg.jpg
+  - /./assets/Shelby_GT500/IMG_0313_jpg.jpg
   - /./assets/Shelby_GT500/IMG_0293_jpg.jpg
   - /./assets/Shelby_GT500/IMG_0294_jpg(1).jpg
   - /./assets/Shelby_GT500/IMG_0299_jpg.jpg
