@@ -1,7 +1,7 @@
 ---
 draft: false
 name: 'Mercedes GLE coupe '
-isSold: false
+isSold: true
 brand: Mercedes-Benz
 model: GLE Coupé
 year: 2016
