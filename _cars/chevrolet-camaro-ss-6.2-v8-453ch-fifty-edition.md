@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Chevrolet Camaro SS 6.2 V8 453ch FIFTY Edition
-isSold: false
+isSold: true
 brand: Chevrolet
 model: Camaro SS FIFTY Edition
 year: 2017
