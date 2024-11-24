@@ -7,7 +7,7 @@ model: RS6 C8
 year: 2020
 kilometers: 91990
 fuel: Essence
-price: 104990
+price: 99990
 photos:
   - /./assets/Audi_RS6_GMK/AUDI RS6 (12).jpg
   - /./assets/Audi_RS6_GMK/AUDI RS6 (13).jpg
