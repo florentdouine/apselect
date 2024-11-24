@@ -7,7 +7,7 @@ model: 997.2 Carrera 4S
 year: 2008
 kilometers: 84500
 fuel: Essence
-price: 76990
+price: 74990
 photos:
   - /./assets/C_Porsche_997.2_Carrera_4S/Porsche 997 Carrera 4S (1).png
   - /./assets/C_Porsche_997.2_Carrera_4S/Porsche 997 Carrera 4S (2).png
