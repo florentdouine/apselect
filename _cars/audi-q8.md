@@ -7,7 +7,7 @@ model: Q8
 year: 2023
 kilometers: 28990
 fuel: Hybride
-price: 99990
+price: 92990
 photos:
   - /./assets/AUDI Q8/AUDI Q8 (1).jpg
   - /./assets/AUDI Q8/AUDI Q8 (4).jpg
