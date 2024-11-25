@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Volvo XC60 T6 AWD Ultimate Dark
 isSold: false
 brand: Volvo
@@ -9,8 +9,8 @@ kilometers: 21300
 fuel: Hybride
 price: 62990
 photos:
-  - ''
-  - ''
+  - /./assets/Volvo XC60/Volvo CX60 (1).jpg
+  - /./assets/Volvo XC60/Volvo CX60 (13).jpg
   - /./assets/Volvo XC60/Volvo CX60 (2).png
   - /./assets/Volvo XC60/Volvo CX60 (14).jpg
   - /./assets/Volvo XC60/Volvo CX60 (2).jpg
