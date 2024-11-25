@@ -13,12 +13,12 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/Volvo XC60/Volvo CX60 (6).jpg
+  - /./assets/Volvo XC60/Volvo CX60 (1).png
+  - /./assets/Volvo XC60/Volvo CX60 (9).jpg
+  - /./assets/Volvo XC60/Volvo CX60 (10).jpg
+  - /./assets/Volvo XC60/Volvo CX60 (7).jpg
+  - /./assets/Volvo XC60/Volvo CX60 (8).jpg
   - /./assets/Volvo XC60/Volvo CX60 (11).jpg
   - /./assets/Volvo XC60/Volvo CX60 (12).jpg
   - /./assets/Volvo XC60/Volvo CX60 (15).jpg
