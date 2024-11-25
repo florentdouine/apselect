@@ -1,6 +1,6 @@
 ---
 draft: true
-name: Volvo XC60 T6 AWD Ultimate Dark 253
+name: Volvo XC60 T6 AWD Ultimate Dark
 isSold: false
 brand: Volvo
 model: 'XC60 '
@@ -19,10 +19,10 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/Volvo XC60/Volvo CX60 (11).jpg
+  - /./assets/Volvo XC60/Volvo CX60 (12).jpg
+  - /./assets/Volvo XC60/Volvo CX60 (15).jpg
+  - /./assets/Volvo XC60/Volvo CX60 (20).jpg
   - /./assets/Volvo XC60/Volvo CX60 (16).jpg
   - /./assets/Volvo XC60/Volvo CX60 (17).jpg
   - /./assets/Volvo XC60/Volvo CX60 (18).jpg
