@@ -11,6 +11,8 @@ price: 62990
 photos:
   - ''
   - ''
+  - /./assets/Volvo XC60/Volvo CX60 (2).png
+  - /./assets/Volvo XC60/Volvo CX60 (14).jpg
   - /./assets/Volvo XC60/Volvo CX60 (2).jpg
   - /./assets/Volvo XC60/Volvo CX60 (4).jpg
   - /./assets/Volvo XC60/Volvo CX60 (5).jpg
