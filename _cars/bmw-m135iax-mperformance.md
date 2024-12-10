@@ -15,13 +15,13 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/BMW_M135i/bmw m135i (7).jpg
+  - /./assets/BMW_M135i/bmw m135i (1).jpg
+  - /./assets/BMW_M135i/bmw m135i (3).jpg
+  - /./assets/BMW_M135i/bmw m135i (6).jpg
+  - /./assets/BMW_M135i/bmw m135i (4).jpg
+  - /./assets/BMW_M135i/bmw m135i (5).jpg
+  - /./assets/BMW_M135i/bmw m135i (8).jpg
   - /./assets/BMW_M135i/bmw m135i (9).jpg
   - /./assets/BMW_M135i/bmw m135i (10).jpg
   - /./assets/BMW_M135i/bmw m135i (20).jpg
