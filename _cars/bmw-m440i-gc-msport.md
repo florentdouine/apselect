@@ -9,7 +9,10 @@ kilometers: 62300
 fuel: Essence
 price: 43990
 photos:
-  - ''
+  - /./assets/BMW_440i/BMW 440i (1).jpg
+  - /./assets/BMW_440i/BMW 440i (15).jpg
+  - /./assets/BMW_440i/BMW 440i (2).jpg
+  - /./assets/BMW_440i/BMW 440i (16).jpg
   - /./assets/BMW_440i/BMW 440i (4).jpg
   - /./assets/BMW_440i/BMW 440i (3).jpg
   - /./assets/BMW_440i/BMW 440i (10).jpg
