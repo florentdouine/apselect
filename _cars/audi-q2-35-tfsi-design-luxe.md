@@ -7,7 +7,7 @@ model: Q2 Design Luxe
 year: 2019
 kilometers: 55990
 fuel: Essence
-price: 22990
+price: 21990
 photos:
   - /./assets/Audi_Q2_DesignLuxe/Audi_Q2 (1).jpg
   - /./assets/Audi_Q2_DesignLuxe/Audi_Q2 (1).png
