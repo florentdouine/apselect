@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Porsche 991.2 TURBO S
-isSold: false
+isSold: true
 brand: Porsche
 model: 991.2 Turbo s
 year: 2016
