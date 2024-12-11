@@ -1,7 +1,7 @@
 ---
 draft: false
 name: AUDI RS6 C8
-isSold: false
+isSold: true
 brand: AUDI
 model: RS6 C8
 year: 2020
