@@ -9,12 +9,12 @@ kilometers: 42500
 fuel: Essence
 price: 44990
 photos:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/BMW_M135i/bmw m135i (17).jpg
+  - /./assets/BMW_M135i/bmw m135i (16).jpg
+  - /./assets/BMW_M135i/bmw m135i (12).jpg
+  - /./assets/BMW_M135i/bmw m135i (13).jpg
+  - /./assets/BMW_M135i/bmw m135i (15).jpg
+  - /./assets/BMW_M135i/bmw m135i (2).jpg
   - /./assets/BMW_M135i/bmw m135i (7).jpg
   - /./assets/BMW_M135i/bmw m135i (1).jpg
   - /./assets/BMW_M135i/bmw m135i (3).jpg
