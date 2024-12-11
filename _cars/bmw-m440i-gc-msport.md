@@ -24,6 +24,7 @@ photos:
   - /./assets/BMW_440i/BMW 440i (13).jpg
   - /./assets/BMW_440i/BMW 440i (14).jpg
   - /./assets/BMW_440i/BMW 440i (17).jpg
+  - /./assets/BMW_440i/BMW 440i (12).jpg
   - /./assets/BMW_440i/BMW 440i (18).jpg
   - /./assets/BMW_440i/BMW 440i (20).jpg
   - /./assets/BMW_440i/BMW 440i (21).jpg
