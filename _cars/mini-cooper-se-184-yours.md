@@ -1,7 +1,7 @@
 ---
 draft: false
 name: MINI Cooper SE 184 YOURS
-isSold: false
+isSold: true
 brand: 'Mini '
 model: Cooper SE
 year: 2021
