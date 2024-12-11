@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Mercedes GLC coupe 300d
-isSold: false
+isSold: true
 brand: Mercedes
 model: GLC coupe 300d
 year: 2019
