@@ -1,7 +1,7 @@
 ---
 draft: false
 name: FORD Shelby GT500
-isSold: false
+isSold: true
 brand: Ford
 model: Shelby GT500
 year: 2010
