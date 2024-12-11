@@ -1,7 +1,7 @@
 ---
 draft: false
 name: BMW X5 F15 40d
-isSold: false
+isSold: true
 brand: BMW
 model: X5 F15 40d
 year: 2016
