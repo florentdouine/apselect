@@ -1,7 +1,7 @@
 ---
 draft: false
 name: VW Tiguan 2.0 TDI 150 DSG
-isSold: false
+isSold: true
 brand: VOLKSWAGEN
 model: 'Tiguan '
 year: 2019
