@@ -1,7 +1,7 @@
 ---
 draft: false
 name: BMW X5 45e ///MSport
-isSold: false
+isSold: true
 brand: BMW
 model: X5 45e
 year: 2023
