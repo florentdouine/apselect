@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: 'VW Golf 4 R32 '
 isSold: false
 brand: VOLKSWAGEN
@@ -9,8 +9,13 @@ kilometers: 165990
 fuel: essence
 price: 29990
 photos:
-  - ''
-  - ''
+  - /./assets/Golf_4_R32/VW Golf R32 (15).jpg
+  - /./assets/Golf_4_R32/VW Golf R32 (17).jpg
+  - /./assets/Golf_4_R32/VW Golf R32 (16).jpg
+  - /./assets/Golf_4_R32/VW Golf R32 (6).jpg
+  - /./assets/Golf_4_R32/VW Golf R32 (4).jpg
+  - /./assets/Golf_4_R32/VW Golf R32 (10).jpg
+  - /./assets/Golf_4_R32/VW Golf R32 (2).jpg
   - /./assets/Golf_4_R32/VW Golf R32 (7).jpg
   - /./assets/Golf_4_R32/VW Golf R32 (8).jpg
   - /./assets/Golf_4_R32/VW Golf R32 (12).jpg
