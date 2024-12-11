@@ -11,8 +11,8 @@ price: 29990
 photos:
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/Golf_4_R32/VW Golf R32 (7).jpg
+  - /./assets/Golf_4_R32/VW Golf R32 (8).jpg
   - /./assets/Golf_4_R32/VW Golf R32 (12).jpg
   - /./assets/Golf_4_R32/VW Golf R32 (11).jpg
   - /./assets/Golf_4_R32/VW Golf R32 (13).jpg
