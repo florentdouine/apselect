@@ -10,24 +10,6 @@ fuel: Hybride
 price: 86990
 photos:
   - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 1.jpg
-  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 2.jpg
-  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 3.jpg
-  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 4.jpg
-  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 5.jpg
-  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 6.jpg
-  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 7.jpg
-  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 8.jpg
-  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 9.jpg
-  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 10.jpg
-  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 11.jpg
-  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 12.jpg
-  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 13.jpg
-  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid (11).jpg
-  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 14.jpg
-  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 15.jpg
-  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 16.jpg
-  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 17.jpg
-  - /./assets/Cayenne Michel/Porsche cayenne III E Hybrid 18.jpg
 description: >-
   AP SELECT met en vente un Porsche Cayenne coupé III E-Hybrid 3.0 V6 462ch PDK.
 
