@@ -1,7 +1,7 @@
 ---
 draft: false
 name: VW Golf 7 GTD 184 DSG
-isSold: false
+isSold: true
 brand: VW
 model: Golf 7 GTD 184
 year: 2017
