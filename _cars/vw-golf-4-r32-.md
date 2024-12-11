@@ -13,9 +13,9 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/Golf_4_R32/VW Golf R32 (12).jpg
+  - /./assets/Golf_4_R32/VW Golf R32 (11).jpg
+  - /./assets/Golf_4_R32/VW Golf R32 (13).jpg
   - /./assets/Golf_4_R32/VW Golf R32 (18).jpg
   - /./assets/Golf_4_R32/VW Golf R32 (19).jpg
   - /./assets/Golf_4_R32/VW Golf R32 (20).jpg
