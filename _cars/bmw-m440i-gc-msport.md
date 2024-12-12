@@ -1,7 +1,7 @@
 ---
 draft: false
 name: BMW M440i GC MSport
-isSold: false
+isSold: true
 brand: BMW
 model: M440i
 year: 2017
