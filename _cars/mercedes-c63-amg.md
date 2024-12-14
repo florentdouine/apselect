@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Mercedes C63 AMG
 isSold: false
 brand: Mercedes
