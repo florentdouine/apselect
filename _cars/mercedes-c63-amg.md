@@ -9,9 +9,9 @@ kilometers: 42900
 fuel: Essence
 price: 66990
 photos:
-  - ''
-  - ''
-  - ''
+  - /./assets/AMG_C63_Mercedes/mercedes amg c63 (13).jpg
+  - /./assets/AMG_C63_Mercedes/mercedes amg c63 (4).jpg
+  - /./assets/AMG_C63_Mercedes/mercedes amg c63 (6).jpg
   - /./assets/AMG_C63_Mercedes/mercedes amg c63 (5).jpg
   - /./assets/AMG_C63_Mercedes/mercedes amg c63 (3).jpg
   - /./assets/AMG_C63_Mercedes/mercedes amg c63 (7).jpg
