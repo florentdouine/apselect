@@ -13,8 +13,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/AMG_C63_Mercedes/mercedes amg c63 (17).jpg
+  - /./assets/AMG_C63_Mercedes/mercedes amg c63 (12).jpg
   - /./assets/AMG_C63_Mercedes/mercedes amg c63 (19).jpg
   - /./assets/AMG_C63_Mercedes/mercedes amg c63 (15).jpg
   - /./assets/AMG_C63_Mercedes/mercedes amg c63 (16).jpg
