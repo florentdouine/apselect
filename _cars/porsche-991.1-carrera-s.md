@@ -15,8 +15,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/991_porsche_carrera_s/Porsche_991_Carrera_S (12).jpg
+  - /./assets/991_porsche_carrera_s/Porsche_991_Carrera_S (11).jpg
   - /./assets/991_porsche_carrera_s/Porsche_991_Carrera_S (16).jpg
   - /./assets/991_porsche_carrera_s/Porsche_991_Carrera_S (17).jpg
   - /./assets/991_porsche_carrera_s/Porsche_991_Carrera_S (18).jpg
