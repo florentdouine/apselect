@@ -16,7 +16,7 @@ photos:
   - ''
   - ''
   - ''
-  - ''
+  - /./assets/Toyota_Yaris_GR/Toyota Yaris GR (5).jpg
   - /./assets/Toyota_Yaris_GR/Toyota Yaris GR (10).jpg
   - /./assets/Toyota_Yaris_GR/Toyota Yaris GR (14).jpg
   - /./assets/Toyota_Yaris_GR/Toyota Yaris GR (16).jpg
