@@ -10,10 +10,10 @@ fuel: Essence
 price: 25990
 photos:
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/987_porsche_boxster/Porsche 987  (9).jpg
+  - /./assets/987_porsche_boxster/Porsche 987  (11).jpg
+  - /./assets/987_porsche_boxster/Porsche 987  (10).jpg
+  - /./assets/987_porsche_boxster/Porsche 987  (5).jpg
   - /./assets/987_porsche_boxster/Porsche 987  (6).jpg
   - /./assets/987_porsche_boxster/Porsche 987  (7).jpg
   - /./assets/987_porsche_boxster/Porsche 987  (8).jpg
