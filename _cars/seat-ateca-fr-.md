@@ -9,8 +9,10 @@ kilometers: 39500
 fuel: Essence
 price: 25990
 photos:
-  - ''
-  - ''
+  - /./assets/Seat_Ateca/Seat_Ateca (2).jpg
+  - /./assets/Seat_Ateca/Seat_Ateca (4).jpg
+  - /./assets/Seat_Ateca/Seat_Ateca (3).jpg
+  - /./assets/Seat_Ateca/Seat_Ateca (13).jpg
   - /./assets/Seat_Ateca/Seat_Ateca (5).jpg
   - /./assets/Seat_Ateca/Seat_Ateca (7).jpg
   - /./assets/Seat_Ateca/Seat_Ateca (8).jpg
