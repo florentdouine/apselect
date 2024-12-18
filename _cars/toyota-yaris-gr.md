@@ -10,11 +10,11 @@ fuel: Essence
 price: 46990
 photos:
   - ''
-  - ''
-  - ''
+  - /./assets/Toyota_Yaris_GR/Toyota Yaris GR (4).jpg
   - /./assets/Toyota_Yaris_GR/Toyota Yaris GR (6).jpg
   - /./assets/Toyota_Yaris_GR/Toyota Yaris GR (8).jpg
   - /./assets/Toyota_Yaris_GR/Toyota Yaris GR (7).jpg
+  - /./assets/Toyota_Yaris_GR/Toyota Yaris GR (9).jpg
   - /./assets/Toyota_Yaris_GR/Toyota Yaris GR (5).jpg
   - /./assets/Toyota_Yaris_GR/Toyota Yaris GR (10).jpg
   - /./assets/Toyota_Yaris_GR/Toyota Yaris GR (14).jpg
