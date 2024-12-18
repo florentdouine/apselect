@@ -9,12 +9,12 @@ kilometers: 109900
 fuel: Essence
 price: 79990
 photos:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/991_porsche_carrera_s/Porsche_991_Carrera_S (14).jpg
+  - /./assets/991_porsche_carrera_s/Porsche_991_Carrera_S (5).jpg
+  - /./assets/991_porsche_carrera_s/Porsche_991_Carrera_S (7).jpg
+  - /./assets/991_porsche_carrera_s/Porsche_991_Carrera_S (6).jpg
+  - /./assets/991_porsche_carrera_s/Porsche_991_Carrera_S (9).jpg
+  - /./assets/991_porsche_carrera_s/Porsche_991_Carrera_S (13).jpg
   - /./assets/991_porsche_carrera_s/Porsche_991_Carrera_S (12).jpg
   - /./assets/991_porsche_carrera_s/Porsche_991_Carrera_S (11).jpg
   - /./assets/991_porsche_carrera_s/Porsche_991_Carrera_S (16).jpg
