@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Toyota Yaris GR
 isSold: false
 brand: Toyota
