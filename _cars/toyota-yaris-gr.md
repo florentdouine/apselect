@@ -9,9 +9,10 @@ kilometers: 5900
 fuel: Essence
 price: 46990
 photos:
-  - ''
-  - ''
-  - ''
+  - /./assets/Toyota_Yaris_GR/Toyota Yaris GR (1).jpg
+  - /./assets/Toyota_Yaris_GR/Toyota Yaris GR (12).jpg
+  - /./assets/Toyota_Yaris_GR/Toyota Yaris GR (2).jpg
+  - /./assets/Toyota_Yaris_GR/Toyota Yaris GR (11).jpg
   - /./assets/Toyota_Yaris_GR/Toyota Yaris GR (3).jpg
   - /./assets/Toyota_Yaris_GR/Toyota Yaris GR (4).jpg
   - /./assets/Toyota_Yaris_GR/Toyota Yaris GR (6).jpg
