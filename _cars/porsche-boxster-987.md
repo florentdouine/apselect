@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Porsche Boxster 987
 isSold: false
 brand: Porsche
@@ -9,7 +9,11 @@ kilometers: 131500
 fuel: Essence
 price: 25990
 photos:
-  - ''
+  - /./assets/987_porsche_boxster/Porsche 987  (1).jpg
+  - /./assets/987_porsche_boxster/Porsche 987  (13).jpg
+  - /./assets/987_porsche_boxster/Porsche 987  (3).jpg
+  - /./assets/987_porsche_boxster/Porsche 987  (2).jpg
+  - /./assets/987_porsche_boxster/Porsche 987  (4).jpg
   - /./assets/987_porsche_boxster/Porsche 987  (9).jpg
   - /./assets/987_porsche_boxster/Porsche 987  (11).jpg
   - /./assets/987_porsche_boxster/Porsche 987  (10).jpg
