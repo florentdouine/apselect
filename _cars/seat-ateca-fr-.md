@@ -10,6 +10,9 @@ fuel: Essence
 price: 25990
 photos:
   - ''
+  - ''
+  - /./assets/Seat_Ateca/Seat_Ateca (5).jpg
+  - /./assets/Seat_Ateca/Seat_Ateca (7).jpg
   - /./assets/Seat_Ateca/Seat_Ateca (8).jpg
   - /./assets/Seat_Ateca/Seat_Ateca (9).jpg
   - /./assets/Seat_Ateca/Seat_Ateca (10).jpg
