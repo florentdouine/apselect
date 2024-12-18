@@ -15,8 +15,7 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - /./assets/Seat_Ateca//WhatsApp Image 2024-12-18 at 13.57.46.jpeg
+  - /./assets/Seat_Ateca/WhatsApp Image 2024-12-18 at 13.57.46.jpeg
   - /./assets/Seat_Ateca/Seat_Ateca (14).jpg
   - /./assets/Seat_Ateca/Seat_Ateca (15).jpg
   - /./assets/Seat_Ateca/Seat_Ateca (16).jpg
