@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: 'SEAT Ateca FR '
 isSold: false
 brand: SEAT
