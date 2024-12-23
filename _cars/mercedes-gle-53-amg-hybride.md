@@ -9,6 +9,11 @@ kilometers: 2400
 fuel: Hybride
 price: 129990
 photos:
+  - ''
+  - /./assets/Mercedes _GLE_53_AMG/FullSizeRender(22).jpg
+  - /./assets/Mercedes _GLE_53_AMG/FullSizeRender(21).jpg
+  - /./assets/Mercedes _GLE_53_AMG/FullSizeRender(20).jpg
+  - /./assets/Mercedes _GLE_53_AMG/FullSizeRender(26).jpg
   - /./assets/Mercedes _GLE_53_AMG/FullSizeRender(17).jpg
   - /./assets/Mercedes _GLE_53_AMG/FullSizeRender(15).jpg
   - /./assets/Mercedes _GLE_53_AMG/FullSizeRender(1).jpg
