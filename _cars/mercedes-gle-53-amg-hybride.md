@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Mercedes GLE 53 AMG hybride
 isSold: false
 brand: Mercedes
@@ -9,7 +9,7 @@ kilometers: 2400
 fuel: Hybride
 price: 129990
 photos:
-  - ''
+  - /./assets/Mercedes _GLE_53_AMG/FullSizeRender(25).jpg
   - /./assets/Mercedes _GLE_53_AMG/FullSizeRender(28).jpg
   - /./assets/Mercedes _GLE_53_AMG/FullSizeRender(24).jpg
   - /./assets/Mercedes _GLE_53_AMG/FullSizeRender(10).jpg
