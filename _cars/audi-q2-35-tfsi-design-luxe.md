@@ -1,7 +1,7 @@
 ---
 draft: false
 name: AUDI Q2 35 TFSI Design luxe
-isSold: false
+isSold: true
 brand: Audi
 model: Q2 Design Luxe
 year: 2019
