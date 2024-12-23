@@ -12,11 +12,11 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/987_porsche_boxster/IMG_4993_jpg.jpg
+  - /./assets/987_porsche_boxster/IMG_4994_jpg.jpg
+  - /./assets/987_porsche_boxster/IMG_4995_jpg.jpg
+  - /./assets/987_porsche_boxster/IMG_4996_jpg.jpg
+  - /./assets/987_porsche_boxster/IMG_4991_jpg.jpg
   - /./assets/987_porsche_boxster/IMG_5002_jpg.jpg
   - /./assets/987_porsche_boxster/IMG_5004_jpg.jpg
   - /./assets/987_porsche_boxster/IMG_5005_jpg.jpg
