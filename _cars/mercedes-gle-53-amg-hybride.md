@@ -11,7 +11,7 @@ price: 129990
 photos:
   - /./assets/Mercedes _GLE_53_AMG/FullSizeRender.jpeg
   - ''
-  - ''
+  - /./assets/Mercedes _GLE_53_AMG/FullSizeRender(4).jpg
   - /./assets/Mercedes _GLE_53_AMG/FullSizeRender(7).jpg
   - /./assets/Mercedes _GLE_53_AMG/FullSizeRender(6).jpg
   - /./assets/Mercedes _GLE_53_AMG/FullSizeRender(5).jpg
