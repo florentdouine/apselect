@@ -10,6 +10,9 @@ fuel: Hybride
 price: 129990
 photos:
   - ''
+  - /./assets/Mercedes _GLE_53_AMG/FullSizeRender(28).jpg
+  - /./assets/Mercedes _GLE_53_AMG/FullSizeRender(24).jpg
+  - /./assets/Mercedes _GLE_53_AMG/FullSizeRender(10).jpg
   - /./assets/Mercedes _GLE_53_AMG/FullSizeRender(22).jpg
   - /./assets/Mercedes _GLE_53_AMG/FullSizeRender(21).jpg
   - /./assets/Mercedes _GLE_53_AMG/FullSizeRender(20).jpg
