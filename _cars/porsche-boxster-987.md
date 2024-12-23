@@ -9,9 +9,13 @@ kilometers: 131500
 fuel: Essence
 price: 25990
 photos:
-  - ''
-  - ''
-  - ''
+  - /./assets/987_porsche_boxster/IMG_4982_jpg.jpg
+  - /./assets/987_porsche_boxster/IMG_4990_jpg.jpg
+  - /./assets/987_porsche_boxster/IMG_4987_jpg.jpg
+  - /./assets/987_porsche_boxster/IMG_4983_jpg.jpg
+  - /./assets/987_porsche_boxster/IMG_4985_jpg.jpg
+  - /./assets/987_porsche_boxster/IMG_4992_jpg.jpg
+  - /./assets/987_porsche_boxster/IMG_4997_jpg.jpg
   - /./assets/987_porsche_boxster/IMG_4993_jpg.jpg
   - /./assets/987_porsche_boxster/IMG_4994_jpg.jpg
   - /./assets/987_porsche_boxster/IMG_4995_jpg.jpg
