@@ -1,14 +1,15 @@
 ---
 draft: false
 name: Range Rover Sport HSE P400e
-isSold: false
+isSold: true
 brand: LAND-ROVER
 model: Range Rover Sport
 year: 2019
 kilometers: 52490
 fuel: Hybride
 price: 79990
-layout: car
+photos:
+  - /./assets/AA_Range_Rover/Range Rover Sport HSE 1.jpg
 description: >-
   AP SELECT met en vente un Range Rover Sport P400e Hybride 404ch BVA8 du
   07/2019 avec 52490km.
@@ -107,26 +108,6 @@ description: >-
   Prenez le volant, AP SELECT s'occupe du reste.
 properties:
   - {}
-photos:
-  - /./assets/AA_Range_Rover/Range Rover Sport HSE 1.jpg
-  - /./assets/AA_Range_Rover/Range Rover Sport HSE 2.jpg
-  - /./assets/AA_Range_Rover/Range Rover Sport HSE 3.jpg
-  - /./assets/AA_Range_Rover/Range Rover Sport HSE 4.jpg
-  - /./assets/AA_Range_Rover/Range Rover Sport HSE 5.jpg
-  - /./assets/AA_Range_Rover/Range Rover Sport HSE 6.jpg
-  - /./assets/AA_Range_Rover/Range Rover Sport HSE 7.jpg
-  - /./assets/AA_Range_Rover/Range Rover Sport HSE 8.jpg
-  - /./assets/AA_Range_Rover/Range Rover Sport HSE 9.jpg
-  - /./assets/AA_Range_Rover/range rover sport (6).jpg
-  - /./assets/AA_Range_Rover/range rover sport (7).jpg
-  - /./assets/AA_Range_Rover/range rover sport (5).jpg
-  - /./assets/AA_Range_Rover/range rover sport (2).jpg
-  - /./assets/AA_Range_Rover/range rover sport (1).jpg
-  - /./assets/AA_Range_Rover/range rover sport (4).jpg
-  - /./assets/AA_Range_Rover/range rover sport (3).jpg
+layout: car
 ---
-
-
-
-
 
