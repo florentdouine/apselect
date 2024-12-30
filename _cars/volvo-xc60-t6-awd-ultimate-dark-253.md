@@ -7,7 +7,7 @@ model: 'XC60 '
 year: 2023
 kilometers: 21300
 fuel: Hybride
-price: 62990
+price: 59990
 photos:
   - /./assets/Volvo XC60/Volvo CX60 (1).jpg
   - /./assets/Volvo XC60/Volvo CX60 (13).jpg
