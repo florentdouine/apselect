@@ -14,9 +14,9 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/Ford_Focus_ST/IMG_5739_jpg.jpg
+  - /./assets/Ford_Focus_ST/IMG_5745_jpg.jpg
+  - /./assets/Ford_Focus_ST/IMG_5749_jpg.jpg
   - /./assets/Ford_Focus_ST/IMG_5753_jpg.jpg
   - /./assets/Ford_Focus_ST/IMG_5755_jpg.jpg
   - /./assets/Ford_Focus_ST/IMG_5756_jpg.jpg
