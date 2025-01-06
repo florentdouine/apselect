@@ -9,9 +9,9 @@ kilometers: 10
 fuel: Essence
 price: 10
 photos:
-  - ''
-  - ''
-  - ''
+  - /./assets/Ford_Focus_ST/IMG_5729_jpg(1).jpg
+  - /./assets/Ford_Focus_ST/IMG_5751_jpg(1).jpg
+  - /./assets/Ford_Focus_ST/IMG_5752_jpg.jpg
   - /./assets/Ford_Focus_ST/IMG_5735_jpg(1).jpg
   - /./assets/Ford_Focus_ST/IMG_5736_jpg.jpg
   - /./assets/Ford_Focus_ST/IMG_5740_jpg.jpg
