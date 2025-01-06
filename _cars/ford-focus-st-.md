@@ -11,9 +11,9 @@ price: 10
 photos:
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/Ford_Focus_ST/IMG_5740_jpg.jpg
+  - /./assets/Ford_Focus_ST/IMG_5741_jpg.jpg
+  - /./assets/Ford_Focus_ST/IMG_5742_jpg.jpg
   - /./assets/Ford_Focus_ST/IMG_5739_jpg.jpg
   - /./assets/Ford_Focus_ST/IMG_5745_jpg.jpg
   - /./assets/Ford_Focus_ST/IMG_5749_jpg.jpg
