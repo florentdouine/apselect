@@ -1,13 +1,13 @@
 ---
-draft: true
+draft: false
 name: 'Ford Focus ST '
 isSold: false
 brand: Ford
 model: Focus ST
 year: 2015
-kilometers: 10
+kilometers: 89000
 fuel: Essence
-price: 10
+price: 29990
 photos:
   - /./assets/Ford_Focus_ST/IMG_5729_jpg(1).jpg
   - /./assets/Ford_Focus_ST/IMG_5751_jpg(1).jpg
