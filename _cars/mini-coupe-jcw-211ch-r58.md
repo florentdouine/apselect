@@ -28,7 +28,8 @@ description: "AP SELECT met en vente pour une MINI Coup√© JCW 1.6T 211ch R58 bo√
 properties:
   - property: Puissance DIN
     value: 211ch
-  - {}
+  - property: Transmission
+    value: Manuelle
 layout: car
 ---
 
