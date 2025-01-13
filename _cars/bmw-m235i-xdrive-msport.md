@@ -9,8 +9,12 @@ kilometers: 25600
 fuel: Essence
 price: 31990
 photos:
-  - ''
-  - ''
+  - /./assets/BMW_M235i_Msport/IMG_6210_jpg.jpg
+  - /./assets/BMW_M235i_Msport/IMG_6213_jpg.jpg
+  - /./assets/BMW_M235i_Msport/IMG_6211_jpg.jpg
+  - /./assets/BMW_M235i_Msport/IMG_6226_jpg.jpg
+  - /./assets/BMW_M235i_Msport/IMG_6215_jpg.jpg
+  - /./assets/BMW_M235i_Msport/IMG_6221_jpg.jpg
   - /./assets/BMW_M235i_Msport/IMG_6214_jpg.jpg
   - /./assets/BMW_M235i_Msport/IMG_6221_jpg.jpg
   - /./assets/BMW_M235i_Msport/IMG_6214_jpg.jpg
