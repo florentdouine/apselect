@@ -11,8 +11,8 @@ price: 31990
 photos:
   - ''
   - ''
-  - ''
   - /./assets/BMW_M235i_Msport/IMG_6216_jpg.jpg
+  - /./assets/BMW_M235i_Msport/IMG_6219_jpg.jpg
   - /./assets/BMW_M235i_Msport/IMG_6217_jpg.jpg
   - /./assets/BMW_M235i_Msport/IMG_6218_jpg.jpg
   - /./assets/BMW_M235i_Msport/IMG_6222_jpg.jpg
