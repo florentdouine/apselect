@@ -10,8 +10,8 @@ fuel: Essence
 price: 16490
 photos:
   - ''
-  - ''
-  - ''
+  - /./assets/Mini_JCW_Remi/IMG_6249_jpg.jpg
+  - /./assets/Mini_JCW_Remi/IMG_6241_jpg.jpg
   - /./assets/Mini_JCW_Remi/IMG_6243_jpg.jpg
   - /./assets/Mini_JCW_Remi/IMG_6242_jpg.jpg
   - /./assets/Mini_JCW_Remi/IMG_6244_jpg(1).jpg
