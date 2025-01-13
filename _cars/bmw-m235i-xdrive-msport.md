@@ -23,7 +23,8 @@ description: "AP SELECT met en vente une BMW M235i 3.0l 326ch xDrive MSport.\n\n
 properties:
   - property: Puissance DIN
     value: 324ch
-  - {}
+  - property: Transmission
+    value: Automatique
 layout: car
 ---
 
