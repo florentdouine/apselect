@@ -11,10 +11,10 @@ price: 16490
 photos:
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/Mini_JCW_Remi/IMG_6245_jpg(1).jpg
+  - /./assets/Mini_JCW_Remi/IMG_6246_jpg.jpg
+  - /./assets/Mini_JCW_Remi/IMG_6247_jpg.jpg
+  - /./assets/Mini_JCW_Remi/IMG_6250_jpg(1).jpg
   - /./assets/Mini_JCW_Remi/IMG_6252_jpg.jpg
   - /./assets/Mini_JCW_Remi/IMG_6253_jpg.jpg
   - /./assets/Mini_JCW_Remi/IMG_6254_jpg.jpg
