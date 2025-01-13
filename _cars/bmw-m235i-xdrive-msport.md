@@ -12,6 +12,9 @@ photos:
   - ''
   - ''
   - ''
+  - /./assets/BMW_M235i_Msport/IMG_6216_jpg.jpg
+  - /./assets/BMW_M235i_Msport/IMG_6217_jpg.jpg
+  - /./assets/BMW_M235i_Msport/IMG_6218_jpg.jpg
   - /./assets/BMW_M235i_Msport/IMG_6222_jpg.jpg
   - /./assets/BMW_M235i_Msport/IMG_6224_jpg.jpg
   - /./assets/BMW_M235i_Msport/IMG_6223_jpg.jpg
