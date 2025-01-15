@@ -7,7 +7,7 @@ model: 991.2 Turbo s
 year: 2016
 kilometers: 61990
 fuel: Essence
-price: 156990
+price: 154990
 photos:
   - /./assets/Turbo_S_991.2_Porsche/porsche 991 2 Turbo S (1).jpg
   - /./assets/Turbo_S_991.2_Porsche/porsche 991 2 Turbo S (1).png
