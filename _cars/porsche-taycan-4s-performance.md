@@ -5,9 +5,9 @@ isSold: false
 brand: Porsche
 model: Taycan 4S
 year: 2020
-kilometers: 48900
+kilometers: 54000
 fuel: Electrique
-price: 71990
+price: 65990
 photos:
   - /./assets/Taycan_4S_Porsche/Porsche Taycan 4s (16).jpg
   - /./assets/Taycan_4S_Porsche/Porsche Taycan 4s (11).jpg
