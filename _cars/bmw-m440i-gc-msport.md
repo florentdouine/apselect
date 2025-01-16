@@ -5,9 +5,9 @@ isSold: false
 brand: BMW
 model: M440i
 year: 2017
-kilometers: 62300
+kilometers: 63900
 fuel: Essence
-price: 43990
+price: 41990
 photos:
   - /./assets/BMW_440i/BMW 440i (1).jpg
   - /./assets/BMW_440i/BMW 440i (15).jpg
