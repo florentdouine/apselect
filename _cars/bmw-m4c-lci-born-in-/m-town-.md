@@ -11,8 +11,8 @@ price: 555555
 photos:
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/BMW_m4_Bornintown/bmw_m4 (8).jpg
+  - /./assets/BMW_m4_Bornintown/bmw_m4 (9).jpg
   - /./assets/BMW_m4_Bornintown/bmw_m4 (12).jpg
   - /./assets/BMW_m4_Bornintown/bmw_m4 (13).jpg
   - /./assets/BMW_m4_Bornintown/bmw_m4 (16).jpg
