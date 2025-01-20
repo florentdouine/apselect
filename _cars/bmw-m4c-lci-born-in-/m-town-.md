@@ -10,7 +10,12 @@ fuel: Essence
 price: 555555
 photos:
   - ''
-  - ''
+  - /./assets/BMW_m4_Bornintown/bmw_m4 (15).jpg
+  - /./assets/BMW_m4_Bornintown/bmw_m4 (4).jpg
+  - /./assets/BMW_m4_Bornintown/bmw_m4 (5).jpg
+  - /./assets/BMW_m4_Bornintown/bmw_m4 (6).jpg
+  - /./assets/BMW_m4_Bornintown/bmw_m4 (7).jpg
+  - /./assets/BMW_m4_Bornintown/bmw_m4 (14).jpg
   - /./assets/BMW_m4_Bornintown/bmw_m4 (10).jpg
   - /./assets/BMW_m4_Bornintown/bmw_m4 (11).jpg
   - /./assets/BMW_m4_Bornintown/bmw_m4 (8).jpg
