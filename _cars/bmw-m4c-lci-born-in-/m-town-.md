@@ -9,7 +9,9 @@ kilometers: 31900
 fuel: Essence
 price: 555555
 photos:
-  - ''
+  - /./assets/BMW_m4_Bornintown/bmw_m4 (1).jpg
+  - /./assets/BMW_m4_Bornintown/bmw_m4 (3).jpg
+  - /./assets/BMW_m4_Bornintown/bmw_m4 (2).jpg
   - /./assets/BMW_m4_Bornintown/bmw_m4 (15).jpg
   - /./assets/BMW_m4_Bornintown/bmw_m4 (4).jpg
   - /./assets/BMW_m4_Bornintown/bmw_m4 (5).jpg
