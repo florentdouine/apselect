@@ -13,8 +13,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/BMW_m4_Bornintown/bmw_m4 (12).jpg
+  - /./assets/BMW_m4_Bornintown/bmw_m4 (13).jpg
   - /./assets/BMW_m4_Bornintown/bmw_m4 (16).jpg
   - /./assets/BMW_m4_Bornintown/bmw_m4 (17).jpg
   - /./assets/BMW_m4_Bornintown/bmw_m4 (18).jpg
