@@ -12,8 +12,8 @@ photos:
   - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (11).jpg
   - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (14).jpg
   - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (12).jpg
-  - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (16).jpg
   - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (15).jpg
+  - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (16).jpg
   - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (10).jpg
   - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (1).jpg
   - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (2).jpg
