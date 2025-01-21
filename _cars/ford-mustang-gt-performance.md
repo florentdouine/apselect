@@ -9,6 +9,7 @@ kilometers: 68900
 fuel: Essence
 price: 53990
 photos:
+  - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (18).jpg
   - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (17).jpg
   - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (19).jpg
   - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (13).jpg
