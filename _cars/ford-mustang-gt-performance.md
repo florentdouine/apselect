@@ -12,10 +12,10 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (9).jpg
+  - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (7).jpg
+  - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (5).jpg
+  - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (3).jpg
   - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (20).jpg
   - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (21).jpg
   - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (22).jpg
