@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: 'BMW M4C LCI Born in ///M Town '
 isSold: false
 brand: BMW
@@ -7,7 +7,7 @@ model: ' M4 F82 Compétition '
 year: 2019
 kilometers: 31900
 fuel: Essence
-price: 555555
+price: 68990
 photos:
   - /./assets/BMW_m4_Bornintown/bmw_m4 (1).jpg
   - /./assets/BMW_m4_Bornintown/bmw_m4 (3).jpg
