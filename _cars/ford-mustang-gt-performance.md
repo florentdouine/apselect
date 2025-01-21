@@ -10,8 +10,8 @@ fuel: Essence
 price: 53990
 photos:
   - ''
-  - ''
-  - ''
+  - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (6).jpg
+  - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (8).jpg
   - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (9).jpg
   - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (7).jpg
   - /./assets/Mustang_GT_Perf_rouge/mustang_gt500 (5).jpg
