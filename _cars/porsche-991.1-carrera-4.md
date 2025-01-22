@@ -11,9 +11,9 @@ price: 76990
 photos:
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/B_991_carrera_4_black_porsche/porsche 991 Carrera 4 (16).jpg
+  - /./assets/B_991_carrera_4_black_porsche/porsche 991 Carrera 4 (3).jpg
+  - /./assets/B_991_carrera_4_black_porsche/porsche 991 Carrera 4 (17).jpg
   - /./assets/B_991_carrera_4_black_porsche/porsche 991 Carrera 4 5.jpg
   - /./assets/B_991_carrera_4_black_porsche/porsche 991 Carrera 4 (2).jpg
   - /./assets/B_991_carrera_4_black_porsche/porsche 991 Carrera 4 (18).jpg
