@@ -7,7 +7,7 @@ model: Coupé JCW R58
 year: 2012
 kilometers: 88900
 fuel: Essence
-price: 16490
+price: 14990
 photos:
   - /./assets/Mini_JCW_Remi/IMG_6237_jpg.jpg
   - /./assets/Mini_JCW_Remi/IMG_6240_jpg(1).jpg
