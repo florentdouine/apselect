@@ -9,6 +9,8 @@ kilometers: 80000
 fuel: Essence
 price: 30000
 photos:
+  - ''
+  - /./assets/VW_GTE_GOLF/IMG_6665.jpg
   - /./assets/VW_GTE_GOLF/IMG_6649.jpg
   - /./assets/VW_GTE_GOLF/IMG_6648.jpg
   - /./assets/VW_GTE_GOLF/IMG_6651(2).jpg
