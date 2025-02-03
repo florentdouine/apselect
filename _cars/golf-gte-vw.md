@@ -14,9 +14,9 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/VW_GTE_GOLF/IMG_6659.jpg
+  - /./assets/VW_GTE_GOLF/IMG_6661.jpg
+  - /./assets/VW_GTE_GOLF/IMG_6664.jpg
   - /./assets/VW_GTE_GOLF/IMG_6671(1).jpg
   - /./assets/VW_GTE_GOLF/IMG_6670.jpg
   - /./assets/VW_GTE_GOLF/IMG_6672.jpg
