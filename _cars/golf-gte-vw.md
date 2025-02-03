@@ -11,6 +11,8 @@ price: 30000
 photos:
   - ''
   - ''
+  - ''
+  - /./assets/VW_GTE_GOLF/IMG_6653.jpg
   - /./assets/VW_GTE_GOLF/IMG_6658.jpg
   - /./assets/VW_GTE_GOLF/IMG_6656.jpg
   - /./assets/VW_GTE_GOLF/IMG_6657.jpg
