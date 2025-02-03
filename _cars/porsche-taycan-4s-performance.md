@@ -7,7 +7,7 @@ model: Taycan 4S
 year: 2020
 kilometers: 54000
 fuel: Electrique
-price: 65990
+price: 62990
 photos:
   - /./assets/Taycan_4S_Porsche/Porsche Taycan 4s (16).jpg
   - /./assets/Taycan_4S_Porsche/Porsche Taycan 4s (11).jpg
