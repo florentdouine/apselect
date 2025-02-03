@@ -17,10 +17,10 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/VW_GTE_GOLF/IMG_6671(1).jpg
+  - /./assets/VW_GTE_GOLF/IMG_6670.jpg
+  - /./assets/VW_GTE_GOLF/IMG_6672.jpg
+  - /./assets/VW_GTE_GOLF/IMG_6669.jpg
 layout: car
 ---
 
