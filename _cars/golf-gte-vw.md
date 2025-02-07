@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: VW Golf 8 GTE 1.4 TSI
 isSold: false
 brand: VOLKSWAGEN
