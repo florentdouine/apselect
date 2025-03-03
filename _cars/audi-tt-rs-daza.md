@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Audi TT RS Daza
-isSold: false
+isSold: true
 brand: Audi
 model: TT RS
 year: 2016
