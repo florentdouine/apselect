@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Mercedes C63 AMG
-isSold: false
+isSold: true
 brand: Mercedes
 model: C63
 year: 2019
