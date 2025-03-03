@@ -1,7 +1,7 @@
 ---
 draft: false
 name: 'BMW M4C LCI Born in ///M Town '
-isSold: false
+isSold: true
 brand: BMW
 model: ' M4 F82 Compétition '
 year: 2019
