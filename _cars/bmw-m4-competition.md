@@ -36,7 +36,7 @@ description: >-
   Modèle du 09/2017 avec 53800km.
 
 
-  Couleur San Marino blue, intérieur Cuir / tissus Schwarz / Surpiqûres Blanc.
+  Couleur San Marino blue, intérieur Cuir / tissus Schwarz / Surpiqûres Blanc. 
 
 
   Carte française sans malus.
