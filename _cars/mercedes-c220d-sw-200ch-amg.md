@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Mercedes C220d SW 200ch AMG
-isSold: false
+isSold: true
 brand: Mercedes
 model: ' C220d SW'
 year: 2022
