@@ -7,7 +7,7 @@ model: GOLF 8 GTE
 year: 2021
 kilometers: 34900
 fuel: Hybride
-price: 28990
+price: 27499
 photos:
   - /./assets/VW_GTE_GOLF/IMG_6647(1).jpg
   - /./assets/VW_GTE_GOLF/IMG_6649.jpg
