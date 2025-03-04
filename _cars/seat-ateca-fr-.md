@@ -1,7 +1,7 @@
 ---
 draft: false
 name: 'SEAT Ateca FR '
-isSold: false
+isSold: true
 brand: SEAT
 model: Ateca FR
 year: 2021
