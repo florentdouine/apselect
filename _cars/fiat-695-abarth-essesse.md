@@ -10,7 +10,7 @@ fuel: Essence
 price: 31990
 photos:
   - ''
-  - ''
+  - /./assets/ABARTH 695 ESSESSE/IMG_2834_jpg.jpg
   - /./assets/ABARTH 695 ESSESSE/IMG_2844_jpg.jpg
   - /./assets/ABARTH 695 ESSESSE/IMG_2841_jpg.jpg
   - /./assets/ABARTH 695 ESSESSE/IMG_2842_jpg.jpg
