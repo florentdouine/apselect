@@ -19,7 +19,7 @@ photos:
   - ''
   - ''
   - ''
-  - ''
+  - /./assets/ABARTH 695 ESSESSE/IMG_2836_jpg.jpg
   - "/./assets/ABARTH 695 ESSESSE/Capture d’écran\_. 2023-10-30 à 17.37.45.jpeg.png"
 layout: car
 ---
