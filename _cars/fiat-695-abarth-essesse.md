@@ -12,7 +12,7 @@ photos:
   - ''
   - ''
   - ''
-  - ''
+  - /./assets/ABARTH 695 ESSESSE/IMG_2845_jpg.jpg
   - /./assets/ABARTH 695 ESSESSE/IMG_2846_jpg.jpg
   - /./assets/ABARTH 695 ESSESSE/IMG_2848_jpg.jpg
   - /./assets/ABARTH 695 ESSESSE/IMG_2871.jpg
