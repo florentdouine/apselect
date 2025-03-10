@@ -28,7 +28,8 @@ description: "AP SELECT met en vente une ABARTH 695 Esseesse 1.4 T Jet 180ch col
 properties:
   - property: Transmission
     value: Manuelle
-  - {}
+  - property: Puissance DIN
+    value: 180ch
 layout: car
 ---
 
