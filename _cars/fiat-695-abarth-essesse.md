@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: 'ABARTH 695 Esseesse Collector Edition '
 isSold: false
 brand: ABARTH
