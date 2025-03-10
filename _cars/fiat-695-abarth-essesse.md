@@ -1,11 +1,11 @@
 ---
 draft: true
-name: FIAT 695 ABARTH Essesse
+name: 'ABARTH 695 Esseesse Collector Edition '
 isSold: false
-brand: FIAT
-model: ABARTH 695 Essesse
-year: 2017
-kilometers: 30000
+brand: ABARTH
+model: ' 695 Essesse'
+year: 2022
+kilometers: 13900
 fuel: Essence
 price: 31990
 photos:
