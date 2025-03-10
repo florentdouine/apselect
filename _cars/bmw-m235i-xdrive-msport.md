@@ -1,7 +1,7 @@
 ---
 draft: false
 name: BMW M235i xDrive MSport
-isSold: false
+isSold: true
 brand: BMW
 model: M235i
 year: 2015
