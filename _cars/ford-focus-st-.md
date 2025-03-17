@@ -7,7 +7,7 @@ model: Focus ST
 year: 2015
 kilometers: 89000
 fuel: Essence
-price: 20990
+price: 19990
 photos:
   - /./assets/Ford_Focus_ST/IMG_5729_jpg(1).jpg
   - /./assets/Ford_Focus_ST/IMG_5751_jpg(1).jpg
