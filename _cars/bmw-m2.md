@@ -13,10 +13,10 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/BMW M2/BMW M2 (6).jpg
+  - /./assets/BMW M2/BMW M2 (8).jpg
+  - /./assets/BMW M2/BMW M2 (10).jpg
+  - /./assets/BMW M2/BMW M2 (9).jpg
   - /./assets/BMW M2/BMW M2 (13).jpg
   - /./assets/BMW M2/BMW M2 (15).jpg
   - /./assets/BMW M2/BMW M2 (14).jpg
