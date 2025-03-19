@@ -12,8 +12,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/Porsche_991_c4s_jaune/Porsche 991 C4S (8).jpg
+  - /./assets/Porsche_991_c4s_jaune/Porsche 991 C4S (7).jpg
   - /./assets/Porsche_991_c4s_jaune/Porsche 991 C4S (10).jpg
   - /./assets/Porsche_991_c4s_jaune/Porsche 991 C4S (15).jpg
   - /./assets/Porsche_991_c4s_jaune/Porsche 991 C4S (16).jpg
