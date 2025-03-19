@@ -9,8 +9,10 @@ kilometers: 54990
 fuel: Essence
 price: 104990
 photos:
-  - ''
-  - ''
+  - /./assets/Porsche_991_c4s_jaune/Porsche 991 C4S (1).jpg
+  - /./assets/Porsche_991_c4s_jaune/Porsche 991 C4S (12).jpg
+  - /./assets/Porsche_991_c4s_jaune/Porsche 991 C4S (13).jpg
+  - /./assets/Porsche_991_c4s_jaune/Porsche 991 C4S (2).jpg
   - /./assets/Porsche_991_c4s_jaune/Porsche 991 C4S (11).jpg
   - /./assets/Porsche_991_c4s_jaune/Porsche 991 C4S (14).jpg
   - /./assets/Porsche_991_c4s_jaune/Porsche 991 C4S (4).jpg
