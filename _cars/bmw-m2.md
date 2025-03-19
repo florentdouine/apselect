@@ -10,9 +10,9 @@ fuel: Essence
 price: 46990
 photos:
   - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/BMW M2/BMW M2 (3).jpg
+  - /./assets/BMW M2/BMW M2 (4).jpg
+  - /./assets/BMW M2/BMW M2 (5).jpg
   - /./assets/BMW M2/BMW M2 (6).jpg
   - /./assets/BMW M2/BMW M2 (8).jpg
   - /./assets/BMW M2/BMW M2 (10).jpg
