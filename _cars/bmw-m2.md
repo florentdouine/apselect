@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: BMW M2
 isSold: false
 brand: BMW
