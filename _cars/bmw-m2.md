@@ -9,6 +9,10 @@ kilometers: 48990
 fuel: Essence
 price: 46990
 photos:
+  - /./assets/BMW M2/BMW M2 (1).jpg
+  - /./assets/BMW M2/BMW M2 (11).jpg
+  - /./assets/BMW M2/BMW M2 (2).jpg
+  - /./assets/BMW M2/BMW M2 (12).jpg
   - /./assets/BMW M2/BMW M2 (7).jpg
   - /./assets/BMW M2/BMW M2 (3).jpg
   - /./assets/BMW M2/BMW M2 (4).jpg
