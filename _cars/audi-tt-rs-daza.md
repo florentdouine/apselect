@@ -9,7 +9,7 @@ kilometers: 55990
 fuel: Essence
 price: 56990
 photos:
-  - ''
+  - /./assets/Audi_TTRS_Daza_red/audi ttrs daza (3).jpg
   - /./assets/Audi_TTRS_Daza_red/audi ttrs daza (2).jpg
   - /./assets/Audi_TTRS_Daza_red/audi ttrs daza (14).jpg
   - /./assets/Audi_TTRS_Daza_red/audi ttrs daza (18).jpg
