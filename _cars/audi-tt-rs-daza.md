@@ -12,8 +12,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/Audi_TTRS_Daza_red/audi ttrs daza (11).jpg
+  - /./assets/Audi_TTRS_Daza_red/audi ttrs daza (10).jpg
   - /./assets/Audi_TTRS_Daza_red/audi ttrs daza (7).jpg
   - /./assets/Audi_TTRS_Daza_red/audi ttrs daza (13).jpg
   - /./assets/Audi_TTRS_Daza_red/audi ttrs daza (8).jpg
