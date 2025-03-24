@@ -10,13 +10,13 @@ fuel: Essence
 price: 56990
 photos:
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/Porsche 997 Targa/Porsche 997 targa (4).jpg
+  - /./assets/Porsche 997 Targa/Porsche 997 targa (5).jpg
+  - /./assets/Porsche 997 Targa/Porsche 997 targa (7).jpg
+  - /./assets/Porsche 997 Targa/Porsche 997 targa (6).jpg
+  - /./assets/Porsche 997 Targa/Porsche 997 targa (9).jpg
+  - /./assets/Porsche 997 Targa/Porsche 997 targa (8).jpg
+  - /./assets/Porsche 997 Targa/Porsche 997 targa (10).jpg
   - /./assets/Porsche 997 Targa/Porsche 997 targa (13).jpg
   - /./assets/Porsche 997 Targa/Porsche 997 targa (15).jpg
   - /./assets/Porsche 997 Targa/Porsche 997 targa (14).jpg
