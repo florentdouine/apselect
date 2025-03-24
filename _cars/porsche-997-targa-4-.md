@@ -9,7 +9,7 @@ kilometers: 91900
 fuel: Essence
 price: 56990
 photos:
-  - ''
+  - /./assets/Porsche 997 Targa/Porsche 997 targa (1).jpg
   - /./assets/Porsche 997 Targa/Porsche 997 targa (12).jpg
   - /./assets/Porsche 997 Targa/Porsche 997 targa (2).jpg
   - /./assets/Porsche 997 Targa/Porsche 997 targa (11).jpg
