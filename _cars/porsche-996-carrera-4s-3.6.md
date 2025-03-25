@@ -9,7 +9,10 @@ kilometers: 124990
 fuel: Essence
 price: 49990
 photos:
-  - ''
+  - /./assets/Porsche_C4S_996/Porsche 996 C4S (2).jpg
+  - /./assets/Porsche_C4S_996/Porsche 996 C4S (3).jpg
+  - /./assets/Porsche_C4S_996/Porsche 996 C4S (4).jpg
+  - /./assets/Porsche_C4S_996/Porsche 996 C4S (17).jpg
   - /./assets/Porsche_C4S_996/Porsche 996 C4S (5).jpg
   - /./assets/Porsche_C4S_996/Porsche 996 C4S (16).jpg
   - /./assets/Porsche_C4S_996/Porsche 996 C4S (15).jpg
