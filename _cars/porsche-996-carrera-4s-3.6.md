@@ -10,13 +10,13 @@ fuel: Essence
 price: 49990
 photos:
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/Porsche_C4S_996/Porsche 996 C4S (14).jpg
+  - /./assets/Porsche_C4S_996/Porsche 996 C4S (12).jpg
+  - /./assets/Porsche_C4S_996/Porsche 996 C4S (13).jpg
+  - /./assets/Porsche_C4S_996/Porsche 996 C4S (9).jpg
+  - /./assets/Porsche_C4S_996/Porsche 996 C4S (10).jpg
+  - /./assets/Porsche_C4S_996/Porsche 996 C4S (8).jpg
+  - /./assets/Porsche_C4S_996/Porsche 996 C4S (18).jpg
   - /./assets/Porsche_C4S_996/Porsche 996 C4S (19).jpg
   - /./assets/Porsche_C4S_996/Porsche 996 C4S (20).jpg
   - /./assets/Porsche_C4S_996/Porsche 996 C4S (1).jpg
