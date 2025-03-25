@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Ford Mustang GT Performance
-isSold: false
+isSold: true
 brand: Ford
 model: 'Mustang GT 5.0 V8 '
 year: 2017
