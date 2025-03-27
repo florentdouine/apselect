@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Mini Coupe JCW 211ch R58
-isSold: false
+isSold: true
 brand: Mini
 model: Coupé JCW R58
 year: 2012
