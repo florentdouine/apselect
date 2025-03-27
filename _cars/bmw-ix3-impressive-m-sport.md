@@ -9,11 +9,11 @@ kilometers: 53900
 fuel: Essence
 price: 42990
 photos:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/BMW_iX3_MSport/IMG_8208.jpg
+  - /./assets/BMW_iX3_MSport/IMG_8198.jpg
+  - /./assets/BMW_iX3_MSport/IMG_8200.jpg
+  - /./assets/BMW_iX3_MSport/IMG_8199.jpg
+  - /./assets/BMW_iX3_MSport/IMG_8201.jpg
   - /./assets/BMW_iX3_MSport/IMG_8202.jpg
   - /./assets/BMW_iX3_MSport/IMG_8203.jpg
   - /./assets/BMW_iX3_MSport/IMG_8205.jpg
