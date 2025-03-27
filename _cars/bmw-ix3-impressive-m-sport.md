@@ -16,8 +16,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/BMW_iX3_MSport/IMG_8205.jpg
+  - /./assets/BMW_iX3_MSport/IMG_8207.jpg
   - /./assets/BMW_iX3_MSport/IMG_8214.jpg
   - /./assets/BMW_iX3_MSport/IMG_8215.jpg
   - /./assets/BMW_iX3_MSport/IMG_8217.jpg
