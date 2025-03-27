@@ -9,7 +9,8 @@ kilometers: 61990
 fuel: Diesel
 price: 51990
 photos:
-  - ''
+  - /./assets/Audi_Q5_SB_noir/audi Q5 (1).jpg
+  - /./assets/Audi_Q5_SB_noir/audi Q5 (2).jpg
   - /./assets/Audi_Q5_SB_noir/audi Q5 (3).jpg
   - /./assets/Audi_Q5_SB_noir/audi Q5 (11).jpg
   - /./assets/Audi_Q5_SB_noir/audi Q5 (4).jpg
