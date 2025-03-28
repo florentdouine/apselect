@@ -47,7 +47,7 @@ description: >-
   S-Tronic, pont arrière.
 
 
-  4 Pneus neuf et freins récents (disques fiabilisés)
+  Pneus et freins récents (disques fiabilisés)
 
 
   Équipements et options :
