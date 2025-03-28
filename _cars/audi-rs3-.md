@@ -37,7 +37,7 @@ description: >-
   Carte grise française sans malus.
 
 
-  Véhicule garanti 6 mois.
+  Véhicule garanti 3 mois.
 
 
   Le véhicule est en parfait état avec historique complet.
