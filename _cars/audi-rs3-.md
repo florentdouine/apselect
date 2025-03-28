@@ -9,8 +9,10 @@ kilometers: 143000
 fuel: Essence
 price: 34990
 photos:
-  - ''
-  - ''
+  - /./assets/AAUDI RS3 8V/audi rs3 (16).jpg
+  - /./assets/AAUDI RS3 8V/audi rs3 (15).jpg
+  - /./assets/AAUDI RS3 8V/audi rs3 (14).jpg
+  - /./assets/AAUDI RS3 8V/audi rs3 (21).jpg
   - /./assets/AAUDI RS3 8V/audi rs3 (5).jpg
   - /./assets/AAUDI RS3 8V/audi rs3 (7).jpg
   - /./assets/AAUDI RS3 8V/audi rs3 (6).jpg
