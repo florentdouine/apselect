@@ -9,6 +9,12 @@ kilometers: 143000
 fuel: Essence
 price: 34990
 photos:
+  - ''
+  - ''
+  - /./assets/AAUDI RS3 8V/audi rs3 (5).jpg
+  - /./assets/AAUDI RS3 8V/audi rs3 (7).jpg
+  - /./assets/AAUDI RS3 8V/audi rs3 (6).jpg
+  - /./assets/AAUDI RS3 8V/audi rs3 (22).jpg
   - /./assets/AAUDI RS3 8V/AUDI RS3  1.jpg
 description: >-
   AP SELECT met en vente une Audi RS3 8V 2.5 TFSI 367ch.
