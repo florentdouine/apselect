@@ -5,31 +5,15 @@ isSold: true
 brand: AUDI
 model: RS3 Sportback
 year: 2016
-kilometers: 134900
+kilometers: 143000
 fuel: Essence
-price: 36990
+price: 34990
 photos:
   - /./assets/AAUDI RS3 8V/AUDI RS3  1.jpg
-  - /./assets/AAUDI RS3 8V/AUDI RS3  2.jpg
-  - /./assets/AAUDI RS3 8V/AUDI RS3 8V (2).jpg
-  - /./assets/AAUDI RS3 8V/AUDI RS3  3.jpg
-  - /./assets/AAUDI RS3 8V/AUDI RS3 8V (20).jpg
-  - /./assets/AAUDI RS3 8V/AUDI RS3 8V (19).jpg
-  - /./assets/AAUDI RS3 8V/AUDI RS3 8V (21).jpg
-  - /./assets/AAUDI RS3 8V/AUDI RS3  4.jpg
-  - /./assets/AAUDI RS3 8V/AUDI RS3  5.jpg
-  - /./assets/AAUDI RS3 8V/AUDI RS3 8V (14).jpg
-  - /./assets/AAUDI RS3 8V/AUDI RS3  6.jpg
-  - /./assets/AAUDI RS3 8V/AUDI RS3 8V (13).jpg
-  - /./assets/AAUDI RS3 8V/AUDI RS3 8V (11).jpg
-  - /./assets/AAUDI RS3 8V/AUDI RS3  7.jpg
-  - /./assets/AAUDI RS3 8V/AUDI RS3 8V (6).jpg
-  - /./assets/AAUDI RS3 8V/AUDI RS3  8.jpg
-  - /./assets/AAUDI RS3 8V/AUDI RS3  9.jpg
 description: >-
   AP SELECT met en vente une Audi RS3 8V 2.5 TFSI 367ch.
 
-  Modèle du 02/2016 avec 134900km.
+  Modèle du 02/2016 avec 143000km.
 
 
   Couleur Schwarz Mythic Metallic, pack noir et intérieur cuir F1.
