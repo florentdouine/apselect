@@ -6,7 +6,7 @@ brand: BMW
 model: iX3 Impressive M Sport
 year: 2022
 kilometers: 53900
-fuel: Essence
+fuel: 'Électrique '
 price: 42990
 photos:
   - /./assets/BMW_iX3_MSport/IMG_8196.jpg
