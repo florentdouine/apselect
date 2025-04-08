@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Porsche Boxster 987
-isSold: false
+isSold: true
 brand: Porsche
 model: 987 Boxster
 year: 2007
