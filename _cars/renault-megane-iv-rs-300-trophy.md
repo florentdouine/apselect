@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Renault Megane IV RS 300 TROPHY
 isSold: false
 brand: Renault
@@ -9,6 +9,7 @@ kilometers: 11900
 fuel: Essence
 price: 10
 photos:
+  - /./assets/Renault_Mégane_IV RS 300 TROPHY Sirius/renault megane 4.jpg
   - /./assets/Renault_Mégane_IV RS 300 TROPHY Sirius/Renaut_Megane_4 (19).jpg
   - /./assets/Renault_Mégane_IV RS 300 TROPHY Sirius/Renaut_Megane_4 (16).jpg
   - /./assets/Renault_Mégane_IV RS 300 TROPHY Sirius/Renaut_Megane_4 (18).jpg
