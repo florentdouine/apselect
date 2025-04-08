@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Mercedes GLE 53 AMG hybride
-isSold: false
+isSold: true
 brand: Mercedes
 model: GLE 53 AMG
 year: 2024
