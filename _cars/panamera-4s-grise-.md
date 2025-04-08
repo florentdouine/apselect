@@ -9,7 +9,7 @@ kilometers: 2222
 fuel: Essence
 price: 2222
 photos:
-  - ''
+  - /./assets/pANAMERA_4s_Porsche_grise/PORSCHE_PANAMERA_4S (10).jpg
   - /./assets/pANAMERA_4s_Porsche_grise/PORSCHE_PANAMERA_4S (12).jpg
   - /./assets/pANAMERA_4s_Porsche_grise/PORSCHE_PANAMERA_4S (11).jpg
   - /./assets/pANAMERA_4s_Porsche_grise/PORSCHE_PANAMERA_4S (13).jpg
