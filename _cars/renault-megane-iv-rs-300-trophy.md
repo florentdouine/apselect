@@ -7,7 +7,7 @@ model: Mégane IV RS 300 TROPHY
 year: 2022
 kilometers: 11900
 fuel: Essence
-price: 10
+price: 46990
 photos:
   - /./assets/Renault_Mégane_IV RS 300 TROPHY Sirius/renault megane 4.jpg
   - /./assets/Renault_Mégane_IV RS 300 TROPHY Sirius/Renaut_Megane_4 (19).jpg
