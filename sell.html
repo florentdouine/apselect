@@ -16,9 +16,9 @@ banner-subtitle: "EN VENTE"
 </script>
 
 {% assign published_cars = site.cars | where: 'draft',false %}
-{% assign sell_cars = published_cars | where: 'isSold',true %}
-{% assign other_cars = published_cars | where: 'isSold',false %}
-{% assign all_cars = other_cars | concat: sell_cars | sort: "price" | reverse %}
+{% assign sell_cars = published_cars | where: 'isSold',true | sort: "price" | reverse %}
+{% assign other_cars = published_cars | where: 'isSold',false | sort: "price" | reverse %}
+{% assign all_cars = other_cars | concat: sell_cars %}
 {% for car in all_cars %}
 {% capture theme %}{% cycle 'light', 'dark' %}{% endcapture %}
 {% capture apparition %}{% cycle 'right', 'left' %}{% endcapture %}
