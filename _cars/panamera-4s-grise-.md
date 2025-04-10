@@ -27,7 +27,8 @@ photos:
 properties:
   - property: Transmission
     value: Automatique
-  - {}
+  - property: Puissance DIN
+    value: 420ch
 layout: car
 ---
 
