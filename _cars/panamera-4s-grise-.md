@@ -1,13 +1,13 @@
 ---
 draft: true
-name: 'PANAMERA 4S GRISE '
+name: Porsche Panamera 4S 3.0 V6
 isSold: false
-brand: PANANERA
-model: PANA
-year: 2222
-kilometers: 2222
+brand: Porsche
+model: Panamera 4S
+year: 2013
+kilometers: 119990
 fuel: Essence
-price: 2222
+price: 39990
 photos:
   - /./assets/pANAMERA_4s_Porsche_grise/PORSCHE_PANAMERA_4S (10).jpg
   - /./assets/pANAMERA_4s_Porsche_grise/PORSCHE_PANAMERA_4S (12).jpg
