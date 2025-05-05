@@ -1,7 +1,7 @@
 ---
 draft: false
 name: 'Porsche 997 Targa 4 '
-isSold: false
+isSold: true
 brand: Porsche
 model: '997 Targa 4 '
 year: 2007
