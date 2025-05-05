@@ -10,7 +10,16 @@ fuel: Essence
 price: 33990
 photos:
   - ''
+  - ''
+  - /./assets/BMW-M235i/BMW_m235i (5).jpg
+  - /./assets/BMW-M235i/BMW_m235i (10).jpg
+  - /./assets/BMW-M235i/BMW_m235i (4).jpg
+  - /./assets/BMW-M235i/BMW_m235i (6).jpg
+  - /./assets/BMW-M235i/BMW_m235i (9).jpg
+  - /./assets/BMW-M235i/BMW_m235i (7).jpg
+  - /./assets/BMW-M235i/BMW_m235i (8).jpg
   - /./assets/BMW-M235i/BMW_m235i (11).jpg
+  - /./assets/BMW-M235i/BMW_m235i (13).jpg
   - /./assets/BMW-M235i/BMW_m235i (12).jpg
   - /./assets/BMW-M235i/BMW_m235i (15).jpg
   - /./assets/BMW-M235i/BMW_m235i (16).jpg
