@@ -1,7 +1,7 @@
 ---
 draft: false
 name: BMW M2
-isSold: false
+isSold: true
 brand: BMW
 model: M2
 year: 2017
