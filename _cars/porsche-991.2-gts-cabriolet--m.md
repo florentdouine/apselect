@@ -9,7 +9,8 @@ kilometers: 52600
 fuel: Essence
 price: 124990
 photos:
-  - ''
+  - /./assets/991.2 GTS CAB PORSCHE/porsche 991 2 GTS (2).jpg
+  - /./assets/991.2 GTS CAB PORSCHE/porsche 991 2 GTS (1).jpg
   - /./assets/991.2 GTS CAB PORSCHE/porsche 991 2 GTS (13).jpg
   - /./assets/991.2 GTS CAB PORSCHE/porsche 991 2 GTS (4).jpg
   - /./assets/991.2 GTS CAB PORSCHE/porsche 991 2 GTS (12).jpg
