@@ -1,7 +1,7 @@
 ---
 draft: false
 name: VW Golf 8 GTE 1.4 TSI
-isSold: false
+isSold: true
 brand: VOLKSWAGEN
 model: GOLF 8 GTE
 year: 2021
