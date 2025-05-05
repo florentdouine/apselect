@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Porsche Taycan 4S Performance
-isSold: false
+isSold: true
 brand: Porsche
 model: Taycan 4S
 year: 2020
