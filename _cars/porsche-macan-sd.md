@@ -9,10 +9,10 @@ kilometers: 149990
 fuel: Diesel
 price: 37990
 photos:
-  - ''
-  - ''
-  - ''
-  - ''
+  - /./assets/MACAN_SD_Porsche/Porsche Macan SD (1).jpg
+  - /./assets/MACAN_SD_Porsche/Porsche Macan SD (2).jpg
+  - /./assets/MACAN_SD_Porsche/Porsche Macan SD (3).jpg
+  - /./assets/MACAN_SD_Porsche/Porsche Macan SD (12).jpg
   - /./assets/MACAN_SD_Porsche/Porsche Macan SD (6).jpg
   - /./assets/MACAN_SD_Porsche/Porsche Macan SD (7).jpg
   - /./assets/MACAN_SD_Porsche/Porsche Macan SD (4).jpg
