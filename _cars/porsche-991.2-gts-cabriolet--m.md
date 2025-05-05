@@ -10,7 +10,7 @@ fuel: Essence
 price: 124990
 photos:
   - ''
-  - ''
+  - /./assets/991.2 GTS CAB PORSCHE/porsche 991 2 GTS (10).jpg
   - /./assets/991.2 GTS CAB PORSCHE/porsche 991 2 GTS (14).jpg
   - /./assets/991.2 GTS CAB PORSCHE/porsche 991 2 GTS (16).jpg
   - /./assets/991.2 GTS CAB PORSCHE/porsche 991 2 GTS (15).jpg
