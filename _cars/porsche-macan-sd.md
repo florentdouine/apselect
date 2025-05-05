@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Porsche Macan SD
 isSold: false
 brand: Porsche
