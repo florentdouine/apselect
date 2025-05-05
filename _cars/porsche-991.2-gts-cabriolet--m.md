@@ -1,6 +1,6 @@
 ---
 draft: true
-name: Porsche 991.2 GTS cabriolet  M
+name: 'Porsche 991.2 GTS cabriolet '
 isSold: false
 brand: Porsche
 model: 991.2 GTS cabriolet
