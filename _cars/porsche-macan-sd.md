@@ -10,7 +10,10 @@ fuel: Diesel
 price: 37990
 photos:
   - ''
-  - /./assets/MACAN_SD_Porsche/Porsche Macan SD (4).jpg
+  - ''
+  - ''
+  - ''
+  - /./assets/MACAN_SD_Porsche/Porsche Macan SD (6).jpg
   - /./assets/MACAN_SD_Porsche/Porsche Macan SD (7).jpg
   - /./assets/MACAN_SD_Porsche/Porsche Macan SD (4).jpg
   - /./assets/MACAN_SD_Porsche/Porsche Macan SD (5).jpg
