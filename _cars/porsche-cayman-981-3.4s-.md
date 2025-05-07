@@ -13,7 +13,7 @@ photos:
   - ''
   - ''
   - ''
-  - ''
+  - /./assets/Cayman_981_Porsche/Porsche_cayman_981 (15).jpg
   - /./assets/Cayman_981_Porsche/Porsche_cayman_981 (16).jpg
   - /./assets/Cayman_981_Porsche/Porsche_cayman_981 (2).jpg
   - /./assets/Cayman_981_Porsche/Porsche_cayman_981 (1).jpg
