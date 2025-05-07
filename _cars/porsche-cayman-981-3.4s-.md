@@ -9,6 +9,9 @@ kilometers: 78900
 fuel: Essence
 price: 58990
 photos:
+  - ''
+  - /./assets/Cayman_981_Porsche/Porsche_cayman_981 (7).jpg
+  - /./assets/Cayman_981_Porsche/Porsche_cayman_981 (8).jpg
   - /./assets/Cayman_981_Porsche/Porsche_cayman_981 (9).jpg
   - /./assets/Cayman_981_Porsche/Porsche_cayman_981 (11).jpg
   - /./assets/Cayman_981_Porsche/Porsche_cayman_981 (13).jpg
