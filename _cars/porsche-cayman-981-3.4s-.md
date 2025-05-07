@@ -10,6 +10,10 @@ fuel: Essence
 price: 58990
 photos:
   - ''
+  - ''
+  - /./assets/Cayman_981_Porsche/Porsche_cayman_981 (12).jpg
+  - /./assets/Cayman_981_Porsche/Porsche_cayman_981 (6).jpg
+  - /./assets/Cayman_981_Porsche/Porsche_cayman_981 (10).jpg
   - /./assets/Cayman_981_Porsche/Porsche_cayman_981 (7).jpg
   - /./assets/Cayman_981_Porsche/Porsche_cayman_981 (8).jpg
   - /./assets/Cayman_981_Porsche/Porsche_cayman_981 (9).jpg
