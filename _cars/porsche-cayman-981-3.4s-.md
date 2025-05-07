@@ -11,7 +11,7 @@ price: 58990
 photos:
   - ''
   - ''
-  - ''
+  - /./assets/Cayman_981_Porsche/Porsche_cayman_981 (13).jpg
   - /./assets/Cayman_981_Porsche/Porsche_cayman_981 (14).jpg
   - /./assets/Cayman_981_Porsche/Porsche_cayman_981 (15).jpg
   - /./assets/Cayman_981_Porsche/Porsche_cayman_981 (16).jpg
