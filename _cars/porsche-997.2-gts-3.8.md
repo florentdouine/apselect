@@ -9,8 +9,13 @@ kilometers: 64700
 fuel: Essence
 price: 88990
 photos:
-  - ''
-  - ''
+  - /./assets/997.2_GTS_3.8_porsche/Porsche 997 gts (6).jpg
+  - /./assets/997.2_GTS_3.8_porsche/Porsche 997 gts (12).jpg
+  - /./assets/997.2_GTS_3.8_porsche/Porsche 997 gts (11).jpg
+  - /./assets/997.2_GTS_3.8_porsche/Porsche 997 gts (8).jpg
+  - /./assets/997.2_GTS_3.8_porsche/Porsche 997 gts (9).jpg
+  - /./assets/997.2_GTS_3.8_porsche/Porsche 997 gts (10).jpg
+  - /./assets/997.2_GTS_3.8_porsche/Porsche 997 gts (13).jpg
   - /./assets/997.2_GTS_3.8_porsche/Porsche 997 gts (16).jpg
   - /./assets/997.2_GTS_3.8_porsche/Porsche 997 gts (17).jpg
   - /./assets/997.2_GTS_3.8_porsche/Porsche 997 gts (18).jpg
