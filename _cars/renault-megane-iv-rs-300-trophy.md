@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Renault Megane IV RS 300 TROPHY
-isSold: false
+isSold: true
 brand: Renault
 model: Mégane IV RS 300 TROPHY
 year: 2022
