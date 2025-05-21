@@ -10,8 +10,8 @@ fuel: Essence
 price: 14990
 photos:
   - ''
-  - ''
-  - ''
+  - /./assets/Renault_Clio16V/Renault Clio 16v (7).jpg
+  - /./assets/Renault_Clio16V/Renault Clio 16v (8).jpg
   - /./assets/Renault_Clio16V/Renault Clio 16v (10).jpg
   - /./assets/Renault_Clio16V/Renault Clio 16v (11).jpg
   - /./assets/Renault_Clio16V/Renault Clio 16v (2).png
