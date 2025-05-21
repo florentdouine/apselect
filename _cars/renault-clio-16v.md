@@ -12,8 +12,8 @@ photos:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - /./assets/Renault_Clio16V/Renault Clio 16v (10).jpg
+  - /./assets/Renault_Clio16V/Renault Clio 16v (11).jpg
   - /./assets/Renault_Clio16V/Renault Clio 16v (2).png
   - /./assets/Renault_Clio16V/Renault Clio 16v (4).png
   - /./assets/Renault_Clio16V/Renault Clio 16v (3).jpg
