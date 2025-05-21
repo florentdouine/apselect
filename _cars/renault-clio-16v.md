@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Renault Clio 16V
 isSold: false
 brand: Renault
@@ -9,11 +9,11 @@ kilometers: 146990
 fuel: Essence
 price: 14990
 photos:
-  - ''
-  - ''
+  - /./assets/Renault_Clio16V/Renault Clio 16v (1).jpg
   - /./assets/Renault_Clio16V/Renault Clio 16v (12).jpg
   - /./assets/Renault_Clio16V/Renault Clio 16v (1).png
   - /./assets/Renault_Clio16V/Renault Clio 16v (2).jpg
+  - /./assets/Renault_Clio16V/Renault Clio 16v (4).jpg
   - /./assets/Renault_Clio16V/Renault Clio 16v (5).jpg
   - /./assets/Renault_Clio16V/Renault Clio 16v (6).jpg
   - /./assets/Renault_Clio16V/Renault Clio 16v (7).jpg
