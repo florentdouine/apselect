@@ -9,7 +9,7 @@ kilometers: 44500
 fuel: Essence
 price: 147990
 photos:
-  - ''
+  - /./assets/992_C4S_Cab_Porsche/Porsche 992 c4s  (17).jpg
   - /./assets/992_C4S_Cab_Porsche/Porsche 992 c4s  (12).jpg
   - /./assets/992_C4S_Cab_Porsche/Porsche 992 c4s  (15).jpg
   - /./assets/992_C4S_Cab_Porsche/Porsche 992 c4s  (14).jpg
