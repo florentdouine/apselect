@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 name: Porsche 992 Carrera 4S Cabriolet
 isSold: false
 brand: Porsche
@@ -9,6 +9,7 @@ kilometers: 44500
 fuel: Essence
 price: 147990
 photos:
+  - /./assets/992_C4S_Cab_Porsche/Porsche 992 c4s  (13).jpg
   - /./assets/992_C4S_Cab_Porsche/Porsche 992 c4s  (17).jpg
   - /./assets/992_C4S_Cab_Porsche/Porsche 992 c4s  (12).jpg
   - /./assets/992_C4S_Cab_Porsche/Porsche 992 c4s  (15).jpg
