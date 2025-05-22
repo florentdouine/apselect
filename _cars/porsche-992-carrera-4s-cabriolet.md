@@ -10,6 +10,13 @@ fuel: Essence
 price: 147990
 photos:
   - ''
+  - /./assets/992_C4S_Cab_Porsche/Porsche 992 c4s  (14).jpg
+  - /./assets/992_C4S_Cab_Porsche/Porsche 992 c4s  (2).jpg
+  - /./assets/992_C4S_Cab_Porsche/Porsche 992 c4s  (3).jpg
+  - /./assets/992_C4S_Cab_Porsche/Porsche 992 c4s  (5).jpg
+  - /./assets/992_C4S_Cab_Porsche/Porsche 992 c4s  (4).jpg
+  - /./assets/992_C4S_Cab_Porsche/Porsche 992 c4s  (1).jpg
+  - /./assets/992_C4S_Cab_Porsche/Porsche 992 c4s  (6).jpg
   - /./assets/992_C4S_Cab_Porsche/Porsche 992 c4s  (7).jpg
   - /./assets/992_C4S_Cab_Porsche/Porsche 992 c4s  (8).jpg
   - /./assets/992_C4S_Cab_Porsche/Porsche 992 c4s  (9).jpg
