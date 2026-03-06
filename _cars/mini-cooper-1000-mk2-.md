@@ -1,7 +1,7 @@
 ---
 draft: false
 name: 'MINI Cooper 1000 MK2 '
-isSold: false
+isSold: true
 brand: MINI
 model: COOPER
 year: 1969
