@@ -1,7 +1,7 @@
 ---
 draft: false
 name: 'Porsche 991.2 GTS cabriolet '
-isSold: false
+isSold: true
 brand: Porsche
 model: 991.2 GTS cabriolet
 year: 2017
