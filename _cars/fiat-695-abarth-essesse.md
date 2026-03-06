@@ -1,7 +1,7 @@
 ---
 draft: false
 name: 'ABARTH 695 Esseesse Collector Edition '
-isSold: false
+isSold: true
 brand: ABARTH
 model: ' 695 Essesse'
 year: 2022
