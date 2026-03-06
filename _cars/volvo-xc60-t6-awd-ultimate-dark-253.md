@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Volvo XC60 T6 AWD Ultimate Dark
-isSold: false
+isSold: true
 brand: Volvo
 model: 'XC60 '
 year: 2023
