@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Porsche 992 Carrera 4S Cabriolet
-isSold: false
+isSold: true
 brand: Porsche
 model: 992 Carrera 4S Cabriolet
 year: 2019
