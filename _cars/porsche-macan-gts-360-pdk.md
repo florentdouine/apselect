@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Porsche Macan GTS 360 PDK
-isSold: false
+isSold: true
 brand: Porsche
 model: Macan GTS
 year: 2018
