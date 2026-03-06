@@ -1,7 +1,7 @@
 ---
 draft: false
 name: BMW iX3 Impressive M Sport
-isSold: false
+isSold: true
 brand: BMW
 model: iX3 Impressive M Sport
 year: 2022
