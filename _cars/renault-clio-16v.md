@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Renault Clio 16V
-isSold: false
+isSold: true
 brand: Renault
 model: Clio 16V
 year: 1994
