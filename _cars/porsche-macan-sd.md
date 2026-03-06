@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Porsche Macan SD
-isSold: false
+isSold: true
 brand: Porsche
 model: Macan SD
 year: 2015
