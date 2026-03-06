@@ -1,7 +1,7 @@
 ---
 draft: false
 name: 'Ford Focus ST '
-isSold: false
+isSold: true
 brand: Ford
 model: Focus ST
 year: 2015
