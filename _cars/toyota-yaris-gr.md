@@ -1,7 +1,7 @@
 ---
 draft: false
 name: Toyota Yaris GR
-isSold: false
+isSold: true
 brand: Toyota
 model: Yaris GR
 year: 2021
