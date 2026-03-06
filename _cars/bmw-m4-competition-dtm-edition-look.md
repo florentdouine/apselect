@@ -1,7 +1,7 @@
 ---
 draft: false
 name: BMW M4 Competition DTM Champion Edition look
-isSold: false
+isSold: true
 brand: BMW
 model: M4 Coupe
 year: 2017
