@@ -1,7 +1,7 @@
 ---
 draft: false
 name: 'VW Golf 4 R32 '
-isSold: false
+isSold: true
 brand: VOLKSWAGEN
 model: GOLF 4 R32
 year: 2003
